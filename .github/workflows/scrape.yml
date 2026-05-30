@@ -1,0 +1,57 @@
+name: Scrape Hololive Merch
+
+on:
+  # Triggered by cron-job.org via POST to the repository_dispatch webhook.
+  # URL:    https://api.github.com/repos/YOUR_USERNAME/hololive-Merch-Archive/dispatches
+  # Header: Authorization: Bearer YOUR_PAT   (PAT needs repo scope)
+  # Header: Content-Type: application/json
+  # Body:   {"event_type":"scrape"}
+  repository_dispatch:
+    types: [scrape]
+
+  # Manual trigger from the Actions tab (also used for --backfill-en)
+  workflow_dispatch:
+    inputs:
+      backfill_en:
+        description: 'Backfill all existing product images to R2 as WebP (one-time)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # blob:none  — partial clone; fetches commits + trees but never downloads
+          #              file blob contents from history. Working tree is fully
+          #              visible; blobs are fetched lazily only when actually read.
+          # fetch-depth: 1 — shallow clone; only the latest commit, not full history.
+          # Together these give the fastest possible checkout: no old blobs, no
+          # history traversal. They don't conflict — actions/checkout@v4 passes
+          # both flags correctly to git.
+          filter: blob:none
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run scraper
+        run: node scraper.js ${{ inputs.backfill_en == 'true' && '--backfill-en' || '' }}
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+          R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
+          R2_BUCKET:     ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
