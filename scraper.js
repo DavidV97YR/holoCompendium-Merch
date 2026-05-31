@@ -212,9 +212,23 @@ async function fetchAllShopifyProducts() {
   return products;
 }
 
-// ─── Git commit (merch.json only — images live in R2) ────────────────────────
+// ─── Git commit + R2 upload for merch.json ───────────────────────────────────
+// merch.json is committed to the private repo (source of truth) AND uploaded
+// to R2 so the site can fetch it publicly without the repo needing to be public.
+// R2 key: merch.json (publicly accessible at R2_PUBLIC_URL/merch.json)
 
-function commitChanges(newCount, updatedCount) {
+async function uploadMerchToR2() {
+  const content = fs.readFileSync(path.join(process.cwd(), MERCH_FILE));
+  await r2.send(new PutObjectCommand({
+    Bucket:      R2_BUCKET,
+    Key:         MERCH_FILE,
+    Body:        content,
+    ContentType: 'application/json',
+  }));
+  log(`Uploaded merch.json to R2 → ${R2_PUBLIC_URL}/${MERCH_FILE}`);
+}
+
+async function commitChanges(newCount, updatedCount) {
   try {
     execSync('git config user.name "holoVault Scraper"');
     execSync('git config user.email "scraper@holovault"');
@@ -232,6 +246,9 @@ function commitChanges(newCount, updatedCount) {
     log(`⚠ Git commit/push failed: ${err.message}`);
     throw err;
   }
+
+  // Upload merch.json to R2 so the site can fetch it publicly
+  await uploadMerchToR2();
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
