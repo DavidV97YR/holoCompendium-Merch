@@ -367,9 +367,11 @@ async function main() {
     }
   }
 
-  // 6. Skip commit if nothing changed
+  // 6. Skip commit if nothing changed, but always upload merch.json to R2
+  // so the site stays in sync even if the repo is private.
   if (newCount === 0 && updatedCount === 0) {
-    log('Nothing changed — skipping commit');
+    log('Nothing changed — skipping commit, uploading merch.json to R2 anyway');
+    await uploadMerchToR2();
     return;
   }
 
