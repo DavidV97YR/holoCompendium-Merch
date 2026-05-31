@@ -1,5 +1,43 @@
 [
   {
+    "product_id": "9382584910044",
+    "handle": "natsuiromatsuri_anniversary_8th",
+    "title_jp": "夏色まつり 活動8周年記念",
+    "title_en": "Natsuiro Matsuri 8th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_夏色まつり",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_夏色まつり",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_2_1779842829.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_3_1779842849.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_4_1779842867.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_5_1779842879.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_6_1779842890.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_7_1779842909.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_anniversary_8th/ly_holo_natsuiromatsyri_8th_en_260526_8_1779842922.webp"
+    ],
+    "min_price": 2750,
+    "max_price": 16500,
+    "published_at": "2026-05-31T20:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9381691293916",
     "handle": "hololivegen1_anniversary_2026",
     "title_jp": "hololive 1st Generation Anniversary Parade -Celestial-",
