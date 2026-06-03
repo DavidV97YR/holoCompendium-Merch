@@ -21,7 +21,7 @@
     "min_price": 2000,
     "max_price": 2000,
     "published_at": "2026-06-03T19:00:07+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
