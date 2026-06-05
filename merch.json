@@ -110400,8 +110400,8 @@
     "min_price": 2200,
     "max_price": 2200,
     "published_at": "2021-12-20T19:59:00+09:00",
-    "is_available": false,
-    "delisted_at": "2026-06-05T02:30:40.366Z"
+    "is_available": true,
+    "delisted_at": null
   },
   {
     "product_id": "7492434034908",
