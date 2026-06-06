@@ -1,5 +1,39 @@
 [
   {
+    "product_id": "9402610909404",
+    "handle": "tsunomakiwatame_birthday_2026",
+    "title_jp": "角巻わため 誕生日記念2026",
+    "title_en": "Tsunomaki Watame Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_2_1780545593.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0605_3_1780637280.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_4_1780545622.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_5_1780545631.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_6_1780545643.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_7_1780545653.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_birthday_2026/ly_holo_tsunomakiwatame_bc_banner_en_0602_8_1780545663.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 17600,
+    "published_at": "2026-06-06T22:00:13+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9401688195292",
     "handle": "machinaxflayon_birthday_2026",
     "title_jp": "マキナ・X・フレオン 誕生日記念2026",
