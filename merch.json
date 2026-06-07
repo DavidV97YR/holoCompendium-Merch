@@ -33575,7 +33575,7 @@
     "min_price": 1500,
     "max_price": 1600,
     "published_at": "2025-04-15T17:00:19+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
