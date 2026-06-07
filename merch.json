@@ -1,5 +1,39 @@
 [
   {
+    "product_id": "9397028782300",
+    "handle": "todorokihajime_birthday_2026",
+    "title_jp": "轟はじめ 誕生日記念2026",
+    "title_en": "Todoroki Hajime Birthday 2026",
+    "tags_jp": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_轟はじめ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_轟はじめ",
+      "受注生産商品"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_2_1780298647.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_3_1780298662.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_4_1780298677.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_5_1780298698.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_6_1780298748.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_7_1780298761.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/todorokihajime_birthday_2026/ly_holo_todorokihajime_bc_banner_en_260529_8_1780298777.webp"
+    ],
+    "min_price": 1760,
+    "max_price": 19360,
+    "published_at": "2026-06-07T21:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9402610909404",
     "handle": "tsunomakiwatame_birthday_2026",
     "title_jp": "角巻わため 誕生日記念2026",
