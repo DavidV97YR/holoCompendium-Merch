@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9402671595740",
+    "handle": "shirakamifubuki_anniversary_8th",
+    "title_jp": "白上フブキ 活動8周年記念",
+    "title_en": "Shirakami Fubuki 8th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_2_1780553409.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_3_1780553418.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_4_1780553427.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_5_1780553436.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_6_1780553445.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_7_c_1780655436.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_anniversary_8th/ly_holo_banner_shirakami_fubuki_8th_en_260602_8_1780553462.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 14520,
+    "published_at": "2026-06-08T22:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9397028782300",
     "handle": "todorokihajime_birthday_2026",
     "title_jp": "轟はじめ 誕生日記念2026",
