@@ -9,11 +9,15 @@ on:
   repository_dispatch:
     types: [scrape]
 
-  # Manual trigger from the Actions tab (also used for --backfill-en)
+  # Manual trigger from the Actions tab (also used for the backfill modes)
   workflow_dispatch:
     inputs:
       backfill_en:
         description: 'Backfill all existing product images to R2 as WebP (one-time)'
+        type: boolean
+        default: false
+      backfill_categories:
+        description: 'Backfill merch type/category taxonomies for all products (one-time, ~45-60 min)'
         type: boolean
         default: false
 
@@ -48,7 +52,7 @@ jobs:
         run: npm ci
 
       - name: Run scraper
-        run: node scraper.js ${{ inputs.backfill_en == 'true' && '--backfill-en' || '' }}
+        run: node scraper.js ${{ inputs.backfill_en == 'true' && '--backfill-en' || '' }} ${{ inputs.backfill_categories == 'true' && '--backfill-categories' || '' }}
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
