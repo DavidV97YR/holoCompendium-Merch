@@ -1,5 +1,39 @@
 [
   {
+    "product_id": "9420974948572",
+    "handle": "takanelui_birthday_2026",
+    "title_jp": "鷹嶺ルイ 誕生日記念2026",
+    "title_en": "Takane Lui Birthday 2026",
+    "tags_jp": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "受注生産商品"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_2_1780973781.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_3_1780973794.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_4_1780973805.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_5_1780973817.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_6_1780973826.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_7_1780973837.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_birthday_2026/ly_holo_takanelui_bc_banner_en_260608_8_1780973848.webp"
+    ],
+    "min_price": 3300,
+    "max_price": 17050,
+    "published_at": "2026-06-11T21:15:13+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9415949451484",
     "handle": "takanelui_ep_thelegendary_regular",
     "title_jp": "鷹嶺ルイ EP『The LEGENDARY』通常盤",
