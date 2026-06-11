@@ -13678,7 +13678,7 @@
     "max_price": 14740,
     "published_at": "2025-12-29T21:00:05+09:00",
     "is_available": false,
-    "delisted_at": "2026-06-01T07:30:41.236Z"
+    "delisted_at": null
   },
   {
     "product_id": "9193290662108",
@@ -85227,7 +85227,7 @@
     "max_price": 3300,
     "published_at": "2023-08-14T18:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": "2026-06-11T03:00:46.010Z"
   },
   {
     "product_id": "8079599698140",
