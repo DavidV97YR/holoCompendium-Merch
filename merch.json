@@ -1,5 +1,65 @@
 [
   {
+    "product_id": "9415949451484",
+    "handle": "takanelui_ep_thelegendary_regular",
+    "title_jp": "鷹嶺ルイ EP『The LEGENDARY』通常盤",
+    "title_en": "Takane Lui EP \"The LEGENDARY\" Regular Edition",
+    "tags_jp": [
+      "_ng_with_normal_group:TakaneLui_EP0611",
+      "ep_thelegendary",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:TakaneLui_EP0611",
+      "ep_thelegendary",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_ep_thelegendary_regular/ly_260611_takaneluiep_regular_en_sq_1780974325.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 2200,
+    "published_at": "2026-06-11T21:00:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9415527989468",
+    "handle": "takanelui_ep_thelegendary_limited",
+    "title_jp": "鷹嶺ルイ EP『The LEGENDARY』完全生産限定盤",
+    "title_en": "Takane Lui EP \"The LEGENDARY\" Limited Edition",
+    "tags_jp": [
+      "_ng_with_normal_group:TakaneLui_EP0611",
+      "ep_thelegendary",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:TakaneLui_EP0611",
+      "ep_thelegendary",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_ep_thelegendary_limited/ly_260611_takaneluiep_limited_en_sq_1780973882.webp"
+    ],
+    "min_price": 6600,
+    "max_price": 6600,
+    "published_at": "2026-06-11T21:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9402671595740",
     "handle": "shirakamifubuki_anniversary_8th",
     "title_jp": "白上フブキ 活動8周年記念",
