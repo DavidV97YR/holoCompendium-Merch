@@ -140,6 +140,121 @@ function getEnUrl(jpImgUrl, enMap) {
   return enMap.get(key) ?? null;
 }
 
+// ─── Merch taxonomies (type + category) ──────────────────────────────────────
+// The shop's "Merch type" and "Merch category" filters are metafields that
+// products.json does NOT expose. The filtered collection pages are public, so
+// we walk /collections/all?<filter>=<value> per value and map product handles
+// → values (a product can carry several, e.g. acrylic stand + badge set).
+
+const TAXONOMIES = [
+  {
+    field: 'categories',                       // merch.json field name
+    param: 'filter.v.m.custom.product_type',   // "Merch type" (variant metafield)
+    values: [
+      'アクリルスタンド・アクリルパネル',
+      'キーホルダー・ストラップ',
+      'バッジ・ピンバッジ',
+      'ぬいぐるみ',
+      'ステーショナリー',
+      'ボイス',
+      'タペストリー',
+      'フィギュア',
+      'カードゲーム・サプライ',
+      'アパレル・アパレル小物',
+      '生活雑貨',
+      'CD・LP・BD',
+      'OTHERS',
+    ],
+  },
+  {
+    field: 'merch_categories',                 // merch.json field name
+    param: 'filter.p.m.custom.merch-category', // "Merch category" (product metafield)
+    values: [
+      'タレントプレミアムグッズ',
+      'デジタルコンテンツ',
+      'ユニット記念グッズ',
+      'シーズナル企画グッズ',
+      'イベント・ライブグッズ',
+      'スターターグッズ',
+      'hololive friends with u',
+      'hololive friends to Go',
+      'hololive friends poutique',
+      'hololive friends Meets',
+      'hololive closet',
+      'HOLOSTARS CLOSET',
+      '事務所グッズ',
+      'ホロ活',
+      'ホロmini',
+      'Nendoroid',
+      'OTHERS',
+    ],
+  },
+];
+
+// Storefront pages 429 non-browser user agents almost immediately — send
+// browser-like headers, pace generously, and honor Retry-After on the SAME
+// page so nothing is silently skipped.
+const PAGE_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml',
+  'Accept-Language': 'en-US,en;q=0.9',
+};
+const TAXONOMY_PAGE_DELAY_MS = 4000;
+
+async function politeFetchText(url, attempts = 5) {
+  for (let i = 0; i < attempts; i++) {
+    const res = await fetch(url, { headers: PAGE_HEADERS, signal: AbortSignal.timeout(30_000) }).catch(() => null);
+    if (res && res.ok) return res.text();
+    const status = res ? res.status : 'network error';
+    const retryAfter = res ? parseInt(res.headers.get('retry-after') || '0', 10) : 0;
+    const waitMs = Math.max(retryAfter * 1000, 15_000 * (i + 1));
+    if (i === attempts - 1) throw new Error(`HTTP ${status} for ${url}`);
+    await sleep(waitMs);
+  }
+}
+
+// maxPages = Infinity → full crawl (backfill). A small maxPages with the
+// newest-first sort covers recently added products cheaply on scheduled runs.
+async function fetchTaxonomyMap(tax, maxPages) {
+  log(`Fetching ${tax.field} map (up to ${maxPages === Infinity ? 'all' : maxPages} page(s)/value)…`);
+  const map = new Map(); // handle → [values, taxonomy order]
+
+  for (const value of tax.values) {
+    const seen = new Set();
+    for (let page = 1; page <= Math.min(maxPages, 200); page++) {
+      const url = `${BASE_JP}/collections/all?${tax.param}=${encodeURIComponent(value)}&sort_by=created-descending&page=${page}`;
+      let html;
+      try {
+        html = await politeFetchText(url);
+      } catch (err) {
+        // Persistent failure: abort this value so partial data is obvious in
+        // the log rather than silently truncated.
+        log(`  ⚠ ${value} aborted at page ${page}: ${err.message}`);
+        break;
+      }
+      const before = seen.size;
+      const re = /href="\/products\/([a-zA-Z0-9_-]+)/g;
+      let m;
+      while ((m = re.exec(html)) !== null) seen.add(m[1]);
+      if (seen.size === before) break; // no new handles → past the last page
+      await sleep(TAXONOMY_PAGE_DELAY_MS);
+    }
+    for (const h of seen) {
+      if (!map.has(h)) map.set(h, []);
+      map.get(h).push(value);
+    }
+    log(`  → ${value}: ${seen.size} products`);
+  }
+
+  log(`${tax.field} map covers ${map.size} products`);
+  return map;
+}
+
+function sameCategories(a, b) {
+  a = a || []; b = b || [];
+  return a.length === b.length && a.every((v, i) => v === b[i]);
+}
+
 // ─── merch.json I/O ──────────────────────────────────────────────────────────
 
 function loadExistingMerch() {
@@ -325,6 +440,8 @@ async function main() {
         title_en:     p.title_en,
         tags_jp:      p.tags_jp,
         tags_en:      p.tags_en,
+        categories:       [],   // filled by the taxonomy sync below
+        merch_categories: [],   // filled by the taxonomy sync below
         images:       archivedImages,
         min_price:    p.min_price,
         max_price:    p.max_price,
@@ -364,6 +481,33 @@ async function main() {
         log(`Availability: ${archived.title_en} → ${live.available ? 'Available' : 'Sold Out'}`);
         updatedCount++;
       }
+    }
+  }
+
+  // 5b. Light taxonomy sync: crawl only the first pages (newest-first) of each
+  // filter value — enough to categorize newly added products. Only fills
+  // products with EMPTY fields; partial maps must never shrink existing data.
+  // Full coverage comes from `node scraper.js --backfill-categories`.
+  // Skipped entirely when no new products were found, so routine runs stay
+  // fast (zero storefront page fetches).
+  if (newCount === 0) {
+    log('No new products — taxonomy sync skipped');
+  } else {
+    try {
+      for (const tax of TAXONOMIES) {
+        const map = await fetchTaxonomyMap(tax, 2);
+        if (map.size === 0) continue;
+        for (const archived of existing) {
+          const cats = map.get(archived.handle);
+          if (cats && cats.length && (archived[tax.field] || []).length === 0) {
+            archived[tax.field] = cats;
+            log(`${tax.field}: ${archived.title_en} → ${cats.join(', ')}`);
+            updatedCount++;
+          }
+        }
+      }
+    } catch (err) {
+      log(`⚠ Taxonomy sync failed (non-fatal): ${err.message}`);
     }
   }
 
@@ -496,9 +640,72 @@ async function backfillEnImages() {
   );
 }
 
+// ─── Taxonomy Backfill (one-time) ────────────────────────────────────────────
+// node scraper.js --backfill-categories
+//
+// Walks ALL of the shop's merch-type and merch-category filter pages and
+// writes categories[] / merch_categories[] for every product still in the
+// live catalog. ~450 paced page fetches → expect ~45–60 minutes. Needs no
+// R2/git credentials — commit the updated merch.json and the next scheduled
+// scrape uploads it to R2.
+//
+// Known limitation: delisted products don't appear in filtered pages, so they
+// keep empty fields — the site falls back to title/tag inference for those.
+
+async function backfillCategories() {
+  log('── Taxonomy Backfill starting ──');
+  const existing = loadExistingMerch();
+  log(`Loaded ${existing.length} existing products`);
+
+  for (const tax of TAXONOMIES) {
+    const map = await fetchTaxonomyMap(tax, Infinity);
+    if (map.size === 0) {
+      log(`⚠ ${tax.field} map is empty — skipping this taxonomy`);
+      continue;
+    }
+    let updated = 0;
+    for (const p of existing) {
+      const cats = map.get(p.handle);
+      if (cats && !sameCategories(p[tax.field], cats)) {
+        p[tax.field] = cats;
+        updated++;
+      } else if (!p[tax.field]) {
+        p[tax.field] = [];
+      }
+    }
+    // Write after each taxonomy so an interrupted run keeps its progress
+    fs.writeFileSync(path.join(process.cwd(), MERCH_FILE), JSON.stringify(existing, null, 2));
+    log(`${tax.field}: ${updated} of ${existing.length} products updated`);
+  }
+
+  // Persist: commit + upload when running in CI with credentials; when run
+  // locally without them, the file is written — commit it manually and the
+  // next scheduled scrape uploads it to R2.
+  try {
+    execSync('git config user.name "holoVault Scraper"');
+    execSync('git config user.email "scraper@holovault"');
+    execSync('git add merch.json');
+    execSync('git diff --cached --quiet || git commit -m "Backfill merch type/category taxonomies"');
+    execSync('git push');
+    log('Committed and pushed merch.json');
+  } catch (err) {
+    log(`⚠ Git commit/push skipped — commit merch.json manually (${String(err.message).split('\n')[0]})`);
+  }
+  if (R2_BUCKET && process.env.R2_ACCOUNT_ID) {
+    try { await uploadMerchToR2(); }
+    catch (err) { log(`⚠ R2 upload failed: ${err.message}`); }
+  } else {
+    log('R2 credentials not set — the next scheduled scrape uploads merch.json to R2');
+  }
+
+  log('── Backfill done ──');
+}
+
 // ─── Entry point ─────────────────────────────────────────────────────────────
 
-const entry = process.argv.includes('--backfill-en') ? backfillEnImages : main;
+const entry = process.argv.includes('--backfill-en')         ? backfillEnImages
+            : process.argv.includes('--backfill-categories') ? backfillCategories
+            : main;
 entry().catch(err => {
   console.error('Scraper failed:', err);
   process.exit(1);
