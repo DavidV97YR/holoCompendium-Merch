@@ -54814,7 +54814,7 @@
     "min_price": 3740,
     "max_price": 3740,
     "published_at": "2024-08-23T18:00:25+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
