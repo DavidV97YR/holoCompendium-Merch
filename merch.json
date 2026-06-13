@@ -39195,7 +39195,7 @@
     "min_price": 1200,
     "max_price": 1200,
     "published_at": "2025-04-15T17:00:16+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ"
