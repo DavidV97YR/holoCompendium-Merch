@@ -1,5 +1,47 @@
 [
   {
+    "product_id": "9266676498652",
+    "handle": "inugamikorone_anniversary_7th",
+    "title_jp": "戌神ころね 活動7周年記念",
+    "title_en": "Inugami Korone 7th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_2_1779437420.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_3_1779437438.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_4_1779437452.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_5_1779437464.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_6_1779437473.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_7_1779437485.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_anniversary_7th/ly_holo_inugami_korone_7th_banner_en_260520_ol_8_1779437498.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 20900,
+    "published_at": "2026-06-15T21:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9421353517276",
     "handle": "hololiveseasonaldays_junebridesomethingnew",
     "title_jp": "hololive Seasonal Days ジューンブライド 〜Something new〜",
