@@ -1672,7 +1672,7 @@
     "min_price": 500,
     "max_price": 11500,
     "published_at": "2026-05-14T21:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "バッジ・ピンバッジ",
@@ -1712,7 +1712,7 @@
     "min_price": 2970,
     "max_price": 3300,
     "published_at": "2026-05-14T21:00:02+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
@@ -1894,7 +1894,7 @@
     "min_price": 2200,
     "max_price": 15950,
     "published_at": "2026-05-12T21:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ",
@@ -3188,7 +3188,7 @@
     "min_price": 300,
     "max_price": 300,
     "published_at": "2026-04-17T18:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [],
     "merch_categories": []
@@ -57416,7 +57416,7 @@
     "min_price": 4180,
     "max_price": 4180,
     "published_at": "2024-10-28T18:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ"
@@ -57492,7 +57492,7 @@
     "min_price": 4180,
     "max_price": 4180,
     "published_at": "2024-10-28T18:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ"
