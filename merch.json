@@ -1,5 +1,55 @@
 [
   {
+    "product_id": "9428609630428",
+    "handle": "mizumiyasu_birthday_2026",
+    "title_jp": "水宮枢 誕生日記念2026",
+    "title_en": "Mizumiya Su Birthday 2026",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_水宮枢",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_水宮枢",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_2_1781523539.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_3_1781523850_946aa35d-f326-4235-b117-013488c9f481.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_4_1781523880_305a9eb8-1abb-4493-88ac-c7fda595f24b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_5_1781523684.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_6_1781523671.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_7_1781523662.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_8_1781525239.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mizumiyasu_birthday_2026/ly_holo_mizumiyasu_bd_banne_en_260615_9_1781525211.webp"
+    ],
+    "min_price": 660,
+    "max_price": 15180,
+    "published_at": "2026-06-16T22:10:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9266676498652",
     "handle": "inugamikorone_anniversary_7th",
     "title_jp": "戌神ころね 活動7周年記念",
