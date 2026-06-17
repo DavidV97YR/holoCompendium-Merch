@@ -1,5 +1,42 @@
 [
   {
+    "product_id": "9427647594716",
+    "handle": "ookamimio_oursparkle_bluray",
+    "title_jp": "大神ミオ 1st Live.「Our Sparkle」 Blu-ray",
+    "title_en": "Ookami Mio 1st Live. “Our Sparkle” Blu-ray",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_大神ミオ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_大神ミオ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ookamimio_oursparkle_bluray/ly_202600_mio_banner_en_0529_2_1781150545.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ookamimio_oursparkle_bluray/ly_202600_mio_banner_en_0529_3_1781150567.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ookamimio_oursparkle_bluray/ly_202600_mio_banner_en_0608-a_1781150586.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ookamimio_oursparkle_bluray/ly_202600_mio_banner_en_0604_5_1781150602.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-06-17T20:00:09+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9428609630428",
     "handle": "mizumiyasu_birthday_2026",
     "title_jp": "水宮枢 誕生日記念2026",
