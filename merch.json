@@ -1,5 +1,85 @@
 [
   {
+    "product_id": "9428789493980",
+    "handle": "kazamairoha_birthday_2026",
+    "title_jp": "風真いろは 誕生日記念2026",
+    "title_en": "Kazama Iroha Birthday 2026",
+    "tags_jp": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "タペストリー",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_2_1781244941.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_3_1781244952.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_4_1781244963.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_5_1781244973.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_6_1781244987.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_7_1781245032.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026/ly_holo_kazamairoha_bc_banner_en_260610_ol_8_1781245044.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 17600,
+    "published_at": "2026-06-18T21:00:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9427689930972",
+    "handle": "kazamairoha_birthday_2026_concertphoto",
+    "title_jp": "風真いろは 2026生誕ライブブロマイド",
+    "title_en": "Kazama Iroha Birthday 2026 Concert Photo",
+    "tags_jp": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_風真いろは",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_風真いろは",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026_concertphoto/ly_ecsaito_fan_mai_yongbana_en_v2_1781155607.webp"
+    ],
+    "min_price": 300,
+    "max_price": 300,
+    "published_at": "2026-06-18T21:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9427647594716",
     "handle": "ookamimio_oursparkle_bluray",
     "title_jp": "大神ミオ 1st Live.「Our Sparkle」 Blu-ray",
