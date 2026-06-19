@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9446006718684",
+    "handle": "kazamairoha_birthday_2026_concertphoto",
+    "title_jp": "風真いろは 2026生誕ライブブロマイド",
+    "title_en": "Kazama Iroha Birthday 2026 Concert Photo",
+    "tags_jp": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_風真いろは",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_風真いろは",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026_concertphoto/ly_ecsaito_fan_mai_yongbana_en_v2_1781155607.webp"
+    ],
+    "min_price": 300,
+    "max_price": 300,
+    "published_at": "2026-06-19T14:06:49+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9428789493980",
     "handle": "kazamairoha_birthday_2026",
     "title_jp": "風真いろは 誕生日記念2026",
@@ -76,8 +112,8 @@
     "min_price": 300,
     "max_price": 300,
     "published_at": "2026-06-18T21:00:07+09:00",
-    "is_available": true,
-    "delisted_at": null
+    "is_available": false,
+    "delisted_at": "2026-06-19T05:30:34.962Z"
   },
   {
     "product_id": "9427647594716",
