@@ -1,5 +1,63 @@
 [
   {
+    "product_id": "9433325830364",
+    "handle": "holostarsen_pajamavoicepack_2026",
+    "title_jp": "HOLOSTARS English パジャマボイスパック2026",
+    "title_en": "HOLOSTARS English Pajama Voicepack2026",
+    "tags_jp": [
+      "Generation_ARMIS",
+      "Generation_TEMPUS",
+      "Group_ホロスターズEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アクセル・シリオス",
+      "Talent_オクタビオ",
+      "Talent_ガビス・ベッテル",
+      "Talent_クリムゾン・ルーズ",
+      "Talent_ゴールドブレット",
+      "Talent_ジュラルド・ティー・レクスフォード",
+      "Talent_マキナ・X・フレオン",
+      "Talent_リージス・アルテア",
+      "Talent_万象院ハッカ",
+      "Talent_定水寺シンリ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_ARMIS",
+      "Generation_TEMPUS",
+      "Group_ホロスターズEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アクセル・シリオス",
+      "Talent_オクタビオ",
+      "Talent_ガビス・ベッテル",
+      "Talent_クリムゾン・ルーズ",
+      "Talent_ゴールドブレット",
+      "Talent_ジュラルド・ティー・レクスフォード",
+      "Talent_マキナ・X・フレオン",
+      "Talent_リージス・アルテア",
+      "Talent_万象院ハッカ",
+      "Talent_定水寺シンリ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsen_pajamavoicepack_2026/ly_260524_covercorp_hse_slumberpartyvp_topbannersquare_en_v101_1781489090.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsen_pajamavoicepack_2026/ly_260524_covercorp_hse_slumberpartyvp_story_en_v101_1781489109.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsen_pajamavoicepack_2026/ly_260524_covercorp_hse_slumberpartyvp_bonus_en_v101_1781489138.webp"
+    ],
+    "min_price": 2000,
+    "max_price": 20000,
+    "published_at": "2026-06-20T11:30:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9446006718684",
     "handle": "kazamairoha_birthday_2026_concertphoto",
     "title_jp": "風真いろは 2026生誕ライブブロマイド",
