@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "9439850823900",
+    "handle": "gigimurin_anniversary_2nd",
+    "title_jp": "ジジ・ムリン 活動2周年記念",
+    "title_en": "Gigi Murin 2nd Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ジジ・ムリン",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ジジ・ムリン",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_2_1781661099.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_3_1781661131.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_4_1781661155.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_5_1781661186.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_6_1781661215.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_7_1781661270.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_anniversary_2nd/ly_holo_gigi_murin_2th_banner_en_0615_8_1781661294.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 12650,
+    "published_at": "2026-06-22T08:30:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9433325830364",
     "handle": "holostarsen_pajamavoicepack_2026",
     "title_jp": "HOLOSTARS English パジャマボイスパック2026",
