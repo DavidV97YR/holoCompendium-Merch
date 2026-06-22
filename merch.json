@@ -36062,7 +36062,7 @@
     "min_price": 880,
     "max_price": 880,
     "published_at": "2025-06-04T18:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "カードゲーム・サプライ"
