@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9440465944796",
+    "handle": "hakosbaelz_nendoroid",
+    "title_jp": "ねんどろいど ハコス・ベールズ",
+    "title_en": "Nendoroid Hakos Baelz",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_nendoroid/ly_hakos_baelz_sp_en_1781674536.webp"
+    ],
+    "min_price": 8900,
+    "max_price": 8900,
+    "published_at": "2026-06-22T12:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9439850823900",
     "handle": "gigimurin_anniversary_2nd",
     "title_jp": "ジジ・ムリン 活動2周年記念",
