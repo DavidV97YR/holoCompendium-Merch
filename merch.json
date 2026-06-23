@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9442964078812",
+    "handle": "fuwamoco_nendoroid",
+    "title_jp": "ねんどろいど FUWAMOCO",
+    "title_en": "Nendoroid FUWAMOCO",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_nendoroid/ly_nendoroido_fuwawa_abisugado_mokoko_abisugado_ban_yuanec_yongbana_1080_1080_en_1781770355.webp"
+    ],
+    "min_price": 7800,
+    "max_price": 7800,
+    "published_at": "2026-06-23T12:00:09+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9440465944796",
     "handle": "hakosbaelz_nendoroid",
     "title_jp": "ねんどろいど ハコス・ベールズ",
