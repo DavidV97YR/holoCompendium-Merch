@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9440205570268",
+    "handle": "juufuuteiraden_picross_hakonetravelogue",
+    "title_jp": "ピクロス™  儒烏風亭らでんがご案内！ピクセルミュージアム ー箱根探訪編 同梱版ー コレクションBOX（完全受注生産）",
+    "title_en": "Picross™ : Juufuutei Raden™'s Guide for Pixel Museum -Hakone Travelogue- Package Edition CollectionBOX (made-to-order)",
+    "tags_jp": [
+      "_ng_with_normal_group:JuufuuteiRaden_Picross",
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Talent_儒烏風亭らでん",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:JuufuuteiRaden_Picross",
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Talent_儒烏風亭らでん",
+      "受注生産商品"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_260624_juufuuteiraden_picross_en_02_1781671716.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_1_en_1782116640.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_2_en_1782116652.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_3_en_1782116670.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_4_en_1782116716.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_5_en_1782116734.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_6_en_1782116880.webp"
+    ],
+    "min_price": 9680,
+    "max_price": 9680,
+    "published_at": "2026-06-24T20:00:09+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9330993627356",
     "handle": "hololiveenjustice_audiostory_onetaleafteranother",
     "title_jp": "ホロライブEnglish -Justice- ボイスドラマ「異国情緒のヒャクモノガタリ」",
