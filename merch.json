@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9460993589468",
+    "handle": "sakuramiko_casualoutfit_datestyle",
+    "title_jp": "1/7 スケールフィギュア さくらみこ Date Style 私服衣装 Ver.",
+    "title_en": "Sakura Miko: Date Style Casual Outfit Ver. 1/7 scale Painted Figure",
+    "tags_jp": [
+      "_ng_with_normal_group:SakuraMiko_FG0626",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:SakuraMiko_FG0626",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_casualoutfit_datestyle/ly_sakuramiko_datestyle_11_en_1782286972.webp"
+    ],
+    "min_price": 24800,
+    "max_price": 24800,
+    "published_at": "2026-06-26T12:00:15+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9440205570268",
     "handle": "juufuuteiraden_picross_hakonetravelogue",
     "title_jp": "ピクロス™  儒烏風亭らでんがご案内！ピクセルミュージアム ー箱根探訪編 同梱版ー コレクションBOX（完全受注生産）",
