@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "9442417606876",
+    "handle": "ceciliaimmergreen_anniversary_2nd",
+    "title_jp": "セシリア・イマーグリーン 活動2周年記念",
+    "title_en": "Cecilia Immergreen 2nd Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_セシリア・イマーグリーン",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_セシリア・イマーグリーン",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_2_1782384280.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_3_1782384291.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_4_1782384301.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_5_1782384310.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_6_1782384321.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_7_1782384330.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_anniversary_2nd/ly_holo_ceciliaimmergreen_2th_banner_en_0625_8_1782384338.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 13200,
+    "published_at": "2026-06-28T08:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9437182492892",
     "handle": "hololive_goodworktoday_julycalendar",
     "title_jp": "ホロライブ 日常ささやき「おつかれさま」ボイス 7月カレンダーブロマイド",
