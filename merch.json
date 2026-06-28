@@ -87797,7 +87797,7 @@
     "min_price": 825,
     "max_price": 16500,
     "published_at": "2023-12-30T18:00:23+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "キーホルダー・ストラップ"
