@@ -1,5 +1,52 @@
 [
   {
+    "product_id": "9457747787996",
+    "handle": "hololiveenjustice_anniversary_2nd",
+    "title_jp": "ホロライブEnglish -Justice- 2周年記念",
+    "title_en": "hololive English -Justice- 2nd Anniversary Celebration",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_エリザベス・ローズ・ブラッドフレイム",
+      "Talent_ジジ・ムリン",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ラオーラ・パンテーラ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_エリザベス・ローズ・ブラッドフレイム",
+      "Talent_ジジ・ムリン",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ラオーラ・パンテーラ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenjustice_anniversary_2nd/ly_holo_justice_2nd_banner_en_260624_2_1782382659.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenjustice_anniversary_2nd/ly_holo_justice_2nd_banner_en_260624_3_1782382677.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenjustice_anniversary_2nd/ly_holo_justice_2nd_banner_en_260624_4_1782382690.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenjustice_anniversary_2nd/ly_holo_justice_2nd_banner_en_260624_5_1782382700.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenjustice_anniversary_2nd/ly_holo_justice_2nd_banner_en_260624_6_1782382710.webp"
+    ],
+    "min_price": 1980,
+    "max_price": 16500,
+    "published_at": "2026-06-28T12:10:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9442417606876",
     "handle": "ceciliaimmergreen_anniversary_2nd",
     "title_jp": "セシリア・イマーグリーン 活動2周年記念",
