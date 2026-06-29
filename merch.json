@@ -1,5 +1,43 @@
 [
   {
+    "product_id": "9457473388764",
+    "handle": "hakuikoyori_rereleasededitionmerch",
+    "title_jp": "博衣こより グッズ 復刻販売",
+    "title_en": "Hakui Koyori Re-Released Edition Merch",
+    "tags_jp": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_rereleasededitionmerch/ly_holo_hakui_koyori_hukkoku_banner_en_260625_ol_2_1782378547.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_rereleasededitionmerch/ly_holo_hakui_koyori_hukkoku_banner_en_260625_ol_3_1782378559.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_rereleasededitionmerch/ly_holo_hakui_koyori_hukkoku_banner_en_260625_ol_4_1782378578.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_rereleasededitionmerch/ly_holo_hakui_koyori_hukkoku_banner_en_260625_ol_5_1782378589.webp"
+    ],
+    "min_price": 1870,
+    "max_price": 13200,
+    "published_at": "2026-06-29T20:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9457747787996",
     "handle": "hololiveenjustice_anniversary_2nd",
     "title_jp": "ホロライブEnglish -Justice- 2周年記念",
