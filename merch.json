@@ -1245,7 +1245,7 @@
     "min_price": 3000,
     "max_price": 6000,
     "published_at": "2026-06-04T16:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ボイス"
@@ -1544,7 +1544,7 @@
     "min_price": 3300,
     "max_price": 17050,
     "published_at": "2026-05-29T21:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ",
@@ -1658,7 +1658,7 @@
     "min_price": 2200,
     "max_price": 16500,
     "published_at": "2026-05-25T21:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "キーホルダー・ストラップ",
@@ -1770,7 +1770,7 @@
     "min_price": 3630,
     "max_price": 20570,
     "published_at": "2026-05-24T20:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
