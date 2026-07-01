@@ -1,5 +1,130 @@
 [
   {
+    "product_id": "9466508116188",
+    "handle": "azki_sololive2025_departure_resale",
+    "title_jp": "【再販売】　AZKi SOLO LiVE 2025 \"Departure\" ライブグッズ",
+    "title_en": "[Resale] AZKi SOLO LiVE 2025 \"Departure\"  Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_resale/ly_azki_sololive_goods_banner_saihanbai_en_1782439218.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_resale/ly_azki_sololive_goods_banneren05_250827_1782439278.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_resale/ly_azki_sololive_goods_banneren06_250827_1782439233.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_resale/ly_azki_sololive_goods_banneren07_250827_1782439247.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_resale/ly_azki_sololive_goods_banneren09_250827_1782439263.webp"
+    ],
+    "min_price": 4000,
+    "max_price": 7500,
+    "published_at": "2026-07-01T21:15:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9463780704476",
+    "handle": "azki_sololive2025_departure_bluray",
+    "title_jp": "AZKi SOLO LiVE 2025 \"Departure\" Blu-ray",
+    "title_en": "AZKi SOLO LiVE 2025 \"Departure\" Blu-ray",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_bluray/ly_azki_departure_bnr_en_2_0618_1782353034.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_bluray/ly_azki_departure_bnr_en_3_0618_1782353102.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_bluray/ly_azki_departure_bnr_en_4_0618_1782353145.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_sololive2025_departure_bluray/ly_azki_departure_bnr_en_5_0618_1782353183.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-07-01T21:15:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9460323090652",
+    "handle": "azki_birthday_2026",
+    "title_jp": "AZKi 誕生日記念2026",
+    "title_en": "AZKi Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_AZKi",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_AZKi",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_2_1782267024.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_3_1782267035.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_4_1782267054.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_5_1782267067.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_6_1782267083.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_7_1782267102.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_8_1782267125.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_birthday_2026/ly_holo_azki_bc_banner_en_260617_ol_9_1782267137.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 14850,
+    "published_at": "2026-07-01T21:15:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9457473388764",
     "handle": "hakuikoyori_rereleasededitionmerch",
     "title_jp": "博衣こより グッズ 復刻販売",
