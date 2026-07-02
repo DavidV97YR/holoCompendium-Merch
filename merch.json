@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "9476926832860",
+    "handle": "oozorasubaru_birthday_2026",
+    "title_jp": "大空スバル 誕生日記念2026",
+    "title_en": "Oozora Subaru Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_大空スバル",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_大空スバル",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_2_1782903729.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_3_1782903760.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_4_1782903785.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_5_1782903797.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_6_1782903820.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_7_1782903830.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_birthday_2026/ly_holo_oozorasubaru_bc_banner_en_0701_8_1782903848.webp"
+    ],
+    "min_price": 1870,
+    "max_price": 13200,
+    "published_at": "2026-07-02T22:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9466508116188",
     "handle": "azki_sololive2025_departure_resale",
     "title_jp": "【再販売】　AZKi SOLO LiVE 2025 \"Departure\" ライブグッズ",
