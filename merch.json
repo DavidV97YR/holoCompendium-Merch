@@ -1,5 +1,65 @@
 [
   {
+    "product_id": "9461071970524",
+    "handle": "hololiveofficialcardgame_hsd13e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Start Deck \"Oshi Justice\"",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Start Deck \"Oshi Justice\"",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [],
+    "min_price": 2269,
+    "max_price": 2269,
+    "published_at": "2026-07-03T10:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9461070201052",
+    "handle": "hololiveofficialcardgame_hsd12e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Start Deck \"Oshi Advent\"",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Start Deck \"Oshi Advent\"",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [],
+    "min_price": 2269,
+    "max_price": 2269,
+    "published_at": "2026-07-03T10:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9476926832860",
     "handle": "oozorasubaru_birthday_2026",
     "title_jp": "大空スバル 誕生日記念2026",
