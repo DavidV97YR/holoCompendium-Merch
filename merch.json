@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "9480946024668",
+    "handle": "inugamikorone_amanyosamaalterego",
+    "title_jp": "戌神ころね あまにょ様（別人設定）グッズ",
+    "title_en": "Inugami Korone \"Amanyo-sama\" (Alter Ego) Merchandise",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_2_1782956742.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_3_1782956762.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_4_1782956775.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_5_1782956790.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_6_1782956805.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_7_1782956827.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_amanyosamaalterego/ly_holo_banner_inugami_korone_amanyomerch_en_260630_8_1782956838.webp"
+    ],
+    "min_price": 550,
+    "max_price": 14960,
+    "published_at": "2026-07-07T20:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9480017281244",
     "handle": "hololive_simmeringsummersentiments",
     "title_jp": "ホロライブ ひと夏の淡い想い出ボイス",
