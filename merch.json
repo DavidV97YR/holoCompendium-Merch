@@ -1,5 +1,46 @@
 [
   {
+    "product_id": "9477013799132",
+    "handle": "hololiveenmyth_audiodrama_thephantomthievesandtheauctiongetaway",
+    "title_jp": "ホロライブEnglish -Myth- ボイスドラマ「怪盗団とワイルドカード」",
+    "title_en": "hololive English -Myth- Audio Drama: the Phantom Thieves and the Auction Getaway",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Talent_森カリオペ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Talent_森カリオペ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenmyth_audiodrama_thephantomthievesandtheauctiongetaway/ly_260708_myth_audiodrama_en_02_1782788996.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveenmyth_audiodrama_thephantomthievesandtheauctiongetaway/ly_260708_myth_audiodrama_en_03_1782789009.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 4000,
+    "published_at": "2026-07-08T10:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9480946024668",
     "handle": "inugamikorone_amanyosamaalterego",
     "title_jp": "戌神ころね あまにょ様（別人設定）グッズ",
