@@ -1,5 +1,55 @@
 [
   {
+    "product_id": "9483711316188",
+    "handle": "rindochihaya_birthday_2026",
+    "title_jp": "輪堂千速 誕生日記念2026",
+    "title_en": "Rindo Chihaya Birthday 2026",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_輪堂千速",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_輪堂千速",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_2_1783314884.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_2_ol_3_1783314905.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_4_1783314942.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_5_1783314952.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_2_ol_6_1783314965.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_7_1783314976.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_8_1783314987.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/rindochihaya_birthday_2026/ly_holo_rindochihaya_bc_banner_en_0703_9_1783314998.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 22000,
+    "published_at": "2026-07-08T21:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9477013799132",
     "handle": "hololiveenmyth_audiodrama_thephantomthievesandtheauctiongetaway",
     "title_jp": "ホロライブEnglish -Myth- ボイスドラマ「怪盗団とワイルドカード」",
