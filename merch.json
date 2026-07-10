@@ -1,5 +1,54 @@
 [
   {
+    "product_id": "9487005090012",
+    "handle": "yukihanalamy_newoutfit_2026",
+    "title_jp": "雪花ラミィ 新衣装記念2026",
+    "title_en": "Yukihana Lamy New Outfit Celebration 2026",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_雪花ラミィ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_雪花ラミィ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ボイス",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_2_1783416242.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_3_1783416254.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_4_1783416267.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_5_1783416289.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_6_1783416307.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_7_1783416320.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_8_1783416333.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_newoutfit_2026/ly_holo_yukihanalamy_of_banner_en_260707_9_1783416344.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 20350,
+    "published_at": "2026-07-10T22:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9483711316188",
     "handle": "rindochihaya_birthday_2026",
     "title_jp": "輪堂千速 誕生日記念2026",
