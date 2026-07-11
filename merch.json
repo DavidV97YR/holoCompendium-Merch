@@ -1,5 +1,90 @@
 [
   {
+    "product_id": "9489394958556",
+    "handle": "irys_1stconcert_hopebeyondthestars_madetoorder",
+    "title_jp": "【受注生産】IRyS 1st Concert “HOPE ||: Beyond the Stars”ライブグッズ",
+    "title_en": "【Made-to-order】IRyS 1st Concert “HOPE ||: Beyond the Stars” Concert Merch",
+    "tags_jp": [
+      "1stconcert_hopebeyondthestars",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "1stconcert_hopebeyondthestars",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_madetoorder/ly_20260711_irys_1st_concert_en_top_03_1783590811.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_madetoorder/ly_20260711_irys_1st_concert_en_07_1783590837.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_madetoorder/ly_20260711_irys_1st_concert_en_08_1783590856.webp"
+    ],
+    "min_price": 2090,
+    "max_price": 3300,
+    "published_at": "2026-07-11T13:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9486684717276",
+    "handle": "irys_1stconcert_hopebeyondthestars_advancedshipping",
+    "title_jp": "【先行発送】IRyS 1st Concert “HOPE ||: Beyond the Stars”ライブグッズ",
+    "title_en": "【Advanced shipping】IRyS 1st Concert “HOPE ||: Beyond the Stars” Concert Merch",
+    "tags_jp": [
+      "1stconcert_hopebeyondthestars",
+      "_ng_with_normal_group:IRyS_1stLive0711",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "予約販売"
+    ],
+    "tags_en": [
+      "1stconcert_hopebeyondthestars",
+      "_ng_with_normal_group:IRyS_1stLive0711",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "予約販売"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_top_02_1783590500.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_01_1783590514.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_02_1783590527.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_03_1783590542.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_04_1783590586.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_05_1783590628.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_advancedshipping/ly_20260711_irys_1st_concert_en_06_1783590642.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10200,
+    "published_at": "2026-07-11T13:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9487005090012",
     "handle": "yukihanalamy_newoutfit_2026",
     "title_jp": "雪花ラミィ 新衣装記念2026",
