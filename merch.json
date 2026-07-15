@@ -1,5 +1,54 @@
 [
   {
+    "product_id": "9499215102172",
+    "handle": "airaniiofifteen_birthday_2026",
+    "title_jp": "アイラニ・イオフィフティーン 誕生日記念2026",
+    "title_en": "Airani Iofifteen Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア1期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アイラニ・イオフィフティーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア1期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アイラニ・イオフィフティーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ボイス",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_2_1783585166.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_3_1783585207.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_4_1783585238.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_5_1783585268.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_6_1783585507.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_7_1783585543.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_8_1783585561.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_birthday_2026/ly_holo_airaniiofifteen_bc_banner_en_260707_9_1783585574.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 15180,
+    "published_at": "2026-07-15T23:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9489394958556",
     "handle": "irys_1stconcert_hopebeyondthestars_madetoorder",
     "title_jp": "【受注生産】IRyS 1st Concert “HOPE ||: Beyond the Stars”ライブグッズ",
