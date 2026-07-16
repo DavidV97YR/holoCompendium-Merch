@@ -1,4 +1,4 @@
-// ─── holoVault Scraper ────────────────────────────────────────────────────────
+// ─── holoVault Scraper ───────────────────────────────────────────────────────
 // Triggered externally (cron-job.org → repository_dispatch webhook).
 //
 // Per-run logic:
@@ -23,7 +23,7 @@ const BASE_EN    = 'https://shop.hololivepro.com/en';
 const MERCH_FILE = 'merch.json';
 const IMAGES_DIR = 'Products';
 
-// ─── R2 client ────────────────────────────────────────────────────────────────
+// ─── R2 client ─────────────────────────────────────────────────────────
 // GitHub Actions secrets required:
 //   R2_ACCOUNT_ID  – Cloudflare account ID
 //   R2_ACCESS_KEY  – R2 Access Key ID
@@ -43,7 +43,7 @@ const r2 = new S3Client({
 const R2_BUCKET     = process.env.R2_BUCKET;
 const R2_PUBLIC_URL = (process.env.R2_PUBLIC_URL || '').replace(/\/$/, '');
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────
 
 function log(msg) {
   console.log(`[${new Date().toISOString()}] ${msg}`);
@@ -61,13 +61,20 @@ async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
       return res;
     } catch (err) {
       if (i === retries - 1) throw err;
-      log(`Retry ${i + 1}/${retries} for ${url}`);
-      await sleep(delayMs * (i + 1));
+      
+      // Extract Retry-After header (in seconds), if present
+      const retryAfter = parseInt(res?.headers?.get('retry-after') || '0', 10);
+      const waitMs = retryAfter > 0 
+        ? retryAfter * 1000 
+        : delayMs * Math.pow(2, i) + Math.random() * 1000; // exponential backoff + jitter
+      
+      log(`Retry ${i + 1}/${retries} for ${url} (waiting ${Math.ceil(waitMs / 1000)}s)`);
+      await sleep(waitMs);
     }
   }
 }
 
-// ─── R2 upload ────────────────────────────────────────────────────────────────
+// ─── R2 upload ─────────────────────────────────────────────────────────
 // No HeadObject check — product_id gate in merch.json handles deduplication.
 // PutObject is idempotent so re-uploading on a partial-run recovery is safe.
 
@@ -255,7 +262,7 @@ function sameCategories(a, b) {
   return a.length === b.length && a.every((v, i) => v === b[i]);
 }
 
-// ─── merch.json I/O ──────────────────────────────────────────────────────────
+// ─── merch.json I/O ───────────────────────────────────────────────────────
 
 function loadExistingMerch() {
   const filePath = path.join(process.cwd(), MERCH_FILE);
@@ -366,7 +373,7 @@ async function commitChanges(newCount, updatedCount) {
   await uploadMerchToR2();
 }
 
-// ─── Main ─────────────────────────────────────────────────────────────────────
+// ─── Main ───────────────────────────────────────────────────────────
 
 async function main() {
   log('── holoVault Scraper starting ──');
@@ -701,7 +708,7 @@ async function backfillCategories() {
   log('── Backfill done ──');
 }
 
-// ─── Entry point ─────────────────────────────────────────────────────────────
+// ─── Entry point ────────────────────────────────────────────────────────
 
 const entry = process.argv.includes('--backfill-en')         ? backfillEnImages
             : process.argv.includes('--backfill-categories') ? backfillCategories
