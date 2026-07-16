@@ -55,15 +55,16 @@ function sleep(ms) {
 
 async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
   for (let i = 0; i < retries; i++) {
+    let res;
     try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(30_000) });
+      res = await fetch(url, { signal: AbortSignal.timeout(30_000) });
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return res;
     } catch (err) {
       if (i === retries - 1) throw err;
       
       // Extract Retry-After header (in seconds), if present
-      const retryAfter = parseInt(res?.headers?.get('retry-after') || '0', 10);
+      const retryAfter = res ? parseInt(res.headers.get('retry-after') || '0', 10) : 0;
       const waitMs = retryAfter > 0 
         ? retryAfter * 1000 
         : delayMs * Math.pow(2, i) + Math.random() * 1000; // exponential backoff + jitter
