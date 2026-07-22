@@ -57110,7 +57110,7 @@
     "min_price": 1760,
     "max_price": 1760,
     "published_at": "2024-11-18T19:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
