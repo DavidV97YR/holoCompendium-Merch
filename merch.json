@@ -1,5 +1,108 @@
 [
   {
+    "product_id": "9514093969628",
+    "handle": "hololiveofficialcardgame_cardsleeve_vol49-51",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカスリーブ vol.49〜vol.51",
+    "title_en": "hololive OFFICIAL CARD GAME Official holocard Sleeve vol.49 - vol.51",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol49-51/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_4_1784083715.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol49-51/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_5_1784083725.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol49-51/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_6_1784083734.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol49-51/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_7_1784083745.webp"
+    ],
+    "min_price": 990,
+    "max_price": 990,
+    "published_at": "2026-07-22T19:00:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9514080665820",
+    "handle": "hololiveofficialcardgame_cardcase_vol32-34",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカケース vol.32〜vol.34",
+    "title_en": "hololive OFFICIAL CARD GAME Official holocard Case vol.32 - vol.34",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol32-34/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_10_1784082945.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol32-34/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_11_1784082957.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol32-34/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_12_1784082966.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol32-34/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_13_1784082976.webp"
+    ],
+    "min_price": 880,
+    "max_price": 880,
+    "published_at": "2026-07-22T19:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9509558124764",
+    "handle": "hololiveofficialcardgame_heb01",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストラブースター「サマー・ホログラム」",
+    "title_en": "hololive OFFICIAL CARD GAME Extra Booster「Summer hologram」",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_heb01/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_2_1784001344.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_heb01/ly_holo_ocg_8gatsu-item_banner_en_260625_ol_3_1784001357.webp"
+    ],
+    "min_price": 5280,
+    "max_price": 5280,
+    "published_at": "2026-07-22T19:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9489448272092",
     "handle": "regloss_vacationmerch",
     "title_jp": "ReGLOSS バケーショングッズ",
