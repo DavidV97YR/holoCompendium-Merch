@@ -1,5 +1,39 @@
 [
   {
+    "product_id": "9519474114780",
+    "handle": "hololiveofficialcardgame_rubbermatex_vol3-6",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカラバーマット EX vol.3~6",
+    "title_en": "hololive OFFICIAL CARD GAME Official holocard Rubber Mat EX vol.3 - vol.6",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol3-6/ly_holo_ocg_7gatsu-item_banner_en_260713_1_1784257245.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol3-6/ly_holo_ocg_7gatsu-item_banner_en_260713_2_1784257259.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol3-6/ly_holo_ocg_7gatsu-item_banner_en_260713_3_1784257270.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol3-6/ly_holo_ocg_7gatsu-item_banner_en_260713_4_1784257283.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol3-6/ly_holo_ocg_7gatsu-item_banner_en_260713_5_1784257295.webp"
+    ],
+    "min_price": 3000,
+    "max_price": 3000,
+    "published_at": "2026-07-24T17:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9517476446428",
     "handle": "irys_nendoroid",
     "title_jp": "ねんどろいど IRyS",
@@ -58857,7 +58891,7 @@
     "max_price": 1760,
     "published_at": "2024-11-09T19:00:01+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-07-24T08:00:47.978Z",
     "categories": [
       "アクリルスタンド・アクリルパネル"
     ],
