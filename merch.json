@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9517476446428",
+    "handle": "irys_nendoroid",
+    "title_jp": "ねんどろいど IRyS",
+    "title_en": "Nendoroid IRyS",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_nendoroid/ly_20269724_nendoroid_irys_sp_en_1784619322.webp"
+    ],
+    "min_price": 8900,
+    "max_price": 8900,
+    "published_at": "2026-07-24T12:00:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9511143080156",
     "handle": "hololive_asmr_coworkingwithyou",
     "title_jp": "ホロライブ 日常ささやき「いっしょに作業」ボイス",
