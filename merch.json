@@ -6820,7 +6820,7 @@
     "min_price": 9516,
     "max_price": 9516,
     "published_at": "2026-03-30T10:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "カードゲーム・サプライ"
