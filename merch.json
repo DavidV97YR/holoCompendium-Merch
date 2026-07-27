@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9527218471132",
+    "handle": "sakuramiko_1stlive_flowerfantasista_bluray_regular",
+    "title_jp": "さくらみこ1st Live “flower fantasista!” Blu-ray 通常盤",
+    "title_en": "Sakura Miko 1st Live “flower fantasista!” Regular Edition",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_1stlive_flowerfantasista_bluray_regular/ly_top_senkou_en_1784707812.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_1stlive_flowerfantasista_bluray_regular/ly_h1_en_1__1784707825.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_1stlive_flowerfantasista_bluray_regular/ly_screen_en_1__1784707840.webp"
+    ],
+    "min_price": 6600,
+    "max_price": 6600,
+    "published_at": "2026-07-27T21:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9526054781148",
     "handle": "koganeiniko_birthday_2026",
     "title_jp": "虎金妃笑虎 誕生日記念2026",
