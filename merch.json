@@ -1,5 +1,57 @@
 [
   {
+    "product_id": "9529470714076",
+    "handle": "momosuzunene_1stlive_riseupfullflourish_secondaryorder",
+    "title_jp": "【2次販売】桃鈴ねね 1st Live 「花咲く＊ねねねねねねねね超開花！」ライブグッズ",
+    "title_en": "【Secondary order】Momosuzu Nene 1st Live \"Rise Up * NENENENENENENENE Full Flourish\" Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "nene1stlive",
+      "Recommended_MERCH",
+      "Talent_桃鈴ねね",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "nene1stlive",
+      "Recommended_MERCH",
+      "Talent_桃鈴ねね",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_momosuzu_nene1st_0728-06_1785231612.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_momosuzu_nene1st_0728_nene_goods_3_1785231632.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_momosuzu_nene1st_0728_nene_goods_4_1785231647.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_1_en_1785231377.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_5_en__1785231388.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_2_en_1785231333.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_3_en_1785231342.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_4_en_1785231350.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_6_en_1785231358.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_7_en_1785231366.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_8_en_1785231403.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_9_en_1785231410.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/momosuzunene_1stlive_riseupfullflourish_secondaryorder/ly_nene_goods_10_en_1785231419.webp"
+    ],
+    "min_price": 500,
+    "max_price": 11500,
+    "published_at": "2026-07-29T21:30:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9527218471132",
     "handle": "sakuramiko_1stlive_flowerfantasista_bluray_regular",
     "title_jp": "さくらみこ1st Live “flower fantasista!” Blu-ray 通常盤",
