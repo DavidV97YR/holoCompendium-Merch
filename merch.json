@@ -1,5 +1,83 @@
 [
   {
+    "product_id": "9535139152092",
+    "handle": "ookamimio_streetoutfit_datestyle",
+    "title_jp": "1/7 スケールフィギュア G.S.Collection 大神ミオ Date Style おでかけ衣装 Ver.",
+    "title_en": "1/7 Scale Figure G.S. Collection Ookami Mio: Date Style - Street Outfit Ver.",
+    "tags_jp": [
+      "_ng_with_normal_group:FubuMio_FG0731",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_大神ミオ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:FubuMio_FG0731",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_大神ミオ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ookamimio_streetoutfit_datestyle/ly_g_s_collection_ookami_mio_date_style_street_outfit_ver_1080_1080_en_1785387726.webp"
+    ],
+    "min_price": 22000,
+    "max_price": 22000,
+    "published_at": "2026-07-31T12:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9535129518300",
+    "handle": "shirakamifubuki_casualoutfit_datestyle",
+    "title_jp": "1/7 スケールフィギュア G.S.Collection 白上フブキ Date Style 私服衣装 Ver.",
+    "title_en": "1/7 Scale Figure G.S. Collection Shirakami Fubuki: Date Style - Casual Outfit Ver.",
+    "tags_jp": [
+      "_ng_with_normal_group:FubuMio_FG0731",
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:FubuMio_FG0731",
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_casualoutfit_datestyle/ly_260731_shirakami_fubuki_datestyle_1080_1080_en_1785211121.webp"
+    ],
+    "min_price": 22000,
+    "max_price": 22000,
+    "published_at": "2026-07-31T12:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9534906007772",
     "handle": "nerissaravencrofta_anniversary_3rd",
     "title_jp": "ネリッサ・レイヴンクロフト 活動3周年記念",
