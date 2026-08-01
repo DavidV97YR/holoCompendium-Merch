@@ -1,5 +1,129 @@
 [
   {
+    "product_id": "9536915341532",
+    "handle": "sakuramiko_2ndalbum_bloomingcinderella_regular",
+    "title_jp": "さくらみこ 2nd Album『Blooming Cinderella』通常盤",
+    "title_en": "Sakura Miko 2nd Album \"Blooming Cinderella\" Regular Edition",
+    "tags_jp": [
+      "2ndal_bloomingcinderella",
+      "_ng_with_normal_group:SakuraMiko_AL0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "2ndal_bloomingcinderella",
+      "_ng_with_normal_group:SakuraMiko_AL0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndalbum_bloomingcinderella_regular/ly_260801_sakuramiko_2ndalbum_en_sq01_1785493111.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndalbum_bloomingcinderella_regular/ly_260801_sakuramiko_2ndalbum_en_sq02_1785493127.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 3850,
+    "published_at": "2026-08-01T22:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9536844562652",
+    "handle": "sakuramiko_2ndalbum_bloomingcinderella_limited",
+    "title_jp": "さくらみこ 2nd Album『Blooming Cinderella』完全生産限定盤",
+    "title_en": "Sakura Miko 2nd Album \"Blooming Cinderella\" Limited Edition",
+    "tags_jp": [
+      "2ndal_bloomingcinderella",
+      "_ng_with_normal_group:SakuraMiko_AL0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "2ndal_bloomingcinderella",
+      "_ng_with_normal_group:SakuraMiko_AL0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndalbum_bloomingcinderella_limited/ly_260801_sakuramiko_2ndalbum_en_limited_sq01_1785504776.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndalbum_bloomingcinderella_limited/ly_260801_sakuramiko_2ndalbum_en_limited_sq02_1785504865.webp"
+    ],
+    "min_price": 13200,
+    "max_price": 13200,
+    "published_at": "2026-08-01T22:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9536785842396",
+    "handle": "sakuramiko_2ndlive_bloomingparade_advancedshipping",
+    "title_jp": "【先行発送】さくらみこ 2nd Live “Blooming Parade!!”ライブグッズ",
+    "title_en": "【Advanced shipping】Sakura Miko 2nd Live “Blooming Parade!!” Concert Merch",
+    "tags_jp": [
+      "_ng_with_normal_group:SakuraMiko_Live0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:SakuraMiko_Live0801",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_top_02_en_1785417399.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_01_en_1785417411.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_02_en_1785417550.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_03_en_1785417632.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_04_en_1785418046.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_05_en_1785418064.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_06_en_1785418085.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_07_en_1785418126.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_08_en_1785418141.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_09_en_1785418154.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_advancedshipping/ly_miko2nd_ec_banner_10_en_1785418168.webp"
+    ],
+    "min_price": 500,
+    "max_price": 12000,
+    "published_at": "2026-08-01T22:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9538298020060",
     "handle": "la-lui_newoutfit_2026",
     "title_jp": "ラプルイ 新衣装記念2026",
