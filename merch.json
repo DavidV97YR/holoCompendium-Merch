@@ -1,5 +1,40 @@
 [
   {
+    "product_id": "9537022296284",
+    "handle": "robocosan_1stalbum_jewelmemory",
+    "title_jp": "ロボ子さん 1st Album『Jewel Memory』",
+    "title_en": "Robocosan 1st Album \"Jewel Memory\"",
+    "tags_jp": [
+      "_ng_with_normal_group:Robocosan_AL0802",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_ロボ子さん",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:Robocosan_AL0802",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_ロボ子さん",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/robocosan_1stalbum_jewelmemory/ly_20260802_robocosan_1stalbum_en_sq01_1785467456.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/robocosan_1stalbum_jewelmemory/ly_20260802_robocosan_1stalbum_en_sq02_1785507673.webp"
+    ],
+    "min_price": 19800,
+    "max_price": 19800,
+    "published_at": "2026-08-02T21:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9536915341532",
     "handle": "sakuramiko_2ndalbum_bloomingcinderella_regular",
     "title_jp": "さくらみこ 2nd Album『Blooming Cinderella』通常盤",
