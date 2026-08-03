@@ -1,5 +1,44 @@
 [
   {
+    "product_id": "9480970371292",
+    "handle": "nakiriayame_asmr_yourneighborayamechan",
+    "title_jp": "百鬼あやめ「お隣はあやめちゃんち」ASMRボイス",
+    "title_en": "Nakiri Ayame \"Your Neighbor Ayame-chan\" ASMR Voice Pack",
+    "tags_jp": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_百鬼あやめ",
+      "お隣さんASMRボイス",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_百鬼あやめ",
+      "お隣さんASMRボイス",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_asmr_yourneighborayamechan/ly_20260728_nakiriayame_yourneighborayame-chan_asmrvoicepack_2_en_1782963742.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_asmr_yourneighborayamechan/ly_20260728_nakiriayame_yourneighborayame-chan_asmrvoicepack_3_en_1782963760.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 7000,
+    "published_at": "2026-08-03T19:30:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9537022296284",
     "handle": "robocosan_1stalbum_jewelmemory",
     "title_jp": "ロボ子さん 1st Album『Jewel Memory』",
