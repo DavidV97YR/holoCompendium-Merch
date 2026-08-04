@@ -1,5 +1,39 @@
 [
   {
+    "product_id": "9538727543004",
+    "handle": "natsuiromatsuri_nendoroid_rerelease",
+    "title_jp": "【再販】ねんどろいど 夏色まつり",
+    "title_en": "[Rerelease] Nendoroid Natsuiro Matsuri",
+    "tags_jp": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_夏色まつり",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_夏色まつり",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_nendoroid_rerelease/ly_260804_nendoroid_natsuiro_matsuri_sp_en_1785311875.webp"
+    ],
+    "min_price": 7200,
+    "max_price": 7200,
+    "published_at": "2026-08-04T12:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9480970371292",
     "handle": "nakiriayame_asmr_yourneighborayamechan",
     "title_jp": "百鬼あやめ「お隣はあやめちゃんち」ASMRボイス",
