@@ -1,5 +1,54 @@
 [
   {
+    "product_id": "9543257882844",
+    "handle": "hololivegen3_anniversary_2026",
+    "title_jp": "hololive 3rd Generation Anniversary Parade -Celestial-",
+    "title_en": "hololive 3rd Generation Anniversary Parade -Celestial-",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_2_1785484172.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_3_1785484214.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_4_1785484246.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_5_1785484276.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_6_1785484303.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_7_1785484330.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_8_1785484361.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivegen3_anniversary_2026/ly_holo_3rdgen_anniversaryparade2026_en_260730_ol_9_1785484390.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 11880,
+    "published_at": "2026-08-05T18:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9538727543004",
     "handle": "natsuiromatsuri_nendoroid_rerelease",
     "title_jp": "【再販】ねんどろいど 夏色まつり",
