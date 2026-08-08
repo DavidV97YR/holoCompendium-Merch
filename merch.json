@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "9547825152220",
+    "handle": "tokoyamitowa_birthday_2026",
+    "title_jp": "常闇トワ 誕生日記念2026",
+    "title_en": "Tokoyami Towa Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_2_1785825339.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_3_1786099359.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_4_1785825378.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_5_1785825394.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_6_1785825411.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_7_1786099369.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_birthday_2026/ly_holo_tokoyamitowa_bc_banner_en_0730_ol_8_1785825442.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 17050,
+    "published_at": "2026-08-08T20:45:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9540942725340",
     "handle": "hololive_makingyourheartracevoice",
     "title_jp": "ホロライブ ドキドキの極ボイス",
