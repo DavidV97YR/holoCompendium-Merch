@@ -1,5 +1,56 @@
 [
   {
+    "product_id": "9550171406556",
+    "handle": "houshoumarine_anniversary_7th",
+    "title_jp": "宝鐘マリン 活動7周年記念",
+    "title_en": "Houshou Marine 7th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_宝鐘マリン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_宝鐘マリン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "ボイス",
+      "タペストリー",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_2_1786081594.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_3_1786081606.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_4_1786081618.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_5_1786081627.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_6_1786081636.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_7_1786081646.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_8_1786081654.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/houshoumarine_anniversary_7th/ly_holo_houshoumarine_7th_banner_en_260806_ol_9_1786081667.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 20570,
+    "published_at": "2026-08-11T22:10:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9547825152220",
     "handle": "tokoyamitowa_birthday_2026",
     "title_jp": "常闇トワ 誕生日記念2026",
