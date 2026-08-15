@@ -1,5 +1,81 @@
 [
   {
+    "product_id": "9570293973212",
+    "handle": "yukihanalamy_1stalbum_fleurdeneige_regular",
+    "title_jp": "雪花ラミィ 1st Album『Fleur de neige』通常盤",
+    "title_en": "Yukihana Lamy 1st Album \"Fleur de neige\" Regular Edition",
+    "tags_jp": [
+      "1stal_fleurdeneige",
+      "_ng_with_normal_group:YukihanaLamy_AL0815",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_雪花ラミィ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "1stal_fleurdeneige",
+      "_ng_with_normal_group:YukihanaLamy_AL0815",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_雪花ラミィ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_regular/ly_en_reg_sq_01_1786678082.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_regular/ly_en_reg_sq_02_1786678098.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_regular/ly_en_reg_sq_03_1786678109.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 3850,
+    "published_at": "2026-08-15T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9570219327708",
+    "handle": "yukihanalamy_1stalbum_fleurdeneige_limited",
+    "title_jp": "雪花ラミィ 1st Album『Fleur de neige』完全生産限定盤",
+    "title_en": "Yukihana Lamy 1st Album \"Fleur de neige\" Limited Edition",
+    "tags_jp": [
+      "1stal_fleurdeneige",
+      "_ng_with_normal_group:YukihanaLamy_AL0815",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_雪花ラミィ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "1stal_fleurdeneige",
+      "_ng_with_normal_group:YukihanaLamy_AL0815",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_雪花ラミィ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_limited/ly_260815_en_limi_sq_01_1786699631.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_limited/ly_en_limi_sq_02_1786677889.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_1stalbum_fleurdeneige_limited/ly_en_limi_sq_03_1786678017.webp"
+    ],
+    "min_price": 11000,
+    "max_price": 11000,
+    "published_at": "2026-08-15T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9550912028892",
     "handle": "hololive_tanabatadatevoice2024_resale",
     "title_jp": "【再販】ホロライブ 七夕デートボイス2024",
