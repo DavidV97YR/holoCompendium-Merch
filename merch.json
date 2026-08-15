@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "9558521086172",
+    "handle": "shiroganenoel_anniversary_7th",
+    "title_jp": "白銀ノエル 活動7周年記念",
+    "title_en": "Shirogane Noel 7th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_2_1786522528.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_3_1786522556.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_4_1786522579.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_5_1786522601.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_6_1786522618.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_7_1786522633.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shiroganenoel_anniversary_7th/ly_holo_shiroganenoeru_7th_banner_en_260807_8_1786522658.webp"
+    ],
+    "min_price": 880,
+    "max_price": 15180,
+    "published_at": "2026-08-15T22:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9570293973212",
     "handle": "yukihanalamy_1stalbum_fleurdeneige_regular",
     "title_jp": "雪花ラミィ 1st Album『Fleur de neige』通常盤",
