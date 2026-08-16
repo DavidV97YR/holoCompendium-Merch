@@ -72458,7 +72458,7 @@
     "min_price": 3850,
     "max_price": 3850,
     "published_at": "2024-07-21T21:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "CD・LP・BD"
