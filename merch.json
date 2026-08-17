@@ -1,5 +1,54 @@
 [
   {
+    "product_id": "9550827487452",
+    "handle": "nepolabo_anniversary_2026",
+    "title_jp": "NePoLaBo Anniversary Parade -Celestial-",
+    "title_en": "NePoLaBo Anniversary Parade -Celestial-",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_獅白ぼたん",
+      "Talent_雪花ラミィ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_獅白ぼたん",
+      "Talent_雪花ラミィ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_2_1786364303.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_3_1786520695.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_4_1786364325.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_5_1786364338.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_6_1786364349.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_7_1786364362.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_8_1786364376.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nepolabo_anniversary_2026/ly_holo_nepolabo_anniversaryparade2026_en_260807_ol_9_1786364404.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 11880,
+    "published_at": "2026-08-17T22:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9558206120156",
     "handle": "hololiveofficialcardgame_2ndanniversarycelebrationset",
     "title_jp": "hololive OFFICIAL CARD GAME 2nd Anniversary Celebration Set",
