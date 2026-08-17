@@ -1,5 +1,47 @@
 [
   {
+    "product_id": "9558206120156",
+    "handle": "hololiveofficialcardgame_2ndanniversarycelebrationset",
+    "title_jp": "hololive OFFICIAL CARD GAME 2nd Anniversary Celebration Set",
+    "title_en": "hololive OFFICIAL CARD GAME 2nd Anniversary Celebration Set",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "受注生産商品"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_2_1786339664.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_3_1786339685.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_4_1786339698.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_15_sample_1786339797.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_6_sample_1786339827.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_7_sample_1786339842.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_8_sample_1786339856.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_9_sample_1786339887.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_10_sample_1786339902.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_11_sample_1786339916.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_2ndanniversarycelebrationset/ly_holo_ocg_2th_banner_en_260805_2_12_sample_1786339930.webp"
+    ],
+    "min_price": 990,
+    "max_price": 12100,
+    "published_at": "2026-08-17T17:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9558521086172",
     "handle": "shiroganenoel_anniversary_7th",
     "title_jp": "白銀ノエル 活動7周年記念",
