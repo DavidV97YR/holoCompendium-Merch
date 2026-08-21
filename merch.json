@@ -1,5 +1,90 @@
 [
   {
+    "product_id": "9578354704604",
+    "handle": "regloss_1stlive_flashpoint_bluray",
+    "title_jp": "ReGLOSS 1st Live “Flashpoint” Blu-ray",
+    "title_en": "ReGLOSS 1st Live “Flashpoint” Blu-ray",
+    "tags_jp": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_2_1787108427.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_3_1787108458.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_4_1787108478.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_0518160e-9925-40bf-ae3b-1791e9058768_1787108497.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-08-21T20:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9576685928668",
+    "handle": "hololiveregloss_1stlive_flashpoint_resale",
+    "title_jp": "【再販売】 ReGLOSS 1st Live “Flashpoint”ライブグッズ",
+    "title_en": "[Resale] ReGLOSS 1st Live “Flashpoint” Concert Merch",
+    "tags_jp": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏"
+    ],
+    "tags_en": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏"
+    ],
+    "categories": [
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveregloss_1stlive_flashpoint_resale/ly_260821_regloss_1stlive_ec_banner_en_1787045420.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveregloss_1stlive_flashpoint_resale/ly_regloss_1stlive_ec_banner_en_t_1765416476.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveregloss_1stlive_flashpoint_resale/ly_regloss_1stlive_ec_banner_en_towel_1765416525.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveregloss_1stlive_flashpoint_resale/ly_regloss_1stlive_ec_banner_en_pouch_1765416772.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveregloss_1stlive_flashpoint_resale/ly_regloss_1stlive_ec_banner_en_bag_1765416788.webp"
+    ],
+    "min_price": 2500,
+    "max_price": 4000,
+    "published_at": "2026-08-21T20:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9573105172700",
     "handle": "ookamimio_birthday_2026",
     "title_jp": "大神ミオ 誕生日記念2026",
