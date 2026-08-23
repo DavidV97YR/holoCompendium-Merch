@@ -1,5 +1,83 @@
 [
   {
+    "product_id": "9576524447964",
+    "handle": "hakosbaelz_anniversary_5th",
+    "title_jp": "ハコス・ベールズ 活動5周年記念",
+    "title_en": "Hakos Baelz 5th Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_anniversary_5th/ly_holo_banner_hakos_baelz_5th_en_260813_2_1786936814.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_anniversary_5th/ly_holo_banner_hakos_baelz_5th_en_260813_3_1786936831.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_anniversary_5th/ly_holo_banner_hakos_baelz_5th_en_260813_4_1786936893.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_anniversary_5th/ly_holo_banner_hakos_baelz_5th_en_260813_5_1786936907.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_anniversary_5th/ly_holo_banner_hakos_baelz_5th_en_260813_6_1786937227.webp"
+    ],
+    "min_price": 2970,
+    "max_price": 20570,
+    "published_at": "2026-08-23T12:55:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9573286379740",
+    "handle": "hakosbaelz_2ndalbum_mirrormirror",
+    "title_jp": "ハコス・ベールズ 2nd Album『Mirror Mirror』",
+    "title_en": "Hakos Baelz 2nd Album \"Mirror Mirror\"",
+    "tags_jp": [
+      "_ng_with_normal_group:HakosBaelz_AL0823",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:HakosBaelz_AL0823",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_2ndalbum_mirrormirror/ly_260823_hakosbaelz_2ndal_sq_en_1787148741.webp"
+    ],
+    "min_price": 12100,
+    "max_price": 12100,
+    "published_at": "2026-08-23T12:35:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9578354704604",
     "handle": "regloss_1stlive_flashpoint_bluray",
     "title_jp": "ReGLOSS 1st Live “Flashpoint” Blu-ray",
