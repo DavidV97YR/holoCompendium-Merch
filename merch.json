@@ -1,5 +1,80 @@
 [
   {
+    "product_id": "9577343287516",
+    "handle": "tokoyamitowa_2ndlive_shinier_bluray",
+    "title_jp": "Tokoyami Towa 2nd Live \"SHINier\" Blu-ray",
+    "title_en": "Tokoyami Towa 2nd Live \"SHINier\" Blu-ray",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_bluray/ly_towa_blu-ray_banner-02_en_1500x1500_0804_1787047309.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_bluray/ly_towa_blu-ray_banner-03_en_1500x1500_0729_1787047318.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_bluray/ly_towa_blu-ray_banner-04_en_1500x1500_0728_1787047329.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_bluray/ly_towa_blu-ray_banner-05_en_1500x1500_0819_1787122114.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-08-25T19:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9576660599004",
+    "handle": "tokoyamitowa_2ndlive_shinier_resale",
+    "title_jp": "【再販売】Tokoyami Towa 2nd Live \"SHINier\"ライブグッズ",
+    "title_en": "[Resale] Tokoyami Towa 2nd Live \"SHINier\" Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_3_1786941597.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_towa_2ndlive_goods_banneren06_250905_1786941613.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_towa_2ndlive_goods_banneren07_250905_1786941641.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_towa_2ndlive_goods_banneren08_250905_1786941652.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_towa_2ndlive_goods_banneren10_250905_1786941666.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_2ndlive_shinier_resale/ly_towa_2ndlive_goods_banneren14_250905_1786941686.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 6000,
+    "published_at": "2026-08-25T19:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9577351315676",
     "handle": "ourokronii_anniversary_5th",
     "title_jp": "オーロ・クロニー 活動5周年記念",
