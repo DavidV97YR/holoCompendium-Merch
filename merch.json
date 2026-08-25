@@ -82587,7 +82587,7 @@
     "min_price": 1100,
     "max_price": 1100,
     "published_at": "2024-03-26T12:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "バッジ・ピンバッジ"
