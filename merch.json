@@ -1,5 +1,57 @@
 [
   {
+    "product_id": "9577351315676",
+    "handle": "ourokronii_anniversary_5th",
+    "title_jp": "オーロ・クロニー 活動5周年記念",
+    "title_en": "Ouro Kronii 5th Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_2_1787018163.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_3_1787018182.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_4_1787018217.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_5_1787018235.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_6_1787018281.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_7_1787018299.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_8_1787018313.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ourokronii_anniversary_5th/ly_holo_ourokronii_5th_banner_en_0817_9_1787018335.webp"
+    ],
+    "min_price": 880,
+    "max_price": 19140,
+    "published_at": "2026-08-25T12:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9519752446172",
     "handle": "holodori_acrylicdioramastand_megasphere",
     "title_jp": "ホロドリ アクリルジオラマスタンド メガスフィアver.",
