@@ -27536,7 +27536,7 @@
     "min_price": 1650,
     "max_price": 1650,
     "published_at": "2025-10-15T20:00:09+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [],
     "merch_categories": [
