@@ -1,5 +1,46 @@
 [
   {
+    "product_id": "9581040730332",
+    "handle": "hololiveen_audiobook_hatchingfromthehaze",
+    "title_jp": "ホロライブEnglish オーディオブック「朝霧を越え、温もりの曙」",
+    "title_en": "hololive English Audiobook: Hatching from the Haze",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_古石ビジュー",
+      "Talent_小鳥遊キアラ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_古石ビジュー",
+      "Talent_小鳥遊キアラ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveen_audiobook_hatchingfromthehaze/ly_20260828_hatchingfromthehaze_en_2_1787276920.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveen_audiobook_hatchingfromthehaze/ly_20260828_hatchingfromthehaze_en_3_1787276933.webp"
+    ],
+    "min_price": 500,
+    "max_price": 7000,
+    "published_at": "2026-08-28T12:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9583149154524",
     "handle": "kikiraravivi_birthday_2026",
     "title_jp": "綺々羅々ヴィヴィ 誕生日記念2026",
