@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9584171974876",
+    "handle": "fuwamoco_1stalbum_fuwamocoalamode",
+    "title_jp": "FUWAMOCO 1st Album『FUWAMOCO à la mode ～いつだってあなたの笑顔を守るのッ～』",
+    "title_en": "FUWAMOCO 1st Album \"FUWAMOCO à la mode ~forever protecting your smile~\"",
+    "tags_jp": [
+      "_ng_with_normal_group:FUWAMOCO_AL0829",
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:FUWAMOCO_AL0829",
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_1stalbum_fuwamocoalamode/ly_260829_fuwamoco_1stal_sq01_en_1787821722.webp"
+    ],
+    "min_price": 15400,
+    "max_price": 15400,
+    "published_at": "2026-08-29T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9581040730332",
     "handle": "hololiveen_audiobook_hatchingfromthehaze",
     "title_jp": "ホロライブEnglish オーディオブック「朝霧を越え、温もりの曙」",
