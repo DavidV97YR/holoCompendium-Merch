@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "9584181149916",
+    "handle": "kaelakovalskia_birthday_2026",
+    "title_jp": "カエラ・コヴァルスキア 誕生日記念2026",
+    "title_en": "Kaela Kovalskia Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_カエラ・コヴァルスキア",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_カエラ・コヴァルスキア",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_2_1787646673.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_3_1787646693.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_4_1787646710.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_5_1787646752.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_6_1787646804.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_7_1787646822.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kaelakovalskia_birthday_2026/ly_holo_bc_banner_kaela_kovalskia_en_260825_8_1787646840.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 13420,
+    "published_at": "2026-08-30T23:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9584171974876",
     "handle": "fuwamoco_1stalbum_fuwamocoalamode",
     "title_jp": "FUWAMOCO 1st Album『FUWAMOCO à la mode ～いつだってあなたの笑顔を守るのッ～』",
