@@ -1,5 +1,53 @@
 [
   {
+    "product_id": "9584135995612",
+    "handle": "hololive_asmr_youmayhaveagirlfriend",
+    "title_jp": "ホロライブ「えー、彼女さんきびしー…」ASMRボイス",
+    "title_en": "hololive \"You May Have a Girlfriend...\" ASMR Voice Pack",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_雪花ラミィ",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_雪花ラミィ",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_2_en_1787638052.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_3_en_1787638075.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_4_en_1787638097.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_5_en_1787638115.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_6_en_1787638143.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_7_en_1787638160.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_youmayhaveagirlfriend/ly_20260821_hololive_youmayhaveagirlfriend_8_en_1787638177.webp"
+    ],
+    "min_price": 300,
+    "max_price": 8600,
+    "published_at": "2026-08-31T18:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9584181149916",
     "handle": "kaelakovalskia_birthday_2026",
     "title_jp": "カエラ・コヴァルスキア 誕生日記念2026",
