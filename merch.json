@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "9583354872028",
+    "handle": "tsunomakiwatame_oshimaiyasan3ddebutcelebration",
+    "title_jp": "角巻わため おしまい屋さん3D化記念グッズ",
+    "title_en": "Tsunomaki Watame Oshimaiyasan 3D Debut Celebration Merch",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_2_1787619229.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_3_1787619316.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_4_1787619336.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_5_1787619357.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_6_1787619374.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_7_1787619460.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_oshimaiyasan3ddebutcelebration/ly_holo_banner_tsunomaki_watame_oshimaimerch_en_260824_ol_8_1787619482.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 22000,
+    "published_at": "2026-08-31T22:05:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9584135995612",
     "handle": "hololive_asmr_youmayhaveagirlfriend",
     "title_jp": "ホロライブ「えー、彼女さんきびしー…」ASMRボイス",
