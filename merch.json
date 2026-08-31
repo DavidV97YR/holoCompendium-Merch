@@ -116793,7 +116793,7 @@
     "min_price": 1100,
     "max_price": 19800,
     "published_at": "2023-02-13T18:00:02+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ボイス"
@@ -119752,7 +119752,7 @@
     "min_price": 1100,
     "max_price": 24200,
     "published_at": "2022-12-02T18:00:01+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "ボイス"
