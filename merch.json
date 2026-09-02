@@ -1,5 +1,45 @@
 [
   {
+    "product_id": "9588347306204",
+    "handle": "sakuramiko_2ndlive_bloomingparade_digitalmessageboard",
+    "title_jp": "Sakura Miko 2nd Live “Blooming Parade!!” デジタルメッセージボード",
+    "title_en": "Sakura Miko 2nd Live “Blooming Parade!!” Digital Message Board",
+    "tags_jp": [
+      "DigitalContents",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_さくらみこ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "DigitalContents",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_さくらみこ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_digitalmessageboard/ly_miko2nd_messageboard_ec_thumbnail_1500x1500_01_en_1787811766.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_digitalmessageboard/ly_miko2nd_messageboard_ec_thumbnail_1500x1500_02_en_1787811787.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_digitalmessageboard/ly_miko2nd_messageboard_ec_thumbnail_1500x1500_03_en_1787811817.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_digitalmessageboard/ly_miko2nd_messageboard_ec_thumbnail_1500x1500_04_en_1787811842.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_digitalmessageboard/ly_miko2nd_messageboard_ec_thumbnail_1500x1500_05_en_1787811869.webp"
+    ],
+    "min_price": 3000,
+    "max_price": 6000,
+    "published_at": "2026-09-02T16:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9588435222748",
     "handle": "hololiveofficialcardgame_heb01e",
     "title_jp": "hololive OFFICIAL CARD GAME English Edition Extra Booster \"Summer hologram\"",
