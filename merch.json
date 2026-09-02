@@ -1,5 +1,35 @@
 [
   {
+    "product_id": "9588435222748",
+    "handle": "hololiveofficialcardgame_heb01e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Extra Booster \"Summer hologram\"",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Extra Booster \"Summer hologram\"",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [],
+    "min_price": 7665,
+    "max_price": 7665,
+    "published_at": "2026-09-02T10:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9547244011740",
     "handle": "hololive_hololivesplashtparty",
     "title_jp": "hololive Splash T-Party! 事後通販",
