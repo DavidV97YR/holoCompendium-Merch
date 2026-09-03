@@ -1,5 +1,53 @@
 [
   {
+    "product_id": "9592005525724",
+    "handle": "nakiriayame_anniversary_8th",
+    "title_jp": "百鬼あやめ 活動8周年記念",
+    "title_en": "Nakiri Ayame 8th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_百鬼あやめ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_百鬼あやめ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ボイス",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_2_1788319391.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_3_1788319402.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_4_1788319410.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_5_1788319420.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_6_1788319429.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_7_1788319438.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_8_1788319447.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nakiriayame_anniversary_8th/ly_holo_banner_nakiriayame_8th_en_260901_9_1788319458.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 20900,
+    "published_at": "2026-09-03T21:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9588347306204",
     "handle": "sakuramiko_2ndlive_bloomingparade_digitalmessageboard",
     "title_jp": "Sakura Miko 2nd Live “Blooming Parade!!” デジタルメッセージボード",
