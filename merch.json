@@ -1,5 +1,61 @@
 [
   {
+    "product_id": "9593739411676",
+    "handle": "greyscalex_purrfectpairmerch",
+    "title_jp": "GreyScaleX Purrfect Pair グッズ",
+    "title_en": "GreyScaleX Purrfect Pair Merch",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブEnglish",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_シオリ・ノヴェラ",
+      "Talent_ベスティア・ゼータ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブEnglish",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_シオリ・ノヴェラ",
+      "Talent_ベスティア・ゼータ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "ぬいぐるみ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_2_1788238978.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_3_1788238996.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_4_1788239014.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_5_1788239030.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_6_1788239046.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_7_1788239059.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_8_1788239077.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/greyscalex_purrfectpairmerch/ly_holo_greyscalex_banner_en_0831_9_1788239092.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 19140,
+    "published_at": "2026-09-05T12:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9592005525724",
     "handle": "nakiriayame_anniversary_8th",
     "title_jp": "百鬼あやめ 活動8周年記念",
