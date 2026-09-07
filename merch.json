@@ -1,5 +1,100 @@
 [
   {
+    "product_id": "9593846464732",
+    "handle": "hololiveofficialcardgame_rubbermatex_vol7",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカラバーマット EX vol.7「サマー・ホログラム」",
+    "title_en": "hololive OFFICIAL CARD GAME Official holocard Rubber Mat EX vol.7 「Summer hologram」",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_rubbermatex_vol7/ly_holo_ocg_after_event_sales_en_260831_ol_2_1788260474.webp"
+    ],
+    "min_price": 3000,
+    "max_price": 3000,
+    "published_at": "2026-09-07T19:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9593829130460",
+    "handle": "hololiveofficialcardgame_sleeveex_vol8",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカスリーブセット EX vol.8「猫又おかゆ & 宝鐘マリン」",
+    "title_en": "hololive OFFICIAL CARD GAME Official holoca Sleeve Set EX vol.8「Nekomata Okayu & Houshou Marine」",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_sleeveex_vol8/ly_holo_ocg_after_event_sales_en_260831_ol_1_1788258333.webp"
+    ],
+    "min_price": 2000,
+    "max_price": 2000,
+    "published_at": "2026-09-07T19:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9593817759964",
+    "handle": "hololiveofficialcardgame_livestartdeckdebutset",
+    "title_jp": "hololive OFFICIAL CARD GAME ライブスタートデッキ-Debut Set-",
+    "title_en": "hololive OFFICIAL CARD GAME LIVE START DECK-Debut Set-",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_3_1788256075.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_4_1788256092.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_5_1788256107.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_6_1788256123.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_7_1788256137.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_livestartdeckdebutset/ly_holo_ocg_after_event_sales_en_260831_ol_8_1788256151.webp"
+    ],
+    "min_price": 4400,
+    "max_price": 4400,
+    "published_at": "2026-09-07T19:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9594306101468",
     "handle": "tokoyamitowa_hololivefriendspoutique_funhat",
     "title_jp": "hololive friends poutique Fun!ハット 常闇トワ",
@@ -101893,8 +101988,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -101940,8 +102035,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -101987,8 +102082,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -102035,7 +102130,7 @@
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:02+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -102184,8 +102279,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -105808,8 +105903,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-31T13:30:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -105855,8 +105950,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-31T13:30:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -105898,8 +105993,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-31T13:30:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -105941,8 +106036,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-31T13:30:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -105984,8 +106079,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-31T13:30:00+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107245,8 +107340,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107327,8 +107422,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107450,8 +107545,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107532,8 +107627,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107573,8 +107668,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:00+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107614,8 +107709,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-21T18:00:00+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107873,8 +107968,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:03+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107914,8 +108009,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:03+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107955,8 +108050,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -107996,8 +108091,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -108037,8 +108132,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -108078,8 +108173,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -108119,8 +108214,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -108160,8 +108255,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -108201,8 +108296,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-07-14T18:00:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -110588,8 +110683,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-06-30T18:00:05+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "ボイス"
     ],
@@ -125350,7 +125445,7 @@
     "max_price": 17000,
     "published_at": "2022-08-08T23:00:09+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "生活雑貨"
     ],
@@ -125390,7 +125485,7 @@
     "max_price": 11000,
     "published_at": "2022-08-08T20:50:36+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-09-07T10:00:47.511Z",
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "アパレル・アパレル小物",
