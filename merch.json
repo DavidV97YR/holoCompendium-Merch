@@ -62782,8 +62782,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-11-09T22:30:03+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [],
     "merch_categories": [
       "デジタルコンテンツ"
@@ -62821,8 +62821,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-11-09T22:30:03+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [],
     "merch_categories": [
       "デジタルコンテンツ"
@@ -62860,8 +62860,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-11-09T22:30:03+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [],
     "merch_categories": [
       "デジタルコンテンツ"
@@ -62899,8 +62899,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-11-09T22:30:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [],
     "merch_categories": [
       "デジタルコンテンツ"
@@ -62938,8 +62938,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-11-09T22:30:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [],
     "merch_categories": [
       "デジタルコンテンツ"
@@ -76950,8 +76950,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-06-23T13:35:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [
       "ボイス"
     ],
@@ -76993,8 +76993,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-06-23T13:35:02+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [
       "ボイス"
     ],
@@ -77036,8 +77036,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-06-23T13:35:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [
       "ボイス"
     ],
@@ -77079,8 +77079,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-06-23T13:35:01+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-09-07T10:30:45.145Z",
     "categories": [
       "ボイス"
     ],
@@ -110683,8 +110683,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2023-06-30T18:00:05+09:00",
-    "is_available": false,
-    "delisted_at": "2026-09-07T10:00:47.511Z",
+    "is_available": true,
+    "delisted_at": null,
     "categories": [
       "ボイス"
     ],
@@ -125445,7 +125445,7 @@
     "max_price": 17000,
     "published_at": "2022-08-08T23:00:09+09:00",
     "is_available": false,
-    "delisted_at": "2026-09-07T10:00:47.511Z",
+    "delisted_at": null,
     "categories": [
       "生活雑貨"
     ],
@@ -125485,7 +125485,7 @@
     "max_price": 11000,
     "published_at": "2022-08-08T20:50:36+09:00",
     "is_available": false,
-    "delisted_at": "2026-09-07T10:00:47.511Z",
+    "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "アパレル・アパレル小物",
