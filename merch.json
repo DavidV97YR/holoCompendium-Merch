@@ -1,5 +1,257 @@
 [
   {
+    "product_id": "9594306101468",
+    "handle": "tokoyamitowa_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 常闇トワ",
+    "title_en": "hololive friends poutique Fun!hat Tokoyami Towa",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_常闇トワ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_常闇トワ"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_towa_1788331890.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594305085660",
+    "handle": "yukihanalamy_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 雪花ラミィ",
+    "title_en": "hololive friends poutique Fun!hat Yukihana Lamy",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_雪花ラミィ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_雪花ラミィ"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yukihanalamy_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_lamy_1788331138.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594303938780",
+    "handle": "tsunomakiwatame_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 角巻わため",
+    "title_en": "hololive friends poutique Fun!hat Tsunomaki Watame",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_角巻わため"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_角巻わため"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_watame_1788320351.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594277855452",
+    "handle": "inugamikorone_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 戌神ころね",
+    "title_en": "hololive friends poutique Fun!hat Inugami Korone",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_戌神ころね"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_戌神ころね"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_korone_1788314240.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594275725532",
+    "handle": "oozorasubaru_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 大空スバル",
+    "title_en": "hololive friends poutique Fun!hat Oozora Subaru",
+    "tags_jp": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_大空スバル"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_大空スバル"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/oozorasubaru_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_subaru_1788312732.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594272252124",
+    "handle": "natsuiromatsuri_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット 夏色まつり",
+    "title_en": "hololive friends poutique Fun!hat Natsuiro Matsuri",
+    "tags_jp": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_夏色まつり"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ1期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_夏色まつり"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/natsuiromatsuri_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_matsuri_1788312017.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9594269270236",
+    "handle": "robocosan_hololivefriendspoutique_funhat",
+    "title_jp": "hololive friends poutique Fun!ハット ロボ子さん",
+    "title_en": "hololive friends poutique Fun!hat Robocosan",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_ロボ子さん"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "hololivefriendspoutique",
+      "Recommended_MERCH",
+      "Recommended_定番商品",
+      "Talent_ロボ子さん"
+    ],
+    "categories": [
+      "ぬいぐるみ"
+    ],
+    "merch_categories": [
+      "hololive friends poutique"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/robocosan_hololivefriendspoutique_funhat/ly_hololive_friends_poutique_vol4_en_robocosan_1788311327.webp"
+    ],
+    "min_price": 1200,
+    "max_price": 1200,
+    "published_at": "2026-09-07T18:30:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9594446053596",
     "handle": "hololive_7thfes_ridinondreams_bluray",
     "title_jp": "hololive 7th fes. Ridin' on Dreams Blu-ray",
@@ -2858,7 +3110,7 @@
     "min_price": 1100,
     "max_price": 11880,
     "published_at": "2026-08-05T18:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3090,7 +3342,7 @@
     "min_price": 500,
     "max_price": 12000,
     "published_at": "2026-08-01T22:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3134,7 +3386,7 @@
     "min_price": 3850,
     "max_price": 17600,
     "published_at": "2026-08-01T21:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3172,7 +3424,7 @@
     "min_price": 22000,
     "max_price": 22000,
     "published_at": "2026-07-31T12:00:07+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3212,7 +3464,7 @@
     "min_price": 22000,
     "max_price": 22000,
     "published_at": "2026-07-31T12:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
