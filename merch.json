@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "9593794953436",
+    "handle": "usadapekora_nendoroid_rerelease",
+    "title_jp": "【再販】ねんどろいど 兎田ぺこら",
+    "title_en": "[Rerelease] Nendoroid Usada Pekora",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_兎田ぺこら",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "lo_gsc",
+      "Recommended_MERCH",
+      "Talent_兎田ぺこら",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/usadapekora_nendoroid_rerelease/ly_nendoroid_usada_pekora_sp_en_1788426785.webp"
+    ],
+    "min_price": 7500,
+    "max_price": 7500,
+    "published_at": "2026-09-08T12:30:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9301034696924",
     "handle": "hololiveproduction_anniversary_9th",
     "title_jp": "ホロライブプロダクション 9周年記念",
