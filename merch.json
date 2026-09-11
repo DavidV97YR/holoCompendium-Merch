@@ -77462,8 +77462,8 @@
     "min_price": 1000,
     "max_price": 1000,
     "published_at": "2024-06-23T13:35:02+09:00",
-    "is_available": false,
-    "delisted_at": "2026-09-07T10:30:45.145Z",
+    "is_available": true,
+    "delisted_at": null,
     "categories": [
       "ボイス"
     ],
@@ -102599,7 +102599,7 @@
     "max_price": 1000,
     "published_at": "2023-09-10T22:00:02+09:00",
     "is_available": false,
-    "delisted_at": "2026-09-07T10:00:47.511Z",
+    "delisted_at": null,
     "categories": [
       "ボイス"
     ],
