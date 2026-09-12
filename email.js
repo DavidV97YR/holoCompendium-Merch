@@ -270,6 +270,10 @@ export async function sendBroadcast(products, log = console.log, opts = {}) {
     headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
       segment_id: segment,
+      // `name` is the label in Resend's Broadcasts list, separate from the
+      // subject line recipients see. Without it every entry reads "Untitled",
+      // which makes the list useless once there's more than one.
+      name: `${subject} · ${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}`,
       from, subject,
       html: buildHtml(products, { list: true }),
       text: buildText(products) + '\nUnsubscribe: ' + UNSUB + '\n',
