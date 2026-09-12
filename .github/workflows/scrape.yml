@@ -10,10 +10,12 @@ on:
     types: [scrape]
 
   # Manual trigger from the Actions tab (also used for the backfill modes)
+  # Tick at most ONE backfill. scraper.js checks --backfill-en first, so with
+  # both ticked the taxonomy backfill is silently skipped.
   workflow_dispatch:
     inputs:
       backfill_en:
-        description: 'Backfill all existing product images to R2 as WebP (one-time)'
+        description: 'Re-scan every product for missing EN images and upload to R2 as WebP'
         type: boolean
         default: false
       backfill_categories:
