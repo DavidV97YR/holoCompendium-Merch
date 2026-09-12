@@ -22,6 +22,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import sharp from 'sharp';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { sendNewProductEmail } from './email.js';
 
 const BASE_JP    = 'https://shop.hololivepro.com';
 const BASE_EN    = 'https://shop.hololivepro.com/en';
@@ -598,6 +599,9 @@ async function main() {
   let newCount     = 0;
   let updatedCount = 0;
 
+  // Entries created this run, for the notification email.
+  const freshProducts = [];
+
   // 4. Archive images for new products, AND top up any recent product whose
   //    images[] is still short of what the shop lists.
   //
@@ -661,6 +665,7 @@ async function main() {
       });
 
       existingMap.set(p.product_id, existing[existing.length - 1]);
+      freshProducts.push(existing[existing.length - 1]);
       newCount++;
     }
   }
@@ -737,6 +742,15 @@ async function main() {
   // Awaited: commitChanges also uploads merch.json to R2, and without the await
   // a failure there surfaced as an unhandled rejection instead of a caught error.
   await commitChanges(newCount, updatedCount);
+
+  // After the commit, so an email never announces something that failed to
+  // persist. Wrapped because a mail outage must not fail an otherwise good run —
+  // the data is already saved by this point.
+  try {
+    await sendNewProductEmail(freshProducts, log);
+  } catch (err) {
+    log(`⚠ New-product email failed (data is safe): ${err.message}`);
+  }
   log(`── Done. ${newCount} new, ${updatedCount} updated ──`);
 }
 
