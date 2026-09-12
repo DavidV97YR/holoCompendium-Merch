@@ -194,11 +194,12 @@ function buildHtml(products, opts) {
     <tr><td align="center" style="padding:14px 0 0 0;border-top:1px solid ${C.border};">
       <a href="${SITE}" style="color:${C.accent};font-family:${FONT};font-size:14px;font-weight:600;text-decoration:none;">
         Browse the full archive →</a>
-      <div style="color:${C.muted};font-family:${FONT};font-size:12px;margin-top:12px;line-height:1.6;">
-        ${list
-          ? `You're getting this because you signed up for new merch alerts at holocompendium.cc.<br>
-             <a href="${UNSUB}" style="color:${C.muted};text-decoration:underline;">Unsubscribe</a>`
-          : 'Sent automatically when the merch scraper finds something new.'}</div>
+      ${list ? `<div style="margin-top:14px;">
+        <a href="${UNSUB}"
+           style="display:inline-block;color:${C.muted};font-family:${FONT};font-size:12px;font-weight:600;
+                  text-decoration:none;padding:8px 18px;border:1px solid ${C.border};border-radius:7px;">
+          Unsubscribe</a>
+      </div>` : ''}
     </td></tr>
 
   </table>
