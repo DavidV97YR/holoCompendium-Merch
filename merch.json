@@ -1,5 +1,81 @@
 [
   {
+    "product_id": "9608385954012",
+    "handle": "hakuikoyori_2ndalbum_chemicalspark_regular",
+    "title_jp": "博衣こより 2nd Album『Chemical Spark』通常盤",
+    "title_en": "Hakui Koyori 2nd Album \"Chemical Spark\" Regular Edition",
+    "tags_jp": [
+      "2ndal_chemicalspark",
+      "_ng_with_normal_group:HakuiKoyori_AL0912",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "tags_en": [
+      "2ndal_chemicalspark",
+      "_ng_with_normal_group:HakuiKoyori_AL0912",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_2ndalbum_chemicalspark_regular/ly_260912_hakuikoyori_2ndal_reg_sq01_en_1789108129.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_2ndalbum_chemicalspark_regular/ly_260912_hakuikoyori_2ndal_reg_sq02_en_1789108144.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 3850,
+    "published_at": "2026-09-12T21:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9608014692572",
+    "handle": "hakuikoyori_2ndalbum_chemicalspark_limited",
+    "title_jp": "博衣こより 2nd Album『Chemical Spark』完全生産限定盤",
+    "title_en": "Hakui Koyori 2nd Album \"Chemical Spark\" Limited Edition",
+    "tags_jp": [
+      "2ndal_chemicalspark",
+      "_codegen",
+      "_ng_with_normal_group:HakuiKoyori_AL0912",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "tags_en": [
+      "2ndal_chemicalspark",
+      "_codegen",
+      "_ng_with_normal_group:HakuiKoyori_AL0912",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_2ndalbum_chemicalspark_limited/ly_260912_hakuikoyori_2ndal_limited_sq01_en_1789108076.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_2ndalbum_chemicalspark_limited/ly_260912_hakuikoyori_2ndal_limited_sq02_en_1789108092.webp"
+    ],
+    "min_price": 13200,
+    "max_price": 13200,
+    "published_at": "2026-09-12T21:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9609561735388",
     "handle": "regloss_anniversary_3rd",
     "title_jp": "ReGLOSS 3周年記念",
@@ -32,7 +108,20 @@
     "merch_categories": [
       "ユニット記念グッズ"
     ],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd/holo_ReGLOSS_3th_banner_EN_260819_ol_13.webp"
+    ],
     "min_price": 550,
     "max_price": 3300,
     "published_at": "2026-09-12T20:00:03+09:00",
@@ -239,7 +328,9 @@
       "デジタルコンテンツ"
     ],
     "images": [
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd_voicepack/ly_20260910_regloss3rdanniversaryvoicepack_2_en_1788747645.webp"
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd_voicepack/ly_20260910_regloss3rdanniversaryvoicepack_2_en_1788747645.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd_voicepack/20260910_ReGLOSS3rdAnniversaryVoicePack_3_en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_anniversary_3rd_voicepack/20260910_ReGLOSS3rdAnniversaryVoicePack_4_en.webp"
     ],
     "min_price": 2000,
     "max_price": 4000,
