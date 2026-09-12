@@ -155,7 +155,13 @@ function cardHtml(p) {
   </table>`;
 }
 
-function buildHtml(products) {
+// Resend swaps this token for a per-recipient unsubscribe URL when the mail is
+// sent as a broadcast. A broadcast without one is rejected, and a public list
+// legally needs it anyway.
+const UNSUB = '{{{RESEND_UNSUBSCRIBE_URL}}}';
+
+function buildHtml(products, opts) {
+  const list   = opts && opts.list;
   const shown  = products.slice(0, MAX_CARDS);
   const extra  = products.length - shown.length;
   const heading = products.length === 1
@@ -189,7 +195,10 @@ function buildHtml(products) {
       <a href="${SITE}" style="color:${C.accent};font-family:${FONT};font-size:14px;font-weight:600;text-decoration:none;">
         Browse the full archive →</a>
       <div style="color:${C.muted};font-family:${FONT};font-size:12px;margin-top:12px;line-height:1.6;">
-        Sent automatically when the merch scraper finds something new.</div>
+        ${list
+          ? `You're getting this because you signed up for new merch alerts at holocompendium.cc.<br>
+             <a href="${UNSUB}" style="color:${C.muted};text-decoration:underline;">Unsubscribe</a>`
+          : 'Sent automatically when the merch scraper finds something new.'}</div>
     </td></tr>
 
   </table>
@@ -236,6 +245,46 @@ export async function sendNewProductEmail(products, log = console.log) {
 
   if (!res.ok) throw new Error(`Resend HTTP ${res.status}: ${(await res.text()).slice(0, 300)}`);
   log(`Emailed ${products.length} new product${products.length === 1 ? '' : 's'} to ${to}`);
+}
+
+// Sends the same digest to everyone on the public signup list, as a Resend
+// broadcast. Separate from sendNewProductEmail so the direct mail to the owner
+// still goes out even if the list send fails — and so the list is optional:
+// with RESEND_AUDIENCE_ID unset this is a no-op and nothing else changes.
+export async function sendBroadcast(products, log = console.log) {
+  if (!products?.length) return;
+
+  const key      = process.env.RESEND_API_KEY;
+  const audience = process.env.RESEND_AUDIENCE_ID;
+  const from     = process.env.MAIL_FROM;
+  if (!key || !audience || !from) return;   // list not set up — stay quiet
+
+  const subject = products.length === 1
+    ? `New: ${products[0].title_en}`
+    : `${products.length} new hololive products`;
+
+  const create = await fetch('https://api.resend.com/broadcasts', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      audience_id: audience,
+      from, subject,
+      html: buildHtml(products, { list: true }),
+      text: buildText(products) + '\nUnsubscribe: ' + UNSUB + '\n',
+    }),
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!create.ok) throw new Error(`Broadcast create HTTP ${create.status}: ${(await create.text()).slice(0, 200)}`);
+
+  const { id } = await create.json();
+  const send = await fetch(`https://api.resend.com/broadcasts/${id}/send`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}` },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!send.ok) throw new Error(`Broadcast send HTTP ${send.status}: ${(await send.text()).slice(0, 200)}`);
+
+  log(`Broadcast ${id} sent to the subscriber list`);
 }
 
 // Exported for the local preview script.

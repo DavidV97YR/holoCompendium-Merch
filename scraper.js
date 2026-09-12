@@ -22,7 +22,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import sharp from 'sharp';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
-import { sendNewProductEmail } from './email.js';
+import { sendNewProductEmail, sendBroadcast } from './email.js';
 
 const BASE_JP    = 'https://shop.hololivepro.com';
 const BASE_EN    = 'https://shop.hololivepro.com/en';
@@ -750,6 +750,14 @@ async function main() {
     await sendNewProductEmail(freshProducts, log);
   } catch (err) {
     log(`⚠ New-product email failed (data is safe): ${err.message}`);
+  }
+
+  // The public signup list, if one is configured. Caught separately so a
+  // broadcast failure never costs you the direct email above.
+  try {
+    await sendBroadcast(freshProducts, log);
+  } catch (err) {
+    log(`⚠ Subscriber broadcast failed (data is safe): ${err.message}`);
   }
   log(`── Done. ${newCount} new, ${updatedCount} updated ──`);
 }
