@@ -4,12 +4,13 @@
 // Per-run logic:
 //   • Fetches all products from shop.hololivepro.com (JP + EN in parallel)
 //   • Compares against existing merch.json (keyed by product_id)
-//   • NEW products only:
-//       - Looks up the Langify EN image URL for each JP image URL
+//   • NEW products, and any product published within IMAGE_RETRY_DAYS whose
+//     images[] is shorter than the shop's image list:
+//       - Resolves each JP image to an EN one, Langify first then CDN twin
 //       - If EN URL found  → convert to WebP q80, upload to R2
 //       - If no EN URL     → skip that image (EN only, no JP fallback)
-//       - product_id in merch.json is the deduplication gate — no HeadObject calls
-//   • EXISTING products: only syncs is_available / delisted_at
+//       - Images already in R2 are reused, not re-uploaded
+//   • EXISTING products: syncs is_available / delisted_at
 //   • Skips commit if nothing changed
 
 import fs   from 'fs';
@@ -22,6 +23,13 @@ const BASE_JP    = 'https://shop.hololivepro.com';
 const BASE_EN    = 'https://shop.hololivepro.com/en';
 const MERCH_FILE = 'merch.json';
 const IMAGES_DIR = 'Products';
+
+// Langify publishes a product's EN artwork hours — sometimes days — after the
+// product itself goes live, so the first scrape to see a product can honestly
+// find no EN images at all. Scheduled runs keep retrying anything still short
+// of a full image set for this long after publication. Older gaps are swept on
+// demand by `node scraper.js --backfill-en`, which ignores this window.
+const IMAGE_RETRY_DAYS = 30;
 
 // ─── R2 client ─────────────────────────────────────────────────────────
 // GitHub Actions secrets required:
@@ -141,11 +149,111 @@ async function fetchEnImageMap() {
   }
 }
 
-// Returns the Langify EN CDN URL for a JP image URL, or null if not mapped.
-// Always pass a JP image URL — the key is derived from the JP filename.
-function getEnUrl(jpImgUrl, enMap) {
-  const key = jpImgUrl.split('/').pop().split('?')[0].toLowerCase();
-  return enMap.get(key) ?? null;
+// ─── EN image resolution ──────────────────────────────────────────────────────
+// Cover publishes EN artwork two different ways, and both have to be checked:
+//
+//   1. Langify translation — a re-hosted copy named ly_<slug>_<timestamp>.png,
+//      registered in the customContents_image dump on the EN homepage.
+//   2. Cover's own upload — the SAME Shopify CDN folder, same filename with the
+//      language token swapped (…_JP_… → …_EN_…, …_jp.png → …_en.png). The
+//      storefront theme picks these up through its productImgEn field; they are
+//      never registered with Langify.
+//
+// Path 2 used to be invisible here, which is why a product whose EN art was
+// uploaded directly archived with an empty images[] while the EN files sat on
+// the CDN the whole time — regloss_anniversary_3rd had all 12 of them.
+
+// The JP→EN filename twin, or null if the name carries no language token.
+function enTwinUrl(jpImgUrl) {
+  const base = jpImgUrl.split('?')[0];
+  const cut  = base.lastIndexOf('/');
+  const file = base.slice(cut + 1);
+  // A separator is required on BOTH sides so bilingual names survive intact:
+  // 0314_Kuronii_Banner_SQ_JPEN_shusei1.png must not become …_ENEN_….
+  const swapped = file
+    .replace(/([_-])JP([_.-])/g, '$1EN$2')
+    .replace(/([_-])jp([_.-])/g, '$1en$2');
+  return swapped === file ? null : base.slice(0, cut + 1) + swapped;
+}
+
+// HEAD probes are cached for the run — the same twin is re-checked on every
+// retry pass, and most products share a naming batch.
+const twinCache = new Map();
+
+async function cdnExists(url) {
+  if (twinCache.has(url)) return twinCache.get(url);
+  let ok = false;
+  for (let i = 0; i < 2; i++) {
+    const res = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(15_000) }).catch(() => null);
+    // A 404 is a definitive answer — only a network error is worth retrying.
+    if (res) { ok = res.ok; break; }
+    await sleep(500);
+  }
+  twinCache.set(url, ok);
+  return ok;
+}
+
+// Langify first (it's authoritative and free — already in memory), then the
+// CDN twin. Always pass a JP image URL; both lookups key off the JP filename.
+async function resolveEnUrl(jpImgUrl, enMap) {
+  const key     = jpImgUrl.split('/').pop().split('?')[0].toLowerCase();
+  const langify = enMap.get(key);
+  if (langify) return langify;
+
+  const twin = enTwinUrl(jpImgUrl);
+  if (twin && await cdnExists(twin)) return twin;
+
+  return null;
+}
+
+// Resolves and uploads a product's EN images, reusing anything already in R2.
+// Returns images in source order; it never returns fewer URLs than were already
+// archived, so a transient failure mid-retry cannot shrink a product's gallery.
+async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
+  const have = alreadyArchived || [];
+  const hset = new Set(have);
+
+  const results = await inChunks(
+    jpImages.map((jpUrl, i) => ({ jpUrl, i })),
+    5,
+    async ({ jpUrl, i }) => {
+      const enUrl = await resolveEnUrl(jpUrl, enMap);
+      if (!enUrl) {
+        log(`  [${handle}] image ${i}: no EN version (Langify or CDN twin) — skipping`);
+        return null;
+      }
+
+      const key       = r2KeyFor(handle, enUrl);
+      const publicUrl = `${R2_PUBLIC_URL}/${key}`;
+      if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
+
+      try {
+        await uploadToR2(enUrl, key);
+        log(`  [${handle}] ↑ ${key}`);
+        return publicUrl;
+      } catch (err) {
+        log(`  [${handle}] ⚠ image ${i} failed: ${err.message}`);
+        return null;
+      }
+    }
+  );
+
+  let images = results.filter(Boolean);
+
+  // Never regress: if this pass resolved less than we already had, keep the old
+  // URLs too rather than writing a shorter gallery than the one we started with.
+  if (images.length < have.length) {
+    log(`  [${handle}] ⚠ resolved ${images.length} but ${have.length} archived — keeping existing`);
+    images = images.concat(have.filter(u => !images.includes(u)));
+  }
+
+  return images;
+}
+
+// Scheduled runs only chase recent gaps; --backfill-en passes ignoreAge.
+function shouldRetryImages(publishedAt) {
+  const t = Date.parse(publishedAt || '');
+  return Number.isFinite(t) && (Date.now() - t) < IMAGE_RETRY_DAYS * 86_400_000;
 }
 
 // ─── Merch taxonomies (type + category) ──────────────────────────────────────
@@ -406,39 +514,39 @@ async function main() {
   let newCount     = 0;
   let updatedCount = 0;
 
-  // 4. Process NEW products only (skipped entirely if EN map is empty)
+  // 4. Archive images for new products, AND top up any recent product whose
+  //    images[] is still short of what the shop lists.
+  //
+  //    Presence of the product_id used to be the only gate, on the assumption
+  //    that "if it's here, its images are in R2". That assumption is false:
+  //    Langify often hasn't produced a new product's EN artwork yet when the
+  //    first scrape runs, so the product was archived with a partial or empty
+  //    images[] and the gate then guaranteed it was never looked at again.
+  //    Comparing against the live image count is what makes a momentary miss
+  //    recoverable instead of permanent.
   if (enImageMap.size > 0) {
     for (const p of shopifyProducts) {
-      // Already archived — skip, zero R2 calls
-      if (existingMap.has(p.product_id)) continue;
+      const archived = existingMap.get(p.product_id);
+      const have     = archived ? (archived.images || []).length : 0;
 
-      log(`New product: ${p.title_en} (${p.product_id})`);
+      if (archived) {
+        if (have >= p.jp_images.length) continue;           // complete
+        if (!shouldRetryImages(p.published_at)) continue;   // too old for scheduled runs
+        log(`Incomplete: ${p.title_en} — ${have}/${p.jp_images.length} images, retrying`);
+      } else {
+        log(`New product: ${p.title_en} (${p.product_id})`);
+      }
 
-      // Upload images 5 at a time to avoid hammering R2/CDN on large drops.
-      // inChunks returns results in the same order as jp_images (order preserved).
-      // fn returns null for skipped/failed images; filter(Boolean) removes them.
-      const archivedImages = (await inChunks(
-        p.jp_images.map((jpUrl, i) => ({ jpUrl, i })),
-        5,
-        async ({ jpUrl, i }) => {
-          // EN-only: skip if Langify has no EN version for this JP image
-          const enUrl = getEnUrl(jpUrl, enImageMap);
-          if (!enUrl) {
-            log(`  Image ${i}: no EN mapping — skipping`);
-            return null;
-          }
+      const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images);
 
-          const key = r2KeyFor(p.handle, enUrl);
-          try {
-            const publicUrl = await uploadToR2(enUrl, key);
-            log(`  ↑ ${key}`);
-            return publicUrl;
-          } catch (err) {
-            log(`  ⚠ Failed image ${i} (${enUrl}): ${err.message}`);
-            return null; // not stored — only confirmed R2 uploads go into images[]
-          }
+      if (archived) {
+        if (images.length > have) {
+          archived.images = images;
+          log(`  → ${have} → ${images.length} images`);
+          updatedCount++;
         }
-      )).filter(Boolean);
+        continue;
+      }
 
       // jp_images intentionally omitted from the stored entry
       existing.push({
@@ -450,7 +558,7 @@ async function main() {
         tags_en:      p.tags_en,
         categories:       [],   // filled by the taxonomy sync below
         merch_categories: [],   // filled by the taxonomy sync below
-        images:       archivedImages,
+        images,
         min_price:    p.min_price,
         max_price:    p.max_price,
         published_at: p.published_at,
@@ -535,8 +643,10 @@ async function main() {
   );
   log(`Wrote merch.json (${existing.length} total products)`);
 
-  // 8. Commit merch.json only — images live in R2
-  commitChanges(newCount, updatedCount);
+  // 8. Commit merch.json only — images live in R2.
+  // Awaited: commitChanges also uploads merch.json to R2, and without the await
+  // a failure there surfaced as an unhandled rejection instead of a caught error.
+  await commitChanges(newCount, updatedCount);
   log(`── Done. ${newCount} new, ${updatedCount} updated ──`);
 }
 
@@ -579,10 +689,7 @@ async function backfillEnImages() {
   let batchCount      = 0;
 
   for (const product of existing) {
-    // Skip if already pointing to R2
-    if ((product.images || []).every(u => u.startsWith(R2_PUBLIC_URL))) continue;
-
-    // Get JP image URLs from the live catalog for Langify key lookup.
+    // Get JP image URLs from the live catalog for EN lookup.
     // Products fully delisted from Shopify won't be in jpImagesByHandle —
     // they're skipped here and will retain stale image URLs permanently.
     const jpImages = jpImagesByHandle.get(product.handle);
@@ -591,35 +698,27 @@ async function backfillEnImages() {
       continue;
     }
 
-    // inChunks preserves order; null = no EN mapping or upload failed
-    const updatedImages = (await inChunks(
-      jpImages.map((jpUrl, i) => ({ jpUrl, i })),
-      5,
-      async ({ jpUrl, i }) => {
-        const enUrl = getEnUrl(jpUrl, enImageMap);
-        if (!enUrl) {
-          log(`  [${product.handle}] Image ${i}: no EN mapping — skipping`);
-          return null;
-        }
+    // The old check was `images.every(u => u.startsWith(R2_PUBLIC_URL))`, which
+    // is vacuously TRUE for an empty array — so every product that archived
+    // with zero images was skipped by the one pass meant to repair it, and the
+    // count check below is what actually makes partial galleries reachable.
+    const imgs = product.images || [];
+    if (imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL))) continue;
 
-        const key = r2KeyFor(product.handle, enUrl);
-        try {
-          const publicUrl = await uploadToR2(enUrl, key);
-          log(`  [${product.handle}] ↑ ${key}`);
-          return publicUrl;
-        } catch (err) {
-          log(`  [${product.handle}] ⚠ Failed image ${i}: ${err.message}`);
-          return null;
-        }
-      }
-    )).filter(Boolean);
+    const before        = imgs.length;
+    const updatedImages = await archiveImages(product.handle, jpImages, enImageMap, imgs);
+
+    if (updatedImages.length === before && updatedImages.every((u, i) => u === imgs[i])) {
+      log(`[${product.handle}] still ${before}/${jpImages.length} — no EN version available yet`);
+      continue;
+    }
 
     product.images = updatedImages;
     delete product.images_en; // remove legacy field if present
 
     backfilledCount++;
     batchCount++;
-    log(`Backfilled ${updatedImages.length} images for ${product.title_en}`);
+    log(`Backfilled ${product.title_en}: ${before} → ${updatedImages.length}/${jpImages.length} images`);
 
     if (batchCount >= BATCH_SIZE) {
       existing.sort((a, b) => b.published_at.localeCompare(a.published_at));
