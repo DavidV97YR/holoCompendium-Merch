@@ -68,8 +68,13 @@ jobs:
           # New-product notification. If these are unset the scraper just logs
           # that email isn't configured and carries on.
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          # MAIL_TO is the owner's own copy and is optional — leave the secret
+          # unset and that direct email is simply skipped. Subscribers are
+          # reached by the broadcast below, not by this.
           MAIL_TO:        ${{ secrets.MAIL_TO }}
           MAIL_FROM:      ${{ secrets.MAIL_FROM }}
+          # The public signup list. Unset = no broadcast, everything else works.
+          RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
           # Card layout: unset/'gallery' = cover plus up to four more of the
           # product's images, 'hero' = cover only. Set it as a repo VARIABLE
           # (Settings → Variables), not a secret.
