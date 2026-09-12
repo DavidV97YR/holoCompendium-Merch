@@ -35,6 +35,15 @@ const IMAGES_DIR = 'Products';
 // demand by `node scraper.js --backfill-en`, which ignores this window.
 const IMAGE_RETRY_DAYS = 30;
 
+// The Langify dump has measured byte-identical at ~13,570 entries across
+// repeated fetches, so a materially shorter one means the EN page rendered
+// wrong rather than that Cover removed translations. Proceeding on a short map
+// is the dangerous case: every image missing from it resolves to the product's
+// own artwork, the product then counts as complete, and the genuine EN image is
+// lost. Bailing costs one skipped run; guessing costs the image permanently.
+const EXPECTED_EN_MAPPINGS = 13570;
+const MIN_EN_MAPPINGS      = 10000;
+
 // ─── R2 client ─────────────────────────────────────────────────────────
 // GitHub Actions secrets required:
 //   R2_ACCOUNT_ID  – Cloudflare account ID
@@ -192,17 +201,26 @@ function enTwinUrl(jpImgUrl) {
 // retry pass, and most products share a naming batch.
 const twinCache = new Map();
 
+// true = present, false = definitively absent, null = we could not find out.
+//
+// The null case is the important one. Only 404/410 mean "this file isn't
+// there"; a 429 or 5xx means the CDN declined to answer. Recording that as
+// absent would send the caller to the product's own artwork, the product would
+// then look complete, and the real EN image would be lost for good. So an
+// unknown result is never cached and never treated as a no.
 async function cdnExists(url) {
   if (twinCache.has(url)) return twinCache.get(url);
-  let ok = false;
-  for (let i = 0; i < 2; i++) {
+
+  let result = null;
+  for (let i = 0; i < 3; i++) {
     const res = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(15_000) }).catch(() => null);
-    // A 404 is a definitive answer — only a network error is worth retrying.
-    if (res) { ok = res.ok; break; }
-    await sleep(500);
+    if (res && res.ok) { result = true; break; }
+    if (res && (res.status === 404 || res.status === 410)) { result = false; break; }
+    await sleep(1000 * (i + 1));  // 429, 5xx or network error — worth another go
   }
-  twinCache.set(url, ok);
-  return ok;
+
+  if (result !== null) twinCache.set(url, result);
+  return result;
 }
 
 // Every source for one image, best first. Pass the product's own image URL;
@@ -219,6 +237,8 @@ async function cdnExists(url) {
 // them still point into a deleted /t/<id>/assets/ theme folder and 404 on
 // download. archiveImages walks the list until something actually fetches, so
 // a dead translation falls through to artwork that exists instead of nothing.
+// Returns null when the twin probe couldn't answer and nothing better is
+// already in hand — the caller then leaves the image alone rather than guessing.
 async function imageCandidates(imgUrl, enMap) {
   const out = [];
 
@@ -226,7 +246,14 @@ async function imageCandidates(imgUrl, enMap) {
   if (langify) out.push(langify);
 
   const twin = enTwinUrl(imgUrl);
-  if (twin && await cdnExists(twin)) out.push(twin);
+  if (twin) {
+    const exists = await cdnExists(twin);
+    if (exists) out.push(twin);
+    // Unknown only matters when the twin was our best remaining hope. With a
+    // Langify render already queued the twin is second choice anyway, so an
+    // unanswered probe costs nothing and we carry on.
+    else if (exists === null && out.length === 0) return null;
+  }
 
   out.push(imgUrl);
   return out;
@@ -243,8 +270,17 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
     5,
     async ({ jpUrl, i }) => {
+      const cands = await imageCandidates(jpUrl, enMap);
+      if (!cands) {
+        // Couldn't establish whether an EN twin exists. Leaving the image out
+        // keeps the product incomplete, so a later run retries it — far better
+        // than archiving the JP original and calling the product done.
+        log(`  [${handle}] image ${i}: EN twin unverifiable — leaving for a later run`);
+        return null;
+      }
+
       // Best source first, falling through on anything that won't fetch.
-      for (const cand of await imageCandidates(jpUrl, enMap)) {
+      for (const cand of cands) {
         const key       = r2KeyFor(handle, cand);
         const publicUrl = `${R2_PUBLIC_URL}/${key}`;
         if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
@@ -547,11 +583,12 @@ async function main() {
   // 3. Fetch Langify EN image map once — covers all products
   const enImageMap = await fetchEnImageMap();
 
-  // Guard: if the EN map is empty, Langify scrape failed or the page changed.
-  // Skip new product processing to avoid committing ghost entries (products
-  // with empty images[] that will never be retried due to the product_id gate).
-  if (enImageMap.size === 0) {
-    log('⚠ EN image map is empty — skipping new product processing this run');
+  // Guard: a short map means the Langify scrape failed or the page changed.
+  // Empty is not the only bad case — a PARTIAL map is worse, because every
+  // image whose translation is missing from it resolves to the product's own
+  // artwork, the product then looks complete, and the real EN image is lost.
+  if (enImageMap.size < MIN_EN_MAPPINGS) {
+    log(`⚠ EN image map has only ${enImageMap.size} entries (expected ~${EXPECTED_EN_MAPPINGS}) — skipping image work this run`);
     log('  Availability sync will still run for existing products.');
   }
 
@@ -571,7 +608,7 @@ async function main() {
   //    images[] and the gate then guaranteed it was never looked at again.
   //    Comparing against the live image count is what makes a momentary miss
   //    recoverable instead of permanent.
-  if (enImageMap.size > 0) {
+  if (enImageMap.size >= MIN_EN_MAPPINGS) {
     for (const p of shopifyProducts) {
       const archived = existingMap.get(p.product_id);
       const have     = archived ? (archived.images || []).length : 0;
@@ -734,8 +771,9 @@ async function backfillEnImages() {
   const jpImagesByHandle = new Map(shopifyProducts.map(p => [p.handle, p.jp_images]));
 
   const enImageMap = await fetchEnImageMap();
-  if (enImageMap.size === 0) {
-    log('⚠ EN image map is empty — aborting backfill');
+  if (enImageMap.size < MIN_EN_MAPPINGS) {
+    log(`⚠ EN image map has only ${enImageMap.size} entries (expected ~${EXPECTED_EN_MAPPINGS}) — aborting backfill`);
+    log('  Proceeding would archive own-artwork fallbacks for products that DO have translations.');
     return;
   }
 
@@ -795,6 +833,15 @@ async function backfillEnImages() {
     execSync('git add merch.json');
     execSync(`git commit -m ${JSON.stringify(`Backfill R2 images (final, ${backfilledCount} total)`)}`);
     execSync('git push');
+  }
+
+  // Publish to R2. The git commit above only updates the private repo, but the
+  // site fetches merch.json from R2 — so without this a backfill uploads every
+  // image and the site still shows the old, image-less entries until some other
+  // run happens to push the manifest.
+  if (backfilledCount > 0) {
+    try { await uploadMerchToR2(); }
+    catch (err) { log(`⚠ R2 upload of merch.json failed: ${err.message}`); }
   }
 
   log(backfilledCount === 0
