@@ -5443,7 +5443,11 @@
       "CD・LP・BD"
     ],
     "merch_categories": [],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiverecords_historycollection/ly_260814_historycollection_secondary_en_02_1786603834.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiverecords_historycollection/ly_260814_historycollection_secondary_en_03_1786603846.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiverecords_historycollection/ly_260814_historycollection_secondary_en_04_1786603869.webp"
+    ],
     "min_price": 17600,
     "max_price": 17600,
     "published_at": "2026-07-16T16:00:06+09:00",
@@ -6651,7 +6655,8 @@
       "OTHERS"
     ],
     "images": [
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_nendoroid/ly_nendoroido_fuwawa_abisugado_mokoko_abisugado_ban_yuanec_yongbana_1080_1080_en_1781770355.webp"
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_nendoroid/ly_nendoroido_fuwawa_abisugado_mokoko_abisugado_ban_yuanec_yongbana_1080_1080_en_1781770355.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_nendoroid/ly_tokuten_en_v2_1782805299.webp"
     ],
     "min_price": 7800,
     "max_price": 7800,
@@ -55709,7 +55714,12 @@
       "受注生産商品"
     ],
     "images": [
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/ly_holo_crimzonruze_of_banner_en_240117_2_1737605609.webp"
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/ly_holo_crimzonruze_of_banner_en_240117_2_1737605609.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/holo_CrimzonRuze_OF_banner_EN_240117_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/holo_CrimzonRuze_OF_banner_EN_240117_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/holo_CrimzonRuze_OF_banner_EN_240117_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/holo_CrimzonRuze_OF_banner_EN_240117_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/crimzonruze_no2025/holo_CrimzonRuze_OF_banner_EN_240117_7.webp"
     ],
     "min_price": 1210,
     "max_price": 6710,
@@ -63749,8 +63759,9 @@
       "Talent_響咲リオナ"
     ],
     "images": [
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivedevis_regularoutfit_acrylicstand/ly_holo_flow_glow_banner_en_1101_ol_2_1730869175.webp",
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivedevis_regularoutfit_acrylicstand/ly_holo_flow_glow_banner_en_1101_ol_3_1730869196.webp"
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivedevis_regularoutfit_acrylicstand/ly_holo_ro_as_banner_en_260723_ol-16_1784882244.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivedevis_regularoutfit_acrylicstand/ly_holo_ro_as_banner_en_260723_ol_13_1784882272.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivedevis_regularoutfit_acrylicstand/ly_holo_ro_as_banner_en_260723_ol_14_1784882292.webp"
     ],
     "min_price": 1760,
     "max_price": 1760,
