@@ -650,13 +650,18 @@ async function main() {
   log(`── Done. ${newCount} new, ${updatedCount} updated ──`);
 }
 
-// ─── EN Image Backfill (one-time) ────────────────────────────────────────────
+// ─── EN Image Backfill (re-runnable repair pass) ─────────────────────────────
 // node scraper.js --backfill-en
 //
-// For products in merch.json whose images[] don't yet point to R2:
-// re-fetches the live JP catalog to get original JP image URLs (needed as
-// Langify lookup keys — old GitHub raw / Shopify CDN URLs won't match),
-// finds EN versions, converts to WebP q80, uploads to R2, commits in batches.
+// Started life as a one-time migration to R2, and is now also the repair pass
+// for image gaps: any product whose images[] is shorter than the shop's list,
+// or that still doesn't point at R2. Re-fetches the live JP catalog for the
+// original JP image URLs (needed as lookup keys — old GitHub raw / Shopify CDN
+// URLs won't match), resolves each to an EN one via Langify then CDN twin,
+// converts to WebP q80, uploads to R2, commits in batches.
+//
+// Unlike scheduled runs this ignores IMAGE_RETRY_DAYS, so it reaches the whole
+// back catalogue rather than only recently published products.
 //
 // Known limitation: products fully delisted from Shopify won't appear in the
 // live catalog, so their JP image URLs can't be retrieved. Those products will
