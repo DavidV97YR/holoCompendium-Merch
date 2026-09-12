@@ -69,8 +69,16 @@ async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return res;
     } catch (err) {
-      if (i === retries - 1) throw err;
-      
+      // A 4xx means the server understood and refused — repeating the request
+      // cannot change the answer, so fail fast. 408 (timeout) and 429 (rate
+      // limited) are the two that DO change on a retry. This matters at volume:
+      // Langify's dump still lists ~600 images under deleted /t/<id>/assets/
+      // theme folders, and retrying each dead one three times with backoff cost
+      // roughly five seconds apiece for nothing.
+      const status = res ? res.status : 0;
+      const definitive = status >= 400 && status < 500 && status !== 408 && status !== 429;
+      if (definitive || i === retries - 1) throw err;
+
       // Extract Retry-After header (in seconds), if present
       const retryAfter = res ? parseInt(res.headers.get('retry-after') || '0', 10) : 0;
       const waitMs = retryAfter > 0 
@@ -373,6 +381,18 @@ function sameCategories(a, b) {
 
 // ─── merch.json I/O ───────────────────────────────────────────────────────
 
+const BY_NEWEST = (a, b) => (b.published_at || '').localeCompare(a.published_at || '');
+
+// Writes merch.json newest-first WITHOUT reordering the caller's array. The
+// backfill writes mid-iteration, and sorting the array a for…of is walking
+// reorders it under the cursor — products get skipped and others visited twice.
+function writeMerch(products) {
+  fs.writeFileSync(
+    path.join(process.cwd(), MERCH_FILE),
+    JSON.stringify([...products].sort(BY_NEWEST), null, 2)
+  );
+}
+
 function loadExistingMerch() {
   const filePath = path.join(process.cwd(), MERCH_FILE);
   if (!fs.existsSync(filePath)) {
@@ -636,11 +656,7 @@ async function main() {
   }
 
   // 7. Write merch.json sorted newest first
-  existing.sort((a, b) => b.published_at.localeCompare(a.published_at));
-  fs.writeFileSync(
-    path.join(process.cwd(), MERCH_FILE),
-    JSON.stringify(existing, null, 2)
-  );
+  writeMerch(existing);
   log(`Wrote merch.json (${existing.length} total products)`);
 
   // 8. Commit merch.json only — images live in R2.
@@ -726,8 +742,7 @@ async function backfillEnImages() {
     log(`Backfilled ${product.title_en}: ${before} → ${updatedImages.length}/${jpImages.length} images`);
 
     if (batchCount >= BATCH_SIZE) {
-      existing.sort((a, b) => b.published_at.localeCompare(a.published_at));
-      fs.writeFileSync(path.join(process.cwd(), MERCH_FILE), JSON.stringify(existing, null, 2));
+      writeMerch(existing);
       execSync('git add merch.json');
       execSync(`git commit -m ${JSON.stringify(`Backfill R2 images (batch, ${backfilledCount} so far)`)}`);
       execSync('git push');
@@ -739,8 +754,7 @@ async function backfillEnImages() {
   }
 
   if (batchCount > 0) {
-    existing.sort((a, b) => b.published_at.localeCompare(a.published_at));
-    fs.writeFileSync(path.join(process.cwd(), MERCH_FILE), JSON.stringify(existing, null, 2));
+    writeMerch(existing);
     execSync('git add merch.json');
     execSync(`git commit -m ${JSON.stringify(`Backfill R2 images (final, ${backfilledCount} total)`)}`);
     execSync('git push');
