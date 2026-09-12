@@ -252,7 +252,7 @@ export async function sendNewProductEmail(products, log = console.log) {
 // still goes out even if the list send fails — and so the list is optional:
 // with RESEND_SEGMENT_ID unset this is a no-op and nothing else changes.
 // (Resend renamed Audiences to Segments; broadcasts take segment_id.)
-export async function sendBroadcast(products, log = console.log) {
+export async function sendBroadcast(products, log = console.log, opts = {}) {
   if (!products?.length) return;
 
   const key     = process.env.RESEND_API_KEY;
@@ -278,6 +278,15 @@ export async function sendBroadcast(products, log = console.log) {
   if (!create.ok) throw new Error(`Broadcast create HTTP ${create.status}: ${(await create.text()).slice(0, 200)}`);
 
   const { id } = await create.json();
+
+  // Draft mode proves the whole broadcast path — segment, sender, rendered HTML
+  // — without mailing real subscribers about a product drop that didn't happen.
+  // The draft sits in Resend → Broadcasts where it can be previewed or deleted.
+  if (opts.draftOnly) {
+    log(`Draft broadcast ${id} created and NOT sent — preview it in Resend → Broadcasts`);
+    return;
+  }
+
   const send = await fetch(`https://api.resend.com/broadcasts/${id}/send`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${key}` },

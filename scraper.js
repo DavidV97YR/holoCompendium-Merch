@@ -933,9 +933,57 @@ async function backfillCategories() {
   log('── Backfill done ──');
 }
 
+// ─── Email test (on demand) ──────────────────────────────────────────────────
+// node scraper.js --test-email      (needs TEST_EMAIL_TO, or falls back to MAIL_TO)
+//
+// A real new-product email only fires when Cover actually drops something, which
+// can be days away — long enough that a broken template or a wrong secret would
+// go unnoticed. This sends the same email, built from the three newest products
+// already in merch.json, to one address on demand.
+//
+// It scrapes nothing and writes nothing: merch.json, R2 and git are untouched.
+
+async function testEmail() {
+  log('── Email test ──');
+
+  const existing = loadExistingMerch();
+  if (!existing.length) { log('merch.json is empty — nothing to build a preview from'); return; }
+
+  const sample = [...existing].sort(BY_NEWEST).slice(0, 3);
+  log('Using the 3 newest products:');
+  sample.forEach(p => log(`   • ${p.title_en} (${(p.images || []).length} images)`));
+
+  const to = process.env.TEST_EMAIL_TO || process.env.MAIL_TO;
+  if (!to) { log('⚠ Neither TEST_EMAIL_TO nor MAIL_TO is set — nowhere to send'); return; }
+
+  // Point the direct email at the test address only, then put MAIL_TO back so
+  // nothing later in the process sees a mutated environment.
+  const prev = process.env.MAIL_TO;
+  process.env.MAIL_TO = to;
+  try {
+    await sendNewProductEmail(sample, log);
+  } catch (err) {
+    log(`⚠ Direct email failed: ${err.message}`);
+  } finally {
+    if (prev === undefined) delete process.env.MAIL_TO; else process.env.MAIL_TO = prev;
+  }
+
+  // Draft only — see sendBroadcast. Subscribers get nothing.
+  try {
+    await sendBroadcast(sample, log, { draftOnly: true });
+  } catch (err) {
+    log(`⚠ Draft broadcast failed: ${err.message}`);
+  }
+
+  log('── Email test done (no data was changed) ──');
+}
+
 // ─── Entry point ────────────────────────────────────────────────────────
 
-const entry = process.argv.includes('--backfill-en')         ? backfillEnImages
+// --test-email is checked first: it's read-only and quick, so if it's somehow
+// combined with a backfill the harmless one wins.
+const entry = process.argv.includes('--test-email')          ? testEmail
+            : process.argv.includes('--backfill-en')         ? backfillEnImages
             : process.argv.includes('--backfill-categories') ? backfillCategories
             : main;
 entry().catch(err => {
