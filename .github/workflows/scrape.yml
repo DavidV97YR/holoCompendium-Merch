@@ -22,6 +22,10 @@ on:
         description: 'Backfill merch type/category taxonomies for all products (one-time, ~45-60 min)'
         type: boolean
         default: false
+      test_email:
+        description: 'Email a sample new-product alert to this address (leave blank for a normal run). Scrapes nothing, changes nothing.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -58,7 +62,7 @@ jobs:
       # false). Plain truthiness also handles repository_dispatch, where the
       # inputs context is empty.
       - name: Run scraper
-        run: node scraper.js ${{ inputs.backfill_en && '--backfill-en' || '' }} ${{ inputs.backfill_categories && '--backfill-categories' || '' }}
+        run: node scraper.js ${{ inputs.test_email && '--test-email' || '' }} ${{ inputs.backfill_en && '--backfill-en' || '' }} ${{ inputs.backfill_categories && '--backfill-categories' || '' }}
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
@@ -79,3 +83,5 @@ jobs:
           # product's images, 'hero' = cover only. Set it as a repo VARIABLE
           # (Settings → Variables), not a secret.
           EMAIL_LAYOUT:   ${{ vars.EMAIL_LAYOUT }}
+          # Only set by the manual test above; empty on every scheduled run.
+          TEST_EMAIL_TO:  ${{ inputs.test_email }}
