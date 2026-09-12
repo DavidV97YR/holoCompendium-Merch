@@ -137396,7 +137396,15 @@
       "Recommended_MERCH",
       "Talent_白上フブキ"
     ],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021_BOOTH__fix.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix_98d6320d-d131-49f4-8e84-c7c4dd407276.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix_d76cec1f-d4f5-4b25-a390-c6f891adea7b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix_8fb89ca5-c6a1-4cc0-ba9f-ba2427e8a01b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_bd2021/1006__2021___fix_cfd3535d-3521-4c14-81c1-2a92037de2a4.webp"
+    ],
     "min_price": 1000,
     "max_price": 5500,
     "published_at": "2021-10-06T21:50:04+09:00",
@@ -137476,7 +137484,21 @@
       "Talent_紫咲シオン",
       "Talent_雪花ラミィ"
     ],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC__BOOTH__fix_575b1047-111b-44e3-afa0-dda4eeb9a758.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___NEXT_fix_ba4fa12f-1f27-49f6-b4d4-1ac7153692a8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___T__fix_6fef4576-c67c-4057-9a90-ae8172f05ffd.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC____fix_5036b6c8-86fa-4bbf-bfa5-aa8d9ed6701a.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC____fix_19545ed0-7241-485c-b54c-dcb0755f2273.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC______fix_5cf2ca5b-87ee-4924-b1fc-847185418fb8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___1_fix_5df3acd2-5a64-40e5-880b-aab13c695d1a.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___2_fix_2a3da96a-6fcc-41e9-9816-2a9009c96303.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___3_fix_255ce417-48de-4eff-9a27-a6d1f7bd866b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___4_fix_45992fb2-2a13-420a-a195-b9fdb46f4705.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___5_fix_7cbe3c8b-7042-4017-bd81-8883825ea21b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC___6_fix_951dcf99-5bd9-487c-bc12-668754d2a2f5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/bloom-old/0823_Bloom_EC____fix_fix_e30fb47b-267c-4577-93f0-62c6fe162a5e.webp"
+    ],
     "min_price": 800,
     "max_price": 4500,
     "published_at": "2021-09-10T19:00:00+09:00",
