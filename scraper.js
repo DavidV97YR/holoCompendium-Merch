@@ -6,10 +6,14 @@
 //   • Compares against existing merch.json (keyed by product_id)
 //   • NEW products, and any product published within IMAGE_RETRY_DAYS whose
 //     images[] is shorter than the shop's image list:
-//       - Resolves each JP image to an EN one, Langify first then CDN twin
-//       - If EN URL found  → convert to WebP q80, upload to R2
-//       - If no EN URL     → skip that image (EN only, no JP fallback)
+//       - Resolves each image best-source-first: Langify EN render, then
+//         Cover's EN twin on the CDN, then the product's own artwork
+//       - Bilingual products therefore archive their EN images; single-language
+//         products archive the one version they have, JP or EN
+//       - Whatever wins is converted to WebP q80 and uploaded to R2
 //       - Images already in R2 are reused, not re-uploaded
+//       - A product still on its own artwork is re-checked while it's inside
+//         IMAGE_RETRY_DAYS, so a late Langify translation still gets picked up
 //   • EXISTING products: syncs is_available / delisted_at
 //   • Skips commit if nothing changed
 
@@ -201,17 +205,31 @@ async function cdnExists(url) {
   return ok;
 }
 
-// Langify first (it's authoritative and free — already in memory), then the
-// CDN twin. Always pass a JP image URL; both lookups key off the JP filename.
-async function resolveEnUrl(jpImgUrl, enMap) {
-  const key     = jpImgUrl.split('/').pop().split('?')[0].toLowerCase();
-  const langify = enMap.get(key);
-  if (langify) return langify;
+// Every source for one image, best first. Pass the product's own image URL;
+// both EN lookups key off its filename.
+//
+//   1. Langify translation     — the EN render of a bilingual product
+//   2. Cover's EN twin on CDN  — same thing, uploaded directly by Cover
+//   3. the product's own image — for a SINGLE-language product this is the only
+//      artwork that exists, and it is the correct one either way: Japanese for
+//      momosuzunene_an3rd or the holoplus Sora wallpaper, already-English for
+//      the card game English Editions.
+//
+// A list rather than one URL because a Langify entry can be stale — ~600 of
+// them still point into a deleted /t/<id>/assets/ theme folder and 404 on
+// download. archiveImages walks the list until something actually fetches, so
+// a dead translation falls through to artwork that exists instead of nothing.
+async function imageCandidates(imgUrl, enMap) {
+  const out = [];
 
-  const twin = enTwinUrl(jpImgUrl);
-  if (twin && await cdnExists(twin)) return twin;
+  const langify = enMap.get(imgUrl.split('/').pop().split('?')[0].toLowerCase());
+  if (langify) out.push(langify);
 
-  return null;
+  const twin = enTwinUrl(imgUrl);
+  if (twin && await cdnExists(twin)) out.push(twin);
+
+  out.push(imgUrl);
+  return out;
 }
 
 // Resolves and uploads a product's EN images, reusing anything already in R2.
@@ -225,24 +243,23 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
     5,
     async ({ jpUrl, i }) => {
-      const enUrl = await resolveEnUrl(jpUrl, enMap);
-      if (!enUrl) {
-        log(`  [${handle}] image ${i}: no EN version (Langify or CDN twin) — skipping`);
-        return null;
+      // Best source first, falling through on anything that won't fetch.
+      for (const cand of await imageCandidates(jpUrl, enMap)) {
+        const key       = r2KeyFor(handle, cand);
+        const publicUrl = `${R2_PUBLIC_URL}/${key}`;
+        if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
+
+        try {
+          await uploadToR2(cand, key);
+          log(`  [${handle}] ↑ ${key}`);
+          return publicUrl;
+        } catch (err) {
+          log(`  [${handle}] image ${i}: ${cand.split('/').pop().split('?')[0]} unavailable, trying next source`);
+        }
       }
 
-      const key       = r2KeyFor(handle, enUrl);
-      const publicUrl = `${R2_PUBLIC_URL}/${key}`;
-      if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
-
-      try {
-        await uploadToR2(enUrl, key);
-        log(`  [${handle}] ↑ ${key}`);
-        return publicUrl;
-      } catch (err) {
-        log(`  [${handle}] ⚠ image ${i} failed: ${err.message}`);
-        return null;
-      }
+      log(`  [${handle}] ⚠ image ${i}: no usable source — skipping`);
+      return null;
     }
   );
 
@@ -256,6 +273,16 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
   }
 
   return images;
+}
+
+// True when any archived image is the product's own artwork rather than an
+// EN-specific render — i.e. it fell through to candidate 3. Worth re-resolving
+// while the product is still in the retry window, because Langify may publish a
+// translation days after the product goes live. Without this the fallback taken
+// during that gap would be permanent, silently costing the EN image forever.
+function usesOwnArtwork(archived, product) {
+  const set = new Set(archived.images || []);
+  return product.jp_images.some(u => set.has(`${R2_PUBLIC_URL}/${r2KeyFor(product.handle, u)}`));
 }
 
 // Scheduled runs only chase recent gaps; --backfill-en passes ignoreAge.
@@ -550,9 +577,13 @@ async function main() {
       const have     = archived ? (archived.images || []).length : 0;
 
       if (archived) {
-        if (have >= p.jp_images.length) continue;           // complete
+        const short    = have < p.jp_images.length;
+        const fallback = usesOwnArtwork(archived, p);
+        if (!short && !fallback) continue;                  // complete, all EN renders
         if (!shouldRetryImages(p.published_at)) continue;   // too old for scheduled runs
-        log(`Incomplete: ${p.title_en} — ${have}/${p.jp_images.length} images, retrying`);
+        log(short
+          ? `Incomplete: ${p.title_en} — ${have}/${p.jp_images.length} images, retrying`
+          : `Recheck: ${p.title_en} — on own artwork, looking for an EN render`);
       } else {
         log(`New product: ${p.title_en} (${p.product_id})`);
       }
@@ -560,9 +591,15 @@ async function main() {
       const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images);
 
       if (archived) {
-        if (images.length > have) {
+        const old     = archived.images || [];
+        const changed = images.length !== old.length || images.some((u, i) => u !== old[i]);
+        // images.length >= old.length is guaranteed by archiveImages; asserted
+        // here too so an upgrade can never quietly drop an image.
+        if (changed && images.length >= old.length) {
           archived.images = images;
-          log(`  → ${have} → ${images.length} images`);
+          log(images.length > have
+            ? `  → ${have} → ${images.length} images`
+            : `  → upgraded to an EN render`);
           updatedCount++;
         }
         continue;
