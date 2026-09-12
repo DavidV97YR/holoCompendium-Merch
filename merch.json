@@ -1,5 +1,45 @@
 [
   {
+    "product_id": "9609561735388",
+    "handle": "regloss_anniversary_3rd",
+    "title_jp": "ReGLOSS 3周年記念",
+    "title_en": "ReGLOSS 3rd Anniversary Celebration",
+    "tags_jp": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏"
+    ],
+    "tags_en": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_一条莉々華",
+      "Talent_儒烏風亭らでん",
+      "Talent_轟はじめ",
+      "Talent_音乃瀬奏"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ステーショナリー",
+      "アパレル・アパレル小物",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [],
+    "min_price": 550,
+    "max_price": 3300,
+    "published_at": "2026-09-12T20:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9592047894748",
     "handle": "hololive_asmr_tooclingy",
     "title_jp": "ホロライブ 日常ささやき「かまってちゃん」ボイス",
