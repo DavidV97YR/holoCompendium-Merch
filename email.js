@@ -250,14 +250,15 @@ export async function sendNewProductEmail(products, log = console.log) {
 // Sends the same digest to everyone on the public signup list, as a Resend
 // broadcast. Separate from sendNewProductEmail so the direct mail to the owner
 // still goes out even if the list send fails — and so the list is optional:
-// with RESEND_AUDIENCE_ID unset this is a no-op and nothing else changes.
+// with RESEND_SEGMENT_ID unset this is a no-op and nothing else changes.
+// (Resend renamed Audiences to Segments; broadcasts take segment_id.)
 export async function sendBroadcast(products, log = console.log) {
   if (!products?.length) return;
 
-  const key      = process.env.RESEND_API_KEY;
-  const audience = process.env.RESEND_AUDIENCE_ID;
-  const from     = process.env.MAIL_FROM;
-  if (!key || !audience || !from) return;   // list not set up — stay quiet
+  const key     = process.env.RESEND_API_KEY;
+  const segment = process.env.RESEND_SEGMENT_ID;
+  const from    = process.env.MAIL_FROM;
+  if (!key || !segment || !from) return;   // list not set up — stay quiet
 
   const subject = products.length === 1
     ? `New: ${products[0].title_en}`
@@ -267,7 +268,7 @@ export async function sendBroadcast(products, log = console.log) {
     method: 'POST',
     headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      audience_id: audience,
+      segment_id: segment,
       from, subject,
       html: buildHtml(products, { list: true }),
       text: buildText(products) + '\nUnsubscribe: ' + UNSUB + '\n',
