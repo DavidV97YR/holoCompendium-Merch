@@ -1,5 +1,54 @@
 [
   {
+    "product_id": "9608917024988",
+    "handle": "moricalliope_anniversary_6th",
+    "title_jp": "森カリオペ 活動6周年記念",
+    "title_en": "Mori Calliope 6th Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_森カリオペ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_森カリオペ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "ボイス",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/moricalliope_anniversary_6th/holo_MoriCalliope_6th_banner_EN_260903_9.webp"
+    ],
+    "min_price": 550,
+    "max_price": 21340,
+    "published_at": "2026-09-13T11:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9608385954012",
     "handle": "hakuikoyori_2ndalbum_chemicalspark_regular",
     "title_jp": "博衣こより 2nd Album『Chemical Spark』通常盤",
