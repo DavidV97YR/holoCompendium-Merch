@@ -3687,7 +3687,7 @@
     "min_price": 2970,
     "max_price": 18920,
     "published_at": "2026-08-14T20:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3981,7 +3981,7 @@
     "min_price": 2200,
     "max_price": 17050,
     "published_at": "2026-08-08T20:45:01+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -4239,7 +4239,7 @@
     "min_price": 7200,
     "max_price": 7200,
     "published_at": "2026-08-04T12:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -5231,7 +5231,7 @@
     "min_price": 8900,
     "max_price": 8900,
     "published_at": "2026-07-24T12:00:08+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -5359,7 +5359,7 @@
     "min_price": 300,
     "max_price": 300,
     "published_at": "2026-07-23T18:30:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
