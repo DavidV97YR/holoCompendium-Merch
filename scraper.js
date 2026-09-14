@@ -613,8 +613,21 @@ async function commitChanges(newCount, updatedCount) {
     throw err;
   }
 
-  // Upload merch.json to R2 so the site can fetch it publicly
-  await uploadMerchToR2();
+  // Upload merch.json to R2 so the site can fetch it publicly.
+  //
+  // Deliberately non-fatal. By this point the commit has already landed, so the
+  // products are permanently in merch.json and no later run will see them as
+  // new. Letting a transient R2 error throw here would abort main() before the
+  // notification email, and that email would then never be sent for those
+  // products — the data is saved, so nothing would ever retry it.
+  //
+  // Skipping the upload costs nothing lasting: every run uploads merch.json,
+  // including the "nothing changed" path, so the next one puts it right.
+  try {
+    await uploadMerchToR2();
+  } catch (err) {
+    log(`⚠ R2 upload of merch.json failed (committed to git; next run re-uploads): ${err.message}`);
+  }
 }
 
 // ─── Main ───────────────────────────────────────────────────────────
