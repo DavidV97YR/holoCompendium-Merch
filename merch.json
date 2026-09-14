@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "9611304501468",
+    "handle": "ninomaeinanis_anniversary_6th",
+    "title_jp": "一伊那尓栖 活動6周年記念",
+    "title_en": "Ninomae Ina'nis 6th Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Myth-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ninomaeinanis_anniversary_6th/holo_NinomaeIna_nis_BC_banner_EN_0907_8.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 16170,
+    "published_at": "2026-09-14T11:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9608917024988",
     "handle": "moricalliope_anniversary_6th",
     "title_jp": "森カリオペ 活動6周年記念",
@@ -2609,7 +2653,8 @@
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_2_1787108427.webp",
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_3_1787108458.webp",
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0817_4_1787108478.webp",
-      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_0518160e-9925-40bf-ae3b-1791e9058768_1787108497.webp"
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_0518160e-9925-40bf-ae3b-1791e9058768_1787108497.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/regloss_1stlive_flashpoint_bluray/ly_202600_regloss_banner_en_0904_1789351070.webp"
     ],
     "min_price": 9900,
     "max_price": 9900,
