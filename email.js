@@ -160,6 +160,18 @@ function cardHtml(p) {
 // legally needs it anyway.
 const UNSUB = '{{{RESEND_UNSUBSCRIBE_URL}}}';
 
+// Resend rejects a broadcast whose `name` exceeds 70 characters, so this always
+// returns something within that budget.
+const BROADCAST_NAME_MAX = 70;
+
+function broadcastName(subject) {
+  const stamp  = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  const suffix = ` · ${stamp}`;
+  const room   = BROADCAST_NAME_MAX - suffix.length;
+  const head   = subject.length > room ? subject.slice(0, room - 1).trimEnd() + '…' : subject;
+  return (head + suffix).slice(0, BROADCAST_NAME_MAX);   // belt and braces
+}
+
 function buildHtml(products, opts) {
   const list   = opts && opts.list;
   const shown  = products.slice(0, MAX_CARDS);
@@ -273,7 +285,12 @@ export async function sendBroadcast(products, log = console.log, opts = {}) {
       // `name` is the label in Resend's Broadcasts list, separate from the
       // subject line recipients see. Without it every entry reads "Untitled",
       // which makes the list useless once there's more than one.
-      name: `${subject} · ${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}`,
+      //
+      // Resend caps it at 70 characters and rejects the whole broadcast with a
+      // 422 if it's longer — which silently cost one product its announcement,
+      // because a single-product subject is "New: <full title>" and hololive
+      // titles run long. The date is kept and the title is what gets trimmed.
+      name: broadcastName(subject),
       from, subject,
       html: buildHtml(products, { list: true }),
       text: buildText(products) + '\nUnsubscribe: ' + UNSUB + '\n',
