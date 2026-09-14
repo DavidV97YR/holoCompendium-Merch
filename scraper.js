@@ -238,23 +238,74 @@ async function cdnExists(url) {
 // them still point into a deleted /t/<id>/assets/ theme folder and 404 on
 // download. archiveImages walks the list until something actually fetches, so
 // a dead translation falls through to artwork that exists instead of nothing.
+// ─── EN stem from the storefront theme ───────────────────────────────────────
+// Cover's EN filenames are not always the JP name with the language tag
+// swapped. "I'm Not Your Oshi Anymore" keeps its encoded apostrophe in the JP
+// file (…I_27mNotYourOshiAnymore_2_jp.jpg) and drops it in the EN one
+// (…I_mNotYourOshiAnymore_2_en.jpg), so a straight _jp→_en swap 404s and the
+// product falls back to Japanese artwork.
+//
+// The EN product page carries the theme's own pointer to the EN cover in a
+// productImgEn field. That gives the authoritative EN stem, and the rest of the
+// set follows it by index — verified on that product: images 2-6 all exist.
+//
+// Fetched at most once per product, and only when the cheap twin has failed.
+const enStemCache = new Map();
+
+async function enStemFor(handle) {
+  if (enStemCache.has(handle)) return enStemCache.get(handle);
+
+  let out = null;
+  const r = await fetch(`${BASE_EN}/products/${handle}`, { signal: AbortSignal.timeout(20_000) })
+    .catch(() => null);
+  if (r && r.ok) {
+    const m = (await r.text().catch(() => '')).match(/productImgEn:\s*"([^"]+)"/);
+    if (m) {
+      const file  = m[1].split('?')[0].split('/').pop();
+      const parts = file.match(/^(.*)_(\d+)_en\.([a-z0-9]+)$/i);
+      if (parts) out = { stem: parts[1], ext: parts[3] };
+    }
+  }
+  enStemCache.set(handle, out);
+  return out;
+}
+
+// Rebuilds an EN url for one image from that stem, keeping the image's own index.
+function enFromStem(imgUrl, stemInfo) {
+  if (!stemInfo) return null;
+  const base = imgUrl.split('?')[0];
+  const idx  = base.split('/').pop().match(/_(\d+)_jp\.[a-z0-9]+$/i);
+  if (!idx) return null;
+  return base.slice(0, base.lastIndexOf('/') + 1) + `${stemInfo.stem}_${idx[1]}_en.${stemInfo.ext}`;
+}
+
 // Returns null when the twin probe couldn't answer and nothing better is
 // already in hand — the caller then leaves the image alone rather than guessing.
-async function imageCandidates(imgUrl, enMap) {
+async function imageCandidates(imgUrl, enMap, handle) {
   const out = [];
 
   const langify = enMap.get(imgUrl.split('/').pop().split('?')[0].toLowerCase());
   if (langify) out.push(langify);
 
   const twin = enTwinUrl(imgUrl);
+  let twinUnknown = false;
   if (twin) {
     const exists = await cdnExists(twin);
     if (exists) out.push(twin);
-    // Unknown only matters when the twin was our best remaining hope. With a
-    // Langify render already queued the twin is second choice anyway, so an
-    // unanswered probe costs nothing and we carry on.
-    else if (exists === null && out.length === 0) return null;
+    else if (exists === null) twinUnknown = true;
   }
+
+  // Only when the cheap paths came up empty, ask the storefront what it calls
+  // the EN file — this costs one page fetch per product.
+  if (!out.length && handle) {
+    const fromStem = enFromStem(imgUrl, await enStemFor(handle));
+    if (fromStem && await cdnExists(fromStem)) out.push(fromStem);
+  }
+
+  // An unanswered twin probe only matters when nothing better was found: then
+  // we genuinely don't know whether an EN version exists, and archiving the
+  // JP artwork would freeze that guess in place.
+  if (!out.length && twinUnknown) return null;
 
   out.push(imgUrl);
   return out;
@@ -271,7 +322,7 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
     5,
     async ({ jpUrl, i }) => {
-      const cands = await imageCandidates(jpUrl, enMap);
+      const cands = await imageCandidates(jpUrl, enMap, handle);
       if (!cands) {
         // Couldn't establish whether an EN twin exists. Leaving the image out
         // keeps the product incomplete, so a later run retries it — far better
