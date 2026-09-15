@@ -1,5 +1,42 @@
 [
   {
+    "product_id": "9614101086428",
+    "handle": "sakuramiko_2ndlive_bloomingparade_madetoorder",
+    "title_jp": "【受注生産】さくらみこ 2nd Live “Blooming Parade!!”ライブグッズ",
+    "title_en": "【Made-to-order】Sakura Miko 2nd Live “Blooming Parade!!” Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "タペストリー"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_madetoorder/260915_miko2nd_EC_top_01_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_madetoorder/260915_miko2nd_EC_banner_tp_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_madetoorder/260915_miko2nd_EC_banner_as_EN.webp"
+    ],
+    "min_price": 2530,
+    "max_price": 3300,
+    "published_at": "2026-09-15T20:00:15+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9612242944220",
     "handle": "hololive_imnotyouroshianymore",
     "title_jp": "ホロライブ「もしかして、推し変したの…？」ボイス",
