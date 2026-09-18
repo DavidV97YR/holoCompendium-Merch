@@ -320,6 +320,49 @@ function enByPrefix(imgUrl, pair) {
 
 // Returns null when the twin probe couldn't answer and nothing better is
 // already in hand — the caller then leaves the image alone rather than guessing.
+// Token-level derivation, learned from the cover pair and applied in BOTH
+// directions.
+//
+// Cover's naming is inconsistent per image, not just per product. On the
+// wacha-wacha festival the JP cover is …_enent_2.png while its English twin is
+// …_event_2.png — but image 11 is the reverse, JP …_event_11.png against EN
+// …_enent_11.png. A one-directional rule learned from the cover therefore fixes
+// ten images and misses that one.
+//
+// Splitting both filenames on "_" gives the language token (present in EN,
+// absent in JP) and a substitution for any token that differs. Applying that
+// substitution in either direction covers both spellings. Still HEAD-verified,
+// so a wrong direction simply doesn't resolve.
+function enByTokens(imgUrl, pair) {
+  if (!pair) return null;
+
+  const split = f => f.split('_');
+  const jpT = split(pair.jp);
+  const enT = split(pair.en);
+  if (enT.length !== jpT.length + 1) return null;      // expect exactly one inserted token
+
+  // The inserted token is the first position where the two sequences diverge.
+  let at = 0;
+  while (at < jpT.length && jpT[at] === enT[at]) at++;
+  const langToken = enT[at];
+  if (!/^en$/i.test(langToken)) return null;
+
+  const enRest = enT.slice(0, at).concat(enT.slice(at + 1));
+  if (enRest.length !== jpT.length) return null;
+
+  // Any token that still differs is a spelling variant; record it both ways.
+  const subs = new Map();
+  for (let i = 0; i < jpT.length; i++) {
+    if (jpT[i] !== enRest[i]) { subs.set(jpT[i], enRest[i]); subs.set(enRest[i], jpT[i]); }
+  }
+
+  const base = imgUrl.split('?')[0];
+  const dir  = base.slice(0, base.lastIndexOf('/') + 1);
+  const tgt  = split(base.split('/').pop()).map(t => subs.get(t) ?? t);
+  tgt.splice(at, 0, langToken);
+  return dir + tgt.join('_');
+}
+
 // Generic EN filename guesses that depend on nothing but the JP name itself.
 //
 // These matter because the learned-from-the-page rule can be poisoned by a
@@ -381,6 +424,7 @@ async function imageCandidates(imgUrl, enMap, handle) {
     const pair = await enNamePair(handle);
     await tryGuess(enByIndex(imgUrl, pair));
     await tryGuess(enByPrefix(imgUrl, pair));
+    await tryGuess(enByTokens(imgUrl, pair));
   }
 
   // An unanswered probe only matters when nothing better was found: then we
