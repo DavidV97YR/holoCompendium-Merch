@@ -128,6 +128,52 @@ async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
   }
 }
 
+// ─── Storefront session ───────────────────────────────────────────────────────
+// The /en/ URLs are a trap without one. Requested cold they return 200 and a
+// perfectly ordinary-looking page — which is the Japanese one, byte for byte
+// identical to the /products/ version. Nothing signals the substitution, so
+// every "no EN version exists" conclusion drawn from a cookieless fetch was
+// really "we never asked in English".
+//
+// The store hands out _shopify_essential on any request; carry it and the same
+// URL returns the real English page (566 KB vs 427 KB for the photo frame).
+// One warm-up request per run buys it.
+const storeCookies = new Map();
+
+function absorbCookies(res) {
+  const raw = typeof res.headers.getSetCookie === 'function'
+    ? res.headers.getSetCookie()
+    : (res.headers.get('set-cookie') || '').split(/,(?=[^;]+=)/);
+  for (const line of raw) {
+    const [pair] = String(line).trim().split(';');
+    const i = pair.indexOf('=');
+    if (i > 0) storeCookies.set(pair.slice(0, i).trim(), pair.slice(i + 1));
+  }
+}
+
+async function storeFetch(url, timeoutMs = 20_000) {
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+  };
+  if (storeCookies.size) {
+    headers.Cookie = [...storeCookies].map(([k, v]) => `${k}=${v}`).join('; ');
+  }
+  const res = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs) }).catch(() => null);
+  if (res) absorbCookies(res);
+  return res;
+}
+
+async function initStoreSession() {
+  const res = await storeFetch(BASE_EN, 30_000);
+  const ok  = storeCookies.has('_shopify_essential');
+  log(ok
+    ? `Storefront session established (${[...storeCookies.keys()].join(', ')})`
+    : `⚠ No storefront session cookie — EN pages will read as Japanese (HTTP ${res ? res.status : 'no response'})`);
+  return ok;
+}
+
 // ─── R2 upload ─────────────────────────────────────────────────────────
 // No HeadObject check — product_id gate in merch.json handles deduplication.
 // PutObject is idempotent so re-uploading on a partial-run recovery is safe.
@@ -173,7 +219,8 @@ async function inChunks(items, size, fn) {
 async function fetchEnImageMap() {
   log('Fetching Langify EN image map…');
   try {
-    const res  = await fetchWithRetry(BASE_EN);
+    const res  = await storeFetch(BASE_EN, 30_000);
+    if (!res || !res.ok) throw new Error(`HTTP ${res ? res.status : 'no response'} for ${BASE_EN}`);
     const html = await res.text();
 
     const map = new Map();
@@ -286,8 +333,7 @@ async function enNamePair(handle) {
   if (enPairCache.has(handle)) return enPairCache.get(handle);
 
   let out = null;
-  const r = await fetch(`${BASE_EN}/products/${handle}`, { signal: AbortSignal.timeout(20_000) })
-    .catch(() => null);
+  const r = await storeFetch(`${BASE_EN}/products/${handle}`);
   if (r && r.ok) {
     const html = await r.text().catch(() => '');
     const en = (html.match(/productImgEn:\s*"([^"]+)"/) || [])[1];
@@ -446,7 +492,51 @@ function enGenericGuesses(imgUrl) {
   return [...out];
 }
 
-async function imageCandidates(imgUrl, enMap, handle, expect, strict = true) {
+// ─── EN filenames straight from the storefront ───────────────────────────────
+// Everything below this point in the chain guesses a filename and then checks
+// whether it exists. That works until Cover uploads English artwork under a
+// name carrying no trace of the original — EN_f843f9df-a285-4e9b-9a0d-…png is
+// not derivable from フォトフレーム_ヨコ_JP.png by any rule, and no amount of
+// probing finds it.
+//
+// The English product page already lists them. Each gallery slide carries
+// data-media-id, and that id is the same `id` products.json gives for the
+// Japanese image — so the page yields an exact slot-for-slot mapping with no
+// inference at all, and no dimension check needed: the store is naming the file
+// itself rather than us guessing a name that happens to exist.
+//
+// One fetch per product, cached, and the promise is cached rather than the
+// result so concurrent images of the same product share a single request.
+const mediaMapCache = new Map();
+
+function enMediaMap(handle) {
+  if (mediaMapCache.has(handle)) return mediaMapCache.get(handle);
+
+  const p = (async () => {
+    // null means "couldn't ask" and feeds the unknown-probe logic below; an
+    // empty map means the page answered and this product simply has no
+    // translated gallery. Conflating the two would let a network blip archive
+    // Japanese artwork and mark the product finished.
+    const res = await storeFetch(`${BASE_EN}/products/${handle}`);
+    if (!res || !res.ok) return null;
+    const html = await res.text().catch(() => '');
+    if (!html) return null;
+
+    // Each slide repeats at several widths; the first hit per id is enough.
+    const out = new Map();
+    const re = /data-media-id="(\d+)"[\s\S]{0,400}?cdn\/shop\/files\/([A-Za-z0-9_%.\-]+\.(?:png|jpe?g|webp))/gi;
+    let m;
+    while ((m = re.exec(html)) !== null) {
+      if (!out.has(m[1])) out.set(m[1], `${BASE_JP}/cdn/shop/files/${m[2]}`);
+    }
+    return out;
+  })();
+
+  mediaMapCache.set(handle, p);
+  return p;
+}
+
+async function imageCandidates(imgUrl, enMap, handle, expect, strict = true, mediaId = null) {
   const out = [];
 
   // Tracks "the CDN wouldn't tell us" across every probe below. A throttled
@@ -471,6 +561,20 @@ async function imageCandidates(imgUrl, enMap, handle, expect, strict = true) {
     }
     out.push(url);
   };
+
+  // What the English page itself shows in this slot. Not a guess, so it skips
+  // the existence probe and the dimension check — both exist to weed out names
+  // we invented, and this name came from the store.
+  if (handle && mediaId) {
+    const byMedia = await enMediaMap(handle);
+    if (byMedia === null) probeUnknown = true;
+    else {
+      const en = byMedia.get(String(mediaId));
+      // Equal means this slot simply isn't translated — fall through to the
+      // guesses rather than treating the JP file as an English find.
+      if (en && nameOf(en).toLowerCase() !== nameOf(imgUrl).toLowerCase()) out.push(en);
+    }
+  }
 
   // Langify's own mapping first where one still exists — but through the same
   // verification as everything else. It used to be pushed straight in, which
@@ -510,14 +614,15 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived, opts = {}
   const have = alreadyArchived || [];
   const hset = new Set(have);
 
-  const { sizes = null, strict = true, concurrency = PROBE_CONCURRENCY_RUN } = opts;
+  const { sizes = null, mediaIds = null, strict = true, concurrency = PROBE_CONCURRENCY_RUN } = opts;
 
   const results = await inChunks(
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
     concurrency,
     async ({ jpUrl, i }) => {
-      const expect = sizes ? sizes[jpUrl] : null;
-      const cands  = await imageCandidates(jpUrl, enMap, handle, expect, strict);
+      const expect  = sizes    ? sizes[jpUrl]    : null;
+      const mediaId = mediaIds ? mediaIds[jpUrl] : null;
+      const cands   = await imageCandidates(jpUrl, enMap, handle, expect, strict, mediaId);
       if (!cands) {
         // Couldn't establish whether an EN twin exists. Leaving the image out
         // keeps the product incomplete, so a later run retries it — far better
@@ -760,6 +865,9 @@ async function fetchAllShopifyProducts() {
         // src → [width, height], used to confirm a guessed EN file is the same
         // artwork and not just a name that happens to exist.
         jp_sizes:     Object.fromEntries((p.images || []).map(i => [i.src, [i.width, i.height]])),
+        // src → Shopify media id. The EN product page tags each gallery slide
+        // with the same id, which is what makes the mapping exact.
+        jp_media_ids: Object.fromEntries((p.images || []).map(i => [i.src, String(i.id)])),
         min_price:    prices.length ? Math.min(...prices) : 0,
         max_price:    prices.length ? Math.max(...prices) : 0,
         published_at: p.published_at || '',
@@ -844,6 +952,7 @@ async function main() {
   log(`Fetched ${shopifyProducts.length} products from Shopify`);
 
   // 3. Fetch Langify EN image map once — covers all products
+  await initStoreSession();
   const enImageMap = await fetchEnImageMap();
 
   // Advisory only. A big jump either way is worth seeing in the log — if the
@@ -892,6 +1001,7 @@ async function main() {
       const ageDays = (Date.now() - Date.parse(p.published_at || '')) / 86_400_000;
       const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images, {
         sizes: p.jp_sizes,
+        mediaIds: p.jp_media_ids,
         // Inside STRICT_DAYS an unanswered probe leaves the image out so the
         // next run retries; after that, own artwork beats a missing image.
         strict: Number.isFinite(ageDays) && ageDays <= STRICT_DAYS,
@@ -1072,7 +1182,9 @@ async function backfillEnImages() {
   const shopifyProducts  = await fetchAllShopifyProducts();
   const jpImagesByHandle = new Map(shopifyProducts.map(p => [p.handle, p.jp_images]));
   const jpSizesByHandle  = new Map(shopifyProducts.map(p => [p.handle, p.jp_sizes]));
+  const jpMediaIdsByHandle = new Map(shopifyProducts.map(p => [p.handle, p.jp_media_ids]));
 
+  await initStoreSession();
   const enImageMap = await fetchEnImageMap();
   // No longer gated on the Langify dump — see TYPICAL_EN_MAPPINGS. EN artwork
   // is resolved per product from the storefront, so an empty map is normal.
@@ -1098,12 +1210,19 @@ async function backfillEnImages() {
     // is vacuously TRUE for an empty array — so every product that archived
     // with zero images was skipped by the one pass meant to repair it, and the
     // count check below is what actually makes partial galleries reachable.
+    // A full count is not the same as a correct one. The holoplus photo frame
+    // archived 3 of 3 images with two of them Japanese, so a count check alone
+    // skipped the one pass meant to repair it — and the scheduled run only
+    // rechecks inside IMAGE_RETRY_DAYS, leaving nothing able to reach it.
+    // Anything still sitting on its own artwork gets another look.
     const imgs = product.images || [];
-    if (imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL))) continue;
+    const complete = imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL));
+    if (complete && !usesOwnArtwork(product, { handle: product.handle, jp_images: jpImages })) continue;
 
     const before        = imgs.length;
     const updatedImages = await archiveImages(product.handle, jpImages, enImageMap, imgs, {
       sizes: jpSizesByHandle.get(product.handle),
+      mediaIds: jpMediaIdsByHandle.get(product.handle),
       strict: false,                              // old products: never leave a hole
       concurrency: PROBE_CONCURRENCY_BACKFILL,    // a sweep must not throttle itself
     });
