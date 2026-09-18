@@ -36,14 +36,19 @@ const IMAGES_DIR = 'Products';
 // demand by `node scraper.js --backfill-en`, which ignores this window.
 const IMAGE_RETRY_DAYS = 30;
 
-// The Langify dump has measured byte-identical at ~13,570 entries across
-// repeated fetches, so a materially shorter one means the EN page rendered
-// wrong rather than that Cover removed translations. Proceeding on a short map
-// is the dangerous case: every image missing from it resolves to the product's
-// own artwork, the product then counts as complete, and the genuine EN image is
-// lost. Bailing costs one skipped run; guessing costs the image permanently.
-const EXPECTED_EN_MAPPINGS = 13570;
-const MIN_EN_MAPPINGS      = 10000;
+// Langify's global dump on the EN homepage used to carry ~13,570 image
+// mappings, and a short one meant the page had rendered wrong. That stopped
+// being true on 2026-09-18: Cover moved EN artwork to their own …_en uploads,
+// the homepage shrank from 5.4MB to 610KB, and the dump now holds ~35 entries.
+// Product pages carry no ly_* references at all any more.
+//
+// So the dump is now a bonus source rather than a prerequisite, and this number
+// only decides whether to log that it looks unusual. The authoritative per
+// product signal is productImgEn on the product page (see enStemFor), and any
+// product that still lands on its own artwork is rechecked for the next
+// IMAGE_RETRY_DAYS — so a wrong fallback during an upstream wobble self-heals
+// rather than freezing, which is what the old hard gate existed to prevent.
+const TYPICAL_EN_MAPPINGS = 35;
 
 // ─── R2 client ─────────────────────────────────────────────────────────
 // GitHub Actions secrets required:
@@ -238,45 +243,79 @@ async function cdnExists(url) {
 // them still point into a deleted /t/<id>/assets/ theme folder and 404 on
 // download. archiveImages walks the list until something actually fetches, so
 // a dead translation falls through to artwork that exists instead of nothing.
-// ─── EN stem from the storefront theme ───────────────────────────────────────
-// Cover's EN filenames are not always the JP name with the language tag
-// swapped. "I'm Not Your Oshi Anymore" keeps its encoded apostrophe in the JP
-// file (…I_27mNotYourOshiAnymore_2_jp.jpg) and drops it in the EN one
-// (…I_mNotYourOshiAnymore_2_en.jpg), so a straight _jp→_en swap 404s and the
-// product falls back to Japanese artwork.
+// ─── EN filenames from the storefront theme ──────────────────────────────────
+// Cover names EN artwork inconsistently, and no single rule covers it:
 //
-// The EN product page carries the theme's own pointer to the EN cover in a
-// productImgEn field. That gives the authoritative EN stem, and the rest of the
-// set follows it by index — verified on that product: images 2-6 all exist.
+//   …_2_jp.jpg          → …_2_en.jpg              language tag before the extension
+//   …I_27mNot…_2_jp.jpg → …I_mNot…_2_en.jpg       and the encoded apostrophe drops
+//   wachawacha_0909_…   → wachawacha_en_0909_…    tag inserted after a prefix,
+//                                                 with no _jp in the JP name at all
 //
-// Fetched at most once per product, and only when the cheap twin has failed.
-const enStemCache = new Map();
+// Rather than guess, read the pair the EN product page publishes for the cover
+// image — productImg and productImgEn — and learn the transformation from it.
+// Two derivations are applied to the rest of the set, because the learned diff
+// alone can't cope when the image index sits inside the part that differs:
+//
+//   byIndex  — keep the EN stem, substitute this image's own index
+//   byPrefix — keep the common prefix/suffix, swap the differing middle
+//
+// Both are HEAD-verified before use, so a wrong guess simply doesn't apply.
+// The page is fetched at most once per product, and only after the cheap twin
+// has already failed.
+const enPairCache = new Map();
 
-async function enStemFor(handle) {
-  if (enStemCache.has(handle)) return enStemCache.get(handle);
+async function enNamePair(handle) {
+  if (enPairCache.has(handle)) return enPairCache.get(handle);
 
   let out = null;
   const r = await fetch(`${BASE_EN}/products/${handle}`, { signal: AbortSignal.timeout(20_000) })
     .catch(() => null);
   if (r && r.ok) {
-    const m = (await r.text().catch(() => '')).match(/productImgEn:\s*"([^"]+)"/);
-    if (m) {
-      const file  = m[1].split('?')[0].split('/').pop();
-      const parts = file.match(/^(.*)_(\d+)_en\.([a-z0-9]+)$/i);
-      if (parts) out = { stem: parts[1], ext: parts[3] };
-    }
+    const html = await r.text().catch(() => '');
+    const en = (html.match(/productImgEn:\s*"([^"]+)"/) || [])[1];
+    const jp = (html.match(/productImg:\s*"([^"]+)"/)   || [])[1];
+    const name = u => u && u.split('?')[0].split('/').pop();
+    if (en && jp && name(en) !== name(jp)) out = { jp: name(jp), en: name(en) };
   }
-  enStemCache.set(handle, out);
+  enPairCache.set(handle, out);
   return out;
 }
 
-// Rebuilds an EN url for one image from that stem, keeping the image's own index.
-function enFromStem(imgUrl, stemInfo) {
-  if (!stemInfo) return null;
-  const base = imgUrl.split('?')[0];
-  const idx  = base.split('/').pop().match(/_(\d+)_jp\.[a-z0-9]+$/i);
-  if (!idx) return null;
-  return base.slice(0, base.lastIndexOf('/') + 1) + `${stemInfo.stem}_${idx[1]}_en.${stemInfo.ext}`;
+const dirOf  = url => { const b = url.split('?')[0]; return b.slice(0, b.lastIndexOf('/') + 1); };
+const nameOf = url => url.split('?')[0].split('/').pop();
+
+// Keeps the EN stem and substitutes this image's index: …_3_jp.jpg → <enstem>_3_en.jpg
+function enByIndex(imgUrl, pair) {
+  if (!pair) return null;
+  const parts = pair.en.match(/^(.*)_(\d+)_en\.([a-z0-9]+)$/i);
+  const idx   = nameOf(imgUrl).match(/_(\d+)_jp\.[a-z0-9]+$/i);
+  if (!parts || !idx) return null;
+  return `${dirOf(imgUrl)}${parts[1]}_${idx[1]}_en.${parts[3]}`;
+}
+
+// Learns the differing middle between the two cover filenames and applies the
+// same substitution to another image in the set.
+function enByPrefix(imgUrl, pair) {
+  if (!pair) return null;
+  const { jp, en } = pair;
+
+  let head = 0;
+  while (head < jp.length && head < en.length && jp[head] === en[head]) head++;
+
+  let tail = 0;
+  while (tail < jp.length - head && tail < en.length - head &&
+         jp[jp.length - 1 - tail] === en[en.length - 1 - tail]) tail++;
+
+  const prefix = jp.slice(0, head);
+  const midJp  = jp.slice(head, jp.length - tail);
+  const midEn  = en.slice(head, en.length - tail);
+
+  const file = nameOf(imgUrl);
+  if (!file.startsWith(prefix)) return null;
+  const rest = file.slice(prefix.length);
+  if (midJp && !rest.startsWith(midJp)) return null;   // the diff sits elsewhere in this name
+
+  return dirOf(imgUrl) + prefix + midEn + rest.slice(midJp.length);
 }
 
 // Returns null when the twin probe couldn't answer and nothing better is
@@ -296,10 +335,13 @@ async function imageCandidates(imgUrl, enMap, handle) {
   }
 
   // Only when the cheap paths came up empty, ask the storefront what it calls
-  // the EN file — this costs one page fetch per product.
+  // the EN file — this costs one page fetch per product. Both derivations are
+  // tried because neither shape covers everything Cover ships.
   if (!out.length && handle) {
-    const fromStem = enFromStem(imgUrl, await enStemFor(handle));
-    if (fromStem && await cdnExists(fromStem)) out.push(fromStem);
+    const pair = await enNamePair(handle);
+    for (const guess of [enByIndex(imgUrl, pair), enByPrefix(imgUrl, pair)]) {
+      if (guess && await cdnExists(guess)) { out.push(guess); break; }
+    }
   }
 
   // An unanswered twin probe only matters when nothing better was found: then
@@ -648,13 +690,11 @@ async function main() {
   // 3. Fetch Langify EN image map once — covers all products
   const enImageMap = await fetchEnImageMap();
 
-  // Guard: a short map means the Langify scrape failed or the page changed.
-  // Empty is not the only bad case — a PARTIAL map is worse, because every
-  // image whose translation is missing from it resolves to the product's own
-  // artwork, the product then looks complete, and the real EN image is lost.
-  if (enImageMap.size < MIN_EN_MAPPINGS) {
-    log(`⚠ EN image map has only ${enImageMap.size} entries (expected ~${EXPECTED_EN_MAPPINGS}) — skipping image work this run`);
-    log('  Availability sync will still run for existing products.');
+  // Advisory only. A big jump either way is worth seeing in the log — if the
+  // dump ever comes back, that is useful to know — but it no longer gates
+  // anything: EN artwork is discovered per product now, not from this map.
+  if (enImageMap.size > TYPICAL_EN_MAPPINGS * 10) {
+    log(`  note: EN image map is unusually large (${enImageMap.size}) — Langify may be back`);
   }
 
   const currentIds = new Set(shopifyProducts.map(p => p.product_id));
@@ -676,7 +716,7 @@ async function main() {
   //    images[] and the gate then guaranteed it was never looked at again.
   //    Comparing against the live image count is what makes a momentary miss
   //    recoverable instead of permanent.
-  if (enImageMap.size >= MIN_EN_MAPPINGS) {
+  {
     for (const p of shopifyProducts) {
       const archived = existingMap.get(p.product_id);
       const have     = archived ? (archived.images || []).length : 0;
@@ -857,11 +897,8 @@ async function backfillEnImages() {
   const jpImagesByHandle = new Map(shopifyProducts.map(p => [p.handle, p.jp_images]));
 
   const enImageMap = await fetchEnImageMap();
-  if (enImageMap.size < MIN_EN_MAPPINGS) {
-    log(`⚠ EN image map has only ${enImageMap.size} entries (expected ~${EXPECTED_EN_MAPPINGS}) — aborting backfill`);
-    log('  Proceeding would archive own-artwork fallbacks for products that DO have translations.');
-    return;
-  }
+  // No longer gated on the Langify dump — see TYPICAL_EN_MAPPINGS. EN artwork
+  // is resolved per product from the storefront, so an empty map is normal.
 
   execSync('git config user.name "holoVault Scraper"');
   execSync('git config user.email "scraper@holovault"');
