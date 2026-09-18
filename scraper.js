@@ -320,6 +320,39 @@ function enByPrefix(imgUrl, pair) {
 
 // Returns null when the twin probe couldn't answer and nothing better is
 // already in hand — the caller then leaves the image alone rather than guessing.
+// Generic EN filename guesses that depend on nothing but the JP name itself.
+//
+// These matter because the learned-from-the-page rule can be poisoned by a
+// single bad sample: the wacha-wacha festival cover is named
+// wachawacha_0909_enent_2.png in Japanese but wachawacha_en_0909_event_2.png in
+// English — Cover typo'd "event" in the JP one. The transform learned from that
+// pair then matched none of the other ten images, all of which do have English
+// versions. Position-independent guesses are immune to that.
+//
+// Every one is HEAD-verified before use, so extra guesses cost a cached probe
+// and never a wrong image.
+function enGenericGuesses(imgUrl) {
+  const base = imgUrl.split('?')[0];
+  const dir  = base.slice(0, base.lastIndexOf('/') + 1);
+  const file = base.split('/').pop();
+  const dot  = file.lastIndexOf('.');
+  const stem = dot > 0 ? file.slice(0, dot) : file;
+  const ext  = dot > 0 ? file.slice(dot) : '';
+
+  const out = new Set();
+
+  // wachawacha_0909_… → wachawacha_en_0909_…   (tag after the first token)
+  const firstUnderscore = stem.indexOf('_');
+  if (firstUnderscore > 0) {
+    out.add(dir + stem.slice(0, firstUnderscore) + '_en' + stem.slice(firstUnderscore) + ext);
+  }
+
+  // …_thing → …_thing_en                        (tag appended)
+  out.add(dir + stem + '_en' + ext);
+
+  return [...out];
+}
+
 async function imageCandidates(imgUrl, enMap, handle) {
   const out = [];
 
@@ -331,24 +364,23 @@ async function imageCandidates(imgUrl, enMap, handle) {
   // the Japanese artwork and call the product done.
   let probeUnknown = false;
 
-  const twin = enTwinUrl(imgUrl);
-  if (twin) {
-    const exists = await cdnExists(twin);
-    if (exists) out.push(twin);
+  const tryGuess = async url => {
+    if (!url || out.length) return;
+    const exists = await cdnExists(url);
+    if (exists) out.push(url);
     else if (exists === null) probeUnknown = true;
-  }
+  };
 
-  // Only when the cheap paths came up empty, ask the storefront what it calls
-  // the EN file — this costs one page fetch per product. Both derivations are
-  // tried because neither shape covers everything Cover ships.
+  // Cheap first: everything derivable from the filename alone, no page fetch.
+  await tryGuess(enTwinUrl(imgUrl));
+  for (const g of enGenericGuesses(imgUrl)) await tryGuess(g);
+
+  // Only if those all missed, ask the storefront what it calls the EN file.
+  // One page fetch per product, cached.
   if (!out.length && handle) {
     const pair = await enNamePair(handle);
-    for (const guess of [enByIndex(imgUrl, pair), enByPrefix(imgUrl, pair)]) {
-      if (!guess) continue;
-      const exists = await cdnExists(guess);
-      if (exists) { out.push(guess); break; }
-      if (exists === null) probeUnknown = true;
-    }
+    await tryGuess(enByIndex(imgUrl, pair));
+    await tryGuess(enByPrefix(imgUrl, pair));
   }
 
   // An unanswered probe only matters when nothing better was found: then we
@@ -744,15 +776,28 @@ async function main() {
       const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images);
 
       if (archived) {
-        const old     = archived.images || [];
-        const changed = images.length !== old.length || images.some((u, i) => u !== old[i]);
-        // images.length >= old.length is guaranteed by archiveImages; asserted
-        // here too so an upgrade can never quietly drop an image.
-        if (changed && images.length >= old.length) {
+        const old = archived.images || [];
+
+        // Only write when the result is genuinely better: more images, or fewer
+        // of them still on the product's own artwork. Comparing the arrays for
+        // any difference instead made flaky probes churn — a product would swap
+        // one image for another every run, commit, and log an "upgrade" that
+        // wasn't one. Counting own-artwork images is what actually distinguishes
+        // a real EN upgrade from a reshuffle.
+        const ownCount = list => {
+          const set = new Set(list);
+          return p.jp_images.filter(j => set.has(`${R2_PUBLIC_URL}/${r2KeyFor(p.handle, j)}`)).length;
+        };
+        const gainedImages = images.length > old.length;
+        const gainedEnglish = ownCount(images) < ownCount(old);
+
+        if (gainedImages || gainedEnglish) {
+          const before = ownCount(old), after = ownCount(images);
           archived.images = images;
-          log(images.length > have
-            ? `  → ${have} → ${images.length} images`
-            : `  → upgraded to an EN render`);
+          log(gainedImages
+            ? `  → ${old.length} → ${images.length} images` +
+              (after < before ? ` (${before - after} swapped to EN)` : '')
+            : `  → ${before - after} image(s) upgraded to EN`);
           updatedCount++;
         }
         continue;
