@@ -326,12 +326,16 @@ async function imageCandidates(imgUrl, enMap, handle) {
   const langify = enMap.get(imgUrl.split('/').pop().split('?')[0].toLowerCase());
   if (langify) out.push(langify);
 
+  // Tracks "the CDN wouldn't tell us" across every probe below. A throttled
+  // answer must never be read as "no EN version exists" — that would archive
+  // the Japanese artwork and call the product done.
+  let probeUnknown = false;
+
   const twin = enTwinUrl(imgUrl);
-  let twinUnknown = false;
   if (twin) {
     const exists = await cdnExists(twin);
     if (exists) out.push(twin);
-    else if (exists === null) twinUnknown = true;
+    else if (exists === null) probeUnknown = true;
   }
 
   // Only when the cheap paths came up empty, ask the storefront what it calls
@@ -340,14 +344,18 @@ async function imageCandidates(imgUrl, enMap, handle) {
   if (!out.length && handle) {
     const pair = await enNamePair(handle);
     for (const guess of [enByIndex(imgUrl, pair), enByPrefix(imgUrl, pair)]) {
-      if (guess && await cdnExists(guess)) { out.push(guess); break; }
+      if (!guess) continue;
+      const exists = await cdnExists(guess);
+      if (exists) { out.push(guess); break; }
+      if (exists === null) probeUnknown = true;
     }
   }
 
-  // An unanswered twin probe only matters when nothing better was found: then
-  // we genuinely don't know whether an EN version exists, and archiving the
-  // JP artwork would freeze that guess in place.
-  if (!out.length && twinUnknown) return null;
+  // An unanswered probe only matters when nothing better was found: then we
+  // genuinely don't know whether an EN version exists, and archiving the JP
+  // artwork would freeze that guess in place. Leaving the image out keeps the
+  // product incomplete, so the next run tries again.
+  if (!out.length && probeUnknown) return null;
 
   out.push(imgUrl);
   return out;
