@@ -50,6 +50,24 @@ const IMAGE_RETRY_DAYS = 30;
 // rather than freezing, which is what the old hard gate existed to prevent.
 const TYPICAL_EN_MAPPINGS = 35;
 
+// A guessed EN filename is only accepted if the file it finds is the same size
+// as the Japanese original. Shopify serves every file in one flat namespace for
+// the whole store, so "the name I guessed exists" is not the same as "it is this
+// product's artwork" — generic names like EN.jpg and EN.png are real files.
+// Matching width and height is cheap evidence that it is the same picture.
+const VERIFY_DIMENSIONS = true;
+
+// A product gets this long to turn up an English version before own artwork is
+// accepted. Inside the window an unanswered probe leaves the image out so the
+// next run retries; past it, taking the Japanese image beats leaving a hole.
+const STRICT_DAYS = 7;
+
+// Probes run per product. Scheduled runs touch a handful of products, backfills
+// touch thousands — the same burst rate throttles the CDN, and a throttled probe
+// is what produced Japanese artwork for two products on 18 Sept.
+const PROBE_CONCURRENCY_RUN      = 5;
+const PROBE_CONCURRENCY_BACKFILL = 2;
+
 // ─── R2 client ─────────────────────────────────────────────────────────
 // GitHub Actions secrets required:
 //   R2_ACCOUNT_ID  – Cloudflare account ID
@@ -363,6 +381,38 @@ function enByTokens(imgUrl, pair) {
   return dir + tgt.join('_');
 }
 
+// Reads an image's pixel dimensions from the first few KB of the file, so a
+// candidate can be compared against the original without downloading it.
+// Returns null when the format isn't recognised, and callers treat null as
+// "can't tell" rather than "mismatch".
+const sizeCache = new Map();
+
+async function imageSize(url) {
+  if (sizeCache.has(url)) return sizeCache.get(url);
+  let out = null;
+  const r = await fetch(url, { headers: { Range: 'bytes=0-8191' }, signal: AbortSignal.timeout(15_000) })
+    .catch(() => null);
+  if (r && (r.ok || r.status === 206)) {
+    const b = Buffer.from(await r.arrayBuffer().catch(() => new ArrayBuffer(0)));
+    if (b.length >= 24 && b[0] === 0x89 && b[1] === 0x50) {
+      out = [b.readUInt32BE(16), b.readUInt32BE(20)];                 // PNG IHDR
+    } else if (b.length > 4 && b[0] === 0xFF && b[1] === 0xD8) {      // JPEG: find SOF
+      let i = 2;
+      while (i + 9 < b.length) {
+        if (b[i] !== 0xFF) { i++; continue; }
+        const m = b[i + 1];
+        if (m >= 0xC0 && m <= 0xCF && m !== 0xC4 && m !== 0xC8 && m !== 0xCC) {
+          out = [b.readUInt16BE(i + 7), b.readUInt16BE(i + 5)];
+          break;
+        }
+        i += 2 + b.readUInt16BE(i + 2);
+      }
+    }
+  }
+  sizeCache.set(url, out);
+  return out;
+}
+
 // Generic EN filename guesses that depend on nothing but the JP name itself.
 //
 // These matter because the learned-from-the-page rule can be poisoned by a
@@ -396,11 +446,8 @@ function enGenericGuesses(imgUrl) {
   return [...out];
 }
 
-async function imageCandidates(imgUrl, enMap, handle) {
+async function imageCandidates(imgUrl, enMap, handle, expect, strict = true) {
   const out = [];
-
-  const langify = enMap.get(imgUrl.split('/').pop().split('?')[0].toLowerCase());
-  if (langify) out.push(langify);
 
   // Tracks "the CDN wouldn't tell us" across every probe below. A throttled
   // answer must never be read as "no EN version exists" — that would archive
@@ -410,11 +457,28 @@ async function imageCandidates(imgUrl, enMap, handle) {
   const tryGuess = async url => {
     if (!url || out.length) return;
     const exists = await cdnExists(url);
-    if (exists) out.push(url);
-    else if (exists === null) probeUnknown = true;
+    if (exists === null) { probeUnknown = true; return; }
+    if (!exists) return;
+
+    // The name exists — but is it this product's artwork? Compare dimensions
+    // against the original before trusting it.
+    if (VERIFY_DIMENSIONS && expect && expect[0] && expect[1]) {
+      const got = await imageSize(url);
+      if (got && (got[0] !== expect[0] || got[1] !== expect[1])) {
+        log(`  guess ${url.split('/').pop().split('?')[0]} is ${got[0]}x${got[1]}, expected ${expect[0]}x${expect[1]} — rejected`);
+        return;
+      }
+    }
+    out.push(url);
   };
 
-  // Cheap first: everything derivable from the filename alone, no page fetch.
+  // Langify's own mapping first where one still exists — but through the same
+  // verification as everything else. It used to be pushed straight in, which
+  // meant a stale mapping skipped the dimension check that guards every other
+  // candidate.
+  await tryGuess(enMap.get(imgUrl.split('/').pop().split('?')[0].toLowerCase()));
+
+  // Then everything derivable from the filename alone, no page fetch.
   await tryGuess(enTwinUrl(imgUrl));
   for (const g of enGenericGuesses(imgUrl)) await tryGuess(g);
 
@@ -430,8 +494,10 @@ async function imageCandidates(imgUrl, enMap, handle) {
   // An unanswered probe only matters when nothing better was found: then we
   // genuinely don't know whether an EN version exists, and archiving the JP
   // artwork would freeze that guess in place. Leaving the image out keeps the
-  // product incomplete, so the next run tries again.
-  if (!out.length && probeUnknown) return null;
+  // product incomplete, so the next run tries again — but only while the
+  // product is still new. Past STRICT_DAYS a hole is worse than Japanese
+  // artwork, so the fallback below is taken instead.
+  if (!out.length && probeUnknown && strict) return null;
 
   out.push(imgUrl);
   return out;
@@ -440,15 +506,18 @@ async function imageCandidates(imgUrl, enMap, handle) {
 // Resolves and uploads a product's EN images, reusing anything already in R2.
 // Returns images in source order; it never returns fewer URLs than were already
 // archived, so a transient failure mid-retry cannot shrink a product's gallery.
-async function archiveImages(handle, jpImages, enMap, alreadyArchived) {
+async function archiveImages(handle, jpImages, enMap, alreadyArchived, opts = {}) {
   const have = alreadyArchived || [];
   const hset = new Set(have);
 
+  const { sizes = null, strict = true, concurrency = PROBE_CONCURRENCY_RUN } = opts;
+
   const results = await inChunks(
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
-    5,
+    concurrency,
     async ({ jpUrl, i }) => {
-      const cands = await imageCandidates(jpUrl, enMap, handle);
+      const expect = sizes ? sizes[jpUrl] : null;
+      const cands  = await imageCandidates(jpUrl, enMap, handle, expect, strict);
       if (!cands) {
         // Couldn't establish whether an EN twin exists. Leaving the image out
         // keeps the product incomplete, so a later run retries it — far better
@@ -688,6 +757,9 @@ async function fetchAllShopifyProducts() {
         tags_en:      en.tags  || [],
         // jp_images: used as Langify lookup keys only — not persisted to merch.json
         jp_images:    (p.images || []).map(i => i.src),
+        // src → [width, height], used to confirm a guessed EN file is the same
+        // artwork and not just a name that happens to exist.
+        jp_sizes:     Object.fromEntries((p.images || []).map(i => [i.src, [i.width, i.height]])),
         min_price:    prices.length ? Math.min(...prices) : 0,
         max_price:    prices.length ? Math.max(...prices) : 0,
         published_at: p.published_at || '',
@@ -817,7 +889,14 @@ async function main() {
         log(`New product: ${p.title_en} (${p.product_id})`);
       }
 
-      const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images);
+      const ageDays = (Date.now() - Date.parse(p.published_at || '')) / 86_400_000;
+      const images = await archiveImages(p.handle, p.jp_images, enImageMap, archived?.images, {
+        sizes: p.jp_sizes,
+        // Inside STRICT_DAYS an unanswered probe leaves the image out so the
+        // next run retries; after that, own artwork beats a missing image.
+        strict: Number.isFinite(ageDays) && ageDays <= STRICT_DAYS,
+        concurrency: PROBE_CONCURRENCY_RUN,
+      });
 
       if (archived) {
         const old = archived.images || [];
@@ -992,6 +1071,7 @@ async function backfillEnImages() {
   log('Re-fetching JP catalog for image URL lookup…');
   const shopifyProducts  = await fetchAllShopifyProducts();
   const jpImagesByHandle = new Map(shopifyProducts.map(p => [p.handle, p.jp_images]));
+  const jpSizesByHandle  = new Map(shopifyProducts.map(p => [p.handle, p.jp_sizes]));
 
   const enImageMap = await fetchEnImageMap();
   // No longer gated on the Langify dump — see TYPICAL_EN_MAPPINGS. EN artwork
@@ -1022,7 +1102,11 @@ async function backfillEnImages() {
     if (imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL))) continue;
 
     const before        = imgs.length;
-    const updatedImages = await archiveImages(product.handle, jpImages, enImageMap, imgs);
+    const updatedImages = await archiveImages(product.handle, jpImages, enImageMap, imgs, {
+      sizes: jpSizesByHandle.get(product.handle),
+      strict: false,                              // old products: never leave a hole
+      concurrency: PROBE_CONCURRENCY_BACKFILL,    // a sweep must not throttle itself
+    });
 
     if (updatedImages.length === before && updatedImages.every((u, i) => u === imgs[i])) {
       log(`[${product.handle}] still ${before}/${jpImages.length} — no EN version available yet`);
