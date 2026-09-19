@@ -1,5 +1,82 @@
 [
   {
+    "product_id": "9614110458076",
+    "handle": "shishirobotan_birthday_2026",
+    "title_jp": "獅白ぼたん 誕生日記念2026",
+    "title_en": "Shishiro Botan Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_獅白ぼたん",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_獅白ぼたん",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ステーショナリー",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_birthday_2026/holo_ShishiroBotan_BC_banner_EN_260909_ol_8.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 22000,
+    "published_at": "2026-09-19T20:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9621493252316",
+    "handle": "shishirobotan_1stalbum_botanexe",
+    "title_jp": "獅白ぼたん 1st Album『BOTAN.EXE』",
+    "title_en": "Shishiro Botan 1st Album \"BOTAN.EXE\"",
+    "tags_jp": [
+      "_ng_with_normal_group:ShishiroBotan_AL0919",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_獅白ぼたん",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:ShishiroBotan_AL0919",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_獅白ぼたん",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_1stalbum_botanexe/260916._botan1stAL_SQ01_JPEN.webp"
+    ],
+    "min_price": 14300,
+    "max_price": 14300,
+    "published_at": "2026-09-19T19:44:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9619489652956",
     "handle": "aziro_commemorativemerch",
     "title_jp": "あずいろ記念グッズ",
