@@ -1,5 +1,42 @@
 [
   {
+    "product_id": "9621541257436",
+    "handle": "tsunomakiwatame_respawn",
+    "title_jp": "角巻わため 『リスポーン!!』",
+    "title_en": "Tsunomaki Watame “RESPAWN!!”",
+    "tags_jp": [
+      "_ng_with_normal_group:TsunomakiWatame_CD0924",
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:TsunomakiWatame_CD0924",
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_角巻わため",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD",
+      "OTHERS"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_respawn/260924_Watame_tieupCDbannerEN_01.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_respawn/260924_Watame_tieupCDbannerEN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tsunomakiwatame_respawn/260924_Watame_tieupCDbannerEN_03.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 1650,
+    "published_at": "2026-09-24T12:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9614110458076",
     "handle": "shishirobotan_birthday_2026",
     "title_jp": "獅白ぼたん 誕生日記念2026",
