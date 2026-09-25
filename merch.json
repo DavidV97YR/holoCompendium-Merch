@@ -1,5 +1,303 @@
 [
   {
+    "product_id": "9628555280604",
+    "handle": "asobimawari-tai_regularoutfit",
+    "title_jp": "Regular Outfit アソビ★まわり隊！",
+    "title_en": "Regular Outfit ASOBI★MAWARI-TAI!",
+    "tags_jp": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "RegularOutfit",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "RegularOutfit",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "スターターグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_regularoutfit/asobi_goods_banner_EN1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_regularoutfit/asobi_goods_banner_EN2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_regularoutfit/asobi_goods_banner_EN3.webp"
+    ],
+    "min_price": 550,
+    "max_price": 1760,
+    "published_at": "2026-09-25T22:10:10+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628432859356",
+    "handle": "startingvoice_sorashinasopia",
+    "title_jp": "スターティングボイス 宙科そぴあ",
+    "title_en": "Starting Voice - Sorashina Sopia",
+    "tags_jp": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_宙科そぴあ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_宙科そぴあ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/startingvoice_sorashinasopia/20260925_hololive_Starting_Voice_Sorashina_Sopia_2_en.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-09-25T22:10:09+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628554199260",
+    "handle": "asobimawari-tai_debut",
+    "title_jp": "アソビ★まわり隊！デビュー記念",
+    "title_en": "ASOBI★MAWARI-TAI! Debut Celebration",
+    "tags_jp": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "ステーショナリー",
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_debut/asobi_banner_EN__10.webp"
+    ],
+    "min_price": 880,
+    "max_price": 4620,
+    "published_at": "2026-09-25T22:10:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628646441180",
+    "handle": "asobimawari-tai_pclivewallpaper",
+    "title_jp": "アソビ★まわり隊！ PC用動く壁紙",
+    "title_en": "ASOBI★MAWARI-TAI! PC Live Wallpaper",
+    "tags_jp": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_pclivewallpaper/20260925_hololive_PC_Live_Wallpaper_2_en_png.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_pclivewallpaper/20260925_hololive_PC_Live_Wallpaper_3_en_png.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_pclivewallpaper/20260925_hololive_PC_Live_Wallpaper_4_en_png.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_pclivewallpaper/20260925_hololive_PC_Live_Wallpaper_5_en_png.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_pclivewallpaper/20260925_hololive_PC_Live_Wallpaper_6_en_png.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-09-25T22:10:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628438036700",
+    "handle": "startingvoice_hyakutokyoko",
+    "title_jp": "スターティングボイス 百灯キョーコ",
+    "title_en": "Starting Voice - Hyakuto Kyoko",
+    "tags_jp": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_百灯キョーコ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_百灯キョーコ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/startingvoice_hyakutokyoko/20260925_hololive_Starting_Voice_Hyakuto_Kyoko_2_en.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-09-25T22:10:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628435218652",
+    "handle": "startingvoice_suzunatsuzuri",
+    "title_jp": "スターティングボイス 鈴鳴つづり",
+    "title_en": "Starting Voice - Suzuna Tsuzuri",
+    "tags_jp": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_鈴鳴つづり",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_鈴鳴つづり",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/startingvoice_suzunatsuzuri/20260925_hololive_Starting_Voice_Suzuna_Tsuzuri_2_en.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-09-25T22:10:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9628428763356",
+    "handle": "startingvoice_achichimela",
+    "title_jp": "スターティングボイス 熱千めら",
+    "title_en": "Starting Voice - Achichi Mela",
+    "tags_jp": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_熱千めら",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "asobimawari-tai_startingvoice",
+      "Generation_アソビまわり隊",
+      "Recommended_デジタルコンテンツ",
+      "startingvoice",
+      "Talent_熱千めら",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/startingvoice_achichimela/20260925_hololive_Starting_Voice_Achichi_Mela_2_en.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-09-25T22:10:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9621541257436",
     "handle": "tsunomakiwatame_respawn",
     "title_jp": "角巻わため 『リスポーン!!』",
