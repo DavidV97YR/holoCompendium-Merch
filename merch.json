@@ -1,5 +1,58 @@
 [
   {
+    "product_id": "9628377809116",
+    "handle": "fuwamoco_anniversary_3rd",
+    "title_jp": "FUWAMOCO 活動3周年記念",
+    "title_en": "FUWAMOCO 3rd Anniversary",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_フワワ・アビスガード",
+      "Talent_モココ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ボイス",
+      "タペストリー",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwamoco_anniversary_3rd/holo_FUWAMOCO_3rd_banner_EN_0827_9.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 22000,
+    "published_at": "2026-09-26T13:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9628555280604",
     "handle": "asobimawari-tai_regularoutfit",
     "title_jp": "Regular Outfit アソビ★まわり隊！",
