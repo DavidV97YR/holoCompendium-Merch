@@ -152,9 +152,10 @@ function merchCategoriesFor(title, tags, inShop, commemorative) {
   const out = [];
   // Commemorative merch: the shop's own tag, plus what the title says it is
   // (anniversary, birthday, a talent's own yearly Day: 胡桃の日記念), because
-  // the shop left the tag off a few older ones (胡桃のあ 誕生日記念2023). The
-  // lottery pages stay out of it, as they do in the shop.
-  if (!isLottery(title, tags) && (commemorative || /周年記念|誕生日記念|の日記念/.test(title)))
+  // the shop left the tag off a few older ones (胡桃のあ 誕生日記念2023). A
+  // release's signed-postcard lottery page is in it too, beside the merch, so
+  // the lottery is seen where the release is (the shop's filter leaves it out).
+  if (commemorative || /周年記念|誕生日記念|の日記念/.test(title))
                                                                 out.push('記念グッズ');
   if (tags.includes('TYPE_イベントグッズ'))                     out.push('イベント・ライブグッズ');
   if (tags.includes('TYPE_デジタルグッズ') || tags.includes('TYPE_ボイス')) out.push('デジタルコンテンツ');
