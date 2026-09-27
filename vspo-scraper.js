@@ -18,9 +18,8 @@
 //                 product — a VSPO! product is usually a set, with one variant
 //                 per item (A3ペナント, デザート皿, …). A TYPE_ tag the shop adds
 //                 later is kept under its own name.
-//   • merch_categories   the shop's event / digital / starter set, plus
-//                 commemorative (anniversary, birthday, a talent's Day) from
-//                 the title, and lottery entries
+//   • merch_categories   the shop's commemorative / event / digital /
+//                 starter set, and lottery entries
 //   • series      the shop's collections (VSPO!LOOK, SHOWDOWN2026, …): the
 //                 site's Series filter, as hololive's units fill its Group one.
 //                 A collection the shop adds later appears by itself.
@@ -147,11 +146,16 @@ function typesFor(title, tags, itemNames, inShop) {
 
 // Categories. イベント・ライブグッズ, デジタルコンテンツ and スターターグッズ are
 // hololive's own values; the rest are VSPO!'s, and the site labels them too.
-function merchCategoriesFor(title, tags, inShop) {
+// `commemorative`: the shop files the product under its own 記念グッズ
+// (Commemorative goods) filter; see fetchOfficialFilter.
+function merchCategoriesFor(title, tags, inShop, commemorative) {
   const out = [];
-  // Commemorative merch: a talent's anniversaries, birthdays and own yearly
-  // "Day" (胡桃の日記念, あかりの日記念), which is neither of the other two.
-  if (/周年記念|誕生日記念|の日記念/.test(title))               out.push('記念グッズ');
+  // Commemorative merch: the shop's own tag, plus what the title says it is
+  // (anniversary, birthday, a talent's own yearly Day: 胡桃の日記念), because
+  // the shop left the tag off a few older ones (胡桃のあ 誕生日記念2023). The
+  // lottery pages stay out of it, as they do in the shop.
+  if (!isLottery(title, tags) && (commemorative || /周年記念|誕生日記念|の日記念/.test(title)))
+                                                                out.push('記念グッズ');
   if (tags.includes('TYPE_イベントグッズ'))                     out.push('イベント・ライブグッズ');
   if (tags.includes('TYPE_デジタルグッズ') || tags.includes('TYPE_ボイス')) out.push('デジタルコンテンツ');
   if (inShop.has('startset') || /スタートセット/.test(title))   out.push('スターターグッズ');
@@ -253,6 +257,28 @@ async function fetchCollections(talentTags) {
   return byProduct;
 }
 
+// Every product the shop lists under one of its own filters. These come from
+// product fields that /products.json leaves out, so they are read from the
+// filtered listing pages, as scraper.js reads hololive's taxonomy. The pages
+// are asked for in Japanese: the English site names the filter values in
+// English, and a Japanese value there matches (almost) nothing.
+async function fetchOfficialFilter(field, value) {
+  const handles = new Set();
+  for (let page = 1; page <= 60; page++) {
+    const res  = await fetch(`${BASE}/collections/all?filter.p.m.custom.${field}=${encodeURIComponent(value)}&page=${page}`,
+      { signal: AbortSignal.timeout(30_000), headers: { 'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'ja' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status} for the ${value} filter`);
+    // Each product card is a <product-item>; its first product link is it.
+    const found = (await res.text()).split('<product-item ').slice(1)
+      .map(card => (card.match(/\/products\/([^"?#\/<\s]+)/) || [])[1]).filter(Boolean).map(decodeURIComponent);
+    const before = handles.size;
+    found.forEach(h => handles.add(h));
+    if (!found.length || handles.size === before) return handles;   // past the last page
+    await sleep(400);
+  }
+  return handles;
+}
+
 // ─── R2 ──────────────────────────────────────────────────────────────────────
 
 function r2KeyFor(handle, imgUrl) {
@@ -339,7 +365,16 @@ async function main() {
   } catch (e) {
     log(`⚠ Could not read the shop's collections (${e.message}); keeping what each product has`);
   }
+  let commemorative = null;
+  try {
+    commemorative = await fetchOfficialFilter('tag', '記念グッズ');
+    log(`Read the shop's Commemorative goods filter: ${commemorative.size} products`);
+  } catch (e) {
+    log(`⚠ Could not read the shop's Commemorative goods filter (${e.message}); keeping what each product has`);
+  }
+  const shopRead = !!(collections && commemorative);
   const shopInfo = id => (collections && collections.get(id)) || { handles: new Set(), series: [] };
+  const isCommemorative = handle => !!(commemorative && commemorative.has(handle));
 
   let added = 0, toppedUp = 0, synced = 0, delisted = 0, stopped = false;
 
@@ -361,10 +396,10 @@ async function main() {
       record.tags_jp = tags; record.tags_en = tags;
       // Worked out again every run, so a rule added here, or a collection the
       // shop adds, reaches the whole archive, not only products archived after.
-      if (collections) {
+      if (shopRead) {
         const info = shopInfo(id);
         record.categories       = typesFor(p.title || '', tags, items, info.handles);
-        record.merch_categories = merchCategoriesFor(p.title || '', tags, info.handles);
+        record.merch_categories = merchCategoriesFor(p.title || '', tags, info.handles, isCommemorative(p.handle));
         record.series           = info.series;
       }
       // A new product's /en-us page can take days to be translated; until it is
@@ -386,7 +421,7 @@ async function main() {
       tags_jp:          tags,
       tags_en:          tags,
       categories:       typesFor(p.title || '', tags, items, shopInfo(id).handles),
-      merch_categories: merchCategoriesFor(p.title || '', tags, shopInfo(id).handles),
+      merch_categories: merchCategoriesFor(p.title || '', tags, shopInfo(id).handles, isCommemorative(p.handle)),
       series:           shopInfo(id).series,
       images:           [],
       min_price:        prices.length ? Math.min(...prices) : 0,
