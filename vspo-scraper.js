@@ -12,11 +12,17 @@
 //
 //   • talents     the shop tags each product with its members' Japanese names
 //                 (橘ひなの), which the site matches as it does hololive's
-//   • categories  hololive's product types (the JP values scraper.js stores),
-//                 worked out from the shop's TYPE_ tags and the names of the
-//                 items in the product — a VSPO! product is usually a set, with
-//                 one variant per item (A3ペナント, デザート皿, …)
-//   • merch_categories   anniversary, birthday, event, digital, starter
+//   • categories  product types. The shop's own where it has specific ones
+//                 (its TYPE_ tags and its card game page), then the finer
+//                 hololive types worked out from the names of the items in the
+//                 product — a VSPO! product is usually a set, with one variant
+//                 per item (A3ペナント, デザート皿, …). A TYPE_ tag the shop adds
+//                 later is kept under its own name.
+//   • merch_categories   the shop's event / digital / starter set, plus
+//                 anniversary and birthday from the title, and lottery entries
+//   • series      the shop's collections (VSPO!LOOK, SHOWDOWN2026, …): the
+//                 site's Series filter, as hololive's units fill its Group one.
+//                 A collection the shop adds later appears by itself.
 //   • title_en    only the product's own /en-us page has it; the listing is
 //                 Japanese in both locales. Fetched once, when first archived.
 //
@@ -87,47 +93,68 @@ async function inChunks(items, size, fn) {
 }
 
 // ─── Classification ──────────────────────────────────────────────────────────
-// Product types, in the vocabulary scraper.js stores (the hololive shop's own
-// JP values), so the site's labels and filter apply unchanged. Tested against
-// the shop's TYPE_ tags and every item name in the product; first match per
-// type, listed in this order.
+// Types are in the vocabulary scraper.js stores (the hololive shop's own JP
+// values), so the site's labels and filter apply to both archives.
+
+// The shop's own types, where they are specific. Its other TYPE_ tags are too
+// broad to filter by (グッズ is on 9 products in 10) or are categories rather
+// than types (event, digital).
+const OFFICIAL_TYPES = {
+  'TYPE_アパレル':               'アパレル・アパレル小物',
+  'TYPE_タペストリー・ポスター': 'タペストリー',
+  'TYPE_ボイス':                 'ボイス',
+};
+const BROAD_TYPE_TAGS = new Set(['TYPE_グッズ', 'TYPE_雑貨・小物', 'TYPE_その他', 'TYPE_イベントグッズ', 'TYPE_デジタルグッズ']);
+
+// The finer types, from the product's title and item names; first match per
+// type, in this order.
 const TYPE_RULES = [
   ['アクリルスタンド・アクリルパネル', /アクリル(スタンド|パネル|ジオラマ|ブロック)|アクスタ/],
   ['キーホルダー・ストラップ',         /キーホルダー|ストラップ|チャーム|キーリング/],
   ['バッジ・ピンバッジ',               /缶バッジ|バッジ|ピンズ/],
   ['ぬいぐるみ',                       /ぬいぐるみ|マスコット/],
   ['ステーショナリー',                 /ステッカー|クリアファイル|ノート|ペン|ポストカード|色紙|ブロマイド|カード(?!ゲーム)/],
-  ['ボイス',                           /^TYPE_ボイス$|ボイス/],
-  ['タペストリー',                     /^TYPE_タペストリー・ポスター$|タペストリー|ポスター|ペナント/],
+  ['ボイス',                           /ボイス/],
+  ['タペストリー',                     /タペストリー|ポスター|ペナント/],
   ['フィギュア',                       /フィギュア/],
   ['カードゲーム・サプライ',           /Xross Stars|スリーブ|ブースター|プレイマット|デッキ/i],
-  ['アパレル・アパレル小物',           /^TYPE_アパレル$|Tシャツ|パーカー|キャップ|ジャケット|ソックス|パジャマ|ユニフォーム|アパレル/],
-  ['生活雑貨',                         /^TYPE_雑貨・小物$|タオル|マグ|タンブラー|クッション|ブランケット|皿|カトラリー|トレイ|マット|時計|ポーチ|バッグ/],
-  ['CD・LP・BD',                       /\bCD\b|アルバム|Blu-ray/],
+  ['アパレル・アパレル小物',           /Tシャツ|パーカー|キャップ|ジャケット|ソックス|パジャマ|ユニフォーム|アパレル/],
+  ['生活雑貨',                         /タオル|マグ|タンブラー|クッション|ブランケット|皿|カトラリー|トレイ|マット|時計|ポーチ|バッグ/],
+  ['CD・LP・BD',                       /\bCD\b|アルバム|Blu-ray|Songs Collection|限定盤|通常盤/],
 ];
 
-// Merch categories. The first three are hololive's own values (the site
-// already labels them); the last two are VSPO!'s, and the site labels those too.
-function merchCategoriesFor(title, tags) {
+// The signed-postcard lottery entry pages: ¥0, nothing to buy. The shop marks
+// them "Excluded Product"; the title says what they are.
+const isLottery = (title, tags) => /抽選/.test(title) || tags.includes('Excluded Product');
+
+// `inShop` is the set of the product's shop collections, by handle.
+function typesFor(title, tags, itemNames, inShop) {
+  if (isLottery(title, tags)) return ['OTHERS'];   // an entry page, not an item
+  const official = [];
+  for (const t of tags) {
+    if (!t.startsWith('TYPE_') || BROAD_TYPE_TAGS.has(t)) continue;
+    official.push(OFFICIAL_TYPES[t] || t.slice(5));   // a new one keeps its own name
+  }
+  if (inShop.has('cardgame')) official.push('カードゲーム・サプライ');
+  const haystack = [title, ...itemNames];
+  const found = TYPE_RULES.filter(([, re]) => haystack.some(s => re.test(s))).map(([type]) => type);
+  const types = [...new Set([...official, ...found])];
+  // Anything else (VSPO! GEAR keyboards and mice, art books) is hololive's
+  // "Others", so every product can be found by type.
+  return types.length ? types : ['OTHERS'];
+}
+
+// Categories. イベント・ライブグッズ, デジタルコンテンツ and スターターグッズ are
+// hololive's own values; the rest are VSPO!'s, and the site labels them too.
+function merchCategoriesFor(title, tags, inShop) {
   const out = [];
   if (/周年記念/.test(title))                                   out.push('周年記念グッズ');
   if (/誕生日記念/.test(title))                                 out.push('誕生日記念グッズ');
   if (tags.includes('TYPE_イベントグッズ'))                     out.push('イベント・ライブグッズ');
   if (tags.includes('TYPE_デジタルグッズ') || tags.includes('TYPE_ボイス')) out.push('デジタルコンテンツ');
-  if (tags.some(t => /スタートセット/.test(t)) || /スタートセット/.test(title)) out.push('スターターグッズ');
+  if (inShop.has('startset') || /スタートセット/.test(title))   out.push('スターターグッズ');
+  if (isLottery(title, tags))                                   out.push('抽選応募');
   return out;
-}
-
-// The first type is the one a card shows. A product the shop files under a
-// single specific TYPE_ (apparel, voice, a tapestry) leads with that; a set,
-// which the shop only calls グッズ / 雑貨・小物, leads with its first item type.
-const LEAD_TAGS = { 'TYPE_アパレル': 'アパレル・アパレル小物', 'TYPE_ボイス': 'ボイス', 'TYPE_タペストリー・ポスター': 'タペストリー' };
-
-function typesFor(title, tags, itemNames) {
-  const haystack = [title, ...tags, ...itemNames];
-  const found = TYPE_RULES.filter(([, re]) => haystack.some(s => re.test(s))).map(([type]) => type);
-  const lead  = tags.map(t => LEAD_TAGS[t]).filter(Boolean);
-  return [...new Set([...lead, ...found])];
 }
 
 // The shop's titles mix in full-width spaces ("Aizawa Ema　5th Anniversary").
@@ -158,6 +185,70 @@ async function englishTitle(handle) {
     log(`  ⚠ no English title for ${handle}: ${e.message}`);
     return '';
   }
+}
+
+// The shop's collections, as product id → { handles, series }. `handles` is
+// every collection the product is in (the card game and starter set pages are
+// read from it); `series` names the ones that are a series.
+//
+// Not a series: the shop's own navigation and type pages, listed here, and
+// its talent pages. A talent page's title is the talent's tag (花芽 すみれ →
+// 花芽すみれ) and reads as a name: short, with no digits, brackets or
+// punctuation and no ぶいすぽ. That test matters because the shop also tags
+// products with some series' names (ぶいすぽっ！サマービーチ2024). So a new
+// talent's page is skipped without an edit, and anything else the shop adds
+// is a new series and appears by itself.
+const NOT_SERIES = new Set(['all', 'frontpage', 'new', 'ending-soon', 'members', 'en-members', 'vspo-en',
+  'goods', 'goods-accessories', 'others', 'apparel', 'event-goods', 'tapestry-poster', 'digitalgoods',
+  'voice', 'cardgame', 'startset']);
+// Read for types and categories, though not series.
+const WANTED = new Set(['cardgame', 'startset']);
+
+// The shop's Japanese titles, tidied: its English ones are machine translated
+// ("V-Spot!"). Brackets around a whole title go, and the brand reads VSPO!.
+function seriesName(title) {
+  return tidy(String(title)
+    .replace(/^【(.*)】/, '$1 ')
+    .replace(/ぶいすぽっ[！!]?|ぶいすぽ(?!っ)/g, 'VSPO! '))
+    .replace(/VSPO! (?=[」』])/g, 'VSPO!');
+}
+
+async function fetchCollections(talentTags) {
+  const list = [];
+  for (let page = 1; ; page++) {
+    const res  = await fetchWithRetry(`${BASE}/collections.json?limit=250&page=${page}`);
+    const cols = (await res.json()).collections || [];
+    list.push(...cols);
+    if (cols.length < 250) break;
+  }
+  const byProduct = new Map();
+  const seenSets  = new Set();   // two collections with the same products are one series
+  for (const c of list) {
+    if (!c.products_count) continue;
+    const name       = String(c.title).replace(/[\s　]+/g, '');
+    const talentPage = talentTags.has(name) && name.length <= 7
+                       && !/[0-9０-９!！?？「」【】『』()（）・&＆]|ぶいすぽ/.test(name);
+    const isSeries   = !NOT_SERIES.has(c.handle) && !talentPage;
+    if (!isSeries && !WANTED.has(c.handle)) continue;
+    const ids = [];
+    for (let page = 1; ; page++) {
+      const res   = await fetchWithRetry(`${BASE}/collections/${encodeURIComponent(c.handle)}/products.json?limit=250&page=${page}`);
+      const prods = (await res.json()).products || [];
+      ids.push(...prods.map(p => String(p.id)));
+      if (prods.length < 250) break;
+    }
+    await sleep(300);
+    const key    = ids.slice().sort().join(',');
+    const series = isSeries && !seenSets.has(key) ? seriesName(c.title) : null;
+    if (series) seenSets.add(key);
+    for (const id of ids) {
+      if (!byProduct.has(id)) byProduct.set(id, { handles: new Set(), series: [] });
+      const e = byProduct.get(id);
+      e.handles.add(c.handle);
+      if (series && !e.series.includes(series)) e.series.push(series);
+    }
+  }
+  return byProduct;
 }
 
 // ─── R2 ──────────────────────────────────────────────────────────────────────
@@ -233,6 +324,21 @@ async function main() {
   log(`Shop lists ${live.length} products`);
   const liveIds = new Set(live.map(p => String(p.id)));
 
+  // Talents' Japanese names, as the shop tags products with them: every tag
+  // with no TYPE_ prefix and no Latin letters (the shop's own flags are
+  // English). Only used to tell a talent's collection from a series.
+  const talentTags = new Set(live.flatMap(p => p.tags || []).filter(t => !/^TYPE_|[A-Za-z]/.test(t)));
+  // If the collections can't be read, products keep the types, categories and
+  // series they already have rather than losing them for a run.
+  let collections = null;
+  try {
+    collections = await fetchCollections(talentTags);
+    log(`Read the shop's collections: ${new Set([...collections.values()].flatMap(e => e.series)).size} series`);
+  } catch (e) {
+    log(`⚠ Could not read the shop's collections (${e.message}); keeping what each product has`);
+  }
+  const shopInfo = id => (collections && collections.get(id)) || { handles: new Set(), series: [] };
+
   let added = 0, toppedUp = 0, synced = 0, delisted = 0, stopped = false;
 
   for (const p of live) {
@@ -251,6 +357,14 @@ async function main() {
         record.is_available = available; record.delisted_at = null; synced++;
       }
       record.tags_jp = tags; record.tags_en = tags;
+      // Worked out again every run, so a rule added here, or a collection the
+      // shop adds, reaches the whole archive, not only products archived after.
+      if (collections) {
+        const info = shopInfo(id);
+        record.categories       = typesFor(p.title || '', tags, items, info.handles);
+        record.merch_categories = merchCategoriesFor(p.title || '', tags, info.handles);
+        record.series           = info.series;
+      }
       // A new product's /en-us page can take days to be translated; until it is
       // the title falls back to the Japanese one, and is asked again for a month.
       if (record.title_en === record.title_jp && Date.now() - Date.parse(record.published_at) < 30 * 864e5) {
@@ -269,8 +383,9 @@ async function main() {
       title_en:         '',
       tags_jp:          tags,
       tags_en:          tags,
-      categories:       typesFor(p.title || '', tags, items),
-      merch_categories: merchCategoriesFor(p.title || '', tags),
+      categories:       typesFor(p.title || '', tags, items, shopInfo(id).handles),
+      merch_categories: merchCategoriesFor(p.title || '', tags, shopInfo(id).handles),
+      series:           shopInfo(id).series,
       images:           [],
       min_price:        prices.length ? Math.min(...prices) : 0,
       max_price:        prices.length ? Math.max(...prices) : 0,
