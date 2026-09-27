@@ -72,7 +72,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -155,7 +154,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -418,7 +416,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -540,7 +537,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -822,7 +818,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -915,7 +910,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -1249,7 +1243,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -1369,7 +1362,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -2215,7 +2207,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -2454,7 +2445,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -2589,7 +2579,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3135,7 +3124,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3172,7 +3160,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3313,7 +3300,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3397,7 +3383,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3831,7 +3816,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -3974,7 +3958,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -4222,7 +4205,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -4962,7 +4944,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -5135,7 +5116,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -5217,7 +5197,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -5299,7 +5278,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -5543,7 +5521,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -6606,7 +6583,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -6756,7 +6732,6 @@
       "OTHERS"
     ],
     "merch_categories": [
-      "記念グッズ",
       "抽選応募"
     ],
     "images": [
@@ -16209,7 +16184,9 @@
     "categories": [
       "ステーショナリー"
     ],
-    "merch_categories": [],
+    "merch_categories": [
+      "記念グッズ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/10millionsubscribing-paper/1_1_TOP_18504f3e-8617-44a1-aaf6-490336f2ca08.webp",
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/10millionsubscribing-paper/1_1_member_Sumire.webp",
