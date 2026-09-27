@@ -19,7 +19,8 @@
 //                 per item (A3ペナント, デザート皿, …). A TYPE_ tag the shop adds
 //                 later is kept under its own name.
 //   • merch_categories   the shop's event / digital / starter set, plus
-//                 anniversary and birthday from the title, and lottery entries
+//                 commemorative (anniversary, birthday, a talent's Day) from
+//                 the title, and lottery entries
 //   • series      the shop's collections (VSPO!LOOK, SHOWDOWN2026, …): the
 //                 site's Series filter, as hololive's units fill its Group one.
 //                 A collection the shop adds later appears by itself.
@@ -148,8 +149,9 @@ function typesFor(title, tags, itemNames, inShop) {
 // hololive's own values; the rest are VSPO!'s, and the site labels them too.
 function merchCategoriesFor(title, tags, inShop) {
   const out = [];
-  if (/周年記念/.test(title))                                   out.push('周年記念グッズ');
-  if (/誕生日記念/.test(title))                                 out.push('誕生日記念グッズ');
+  // Commemorative merch: a talent's anniversaries, birthdays and own yearly
+  // "Day" (胡桃の日記念, あかりの日記念), which is neither of the other two.
+  if (/周年記念|誕生日記念|の日記念/.test(title))               out.push('記念グッズ');
   if (tags.includes('TYPE_イベントグッズ'))                     out.push('イベント・ライブグッズ');
   if (tags.includes('TYPE_デジタルグッズ') || tags.includes('TYPE_ボイス')) out.push('デジタルコンテンツ');
   if (inShop.has('startset') || /スタートセット/.test(title))   out.push('スターターグッズ');
