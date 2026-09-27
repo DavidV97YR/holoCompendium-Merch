@@ -85,3 +85,20 @@ jobs:
           EMAIL_LAYOUT:   ${{ vars.EMAIL_LAYOUT }}
           # Only set by the manual test above; empty on every scheduled run.
           TEST_EMAIL_TO:  ${{ inputs.test_email }}
+
+      # VSPO!'s shop, store.vspo.jp: its own archive (vspo-merch.json here,
+      # vspo/merch.json and VSPO/ images in the same bucket). Runs after the
+      # hololive scrape on every trigger, whether or not that one succeeded,
+      # but not on a test-email or backfill run, which are hololive-only. The
+      # first run archives the whole shop over two or three runs (it stops at
+      # BUDGET_MIN and commits what it finished).
+      - name: Run VSPO! scraper
+        if: ${{ !cancelled() && !inputs.test_email && !inputs.backfill_en && !inputs.backfill_categories }}
+        run: node vspo-scraper.js
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+          R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
+          R2_BUCKET:     ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+          BUDGET_MIN:    '50'
