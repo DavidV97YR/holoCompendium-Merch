@@ -46,7 +46,8 @@
     "max_price": 13000,
     "published_at": "2026-09-26T18:58:16+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523985289403",
@@ -68,10 +69,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/shinomiyaruna-ani5th-postcard/03_thumbnail_3c9a47b8-749b-4e71-a877-6d53895663e7.webp",
@@ -81,7 +83,8 @@
     "max_price": 0,
     "published_at": "2026-09-26T00:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523983454395",
@@ -126,7 +129,8 @@
     "max_price": 11900,
     "published_at": "2026-09-25T20:31:20+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523981815995",
@@ -148,10 +152,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yakumobeni-birthday2026-postcard/03_thumbnail_5d09fd55-7d9b-401c-8bd0-d8a83b7b3bac.webp",
@@ -161,7 +166,8 @@
     "max_price": 0,
     "published_at": "2026-09-25T00:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8524031262907",
@@ -191,8 +197,7 @@
       "英リサ"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [],
     "images": [
@@ -225,7 +230,11 @@
     "max_price": 4000,
     "published_at": "2026-09-24T18:30:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8524029722811",
@@ -279,7 +288,11 @@
     "max_price": 14000,
     "published_at": "2026-09-24T18:30:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8523980374203",
@@ -333,7 +346,8 @@
     "max_price": 12400,
     "published_at": "2026-09-23T07:30:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523978834107",
@@ -378,7 +392,8 @@
     "max_price": 14900,
     "published_at": "2026-09-18T20:33:24+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523972673723",
@@ -400,10 +415,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/aizawaema-ani5th-postcard/03_thumbnail_6423c3d4-87a2-493c-9d5e-8a68bb0eb2b0.webp",
@@ -413,7 +429,8 @@
     "max_price": 0,
     "published_at": "2026-09-18T00:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487746699451",
@@ -433,7 +450,7 @@
       "VSPO! GEAR"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -444,7 +461,10 @@
     "max_price": 2400,
     "published_at": "2026-09-15T14:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8523968610491",
@@ -470,8 +490,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -495,7 +514,8 @@
     "max_price": 10500,
     "published_at": "2026-09-12T20:39:27+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8523964711099",
@@ -517,10 +537,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/ginjosaine-birthday2026-postcard/Header_1_1_de982562-71ad-4d40-b0b5-7f3d1719a086.webp",
@@ -530,7 +551,8 @@
     "max_price": 0,
     "published_at": "2026-09-12T00:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860488891",
@@ -595,7 +617,9 @@
       "藍沢エマ",
       "蝶屋はなび"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/gear-vspo-gaming-keyboard-ver2/header_1_1_71fd5f5e-5cda-41fc-88ee-570945f61057.webp",
@@ -627,7 +651,10 @@
     "max_price": 27500,
     "published_at": "2026-09-01T13:10:47+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8358860030139",
@@ -653,8 +680,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -671,7 +697,8 @@
     "max_price": 12000,
     "published_at": "2026-09-01T13:08:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487752073403",
@@ -724,7 +751,8 @@
     "max_price": 9950,
     "published_at": "2026-08-25T21:30:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487751254203",
@@ -768,7 +796,8 @@
     "max_price": 11900,
     "published_at": "2026-08-25T20:18:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487751778491",
@@ -790,10 +819,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/shiranamiramune-ani4th-postcard/03_thumbnail_52154f7a-0fcb-48bf-b262-d5408a7042aa.webp",
@@ -803,7 +833,8 @@
     "max_price": 0,
     "published_at": "2026-08-25T00:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487747813563",
@@ -832,8 +863,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -859,7 +889,8 @@
     "max_price": 13000,
     "published_at": "2026-08-15T19:32:47+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487749058747",
@@ -881,10 +912,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/hanabusalisa-ani6th-postcard/Header1_1_aef45e59-1011-4a6b-8083-c9dc814c73ed.webp",
@@ -894,7 +926,8 @@
     "max_price": 0,
     "published_at": "2026-08-15T00:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487752007867",
@@ -957,7 +990,8 @@
     "max_price": 6000,
     "published_at": "2026-08-14T17:03:22+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487746011323",
@@ -1023,7 +1057,8 @@
     "max_price": 1000,
     "published_at": "2026-08-12T18:59:14+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8396995363003",
@@ -1087,7 +1122,8 @@
     "max_price": 1000,
     "published_at": "2026-08-12T18:42:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487745519803",
@@ -1118,8 +1154,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -1138,7 +1173,8 @@
     "max_price": 10950,
     "published_at": "2026-08-10T22:30:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461991248059",
@@ -1163,8 +1199,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -1188,7 +1223,8 @@
     "max_price": 9000,
     "published_at": "2026-07-30T18:33:42+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461990756539",
@@ -1210,10 +1246,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tatsumakichise-birthday2026-postcard/03_thumbnail_d2972f29-d345-4a00-917e-b766ae3d051c.webp",
@@ -1223,7 +1260,8 @@
     "max_price": 0,
     "published_at": "2026-07-30T00:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8487745421499",
@@ -1257,7 +1295,10 @@
     "max_price": 4000,
     "published_at": "2026-07-28T19:55:47+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "8461988659387",
@@ -1285,8 +1326,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -1303,7 +1343,8 @@
     "max_price": 13000,
     "published_at": "2026-07-19T21:13:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461988135099",
@@ -1325,10 +1366,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/asumisena-ani6th-postcard/03_thumbnail_33fe0d75-0c2d-4140-b4e3-4717d3c651ef.webp",
@@ -1338,7 +1380,8 @@
     "max_price": 0,
     "published_at": "2026-07-19T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461989445819",
@@ -1392,7 +1435,11 @@
     "max_price": 12000,
     "published_at": "2026-07-17T18:57:36+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8461990035643",
@@ -1422,8 +1469,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [],
     "images": [
@@ -1454,7 +1500,11 @@
     "max_price": 4000,
     "published_at": "2026-07-17T18:57:19+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8480166281403",
@@ -1492,7 +1542,11 @@
     "max_price": 5000,
     "published_at": "2026-07-17T18:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8419556524219",
@@ -1520,7 +1574,10 @@
     "max_price": 990,
     "published_at": "2026-07-17T17:00:13+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8419557114043",
@@ -1548,7 +1605,10 @@
     "max_price": 990,
     "published_at": "2026-07-17T17:00:11+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8419555901627",
@@ -1588,7 +1648,10 @@
     "max_price": 5280,
     "published_at": "2026-07-17T17:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8461987086523",
@@ -1606,7 +1669,7 @@
       "VSPO! GEAR"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -1617,7 +1680,10 @@
     "max_price": 1300,
     "published_at": "2026-07-15T19:00:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8198710952123",
@@ -1682,7 +1748,9 @@
       "藍沢エマ",
       "蝶屋はなび"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/gear-vspo-gaming-mouse/header_1_1_260611.webp",
@@ -1718,7 +1786,10 @@
     "max_price": 22480,
     "published_at": "2026-07-15T19:00:11+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8198754402491",
@@ -1784,8 +1855,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -1818,7 +1888,10 @@
     "max_price": 1000,
     "published_at": "2026-07-15T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8358860292283",
@@ -1860,7 +1933,8 @@
     "max_price": 12000,
     "published_at": "2026-07-15T18:53:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8342019899579",
@@ -1934,8 +2008,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -1973,7 +2046,10 @@
     "max_price": 1500,
     "published_at": "2026-07-15T13:44:27+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8461989118139",
@@ -2017,7 +2093,8 @@
     "max_price": 4000,
     "published_at": "2026-07-14T19:05:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461986005179",
@@ -2048,8 +2125,7 @@
       "タペストリー",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -2068,7 +2144,8 @@
     "max_price": 10550,
     "published_at": "2026-07-12T15:30:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461848215739",
@@ -2112,7 +2189,8 @@
     "max_price": 14100,
     "published_at": "2026-07-04T20:24:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8461847167163",
@@ -2134,10 +2212,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tosakimimi-ani6th-postcard/03_thumbnail_3e4765b1-fba8-4ce7-a7cf-71eae3c8f3f6.webp",
@@ -2147,7 +2226,8 @@
     "max_price": 0,
     "published_at": "2026-07-04T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419560390843",
@@ -2179,8 +2259,7 @@
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
       "ステーショナリー",
-      "ボイス",
-      "生活雑貨"
+      "ボイス"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -2199,7 +2278,8 @@
     "max_price": 10750,
     "published_at": "2026-07-02T07:30:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419560292539",
@@ -2228,8 +2308,7 @@
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
       "ステーショナリー",
-      "ボイス",
-      "生活雑貨"
+      "ボイス"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -2249,7 +2328,8 @@
     "max_price": 11050,
     "published_at": "2026-06-30T23:30:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419560587451",
@@ -2301,7 +2381,8 @@
     "max_price": 11900,
     "published_at": "2026-06-30T12:30:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419560259771",
@@ -2329,8 +2410,7 @@
     "categories": [
       "タペストリー",
       "キーホルダー・ストラップ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -2348,7 +2428,8 @@
     "max_price": 12500,
     "published_at": "2026-06-24T18:40:29+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419559801019",
@@ -2370,10 +2451,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-ani4th-postcard/03_thumbnail_a9f50502-9fe4-4ac0-838c-9e0a62b532fc.webp",
@@ -2383,7 +2465,8 @@
     "max_price": 0,
     "published_at": "2026-06-24T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419557638331",
@@ -2414,8 +2497,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -2432,7 +2514,8 @@
     "max_price": 9000,
     "published_at": "2026-06-22T21:08:56+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419553018043",
@@ -2462,8 +2545,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -2481,7 +2563,8 @@
     "max_price": 11000,
     "published_at": "2026-06-16T20:20:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419552985275",
@@ -2503,10 +2586,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-birthday2026-postcard/03_thumbnail.webp",
@@ -2516,7 +2600,8 @@
     "max_price": 0,
     "published_at": "2026-06-16T00:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8419553116347",
@@ -2580,8 +2665,8 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
-      "カードゲーム・サプライ"
+      "カードゲーム・サプライ",
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -2616,7 +2701,10 @@
     "max_price": 1500,
     "published_at": "2026-06-10T19:00:08+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! カードサプライ"
+    ]
   },
   {
     "product_id": "8419554295995",
@@ -2680,6 +2768,7 @@
       "蝶屋はなび"
     ],
     "categories": [
+      "カードゲーム・サプライ",
       "ステーショナリー"
     ],
     "merch_categories": [],
@@ -2715,7 +2804,10 @@
     "max_price": 1200,
     "published_at": "2026-06-10T19:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! カードサプライ"
+    ]
   },
   {
     "product_id": "8419553411259",
@@ -2779,7 +2871,6 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
       "カードゲーム・サプライ",
       "生活雑貨"
     ],
@@ -2816,7 +2907,10 @@
     "max_price": 3000,
     "published_at": "2026-06-10T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! カードサプライ"
+    ]
   },
   {
     "product_id": "8419554951355",
@@ -2880,7 +2974,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー"
+      "カードゲーム・サプライ"
     ],
     "merch_categories": [],
     "images": [
@@ -2915,7 +3009,10 @@
     "max_price": 1800,
     "published_at": "2026-06-10T19:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! カードサプライ"
+    ]
   },
   {
     "product_id": "8395307352251",
@@ -2943,8 +3040,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -2969,7 +3065,8 @@
     "max_price": 15000,
     "published_at": "2026-05-21T14:35:40+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8396995035323",
@@ -3012,7 +3109,8 @@
     "max_price": 11300,
     "published_at": "2026-05-18T21:01:59+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8396994969787",
@@ -3034,10 +3132,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaminariqpi-birthday2026-postcard/thumbnail_0a392272-34aa-431c-b5d2-aa2a6a8b45e3.webp",
@@ -3047,7 +3146,8 @@
     "max_price": 0,
     "published_at": "2026-05-18T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8395307319483",
@@ -3069,10 +3169,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-birthday2026-postcard/05_thumbnail_3f45322a-50f4-41b7-8e72-fa807a4972a6.webp",
@@ -3082,7 +3183,8 @@
     "max_price": 0,
     "published_at": "2026-05-05T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860751035",
@@ -3137,7 +3239,8 @@
     "max_price": 12500,
     "published_at": "2026-04-19T19:21:27+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860685499",
@@ -3165,8 +3268,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -3185,7 +3287,8 @@
     "max_price": 13200,
     "published_at": "2026-04-17T19:56:50+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860652731",
@@ -3207,10 +3310,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-ani7th-postcard/EC07_7__05top_4eb12247-ef09-4532-b8ab-92219c0271e9.webp",
@@ -3220,7 +3324,8 @@
     "max_price": 0,
     "published_at": "2026-04-17T00:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860587195",
@@ -3246,8 +3351,7 @@
     "categories": [
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -3267,7 +3371,8 @@
     "max_price": 10300,
     "published_at": "2026-04-16T21:44:43+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860521659",
@@ -3289,10 +3394,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yakumobeni-ani5th-postcard/header1_1.webp",
@@ -3302,7 +3408,8 @@
     "max_price": 0,
     "published_at": "2026-04-16T00:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860390587",
@@ -3357,7 +3464,8 @@
     "max_price": 14000,
     "published_at": "2026-04-09T19:45:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8372596080827",
@@ -3391,8 +3499,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -3409,7 +3516,11 @@
     "max_price": 1800,
     "published_at": "2026-04-09T14:00:11+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Starter Series"
+    ]
   },
   {
     "product_id": "8372658831547",
@@ -3443,8 +3554,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -3461,7 +3571,11 @@
     "max_price": 700,
     "published_at": "2026-04-09T14:00:10+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Starter Series"
+    ]
   },
   {
     "product_id": "8372659191995",
@@ -3495,8 +3609,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -3513,7 +3626,11 @@
     "max_price": 1200,
     "published_at": "2026-04-09T14:00:09+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Starter Series"
+    ]
   },
   {
     "product_id": "8372659388603",
@@ -3547,7 +3664,11 @@
     "max_price": 11400,
     "published_at": "2026-04-09T14:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Team Jacket Series"
+    ]
   },
   {
     "product_id": "8372659978427",
@@ -3575,7 +3696,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -3592,7 +3713,11 @@
     "max_price": 2400,
     "published_at": "2026-04-09T14:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Team Jacket Series"
+    ]
   },
   {
     "product_id": "8372660109499",
@@ -3620,8 +3745,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -3636,7 +3760,11 @@
     "max_price": 1800,
     "published_at": "2026-04-09T14:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Team Jacket Series"
+    ]
   },
   {
     "product_id": "8372660207803",
@@ -3674,7 +3802,11 @@
     "max_price": 5200,
     "published_at": "2026-04-09T14:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! EN Standard Goods",
+      "VSPO! EN Team Jacket Series"
+    ]
   },
   {
     "product_id": "8358860357819",
@@ -3696,10 +3828,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-birthday2026-postcard/05_thumbnail_f066b0fd-ca63-4f73-b200-57ed78529d52.webp",
@@ -3709,7 +3842,8 @@
     "max_price": 0,
     "published_at": "2026-04-09T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860456123",
@@ -3735,8 +3869,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [],
     "images": [
@@ -3761,7 +3894,11 @@
     "max_price": 3000,
     "published_at": "2026-04-03T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8358860423355",
@@ -3808,7 +3945,11 @@
     "max_price": 14000,
     "published_at": "2026-04-03T19:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8358860128443",
@@ -3830,10 +3971,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-birthday2026-postcard/05_thumbnail_2_0bbfb2e2-c3d4-44f3-a11d-6dde0f4588e8.webp",
@@ -3843,7 +3985,8 @@
     "max_price": 0,
     "published_at": "2026-04-02T00:00:09+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8358860325051",
@@ -3909,7 +4052,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -3942,7 +4085,10 @@
     "max_price": 3000,
     "published_at": "2026-03-31T20:00:15+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "ぬいすぽっ！"
+    ]
   },
   {
     "product_id": "8346767851707",
@@ -3974,7 +4120,10 @@
     "max_price": 4000,
     "published_at": "2026-03-24T21:49:18+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "8346769326267",
@@ -3996,7 +4145,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -4008,7 +4157,10 @@
     "max_price": 1800,
     "published_at": "2026-03-24T19:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8346767884475",
@@ -4030,7 +4182,7 @@
       "銀城サイネ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -4042,7 +4194,10 @@
     "max_price": 1800,
     "published_at": "2026-03-24T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8342018097339",
@@ -4064,10 +4219,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/shiranamiramune-birthday2026-postcard/05_thumbnail_1218ec03-744c-42fd-aa64-af2ba0875201.webp",
@@ -4077,7 +4233,8 @@
     "max_price": 0,
     "published_at": "2026-03-24T00:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8342018687163",
@@ -4121,7 +4278,8 @@
     "max_price": 15500,
     "published_at": "2026-03-23T19:31:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8345807421627",
@@ -4197,8 +4355,7 @@
     "categories": [
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -4220,7 +4377,10 @@
     "max_price": 6500,
     "published_at": "2026-03-21T11:00:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8345802080443",
@@ -4314,7 +4474,10 @@
     "max_price": 6000,
     "published_at": "2026-03-21T11:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8345799491771",
@@ -4404,7 +4567,10 @@
     "max_price": 2000,
     "published_at": "2026-03-21T11:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8345794511035",
@@ -4478,8 +4644,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -4517,7 +4682,10 @@
     "max_price": 2000,
     "published_at": "2026-03-21T11:00:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8345792512187",
@@ -4591,8 +4759,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -4630,7 +4797,10 @@
     "max_price": 500,
     "published_at": "2026-03-21T11:00:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8342019965115",
@@ -4702,8 +4872,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -4721,7 +4890,10 @@
     "max_price": 2500,
     "published_at": "2026-03-21T11:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! SHOWDOWN2026"
+    ]
   },
   {
     "product_id": "8342017638587",
@@ -4746,8 +4918,7 @@
     ],
     "categories": [
       "アクリルスタンド・アクリルパネル",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -4765,7 +4936,8 @@
     "max_price": 12500,
     "published_at": "2026-03-19T17:41:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8342017507515",
@@ -4787,10 +4959,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-ani2nd-postcard/05_thumbnail_332b8477-4159-42e2-993d-4bcab9770917.webp",
@@ -4800,7 +4973,8 @@
     "max_price": 0,
     "published_at": "2026-03-19T00:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8342017409211",
@@ -4882,7 +5056,10 @@
     "max_price": 11000,
     "published_at": "2026-03-18T18:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8323528818875",
@@ -4913,8 +5090,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -4933,7 +5109,8 @@
     "max_price": 12500,
     "published_at": "2026-03-03T00:17:55+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8323528196283",
@@ -4955,10 +5132,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tosakimimi-birthday2026-postcard/05_thumbnail_8f13aec4-b816-4b40-b835-309aa5783f12.webp",
@@ -4968,7 +5146,8 @@
     "max_price": 0,
     "published_at": "2026-03-03T00:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8314897006779",
@@ -5012,7 +5191,8 @@
     "max_price": 14000,
     "published_at": "2026-02-26T20:24:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8314896941243",
@@ -5034,10 +5214,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-birthday2026-postcard/05_2288097b-c04a-42fa-ab69-5ee0067153c6.webp",
@@ -5047,7 +5228,8 @@
     "max_price": 0,
     "published_at": "2026-02-25T20:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8314896875707",
@@ -5074,8 +5256,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -5092,7 +5273,8 @@
     "max_price": 14000,
     "published_at": "2026-02-22T18:17:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8314896842939",
@@ -5114,10 +5296,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/shinomiyaruna-birthday2026-postcard/05_thumbnail_129991f0-ffed-4cb0-ac8d-923c56e71147.webp",
@@ -5127,7 +5310,8 @@
     "max_price": 0,
     "published_at": "2026-02-22T00:54:32+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8316759867579",
@@ -5159,7 +5343,10 @@
     "max_price": 990,
     "published_at": "2026-02-17T19:06:45+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8308231569595",
@@ -5201,7 +5388,10 @@
     "max_price": 5280,
     "published_at": "2026-02-17T19:06:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8306792726715",
@@ -5273,7 +5463,10 @@
     "max_price": 1000,
     "published_at": "2026-02-14T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8306788532411",
@@ -5305,8 +5498,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -5325,7 +5517,8 @@
     "max_price": 13300,
     "published_at": "2026-02-13T20:49:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8306788171963",
@@ -5347,10 +5540,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kuruminoah-birthday2026-postcard/05_3ef83740-99a4-4641-bc9a-570d77b3f8a4.webp",
@@ -5360,7 +5554,8 @@
     "max_price": 0,
     "published_at": "2026-02-12T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8308231143611",
@@ -5384,7 +5579,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5403,7 +5598,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8308231012539",
@@ -5429,7 +5627,7 @@
       "紡木こかげ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5450,7 +5648,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8308230652091",
@@ -5476,7 +5677,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5497,7 +5698,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8308230553787",
@@ -5523,7 +5727,7 @@
       "英リサ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5544,7 +5748,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8308230389947",
@@ -5570,7 +5777,7 @@
       "胡桃のあ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5591,7 +5798,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8306793251003",
@@ -5617,7 +5827,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5638,7 +5848,10 @@
     "max_price": 3500,
     "published_at": "2026-02-10T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8306792104123",
@@ -5702,7 +5915,10 @@
     "max_price": 3200,
     "published_at": "2026-02-06T18:00:09+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8306791547067",
@@ -5742,7 +5958,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -5763,7 +5979,10 @@
     "max_price": 2000,
     "published_at": "2026-02-06T18:00:09+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8306791055547",
@@ -5860,7 +6079,10 @@
     "max_price": 3200,
     "published_at": "2026-02-06T18:00:08+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8306790662331",
@@ -5924,8 +6146,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -5958,7 +6179,10 @@
     "max_price": 480,
     "published_at": "2026-02-06T18:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8306789548219",
@@ -6022,8 +6246,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -6056,7 +6279,10 @@
     "max_price": 1200,
     "published_at": "2026-02-06T18:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! バレンタイン2026"
+    ]
   },
   {
     "product_id": "8290760458427",
@@ -6085,8 +6311,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -6105,7 +6330,8 @@
     "max_price": 11500,
     "published_at": "2026-01-31T20:30:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8293911101627",
@@ -6162,7 +6388,10 @@
     "max_price": 5000,
     "published_at": "2026-01-30T18:59:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "SFL: Pro-JP 2025"
+    ]
   },
   {
     "product_id": "8293911036091",
@@ -6221,7 +6450,10 @@
     "max_price": 3500,
     "published_at": "2026-01-30T18:58:55+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "SFL: Pro-JP 2025"
+    ]
   },
   {
     "product_id": "8288561856699",
@@ -6282,7 +6514,9 @@
       "英リサ",
       "藍沢エマ"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/vspo-artbook/03_58171383-79d5-4c40-a2e8-49ca5b0b51e7.webp",
@@ -6297,7 +6531,8 @@
     "max_price": 12500,
     "published_at": "2026-01-23T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8285294231739",
@@ -6326,8 +6561,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -6346,7 +6580,8 @@
     "max_price": 12500,
     "published_at": "2026-01-18T22:00:54+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8285294198971",
@@ -6368,10 +6603,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "誕生日記念グッズ"
+      "誕生日記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/asumisena-birthday2026-postcard/header_1_1_3e472e37-1c17-4300-8bfe-f993baf715ba.webp",
@@ -6381,7 +6617,8 @@
     "max_price": 0,
     "published_at": "2026-01-17T18:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8284901408955",
@@ -6425,7 +6662,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -6447,7 +6684,10 @@
     "max_price": 5800,
     "published_at": "2026-01-15T17:59:59+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8277474574523",
@@ -6473,8 +6713,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -6491,7 +6730,8 @@
     "max_price": 9500,
     "published_at": "2026-01-09T22:29:26+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8277474476219",
@@ -6513,10 +6753,11 @@
       "直筆ポスカ抽選応募ページ"
     ],
     "categories": [
-      "ステーショナリー"
+      "OTHERS"
     ],
     "merch_categories": [
-      "周年記念グッズ"
+      "周年記念グッズ",
+      "抽選応募"
     ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaminariqpi-ani5th-postcard/05_thumbnail_7b4fb171-3a6a-4d1b-868c-359ba1c063af.webp",
@@ -6526,7 +6767,8 @@
     "max_price": 0,
     "published_at": "2026-01-08T20:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8284361818299",
@@ -6564,7 +6806,11 @@
     "max_price": 7000,
     "published_at": "2026-01-08T18:30:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8269431242939",
@@ -6628,8 +6874,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -6663,7 +6908,10 @@
     "max_price": 1000,
     "published_at": "2025-12-26T21:00:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269430194363",
@@ -6727,7 +6975,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -6761,7 +7009,10 @@
     "max_price": 1000,
     "published_at": "2025-12-26T20:59:54+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269429309627",
@@ -6825,7 +7076,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -6859,7 +7110,10 @@
     "max_price": 1000,
     "published_at": "2025-12-26T20:54:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269428457659",
@@ -6923,8 +7177,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -6958,7 +7211,10 @@
     "max_price": 1500,
     "published_at": "2025-12-26T20:53:52+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269427703995",
@@ -7022,8 +7278,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -7057,7 +7312,10 @@
     "max_price": 600,
     "published_at": "2025-12-26T20:53:29+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269426917563",
@@ -7123,8 +7381,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "タペストリー",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [],
     "images": [
@@ -7158,7 +7415,10 @@
     "max_price": 9000,
     "published_at": "2025-12-26T20:52:21+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2026"
+    ]
   },
   {
     "product_id": "8269423149243",
@@ -7218,7 +7478,8 @@
     "max_price": 1000,
     "published_at": "2025-12-26T19:00:06+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8253662593211",
@@ -7246,8 +7507,7 @@
     "categories": [
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -7266,7 +7526,8 @@
     "max_price": 16000,
     "published_at": "2025-12-23T20:29:56+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8253661348027",
@@ -7334,8 +7595,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -7370,7 +7630,11 @@
     "max_price": 500,
     "published_at": "2025-12-15T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ",
+      "メンバーシンボル"
+    ]
   },
   {
     "product_id": "8253660790971",
@@ -7438,8 +7702,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -7474,7 +7737,11 @@
     "max_price": 1000,
     "published_at": "2025-12-15T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ",
+      "メンバーシンボル"
+    ]
   },
   {
     "product_id": "8253658333371",
@@ -7504,8 +7771,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -7524,7 +7790,8 @@
     "max_price": 13300,
     "published_at": "2025-12-10T20:28:36+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8253660233915",
@@ -7550,8 +7817,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [],
     "images": [
@@ -7585,7 +7851,11 @@
     "max_price": 3000,
     "published_at": "2025-12-08T18:00:25+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8253659807931",
@@ -7632,7 +7902,11 @@
     "max_price": 14000,
     "published_at": "2025-12-08T18:00:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK SEASON"
+    ]
   },
   {
     "product_id": "8243249971387",
@@ -7660,8 +7934,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -7679,7 +7952,8 @@
     "max_price": 15800,
     "published_at": "2025-12-03T20:45:35+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8243249873083",
@@ -7703,8 +7977,7 @@
     "categories": [
       "タペストリー",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -7722,7 +7995,8 @@
     "max_price": 10500,
     "published_at": "2025-12-01T20:26:51+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8243249709243",
@@ -7751,8 +8025,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -7774,7 +8047,8 @@
     "max_price": 14400,
     "published_at": "2025-11-27T21:13:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8243249676475",
@@ -7838,8 +8112,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -7872,7 +8145,11 @@
     "max_price": 1000,
     "published_at": "2025-11-26T19:00:13+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! アクリルキーホルダー",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8243249774779",
@@ -7910,7 +8187,11 @@
     "max_price": 7000,
     "published_at": "2025-11-25T19:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8242453807291",
@@ -8002,7 +8283,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8048,7 +8329,10 @@
     "max_price": 800,
     "published_at": "2025-11-22T09:00:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453774523",
@@ -8140,7 +8424,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8186,7 +8470,10 @@
     "max_price": 2500,
     "published_at": "2025-11-22T09:00:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453741755",
@@ -8256,7 +8543,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8291,7 +8578,10 @@
     "max_price": 8800,
     "published_at": "2025-11-22T09:00:18+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453708987",
@@ -8384,8 +8674,7 @@
     ],
     "categories": [
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8408,7 +8697,10 @@
     "max_price": 4000,
     "published_at": "2025-11-22T09:00:18+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453610683",
@@ -8500,8 +8792,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8547,7 +8838,10 @@
     "max_price": 1500,
     "published_at": "2025-11-22T09:00:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453577915",
@@ -8618,8 +8912,7 @@
     ],
     "categories": [
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8636,7 +8929,10 @@
     "max_price": 4000,
     "published_at": "2025-11-22T09:00:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453840059",
@@ -8753,7 +9049,10 @@
     "max_price": 8800,
     "published_at": "2025-11-22T09:00:16+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453479611",
@@ -8823,8 +9122,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8859,7 +9157,10 @@
     "max_price": 1500,
     "published_at": "2025-11-22T09:00:16+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242454003899",
@@ -8951,8 +9252,7 @@
       "黒刃アリヤ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -8998,7 +9298,10 @@
     "max_price": 1000,
     "published_at": "2025-11-22T09:00:15+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242453938363",
@@ -9068,8 +9371,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -9104,7 +9406,10 @@
     "max_price": 1000,
     "published_at": "2025-11-22T09:00:15+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8242454560955",
@@ -9199,8 +9504,7 @@
     ],
     "categories": [
       "タペストリー",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -9216,7 +9520,10 @@
     "max_price": 2500,
     "published_at": "2025-11-22T09:00:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フェス2025"
+    ]
   },
   {
     "product_id": "8238381891771",
@@ -9254,7 +9561,10 @@
     "max_price": 5280,
     "published_at": "2025-11-19T19:00:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8233056665787",
@@ -9322,8 +9632,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -9358,7 +9667,11 @@
     "max_price": 1500,
     "published_at": "2025-11-12T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! First Pick",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8233056010427",
@@ -9428,8 +9741,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "タペストリー",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [],
     "images": [
@@ -9464,7 +9776,11 @@
     "max_price": 3000,
     "published_at": "2025-11-12T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! First Pick",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8233091072187",
@@ -9532,8 +9848,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -9568,7 +9883,11 @@
     "max_price": 1000,
     "published_at": "2025-11-12T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! First Pick",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8233188524219",
@@ -9636,8 +9955,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -9672,7 +9990,11 @@
     "max_price": 500,
     "published_at": "2025-11-12T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! First Pick",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8233037594811",
@@ -9740,8 +10062,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -9776,7 +10097,10 @@
     "max_price": 1000,
     "published_at": "2025-11-12T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8229778620603",
@@ -9826,7 +10150,8 @@
     "max_price": 12300,
     "published_at": "2025-11-11T20:45:54+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8102997393595",
@@ -9892,7 +10217,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -9925,7 +10250,10 @@
     "max_price": 4000,
     "published_at": "2025-11-05T14:17:30+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "ぬいすぽっ！"
+    ]
   },
   {
     "product_id": "8223737839803",
@@ -9974,7 +10302,8 @@
     "max_price": 15500,
     "published_at": "2025-11-02T19:39:58+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8221183508667",
@@ -10002,8 +10331,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -10021,7 +10349,8 @@
     "max_price": 12500,
     "published_at": "2025-11-02T00:31:25+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8223627870395",
@@ -10085,7 +10414,8 @@
     "max_price": 1000,
     "published_at": "2025-10-31T18:00:08+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8216647860411",
@@ -10123,7 +10453,11 @@
     "max_price": 7000,
     "published_at": "2025-10-27T19:00:14+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8220272853179",
@@ -10152,8 +10486,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -10172,7 +10505,8 @@
     "max_price": 18500,
     "published_at": "2025-10-26T20:37:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8216641831099",
@@ -10216,7 +10550,8 @@
     "max_price": 12000,
     "published_at": "2025-10-21T20:31:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8215501930683",
@@ -10243,8 +10578,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -10261,7 +10595,8 @@
     "max_price": 13000,
     "published_at": "2025-10-20T21:55:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8214002139323",
@@ -10307,7 +10642,8 @@
     "max_price": 10000,
     "published_at": "2025-10-20T19:46:51+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8214002106555",
@@ -10332,8 +10668,7 @@
     ],
     "categories": [
       "アクリルスタンド・アクリルパネル",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -10350,7 +10685,8 @@
     "max_price": 11000,
     "published_at": "2025-10-18T18:19:51+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8207155757243",
@@ -10379,8 +10715,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -10398,7 +10733,8 @@
     "max_price": 13000,
     "published_at": "2025-10-10T21:03:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8208127983803",
@@ -10466,7 +10802,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -10480,7 +10816,8 @@
     "max_price": 2000,
     "published_at": "2025-10-09T19:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8202110927035",
@@ -10522,7 +10859,8 @@
     "max_price": 11000,
     "published_at": "2025-10-02T19:31:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8202066100411",
@@ -10554,7 +10892,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -10572,7 +10910,10 @@
     "max_price": 5800,
     "published_at": "2025-10-01T18:59:27+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8202034643131",
@@ -10602,7 +10943,7 @@
       "英リサ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -10618,7 +10959,10 @@
     "max_price": 7000,
     "published_at": "2025-10-01T18:59:26+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8201991749819",
@@ -10662,7 +11006,8 @@
     "max_price": 14000,
     "published_at": "2025-09-30T21:04:21+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8198702137531",
@@ -10693,8 +11038,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -10711,7 +11055,8 @@
     "max_price": 12500,
     "published_at": "2025-09-26T20:32:22+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8190738530491",
@@ -10756,7 +11101,8 @@
     "max_price": 14000,
     "published_at": "2025-09-25T20:56:50+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8190407409851",
@@ -10785,8 +11131,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -10805,7 +11150,8 @@
     "max_price": 18500,
     "published_at": "2025-09-18T20:41:16+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8181274476731",
@@ -10843,7 +11189,11 @@
     "max_price": 5000,
     "published_at": "2025-09-16T18:48:59+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8135393247419",
@@ -10879,7 +11229,11 @@
     "max_price": 5000,
     "published_at": "2025-09-16T18:47:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ]
   },
   {
     "product_id": "8177738711227",
@@ -10905,7 +11259,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -10919,7 +11273,10 @@
     "max_price": 5800,
     "published_at": "2025-09-10T13:08:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8177529651387",
@@ -10947,7 +11304,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -10962,7 +11319,10 @@
     "max_price": 7000,
     "published_at": "2025-09-10T13:07:48+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8167402438843",
@@ -11026,7 +11386,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -11059,7 +11419,10 @@
     "max_price": 2500,
     "published_at": "2025-08-26T18:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏祭り2025"
+    ]
   },
   {
     "product_id": "8167398473915",
@@ -11123,8 +11486,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -11157,7 +11519,10 @@
     "max_price": 600,
     "published_at": "2025-08-26T18:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏祭り2025"
+    ]
   },
   {
     "product_id": "8167393296571",
@@ -11237,7 +11602,10 @@
     "max_price": 3500,
     "published_at": "2025-08-26T18:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏祭り2025"
+    ]
   },
   {
     "product_id": "8169685713083",
@@ -11271,7 +11639,10 @@
     "max_price": 4000,
     "published_at": "2025-08-26T17:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "8162727854267",
@@ -11313,7 +11684,8 @@
     "max_price": 13500,
     "published_at": "2025-08-25T19:47:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8146675925179",
@@ -11358,7 +11730,8 @@
     "max_price": 12800,
     "published_at": "2025-08-14T21:14:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8146776522939",
@@ -11410,7 +11783,10 @@
     "max_price": 5280,
     "published_at": "2025-08-07T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8127437144251",
@@ -11432,8 +11808,8 @@
       "橘ひなの"
     ],
     "categories": [
-      "ステーショナリー",
       "カードゲーム・サプライ",
+      "ステーショナリー",
       "生活雑貨"
     ],
     "merch_categories": [],
@@ -11448,7 +11824,10 @@
     "max_price": 3300,
     "published_at": "2025-07-30T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8127425446075",
@@ -11484,7 +11863,10 @@
     "max_price": 1650,
     "published_at": "2025-07-30T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8127404212411",
@@ -11532,7 +11914,10 @@
     "max_price": 5280,
     "published_at": "2025-07-30T19:00:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "Xross Stars"
+    ]
   },
   {
     "product_id": "8125835772091",
@@ -11598,7 +11983,8 @@
     "max_price": 1000,
     "published_at": "2025-07-25T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8115730219195",
@@ -11643,7 +12029,8 @@
     "max_price": 15500,
     "published_at": "2025-07-19T19:17:38+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8106923688123",
@@ -11733,7 +12120,8 @@
     "max_price": 8800,
     "published_at": "2025-07-17T19:00:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8106923098299",
@@ -11801,7 +12189,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -11836,7 +12224,8 @@
     "max_price": 800,
     "published_at": "2025-07-17T19:00:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105933635771",
@@ -11904,7 +12293,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -11939,7 +12328,8 @@
     "max_price": 2500,
     "published_at": "2025-07-17T19:00:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105917874363",
@@ -12007,7 +12397,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12042,7 +12432,8 @@
     "max_price": 8800,
     "published_at": "2025-07-17T19:00:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105869050043",
@@ -12110,8 +12501,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12126,7 +12516,8 @@
     "max_price": 2400,
     "published_at": "2025-07-17T19:00:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105812623547",
@@ -12194,8 +12585,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12210,7 +12600,8 @@
     "max_price": 4000,
     "published_at": "2025-07-17T19:00:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105801154747",
@@ -12278,8 +12669,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12314,7 +12704,8 @@
     "max_price": 1500,
     "published_at": "2025-07-17T19:00:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8105770746043",
@@ -12382,8 +12773,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12398,7 +12788,8 @@
     "max_price": 2400,
     "published_at": "2025-07-17T19:00:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8104977039547",
@@ -12466,8 +12857,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12482,7 +12872,8 @@
     "max_price": 4000,
     "published_at": "2025-07-17T19:00:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8104968585403",
@@ -12550,8 +12941,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -12586,7 +12976,8 @@
     "max_price": 1500,
     "published_at": "2025-07-17T19:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8100236853435",
@@ -12651,7 +13042,9 @@
       "藍沢エマ",
       "蝶屋はなび"
     ],
-    "categories": [],
+    "categories": [
+      "CD・LP・BD"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/songscollection-dir/FIX_vspo_forEC_1.webp",
@@ -12662,7 +13055,8 @@
     "max_price": 4950,
     "published_at": "2025-07-05T19:40:09+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8100235706555",
@@ -12709,7 +13103,8 @@
     "max_price": 14500,
     "published_at": "2025-07-04T20:38:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8094664949947",
@@ -12754,7 +13149,8 @@
     "max_price": 12600,
     "published_at": "2025-06-24T22:21:26+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8093663428795",
@@ -12798,7 +13194,8 @@
     "max_price": 12500,
     "published_at": "2025-06-21T22:04:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8090130841787",
@@ -12828,8 +13225,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -12846,7 +13242,8 @@
     "max_price": 9500,
     "published_at": "2025-06-16T18:46:58+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8083753500859",
@@ -12877,8 +13274,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -12896,7 +13292,8 @@
     "max_price": 15000,
     "published_at": "2025-05-30T20:11:49+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8076564857019",
@@ -12941,7 +13338,8 @@
     "max_price": 12000,
     "published_at": "2025-05-18T14:18:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7996166176955",
@@ -13000,7 +13398,9 @@
       "英リサ",
       "藍沢エマ"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/gear-vspo-gaming-glass-mousepads/header_1_1_d01be49d-d3ea-4e2a-a123-c5ef43c3c949.webp",
@@ -13032,7 +13432,10 @@
     "max_price": 16940,
     "published_at": "2025-05-09T19:00:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "7928382193851",
@@ -13091,7 +13494,9 @@
       "英リサ",
       "藍沢エマ"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/gear-vspo-gaming-keyboard/sumire_EC.webp",
@@ -13120,7 +13525,10 @@
     "max_price": 27500,
     "published_at": "2025-05-09T19:00:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8068311089339",
@@ -13160,7 +13568,8 @@
     "max_price": 15000,
     "published_at": "2025-05-05T18:30:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8069272764603",
@@ -13203,7 +13612,8 @@
     "max_price": 10000,
     "published_at": "2025-05-02T18:59:26+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8066336358587",
@@ -13275,7 +13685,8 @@
     "max_price": 1000,
     "published_at": "2025-04-25T18:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8058815709371",
@@ -13315,7 +13726,8 @@
     "max_price": 13000,
     "published_at": "2025-04-19T20:29:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8058155925691",
@@ -13338,8 +13750,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -13356,7 +13767,8 @@
     "max_price": 12500,
     "published_at": "2025-04-17T19:52:54+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8054640050363",
@@ -13398,7 +13810,8 @@
     "max_price": 12000,
     "published_at": "2025-04-16T20:51:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8053683880123",
@@ -13441,7 +13854,8 @@
     "max_price": 9500,
     "published_at": "2025-04-09T19:46:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8048475930811",
@@ -13463,8 +13877,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -13482,7 +13895,8 @@
     "max_price": 15000,
     "published_at": "2025-04-02T22:23:48+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8049822728379",
@@ -13508,8 +13922,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ステーショナリー",
-      "ボイス",
-      "生活雑貨"
+      "ボイス"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -13526,7 +13939,8 @@
     "max_price": 18300,
     "published_at": "2025-04-02T19:57:58+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8041453158587",
@@ -13554,8 +13968,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -13574,7 +13987,8 @@
     "max_price": 12500,
     "published_at": "2025-03-24T20:58:46+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8041440673979",
@@ -13640,8 +14054,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -13658,7 +14071,10 @@
     "max_price": 3500,
     "published_at": "2025-03-24T19:00:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8041429336251",
@@ -13724,8 +14140,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "タペストリー",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -13760,7 +14175,10 @@
     "max_price": 3000,
     "published_at": "2025-03-24T19:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8041386049723",
@@ -13847,7 +14265,11 @@
     "max_price": 5500,
     "published_at": "2025-03-24T19:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024",
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8041307472059",
@@ -13913,8 +14335,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -13949,7 +14370,10 @@
     "max_price": 1000,
     "published_at": "2025-03-24T19:00:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8040919171259",
@@ -14015,8 +14439,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -14051,7 +14474,10 @@
     "max_price": 1500,
     "published_at": "2025-03-24T19:00:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8040915861691",
@@ -14087,8 +14513,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -14100,7 +14525,10 @@
     "max_price": 4000,
     "published_at": "2025-03-24T19:00:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8040912683195",
@@ -14136,8 +14564,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -14149,7 +14576,10 @@
     "max_price": 4000,
     "published_at": "2025-03-24T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8040908652731",
@@ -14183,8 +14613,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -14196,7 +14625,10 @@
     "max_price": 3500,
     "published_at": "2025-03-24T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO!SHOWDOWN2024"
+    ]
   },
   {
     "product_id": "8038659883195",
@@ -14236,7 +14668,8 @@
     "max_price": 11500,
     "published_at": "2025-03-19T17:56:30+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8029693214907",
@@ -14259,8 +14692,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -14278,7 +14710,8 @@
     "max_price": 11300,
     "published_at": "2025-03-03T20:42:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8032207470779",
@@ -14378,7 +14811,8 @@
     "max_price": 3500,
     "published_at": "2025-02-28T18:30:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8029612736699",
@@ -14402,8 +14836,7 @@
     "categories": [
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -14421,7 +14854,8 @@
     "max_price": 11000,
     "published_at": "2025-02-26T20:34:55+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8027399422139",
@@ -14460,7 +14894,8 @@
     "max_price": 11000,
     "published_at": "2025-02-22T21:18:35+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8027410825403",
@@ -14480,7 +14915,7 @@
       "甘結もか"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -14492,7 +14927,10 @@
     "max_price": 1800,
     "published_at": "2025-02-21T18:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8027408269499",
@@ -14512,7 +14950,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -14524,7 +14962,10 @@
     "max_price": 1800,
     "published_at": "2025-02-21T18:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8021292744891",
@@ -14586,8 +15027,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -14620,7 +15060,8 @@
     "max_price": 1200,
     "published_at": "2025-02-14T11:03:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8023077650619",
@@ -14664,7 +15105,8 @@
     "max_price": 14400,
     "published_at": "2025-02-13T19:48:56+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8019338199227",
@@ -14690,7 +15132,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -14704,7 +15146,10 @@
     "max_price": 5800,
     "published_at": "2025-02-07T19:00:56+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8019308052667",
@@ -14732,7 +15177,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -14747,7 +15192,10 @@
     "max_price": 7000,
     "published_at": "2025-02-07T19:00:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! フレグランス"
+    ]
   },
   {
     "product_id": "8017497063611",
@@ -14769,8 +15217,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -14788,7 +15235,8 @@
     "max_price": 11500,
     "published_at": "2025-01-31T20:35:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8016184508603",
@@ -14856,8 +15304,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -14892,7 +15339,11 @@
     "max_price": 1000,
     "published_at": "2025-01-24T20:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! アクリルキーホルダー",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8014834041019",
@@ -14940,7 +15391,8 @@
     "max_price": 14300,
     "published_at": "2025-01-18T20:17:20+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8011087577275",
@@ -14979,7 +15431,8 @@
     "max_price": 10900,
     "published_at": "2025-01-09T20:46:49+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8009614000315",
@@ -15013,8 +15466,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15026,7 +15478,10 @@
     "max_price": 2100,
     "published_at": "2024-12-31T11:00:18+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009576677563",
@@ -15092,8 +15547,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15128,7 +15582,10 @@
     "max_price": 1500,
     "published_at": "2024-12-31T11:00:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009614491835",
@@ -15216,7 +15673,10 @@
     "max_price": 3500,
     "published_at": "2024-12-31T11:00:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009614295227",
@@ -15252,8 +15712,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15265,7 +15724,10 @@
     "max_price": 2400,
     "published_at": "2024-12-31T11:00:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009614885051",
@@ -15332,8 +15794,7 @@
     ],
     "categories": [
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15369,7 +15830,10 @@
     "max_price": 2500,
     "published_at": "2024-12-31T11:00:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009613902011",
@@ -15405,8 +15869,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15418,7 +15881,10 @@
     "max_price": 4000,
     "published_at": "2024-12-31T11:00:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009613770939",
@@ -15454,8 +15920,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15467,7 +15932,10 @@
     "max_price": 4000,
     "published_at": "2024-12-31T11:00:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009613082811",
@@ -15501,8 +15969,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15514,7 +15981,10 @@
     "max_price": 3500,
     "published_at": "2024-12-31T11:00:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009597223099",
@@ -15580,8 +16050,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15616,7 +16085,10 @@
     "max_price": 1000,
     "published_at": "2024-12-31T11:00:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009614393531",
@@ -15652,8 +16124,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -15665,7 +16136,10 @@
     "max_price": 2400,
     "published_at": "2024-12-31T11:00:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 年末カウントダウン2024"
+    ]
   },
   {
     "product_id": "8009537290427",
@@ -15729,8 +16203,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -15763,7 +16236,8 @@
     "max_price": 100,
     "published_at": "2024-12-28T16:59:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8006055690427",
@@ -15787,8 +16261,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -15807,7 +16280,8 @@
     "max_price": 14500,
     "published_at": "2024-12-23T20:41:15+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8008747974843",
@@ -15869,7 +16343,8 @@
     "max_price": 1000,
     "published_at": "2024-12-20T19:00:44+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8008787493051",
@@ -15932,7 +16407,9 @@
       "藍沢エマ",
       "蝶屋はなび"
     ],
-    "categories": [],
+    "categories": [
+      "OTHERS"
+    ],
     "merch_categories": [],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/gear-vspo-gaming-mousepads/header_1_1_7e3258f9-796e-405f-90f3-cfd4b8146c7c.webp",
@@ -15964,7 +16441,10 @@
     "max_price": 5800,
     "published_at": "2024-12-20T18:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! GEAR"
+    ]
   },
   {
     "product_id": "8006042747067",
@@ -15986,8 +16466,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -16005,7 +16484,8 @@
     "max_price": 12000,
     "published_at": "2024-12-10T17:38:20+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8004553834683",
@@ -16045,7 +16525,8 @@
     "max_price": 9400,
     "published_at": "2024-12-03T19:42:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8003186884795",
@@ -16088,7 +16569,8 @@
     "max_price": 12500,
     "published_at": "2024-11-27T20:46:56+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8002355790011",
@@ -16127,7 +16609,8 @@
     "max_price": 9500,
     "published_at": "2024-11-24T20:45:48+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "8001777598651",
@@ -16147,7 +16630,7 @@
       "千燈ゆうひ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -16159,7 +16642,10 @@
     "max_price": 1800,
     "published_at": "2024-11-20T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8001777467579",
@@ -16179,7 +16665,7 @@
       "紡木こかげ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -16191,7 +16677,10 @@
     "max_price": 1800,
     "published_at": "2024-11-20T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "8000049873083",
@@ -16223,7 +16712,10 @@
     "max_price": 4000,
     "published_at": "2024-11-13T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "7999098028219",
@@ -16261,7 +16753,8 @@
     "max_price": 14800,
     "published_at": "2024-11-11T20:38:20+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7961799098555",
@@ -16282,8 +16775,7 @@
     ],
     "categories": [
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -16300,7 +16792,8 @@
     "max_price": 10500,
     "published_at": "2024-11-11T14:36:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7989473476795",
@@ -16362,7 +16855,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -16376,7 +16869,8 @@
     "max_price": 2000,
     "published_at": "2024-11-05T19:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7995737899195",
@@ -16401,8 +16895,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -16421,7 +16914,8 @@
     "max_price": 14500,
     "published_at": "2024-10-26T20:49:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7993680724155",
@@ -16463,7 +16957,8 @@
     "max_price": 12000,
     "published_at": "2024-10-21T20:34:57+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7993385648315",
@@ -16502,7 +16997,8 @@
     "max_price": 9500,
     "published_at": "2024-10-20T22:18:39+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7993382994107",
@@ -16542,7 +17038,8 @@
     "max_price": 10000,
     "published_at": "2024-10-20T19:45:39+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7993376702651",
@@ -16563,8 +17060,7 @@
     ],
     "categories": [
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -16581,7 +17077,8 @@
     "max_price": 11000,
     "published_at": "2024-10-18T20:21:36+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7989444640955",
@@ -16603,8 +17100,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -16620,7 +17116,8 @@
     "max_price": 11500,
     "published_at": "2024-10-10T21:30:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7985503731899",
@@ -16645,8 +17142,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -16662,7 +17158,8 @@
     "max_price": 15500,
     "published_at": "2024-09-30T19:48:22+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7985508516027",
@@ -16720,7 +17217,8 @@
     "max_price": 1000,
     "published_at": "2024-09-27T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7983261155515",
@@ -16759,7 +17257,8 @@
     "max_price": 12300,
     "published_at": "2024-09-26T19:46:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7983229403323",
@@ -16780,8 +17279,7 @@
     ],
     "categories": [
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -16797,7 +17295,8 @@
     "max_price": 9900,
     "published_at": "2024-09-25T20:31:32+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7982283456699",
@@ -16836,7 +17335,8 @@
     "max_price": 11500,
     "published_at": "2024-09-18T20:31:40+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7972336566459",
@@ -16859,8 +17359,7 @@
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -16877,7 +17376,8 @@
     "max_price": 12000,
     "published_at": "2024-08-25T20:32:51+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7923983974587",
@@ -16929,7 +17429,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -16941,7 +17441,8 @@
     "max_price": 5000,
     "published_at": "2024-08-16T15:02:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7971508388027",
@@ -17009,8 +17510,7 @@
       "龍巻ちせ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -17045,7 +17545,10 @@
     "max_price": 1500,
     "published_at": "2024-08-16T12:31:57+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "7971980214459",
@@ -17075,7 +17578,10 @@
     "max_price": 4000,
     "published_at": "2024-08-16T12:30:17+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "7971979296955",
@@ -17105,7 +17611,10 @@
     "max_price": 7000,
     "published_at": "2024-08-16T12:30:16+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "7971960979643",
@@ -17135,7 +17644,10 @@
     "max_price": 4000,
     "published_at": "2024-08-16T12:30:15+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "7971791012027",
@@ -17167,8 +17679,7 @@
       "紡木こかげ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17178,7 +17689,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971787767995",
@@ -17210,8 +17724,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17221,7 +17734,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971776135355",
@@ -17253,8 +17769,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17264,7 +17779,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971759161531",
@@ -17324,8 +17842,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -17356,7 +17873,10 @@
     "max_price": 1500,
     "published_at": "2024-08-16T12:30:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971770433723",
@@ -17447,7 +17967,10 @@
     "max_price": 3000,
     "published_at": "2024-08-16T12:30:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971975364795",
@@ -17479,8 +18002,7 @@
       "紡木こかげ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17490,7 +18012,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971975233723",
@@ -17522,8 +18047,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17533,7 +18057,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:07+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971975102651",
@@ -17565,8 +18092,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -17576,7 +18102,10 @@
     "max_price": 3500,
     "published_at": "2024-08-16T12:30:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971794911419",
@@ -17636,8 +18165,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -17668,7 +18196,10 @@
     "max_price": 1500,
     "published_at": "2024-08-16T12:30:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971970351291",
@@ -17759,7 +18290,10 @@
     "max_price": 3000,
     "published_at": "2024-08-16T12:30:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! サマービーチ2024"
+    ]
   },
   {
     "product_id": "7971735077051",
@@ -17805,7 +18339,8 @@
     "max_price": 16500,
     "published_at": "2024-08-15T18:35:53+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7971509272763",
@@ -17825,8 +18360,7 @@
       "橘ひなの"
     ],
     "categories": [
-      "ぬいぐるみ",
-      "生活雑貨"
+      "ぬいぐるみ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -17843,7 +18377,8 @@
     "max_price": 13600,
     "published_at": "2024-08-14T21:40:25+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7969709719739",
@@ -17928,7 +18463,10 @@
     "max_price": 7000,
     "published_at": "2024-08-02T17:53:31+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7969709818043",
@@ -17984,8 +18522,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -18014,7 +18551,10 @@
     "max_price": 800,
     "published_at": "2024-08-02T17:53:22+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7969712734395",
@@ -18084,7 +18624,10 @@
     "max_price": 5500,
     "published_at": "2024-08-02T17:53:12+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7969668268219",
@@ -18140,8 +18683,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [],
     "images": [
@@ -18151,7 +18693,10 @@
     "max_price": 9500,
     "published_at": "2024-08-02T17:53:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7969663221947",
@@ -18207,8 +18752,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -18237,7 +18781,10 @@
     "max_price": 1500,
     "published_at": "2024-08-02T17:52:50+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7969666498747",
@@ -18293,8 +18840,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -18323,7 +18869,10 @@
     "max_price": 800,
     "published_at": "2024-08-02T17:52:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 「私たちは、ゲームで世界を作る」"
+    ]
   },
   {
     "product_id": "7966586929339",
@@ -18346,8 +18895,7 @@
     ],
     "categories": [
       "アパレル・アパレル小物",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -18365,7 +18913,8 @@
     "max_price": 11000,
     "published_at": "2024-07-19T21:30:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7958117155003",
@@ -18391,8 +18940,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "タペストリー",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -18410,7 +18958,8 @@
     "max_price": 10000,
     "published_at": "2024-06-24T21:45:36+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7954280874171",
@@ -18451,7 +19000,8 @@
     "max_price": 8500,
     "published_at": "2024-06-21T19:32:38+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7954219335867",
@@ -18475,8 +19025,7 @@
     "categories": [
       "タペストリー",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -18493,7 +19042,8 @@
     "max_price": 8500,
     "published_at": "2024-06-16T20:25:55+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7951644688571",
@@ -18514,8 +19064,7 @@
     ],
     "categories": [
       "アクリルスタンド・アクリルパネル",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -18533,7 +19082,8 @@
     "max_price": 9500,
     "published_at": "2024-06-03T18:47:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7951347843259",
@@ -18601,7 +19151,8 @@
     "max_price": 1000,
     "published_at": "2024-05-31T20:00:05+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7950834172091",
@@ -18641,7 +19192,8 @@
     "max_price": 10500,
     "published_at": "2024-05-30T20:35:48+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7948581011643",
@@ -18663,8 +19215,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -18682,7 +19233,8 @@
     "max_price": 9800,
     "published_at": "2024-05-18T21:21:51+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7944226439355",
@@ -18704,8 +19256,7 @@
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -18722,7 +19273,8 @@
     "max_price": 13500,
     "published_at": "2024-05-05T19:46:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7943264862395",
@@ -18777,7 +19329,10 @@
     "max_price": 3500,
     "published_at": "2024-04-30T17:02:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "RAGE VALORANT 2024 feat.VSPO!"
+    ]
   },
   {
     "product_id": "7943049806011",
@@ -18840,7 +19395,10 @@
     "max_price": 6000,
     "published_at": "2024-04-30T17:02:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "RAGE VALORANT 2024 feat.VSPO!"
+    ]
   },
   {
     "product_id": "7939101098171",
@@ -18880,7 +19438,8 @@
     "max_price": 12500,
     "published_at": "2024-04-19T19:34:47+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7937169719483",
@@ -18903,8 +19462,7 @@
     ],
     "categories": [
       "タペストリー",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -18921,7 +19479,8 @@
     "max_price": 13500,
     "published_at": "2024-04-17T19:38:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7937724776635",
@@ -18948,8 +19507,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -18966,7 +19524,8 @@
     "max_price": 12000,
     "published_at": "2024-04-16T20:31:32+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7935299485883",
@@ -18986,7 +19545,7 @@
       "夜乃くろむ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -18998,7 +19557,10 @@
     "max_price": 1800,
     "published_at": "2024-04-12T19:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "7933062676667",
@@ -19039,7 +19601,8 @@
     "max_price": 13800,
     "published_at": "2024-04-02T21:42:21+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7933068345531",
@@ -19079,7 +19642,8 @@
     "max_price": 12000,
     "published_at": "2024-04-02T19:37:26+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7930334216379",
@@ -19105,8 +19669,7 @@
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -19124,7 +19687,8 @@
     "max_price": 10000,
     "published_at": "2024-03-21T21:24:35+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7925309669563",
@@ -19163,7 +19727,8 @@
     "max_price": 12500,
     "published_at": "2024-03-03T20:37:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7922726666427",
@@ -19187,8 +19752,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -19205,7 +19769,8 @@
     "max_price": 12500,
     "published_at": "2024-02-22T21:29:48+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7919522480315",
@@ -19228,8 +19793,7 @@
     ],
     "categories": [
       "アパレル・アパレル小物",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -19247,7 +19811,8 @@
     "max_price": 13500,
     "published_at": "2024-02-13T21:54:46+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7917975077051",
@@ -19315,7 +19880,8 @@
     "max_price": 1000,
     "published_at": "2024-02-05T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7916787892411",
@@ -19340,8 +19906,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -19358,7 +19923,8 @@
     "max_price": 10400,
     "published_at": "2024-01-31T21:27:39+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7915522883771",
@@ -19394,7 +19960,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -19415,7 +19981,10 @@
     "max_price": 1800,
     "published_at": "2024-01-25T20:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "7912822440123",
@@ -19456,7 +20025,8 @@
     "max_price": 11500,
     "published_at": "2024-01-18T21:25:35+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7909081710779",
@@ -19481,8 +20051,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -19498,7 +20067,8 @@
     "max_price": 11000,
     "published_at": "2024-01-09T21:22:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7907459563707",
@@ -19556,8 +20126,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -19588,7 +20157,10 @@
     "max_price": 500,
     "published_at": "2023-12-31T11:02:20+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2024"
+    ]
   },
   {
     "product_id": "7907459858619",
@@ -19677,7 +20249,10 @@
     "max_price": 3000,
     "published_at": "2023-12-31T11:02:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2024"
+    ]
   },
   {
     "product_id": "7907459530939",
@@ -19737,8 +20312,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "タペストリー",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -19769,7 +20343,10 @@
     "max_price": 5000,
     "published_at": "2023-12-31T11:01:58+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2024"
+    ]
   },
   {
     "product_id": "7907459727547",
@@ -19827,8 +20404,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -19859,7 +20435,10 @@
     "max_price": 1500,
     "published_at": "2023-12-31T11:01:45+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 謹賀新年2024"
+    ]
   },
   {
     "product_id": "7907061498043",
@@ -19901,7 +20480,8 @@
     "max_price": 11500,
     "published_at": "2023-12-23T21:37:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7905621344443",
@@ -19959,9 +20539,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "タペストリー",
-      "ボイス",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [],
     "images": [
@@ -19990,7 +20568,10 @@
     "max_price": 2500,
     "published_at": "2023-12-20T20:06:29+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! クリスマス2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7905632977083",
@@ -20044,9 +20625,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "ボイス",
-      "タペストリー",
-      "生活雑貨"
+      "タペストリー"
     ],
     "merch_categories": [],
     "images": [
@@ -20060,7 +20639,10 @@
     "max_price": 1000,
     "published_at": "2023-12-20T20:05:49+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! クリスマス2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7905641660603",
@@ -20114,9 +20696,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "ステーショナリー",
-      "ボイス",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -20130,7 +20710,10 @@
     "max_price": 500,
     "published_at": "2023-12-20T20:05:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! クリスマス2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7905649688763",
@@ -20148,8 +20731,7 @@
       "ぶいすぽっ！クリスマス2023　ボイス＆グッズ"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "ボイス"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [],
     "images": [
@@ -20159,7 +20741,10 @@
     "max_price": 2000,
     "published_at": "2023-12-20T20:04:17+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! クリスマス2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7905699856571",
@@ -20219,7 +20804,10 @@
     "max_price": 700,
     "published_at": "2023-12-20T20:03:42+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! クリスマス2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7904884719803",
@@ -20271,7 +20859,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -20284,7 +20872,8 @@
     "max_price": 2000,
     "published_at": "2023-12-15T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7903442075835",
@@ -20323,7 +20912,8 @@
     "max_price": 13000,
     "published_at": "2023-12-10T19:47:46+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7900796190907",
@@ -20349,8 +20939,7 @@
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -20367,7 +20956,8 @@
     "max_price": 8000,
     "published_at": "2023-11-27T21:29:16+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7897745817787",
@@ -20403,7 +20993,7 @@
       "英リサ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "スターターグッズ"
@@ -20424,7 +21014,10 @@
     "max_price": 1800,
     "published_at": "2023-11-17T19:00:10+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "7889709957307",
@@ -20455,7 +21048,8 @@
     "max_price": 8000,
     "published_at": "2023-11-16T18:58:57+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7897743589563",
@@ -20483,7 +21077,8 @@
     "max_price": 8800,
     "published_at": "2023-11-16T18:58:27+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7897000050875",
@@ -20522,7 +21117,8 @@
     "max_price": 10000,
     "published_at": "2023-11-11T22:30:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7890092720315",
@@ -20578,8 +21174,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -20610,7 +21205,10 @@
     "max_price": 1000,
     "published_at": "2023-10-31T10:55:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7890144362683",
@@ -20666,8 +21264,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -20698,7 +21295,10 @@
     "max_price": 1000,
     "published_at": "2023-10-31T10:55:32+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7890147868859",
@@ -20759,8 +21359,7 @@
     ],
     "categories": [
       "タペストリー",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -20779,7 +21378,10 @@
     "max_price": 4000,
     "published_at": "2023-10-31T10:55:15+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7890080694459",
@@ -20835,8 +21437,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -20867,7 +21468,10 @@
     "max_price": 1500,
     "published_at": "2023-10-31T10:55:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7890147311803",
@@ -20923,8 +21527,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -20955,7 +21558,10 @@
     "max_price": 1500,
     "published_at": "2023-10-31T10:54:46+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7890070372539",
@@ -21042,7 +21648,10 @@
     "max_price": 4000,
     "published_at": "2023-10-31T10:54:32+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7889785946299",
@@ -21101,8 +21710,7 @@
     ],
     "categories": [
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21125,7 +21733,10 @@
     "max_price": 9000,
     "published_at": "2023-10-31T10:54:17+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 文化体育祭"
+    ]
   },
   {
     "product_id": "7891729383611",
@@ -21189,7 +21800,10 @@
     "max_price": 700,
     "published_at": "2023-10-26T20:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! ハロウィン2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7890354012347",
@@ -21213,8 +21827,7 @@
       "神成きゅぴ"
     ],
     "categories": [
-      "ボイス",
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -21224,7 +21837,10 @@
     "max_price": 3000,
     "published_at": "2023-10-26T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! ハロウィン2023 ボイス＆グッズ"
+    ]
   },
   {
     "product_id": "7890344968379",
@@ -21262,7 +21878,8 @@
     "max_price": 12000,
     "published_at": "2023-10-20T21:18:41+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7889396138171",
@@ -21300,7 +21917,8 @@
     "max_price": 9000,
     "published_at": "2023-10-19T20:59:25+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7889662935227",
@@ -21342,7 +21960,8 @@
     "max_price": 12000,
     "published_at": "2023-10-18T19:21:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7886670561467",
@@ -21379,7 +21998,8 @@
     "max_price": 9000,
     "published_at": "2023-10-10T21:58:23+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7884416876731",
@@ -21406,8 +22026,7 @@
       "アパレル・アパレル小物",
       "タペストリー",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [],
     "images": [
@@ -21423,7 +22042,8 @@
     "max_price": 9000,
     "published_at": "2023-09-30T21:25:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7881354444987",
@@ -21461,7 +22081,8 @@
     "max_price": 10000,
     "published_at": "2023-09-26T21:57:35+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7882977312955",
@@ -21502,7 +22123,8 @@
     "max_price": 11500,
     "published_at": "2023-09-25T21:39:52+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7879972159675",
@@ -21552,7 +22174,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21580,7 +22202,10 @@
     "max_price": 1650,
     "published_at": "2023-09-22T20:00:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7879971995835",
@@ -21630,8 +22255,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21659,7 +22283,10 @@
     "max_price": 880,
     "published_at": "2023-09-22T20:00:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7879970455739",
@@ -21716,8 +22343,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21745,7 +22371,10 @@
     "max_price": 3300,
     "published_at": "2023-09-22T20:00:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7881070313659",
@@ -21795,8 +22424,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21824,7 +22452,10 @@
     "max_price": 1650,
     "published_at": "2023-09-22T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7881069396155",
@@ -21874,8 +22505,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -21903,7 +22533,10 @@
     "max_price": 880,
     "published_at": "2023-09-22T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7881068544187",
@@ -21981,7 +22614,10 @@
     "max_price": 8800,
     "published_at": "2023-09-22T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7879976550587",
@@ -22031,8 +22667,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -22060,7 +22695,10 @@
     "max_price": 660,
     "published_at": "2023-09-22T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7879973961915",
@@ -22110,7 +22748,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -22138,7 +22776,10 @@
     "max_price": 770,
     "published_at": "2023-09-22T20:00:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "在庫再販売 2022年夏イベント販売グッズ"
+    ]
   },
   {
     "product_id": "7879339933883",
@@ -22175,7 +22816,8 @@
     "max_price": 11000,
     "published_at": "2023-09-18T20:43:46+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7879670595771",
@@ -22201,8 +22843,7 @@
       "花芽なずな"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [],
     "images": [
@@ -22217,7 +22858,10 @@
     "max_price": 1500,
     "published_at": "2023-09-15T20:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! esports style 2023"
+    ]
   },
   {
     "product_id": "7879669448891",
@@ -22272,8 +22916,7 @@
     ],
     "categories": [
       "アクリルスタンド・アクリルパネル",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -22302,7 +22945,10 @@
     "max_price": 1000,
     "published_at": "2023-09-15T20:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! esports style 2023"
+    ]
   },
   {
     "product_id": "7879664664763",
@@ -22378,7 +23024,10 @@
     "max_price": 2500,
     "published_at": "2023-09-15T20:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! esports style 2023"
+    ]
   },
   {
     "product_id": "7871252398267",
@@ -22418,7 +23067,8 @@
     "max_price": 12000,
     "published_at": "2023-08-25T20:37:11+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7870364942523",
@@ -22438,8 +23088,7 @@
       "英リサ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -22455,7 +23104,8 @@
     "max_price": 12000,
     "published_at": "2023-08-15T21:07:49+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7868517777595",
@@ -22495,7 +23145,8 @@
     "max_price": 10000,
     "published_at": "2023-08-14T21:29:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7867223769275",
@@ -22564,7 +23215,10 @@
     "max_price": 7500,
     "published_at": "2023-08-11T22:01:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏コミ2023"
+    ]
   },
   {
     "product_id": "7867223113915",
@@ -22620,8 +23274,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -22652,7 +23305,10 @@
     "max_price": 1000,
     "published_at": "2023-08-11T22:01:02+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏コミ2023"
+    ]
   },
   {
     "product_id": "7867222687931",
@@ -22708,8 +23364,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -22740,7 +23395,10 @@
     "max_price": 1500,
     "published_at": "2023-08-11T22:01:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏コミ2023"
+    ]
   },
   {
     "product_id": "7867219607739",
@@ -22802,8 +23460,7 @@
     "categories": [
       "タペストリー",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -22821,7 +23478,10 @@
     "max_price": 10000,
     "published_at": "2023-08-11T22:00:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! 夏コミ2023"
+    ]
   },
   {
     "product_id": "7866043990203",
@@ -22922,7 +23582,8 @@
     "max_price": 7500,
     "published_at": "2023-08-01T20:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7861908144315",
@@ -22959,7 +23620,8 @@
     "max_price": 10000,
     "published_at": "2023-07-19T21:34:19+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7859846545595",
@@ -23039,7 +23701,8 @@
     "max_price": 7500,
     "published_at": "2023-07-17T20:00:01+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7859654262971",
@@ -23069,7 +23732,10 @@
     "max_price": 4000,
     "published_at": "2023-07-13T20:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! メンバーデザインシリーズ"
+    ]
   },
   {
     "product_id": "7855943418043",
@@ -23111,7 +23777,8 @@
     "max_price": 10500,
     "published_at": "2023-07-04T19:00:00+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7854394671291",
@@ -23144,7 +23811,8 @@
     "max_price": 5500,
     "published_at": "2023-06-30T19:00:07+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7849772384443",
@@ -23183,7 +23851,8 @@
     "max_price": 12000,
     "published_at": "2023-06-24T20:39:36+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7842008432827",
@@ -23223,7 +23892,8 @@
     "max_price": 9000,
     "published_at": "2023-06-03T19:40:39+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7841211220155",
@@ -23287,8 +23957,7 @@
       "蝶屋はなび"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -23321,7 +23990,11 @@
     "max_price": 1000,
     "published_at": "2023-05-31T20:02:28+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "VSPO! アクリルキーホルダー",
+      "VSPO! スタンダードグッズ"
+    ]
   },
   {
     "product_id": "7841035321531",
@@ -23359,7 +24032,8 @@
     "max_price": 12000,
     "published_at": "2023-05-30T19:13:44+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7805303226555",
@@ -23419,7 +24093,10 @@
     "max_price": 4000,
     "published_at": "2023-05-25T17:43:18+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "「SAISON CARD Digital」×「VSPO!」"
+    ]
   },
   {
     "product_id": "7805321445563",
@@ -23469,8 +24146,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [],
     "images": [
@@ -23496,7 +24172,10 @@
     "max_price": 1500,
     "published_at": "2023-05-25T17:41:51+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": [
+      "「SAISON CARD Digital」×「VSPO!」"
+    ]
   },
   {
     "product_id": "7837926883515",
@@ -23537,7 +24216,8 @@
     "max_price": 8000,
     "published_at": "2023-05-18T22:22:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7832501911739",
@@ -23577,7 +24257,8 @@
     "max_price": 10000,
     "published_at": "2023-05-05T19:17:53+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7825563189435",
@@ -23599,8 +24280,7 @@
       "一ノ瀬うるは"
     ],
     "categories": [
-      "アパレル・アパレル小物",
-      "生活雑貨"
+      "アパレル・アパレル小物"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -23616,7 +24296,8 @@
     "max_price": 14000,
     "published_at": "2023-04-19T20:18:59+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7824263643323",
@@ -23641,8 +24322,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -23658,7 +24338,8 @@
     "max_price": 7500,
     "published_at": "2023-04-17T20:55:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7822932181179",
@@ -23683,8 +24364,7 @@
       "アパレル・アパレル小物",
       "アクリルスタンド・アクリルパネル",
       "バッジ・ピンバッジ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "周年記念グッズ"
@@ -23701,7 +24381,8 @@
     "max_price": 10000,
     "published_at": "2023-04-16T19:40:24+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787685576891",
@@ -23753,7 +24434,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787681022139",
@@ -23787,7 +24469,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787662278843",
@@ -23821,7 +24504,8 @@
     "max_price": 700,
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787636850875",
@@ -23855,7 +24539,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7788860997819",
@@ -23889,7 +24574,8 @@
     "max_price": 700,
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787698520251",
@@ -23919,7 +24605,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787672043707",
@@ -23953,7 +24640,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787647729851",
@@ -23985,7 +24673,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7788589285563",
@@ -24019,7 +24708,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7788509003963",
@@ -24053,7 +24743,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7788497731771",
@@ -24087,7 +24778,8 @@
     "max_price": 700,
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787721031867",
@@ -24121,7 +24813,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787714871483",
@@ -24151,7 +24844,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787712086203",
@@ -24181,7 +24875,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7787705729211",
@@ -24211,7 +24906,8 @@
     "max_price": 500,
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7814842515643",
@@ -24237,8 +24933,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -24255,7 +24950,8 @@
     "max_price": 12000,
     "published_at": "2023-04-02T23:09:09+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7814839795899",
@@ -24295,7 +24991,8 @@
     "max_price": 8000,
     "published_at": "2023-04-02T19:28:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7809517453499",
@@ -24318,8 +25015,7 @@
     ],
     "categories": [
       "タペストリー",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -24335,7 +25031,8 @@
     "max_price": 6000,
     "published_at": "2023-03-21T20:24:27+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7802989314235",
@@ -24375,7 +25072,8 @@
     "max_price": 13000,
     "published_at": "2023-03-03T20:23:37+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7799183671483",
@@ -24395,7 +25093,7 @@
       "紫宮るな"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -24411,7 +25109,8 @@
     "max_price": 9000,
     "published_at": "2023-02-22T20:23:48+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7794955485371",
@@ -24471,8 +25170,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -24491,7 +25189,8 @@
     "max_price": 0,
     "published_at": "2023-02-15T16:12:23+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7794435948731",
@@ -24547,7 +25246,8 @@
     "max_price": 700,
     "published_at": "2023-02-14T19:00:00+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7793668948155",
@@ -24583,7 +25283,8 @@
     "max_price": 12000,
     "published_at": "2023-02-13T20:59:39+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7788762562747",
@@ -24609,7 +25310,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "生活雑貨"
+      "OTHERS"
     ],
     "merch_categories": [],
     "images": [
@@ -24625,7 +25326,8 @@
     "max_price": 3500,
     "published_at": "2023-02-07T19:00:06+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7783529545915",
@@ -24649,8 +25351,7 @@
       "キーホルダー・ストラップ",
       "バッジ・ピンバッジ",
       "ぬいぐるみ",
-      "ステーショナリー",
-      "生活雑貨"
+      "ステーショナリー"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -24666,7 +25367,8 @@
     "max_price": 10000,
     "published_at": "2023-01-31T21:39:59+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7780838834363",
@@ -24726,8 +25428,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -24746,7 +25447,8 @@
     "max_price": 10000,
     "published_at": "2023-01-24T18:53:31+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7777610891451",
@@ -24774,8 +25476,7 @@
     "categories": [
       "アパレル・アパレル小物",
       "タペストリー",
-      "キーホルダー・ストラップ",
-      "生活雑貨"
+      "キーホルダー・ストラップ"
     ],
     "merch_categories": [
       "誕生日記念グッズ"
@@ -24791,7 +25492,8 @@
     "max_price": 9500,
     "published_at": "2023-01-18T18:34:14+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7768242946235",
@@ -24878,7 +25580,8 @@
     "max_price": 7000,
     "published_at": "2022-12-29T20:56:40+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7767853400251",
@@ -24928,8 +25631,7 @@
       "藍沢エマ"
     ],
     "categories": [
-      "アクリルスタンド・アクリルパネル",
-      "生活雑貨"
+      "アクリルスタンド・アクリルパネル"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -24957,7 +25659,8 @@
     "max_price": 1500,
     "published_at": "2022-12-28T16:03:18+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7767590469819",
@@ -25017,8 +25720,7 @@
       "タペストリー",
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
-      "バッジ・ピンバッジ",
-      "生活雑貨"
+      "バッジ・ピンバッジ"
     ],
     "merch_categories": [
       "イベント・ライブグッズ"
@@ -25037,7 +25739,8 @@
     "max_price": 10000,
     "published_at": "2022-12-27T20:13:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   },
   {
     "product_id": "7766929768635",
@@ -25093,6 +25796,7 @@
     "max_price": 500,
     "published_at": "2022-12-26T18:44:01+09:00",
     "is_available": true,
-    "delisted_at": null
+    "delisted_at": null,
+    "series": []
   }
 ]
