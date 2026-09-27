@@ -54,6 +54,11 @@ jobs:
           # both flags correctly to git.
           filter: blob:none
           fetch-depth: 1
+          # The branch as it is now, not the commit the run was triggered at.
+          # A run that waited behind another (concurrency, above) would
+          # otherwise start from before that run's commit: without the merch
+          # files it just saved, and unable to push its own on top of them.
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v4
