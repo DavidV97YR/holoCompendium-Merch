@@ -30,6 +30,13 @@ on:
 permissions:
   contents: write
 
+# One run at a time. The VSPO! step can take up to BUDGET_MIN (50 min) while
+# cron-job.org triggers every 30, and two runs at once would push over each
+# other's merch files. A run triggered meanwhile waits for this one to finish.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
