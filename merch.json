@@ -1,5 +1,96 @@
 [
   {
+    "product_id": "9628287729884",
+    "handle": "hakosbaelz_1stconcert_regalia_madetoorder",
+    "title_jp": "【受注生産】Hakos Baelz 1st Concert “REGALIA”ライブグッズ",
+    "title_en": "【Made-to-order】Hakos Baelz 1st Concert “REGALIA” Concert Merch",
+    "tags_jp": [
+      "1stconcert_regalia",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "1stconcert_regalia",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "タペストリー"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_madetoorder/260928_HakosBaelz_REGALIA_EN_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_madetoorder/260928_HakosBaelz_REGALIA_EN_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_madetoorder/260928_HakosBaelz_REGALIA_EN_12.webp"
+    ],
+    "min_price": 2310,
+    "max_price": 3300,
+    "published_at": "2026-09-28T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "9626635600092",
+    "handle": "hakosbaelz_1stconcert_regalia_advancedshipping",
+    "title_jp": "【先行発送】Hakos Baelz 1st Concert “REGALIA”ライブグッズ",
+    "title_en": "【Advanced shipping】Hakos Baelz 1st Concert “REGALIA” Concert Merch",
+    "tags_jp": [
+      "1stconcert_regalia",
+      "_ng_with_normal_group:HakosBaelz_Live0928",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "1stconcert_regalia",
+      "_ng_with_normal_group:HakosBaelz_Live0928",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ハコス・ベールズ",
+      "予約販売"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_01.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_06.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_07.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_08.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_advancedshipping/260928_HakosBaelz_REGALIA_EN_09.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10200,
+    "published_at": "2026-09-28T21:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9626596311260",
     "handle": "hololivepanic_merch",
     "title_jp": "ホロライブパニック グッズ",
