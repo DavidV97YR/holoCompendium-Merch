@@ -753,10 +753,15 @@ const TAXONOMIES = [
 // Storefront pages 429 non-browser user agents almost immediately — send
 // browser-like headers, pace generously, and honor Retry-After on the SAME
 // page so nothing is silently skipped.
+//
+// No Accept-Language (empty, so fetch sends none of its own): any value places
+// the visitor outside Japan, and the filtered pages then leave out products
+// sold only in Japan, as productPage explains — hololivepanic_merch was
+// missing from both of its types for that reason alone.
 const PAGE_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml',
-  'Accept-Language': 'en-US,en;q=0.9',
+  'Accept-Language': '',
 };
 const TAXONOMY_PAGE_DELAY_MS = 4000;
 
