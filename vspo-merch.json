@@ -44,7 +44,10 @@
     "is_available": false,
     "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
-    "sale_end": "2026-10-14T00:00:00+09:00"
+    "sale_end": "2026-10-14T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8524025692347",
@@ -85,7 +88,10 @@
     "is_available": false,
     "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
-    "sale_end": "2026-10-14T00:00:00+09:00"
+    "sale_end": "2026-10-14T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8524024643771",
@@ -126,7 +132,10 @@
     "is_available": false,
     "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
-    "sale_end": "2026-10-14T00:00:00+09:00"
+    "sale_end": "2026-10-14T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8524022972603",
@@ -167,7 +176,10 @@
     "is_available": false,
     "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
-    "sale_end": "2026-10-14T00:00:00+09:00"
+    "sale_end": "2026-10-14T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8524021891259",
@@ -216,7 +228,10 @@
     "is_available": false,
     "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
-    "sale_end": "2026-10-14T00:00:00+09:00"
+    "sale_end": "2026-10-14T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8523986698427",
@@ -268,7 +283,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-10-11T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523985289403",
@@ -307,7 +331,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523983454395",
@@ -355,7 +383,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-10-10T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523981815995",
@@ -394,7 +431,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8524031262907",
@@ -463,7 +504,33 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-10-02T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8524029722811",
@@ -523,7 +590,26 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-10-02T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523980374203",
@@ -580,7 +666,18 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-09-23T07:30:00+09:00",
-    "sale_end": "2026-10-06T15:59:00+09:00"
+    "sale_end": "2026-10-06T15:59:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523978834107",
@@ -628,7 +725,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-10-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523972673723",
@@ -667,7 +773,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487746699451",
@@ -703,7 +813,11 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-09-15T14:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523968610491",
@@ -756,7 +870,22 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-09-27T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png"
+    ]
   },
   {
     "product_id": "8523964711099",
@@ -795,7 +924,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8358860488891",
@@ -899,7 +1032,33 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-04-13T19:00:00+09:00",
-    "sale_end": "2026-05-10T23:59:00+09:00"
+    "sale_end": "2026-05-10T23:59:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860030139",
@@ -945,7 +1104,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487752073403",
@@ -1001,7 +1168,18 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-09-08T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487751254203",
@@ -1048,7 +1226,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-09-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487751778491",
@@ -1087,7 +1274,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487747813563",
@@ -1145,7 +1336,24 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-30T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487749058747",
@@ -1184,7 +1392,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487752007867",
@@ -1250,7 +1462,31 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-17T19:00:00+09:00",
-    "sale_end": "2026-09-01T00:00:00+09:00"
+    "sale_end": "2026-09-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487746011323",
@@ -1319,7 +1555,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8396995363003",
@@ -1386,7 +1625,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-05-29T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8487745519803",
@@ -1439,7 +1681,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-24T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461991248059",
@@ -1491,7 +1743,22 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-14T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8461990756539",
@@ -1530,7 +1797,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8487745421499",
@@ -1569,7 +1840,12 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2026-08-04T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461988659387",
@@ -1617,7 +1893,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-08-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461988135099",
@@ -1656,7 +1940,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461989445819",
@@ -1716,7 +2004,26 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-07-24T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461990035643",
@@ -1783,7 +2090,31 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-07-24T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8480166281403",
@@ -1827,7 +2158,12 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2026-07-24T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419556524219",
@@ -1860,7 +2196,10 @@
       "Xross Stars"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8419557114043",
@@ -1893,7 +2232,10 @@
       "Xross Stars"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8419555901627",
@@ -1938,7 +2280,10 @@
       "Xross Stars"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8461987086523",
@@ -1972,7 +2317,11 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-07-15T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8198710952123",
@@ -2080,7 +2429,37 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-07-15T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8198754402491",
@@ -2184,7 +2563,33 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-07-15T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860292283",
@@ -2229,7 +2634,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342019899579",
@@ -2346,7 +2760,36 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461989118139",
@@ -2393,7 +2836,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-21T19:00:00+09:00",
-    "sale_end": "2026-07-31T23:59:00+09:00"
+    "sale_end": "2026-07-31T23:59:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461986005179",
@@ -2446,7 +2895,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-25T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461848215739",
@@ -2493,7 +2952,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-19T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8461847167163",
@@ -2532,7 +3001,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419560390843",
@@ -2586,7 +3059,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-15T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419560292539",
@@ -2638,7 +3121,18 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-14T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419560587451",
@@ -2693,7 +3187,19 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-13T15:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419560259771",
@@ -2742,7 +3248,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419559801019",
@@ -2781,7 +3296,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419557638331",
@@ -2832,7 +3351,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-07T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419553018043",
@@ -2883,7 +3410,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-07-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419552985275",
@@ -2922,7 +3458,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419553116347",
@@ -3027,7 +3567,35 @@
       "VSPO! カードサプライ"
     ],
     "sale_start": "2026-06-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419554295995",
@@ -3132,7 +3700,35 @@
       "VSPO! カードサプライ"
     ],
     "sale_start": "2026-06-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419553411259",
@@ -3237,7 +3833,35 @@
       "VSPO! カードサプライ"
     ],
     "sale_start": "2026-06-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8419554951355",
@@ -3341,7 +3965,35 @@
       "VSPO! カードサプライ"
     ],
     "sale_start": "2026-06-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8395307352251",
@@ -3397,7 +4049,23 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-05-20T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8396995035323",
@@ -3443,7 +4111,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-06-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8396994969787",
@@ -3482,7 +4158,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8395307319483",
@@ -3521,7 +4201,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860751035",
@@ -3579,7 +4263,25 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-05-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860685499",
@@ -3629,7 +4331,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-05-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860652731",
@@ -3668,7 +4380,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860587195",
@@ -3717,7 +4433,18 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-05-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8358860521659",
@@ -3756,7 +4483,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8358860390587",
@@ -3814,7 +4545,23 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-04-24T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372596080827",
@@ -3871,7 +4618,17 @@
       "VSPO! EN Starter Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372658831547",
@@ -3928,7 +4685,17 @@
       "VSPO! EN Starter Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372659191995",
@@ -3985,7 +4752,17 @@
       "VSPO! EN Starter Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372659388603",
@@ -4025,7 +4802,16 @@
       "VSPO! EN Team Jacket Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372659978427",
@@ -4076,7 +4862,17 @@
       "VSPO! EN Team Jacket Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372660109499",
@@ -4125,7 +4921,15 @@
       "VSPO! EN Team Jacket Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8372660207803",
@@ -4169,7 +4973,10 @@
       "VSPO! EN Team Jacket Series"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860357819",
@@ -4208,7 +5015,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860456123",
@@ -4265,7 +5076,25 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-04-10T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860423355",
@@ -4318,7 +5147,23 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2026-04-10T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860128443",
@@ -4357,7 +5202,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8358860325051",
@@ -4461,7 +5310,33 @@
       "ぬいすぽっ！"
     ],
     "sale_start": "2026-04-07T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8346767851707",
@@ -4498,7 +5373,12 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2026-03-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8346769326267",
@@ -4537,7 +5417,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2026-03-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8346767884475",
@@ -4576,7 +5459,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2026-03-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8342018097339",
@@ -4615,7 +5501,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342018687163",
@@ -4662,7 +5552,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-04-07T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8345807421627",
@@ -4765,7 +5664,20 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8345802080443",
@@ -4864,7 +5776,19 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8345799491771",
@@ -4959,7 +5883,16 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8345794511035",
@@ -5076,7 +6009,36 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8345792512187",
@@ -5193,7 +6155,36 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342019965115",
@@ -5288,7 +6279,16 @@
       "VSPO! SHOWDOWN2026"
     ],
     "sale_start": "2026-03-21T11:00:00+09:00",
-    "sale_end": "2026-04-05T00:00:00+09:00"
+    "sale_end": "2026-04-05T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342017638587",
@@ -5334,7 +6334,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-04-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342017507515",
@@ -5373,7 +6382,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8342017409211",
@@ -5460,7 +6473,11 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2026-03-18T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8323528818875",
@@ -5513,7 +6530,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-03-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8323528196283",
@@ -5552,7 +6579,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8314897006779",
@@ -5599,7 +6630,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-03-13T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8314896941243",
@@ -5638,7 +6678,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8314896875707",
@@ -5685,7 +6729,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-03-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8314896842939",
@@ -5724,7 +6776,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8316759867579",
@@ -5761,7 +6817,10 @@
       "Xross Stars"
     ],
     "sale_start": "2026-02-19T19:00:00+09:00",
-    "sale_end": "2026-03-06T00:00:00+09:00"
+    "sale_end": "2026-03-06T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8308231569595",
@@ -5808,7 +6867,10 @@
       "Xross Stars"
     ],
     "sale_start": "2026-02-19T19:00:00+09:00",
-    "sale_end": "2026-03-06T00:00:00+09:00"
+    "sale_end": "2026-03-06T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8306792726715",
@@ -5885,7 +6947,10 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8306788532411",
@@ -5939,7 +7004,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-02-28T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306788171963",
@@ -5978,7 +7053,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8308231143611",
@@ -6026,7 +7105,19 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8308231012539",
@@ -6078,7 +7169,21 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8308230652091",
@@ -6130,7 +7235,21 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8308230553787",
@@ -6182,7 +7301,21 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8308230389947",
@@ -6234,7 +7367,21 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306793251003",
@@ -6286,7 +7433,21 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2026-02-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306792104123",
@@ -6355,7 +7516,22 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306791547067",
@@ -6421,7 +7597,21 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306791055547",
@@ -6523,7 +7713,33 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306790662331",
@@ -6625,7 +7841,33 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8306789548219",
@@ -6727,7 +7969,33 @@
       "VSPO! バレンタイン2026"
     ],
     "sale_start": "2026-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8290760458427",
@@ -6778,7 +8046,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-02-15T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8293911101627",
@@ -6840,7 +8118,19 @@
       "SFL: Pro-JP 2025"
     ],
     "sale_start": "2026-02-01T19:00:00+09:00",
-    "sale_end": "2026-02-16T00:00:00+09:00"
+    "sale_end": "2026-02-16T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8293911036091",
@@ -6904,7 +8194,19 @@
       "SFL: Pro-JP 2025"
     ],
     "sale_start": "2026-02-01T19:00:00+09:00",
-    "sale_end": "2026-02-16T00:00:00+09:00"
+    "sale_end": "2026-02-16T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8288561856699",
@@ -6985,7 +8287,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-01-23T19:00:00+09:00",
-    "sale_end": "2026-02-07T00:00:00+09:00"
+    "sale_end": "2026-02-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8285294231739",
@@ -7036,7 +8347,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-02-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8285294198971",
@@ -7075,7 +8396,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8284901408955",
@@ -7146,7 +8471,22 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2026-01-15T19:00:00+09:00",
-    "sale_end": "2026-01-30T00:00:00+09:00"
+    "sale_end": "2026-01-30T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8277474574523",
@@ -7192,7 +8532,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-01-24T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8277474476219",
@@ -7231,7 +8579,11 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8284361818299",
@@ -7275,7 +8627,12 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2026-01-15T18:30:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269431242939",
@@ -7378,7 +8735,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269430194363",
@@ -7481,7 +8865,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269429309627",
@@ -7584,7 +8995,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269428457659",
@@ -7687,7 +9125,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269427703995",
@@ -7790,7 +9255,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269426917563",
@@ -7895,7 +9387,34 @@
       "VSPO! 謹賀新年2026"
     ],
     "sale_start": "2026-01-01T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8269423149243",
@@ -7958,7 +9477,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-12-26T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8253662593211",
@@ -8008,7 +9530,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2026-01-07T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8253661348027",
@@ -8117,7 +9649,35 @@
       "メンバーシンボル"
     ],
     "sale_start": "2025-12-15T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8253660790971",
@@ -8226,7 +9786,35 @@
       "メンバーシンボル"
     ],
     "sale_start": "2025-12-15T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8253658333371",
@@ -8278,7 +9866,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-12-25T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8253660233915",
@@ -8344,7 +9942,34 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2025-12-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8253659807931",
@@ -8397,7 +10022,23 @@
       "VSPO!LOOK SEASON"
     ],
     "sale_start": "2025-12-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8243249971387",
@@ -8446,7 +10087,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-12-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8243249873083",
@@ -8491,7 +10141,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-12-16T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8243249709243",
@@ -8545,7 +10204,20 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-12-12T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8243249676475",
@@ -8648,7 +10320,33 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-26T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8243249774779",
@@ -8692,7 +10390,14 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2025-11-28T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453807291",
@@ -8835,7 +10540,44 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453774523",
@@ -8978,7 +10720,44 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453741755",
@@ -9088,7 +10867,33 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453708987",
@@ -9209,7 +11014,21 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453610683",
@@ -9352,7 +11171,44 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453577915",
@@ -9445,7 +11301,15 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453840059",
@@ -9567,7 +11431,19 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453479611",
@@ -9677,7 +11553,33 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242454003899",
@@ -9820,7 +11722,44 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242453938363",
@@ -9930,7 +11869,33 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8242454560955",
@@ -10046,7 +12011,14 @@
       "VSPO! フェス2025"
     ],
     "sale_start": "2025-11-22T09:00:00+09:00",
-    "sale_end": "2025-12-07T00:00:00+09:00"
+    "sale_end": "2025-12-07T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8238381891771",
@@ -10089,7 +12061,10 @@
       "Xross Stars"
     ],
     "sale_start": "2025-11-19T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8233056665787",
@@ -10198,7 +12173,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8233056010427",
@@ -10309,7 +12312,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8233091072187",
@@ -10418,7 +12449,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8233188524219",
@@ -10527,7 +12586,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8233037594811",
@@ -10635,7 +12722,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-11-12T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8229778620603",
@@ -10688,7 +12803,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-26T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8102997393595",
@@ -10792,7 +12916,33 @@
       "ぬいすぽっ！"
     ],
     "sale_start": "2025-07-11T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8223737839803",
@@ -10844,7 +12994,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8221183508667",
@@ -10893,7 +13053,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8223627870395",
@@ -10960,7 +13129,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-31T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8216647860411",
@@ -11004,7 +13176,14 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2025-10-31T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8220272853179",
@@ -11055,7 +13234,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-10T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8216641831099",
@@ -11104,7 +13293,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-05T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8215501930683",
@@ -11151,7 +13349,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8214002139323",
@@ -11200,7 +13406,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8214002106555",
@@ -11245,7 +13459,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-11-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8207155757243",
@@ -11295,7 +13517,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-25T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8208127983803",
@@ -11380,7 +13611,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-09T19:00:00+09:00",
-    "sale_end": "2025-10-24T00:00:00+09:00"
+    "sale_end": "2025-10-24T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8202110927035",
@@ -11425,7 +13663,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8202066100411",
@@ -11480,7 +13726,18 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-10-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8202034643131",
@@ -11531,7 +13788,16 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-10-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8201991749819",
@@ -11580,7 +13846,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-15T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8198702137531",
@@ -11631,7 +13906,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-11T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8190738530491",
@@ -11679,7 +13962,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-10T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8190407409851",
@@ -11730,7 +14022,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-10-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8181274476731",
@@ -11774,7 +14076,12 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2025-09-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8135393247419",
@@ -11816,7 +14123,12 @@
       "VSPO!LOOK CLIP"
     ],
     "sale_start": "2025-08-08T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8177738711227",
@@ -11861,7 +14173,14 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-09-10T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8177529651387",
@@ -11909,7 +14228,15 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-09-10T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8167402438843",
@@ -12011,7 +14338,33 @@
       "VSPO! 夏祭り2025"
     ],
     "sale_start": "2025-08-29T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8167398473915",
@@ -12113,7 +14466,33 @@
       "VSPO! 夏祭り2025"
     ],
     "sale_start": "2025-08-29T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8167393296571",
@@ -12198,7 +14577,16 @@
       "VSPO! 夏祭り2025"
     ],
     "sale_start": "2025-08-29T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8169685713083",
@@ -12237,7 +14625,14 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2025-08-29T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8162727854267",
@@ -12282,7 +14677,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-09-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8146675925179",
@@ -12330,7 +14733,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-08-29T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8146776522939",
@@ -12387,7 +14799,10 @@
       "Xross Stars"
     ],
     "sale_start": "2025-08-07T19:00:00+09:00",
-    "sale_end": "2025-08-21T00:00:00+09:00"
+    "sale_end": "2025-08-21T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8127437144251",
@@ -12430,7 +14845,14 @@
       "Xross Stars"
     ],
     "sale_start": "2025-07-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8127425446075",
@@ -12471,7 +14893,10 @@
       "Xross Stars"
     ],
     "sale_start": "2025-07-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8127404212411",
@@ -12524,7 +14949,10 @@
       "Xross Stars"
     ],
     "sale_start": "2025-07-30T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8125835772091",
@@ -12593,7 +15021,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-25T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8115730219195",
@@ -12641,7 +15072,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-08-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8106923688123",
@@ -12734,7 +15174,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8106923098299",
@@ -12840,7 +15289,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105933635771",
@@ -12946,7 +15421,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105917874363",
@@ -13052,7 +15553,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105869050043",
@@ -13138,7 +15665,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105812623547",
@@ -13224,7 +15757,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105801154747",
@@ -13330,7 +15869,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8105770746043",
@@ -13416,7 +15981,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8104977039547",
@@ -13502,7 +16073,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8104968585403",
@@ -13608,7 +16185,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-17T19:00:00+09:00",
-    "sale_end": "2025-08-01T00:00:00+09:00"
+    "sale_end": "2025-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8100236853435",
@@ -13689,7 +16292,12 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8100235706555",
@@ -13739,7 +16347,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-19T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8094664949947",
@@ -13787,7 +16403,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8093663428795",
@@ -13834,7 +16459,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-06T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8090130841787",
@@ -13884,7 +16518,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-07-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8083753500859",
@@ -13936,7 +16578,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-06-14T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8076564857019",
@@ -13984,7 +16635,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-06-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7996166176955",
@@ -14082,7 +16742,33 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2025-05-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7928382193851",
@@ -14177,7 +16863,30 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2025-05-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8068311089339",
@@ -14220,7 +16929,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-05-20T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8069272764603",
@@ -14266,7 +16984,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-05-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8066336358587",
@@ -14341,7 +17068,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-25T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8058815709371",
@@ -14384,7 +17114,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-05-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8058155925691",
@@ -14427,7 +17166,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-05-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8054640050363",
@@ -14472,7 +17219,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-05-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8053683880123",
@@ -14518,7 +17274,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-24T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8048475930811",
@@ -14561,7 +17325,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8049822728379",
@@ -14607,7 +17380,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8041453158587",
@@ -14657,7 +17438,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-08T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8041440673979",
@@ -14745,7 +17536,15 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8041429336251",
@@ -14851,7 +17650,33 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8041386049723",
@@ -14944,7 +17769,15 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8041307472059",
@@ -15050,7 +17883,33 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8040919171259",
@@ -15156,7 +18015,33 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8040915861691",
@@ -15209,7 +18094,10 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8040912683195",
@@ -15262,7 +18150,10 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8040908652731",
@@ -15313,7 +18204,10 @@
       "VSPO!SHOWDOWN2024"
     ],
     "sale_start": "2025-03-24T19:00:00+09:00",
-    "sale_end": "2025-04-08T00:00:00+09:00"
+    "sale_end": "2025-04-08T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8038659883195",
@@ -15356,7 +18250,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-04-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8029693214907",
@@ -15400,7 +18302,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-03-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8032207470779",
@@ -15503,7 +18414,36 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-02-28T18:30:00+09:00",
-    "sale_end": "2025-03-15T00:00:00+09:00"
+    "sale_end": "2025-03-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8029612736699",
@@ -15548,7 +18488,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-03-13T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8027399422139",
@@ -15590,7 +18539,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-03-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8027410825403",
@@ -15627,7 +18584,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-02-28T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8027408269499",
@@ -15664,7 +18624,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-02-28T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8021292744891",
@@ -15762,7 +18725,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-02-14T11:00:00+09:00",
-    "sale_end": "2025-03-01T00:00:00+09:00"
+    "sale_end": "2025-03-01T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8023077650619",
@@ -15809,7 +18798,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-02-28T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8019338199227",
@@ -15854,7 +18853,14 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8019308052667",
@@ -15902,7 +18908,15 @@
       "VSPO! フレグランス"
     ],
     "sale_start": "2025-02-14T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8017497063611",
@@ -15945,7 +18959,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-02-15T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8016184508603",
@@ -16054,7 +19077,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2025-01-31T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8014834041019",
@@ -16105,7 +19156,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-02-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8011087577275",
@@ -16147,7 +19207,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-01-24T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8009614000315",
@@ -16198,7 +19266,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009576677563",
@@ -16304,7 +19375,33 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8009614491835",
@@ -16397,7 +19494,16 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8009614295227",
@@ -16450,7 +19556,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009614885051",
@@ -16558,7 +19667,34 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8009613902011",
@@ -16611,7 +19747,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009613770939",
@@ -16664,7 +19803,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009613082811",
@@ -16715,7 +19857,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009597223099",
@@ -16821,7 +19966,33 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8009614393531",
@@ -16874,7 +20045,10 @@
       "VSPO! 年末カウントダウン2024"
     ],
     "sale_start": "2024-12-31T11:00:00+09:00",
-    "sale_end": "2025-01-15T00:00:00+09:00"
+    "sale_end": "2025-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8009537290427",
@@ -16976,7 +20150,33 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-28T17:00:00+09:00",
-    "sale_end": "2025-01-12T00:00:00+09:00"
+    "sale_end": "2025-01-12T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8006055690427",
@@ -17022,7 +20222,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2025-01-07T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8008747974843",
@@ -17087,7 +20297,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-20T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "8008787493051",
@@ -17189,7 +20402,33 @@
       "VSPO! GEAR"
     ],
     "sale_start": "2024-12-20T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8006042747067",
@@ -17232,7 +20471,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-25T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8004553834683",
@@ -17275,7 +20523,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8003186884795",
@@ -17321,7 +20577,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-12T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8002355790011",
@@ -17363,7 +20627,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-12-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "8001777598651",
@@ -17400,7 +20671,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2024-11-20T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8001777467579",
@@ -17437,7 +20711,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2024-11-20T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "8000049873083",
@@ -17474,7 +20751,12 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2024-11-20T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7999098028219",
@@ -17515,7 +20797,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-26T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7961799098555",
@@ -17556,7 +20846,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-07-20T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7989473476795",
@@ -17635,7 +20933,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-05T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7995737899195",
@@ -17682,7 +20987,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-10T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7993680724155",
@@ -17729,7 +21044,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-05T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7993385648315",
@@ -17771,7 +21096,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-03T23:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7993382994107",
@@ -17814,7 +21147,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-03T23:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7993376702651",
@@ -17855,7 +21196,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-11-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7989444640955",
@@ -17896,7 +21245,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-10-24T23:59:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7985503731899",
@@ -17942,7 +21298,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-10-15T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7985508516027",
@@ -18003,7 +21368,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-09-27T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7983261155515",
@@ -18045,7 +21413,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-10-11T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7983229403323",
@@ -18085,7 +21461,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-10-10T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7982283456699",
@@ -18127,7 +21510,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-10-03T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7972336566459",
@@ -18170,7 +21561,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-09-09T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7923983974587",
@@ -18237,7 +21636,12 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-08-16T15:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971508388027",
@@ -18345,7 +21749,35 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971980214459",
@@ -18380,7 +21812,10 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971979296955",
@@ -18415,7 +21850,10 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971960979643",
@@ -18450,7 +21888,10 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971791012027",
@@ -18497,7 +21938,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": "2024-08-23T00:00:00+09:00"
+    "sale_end": "2024-08-23T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971787767995",
@@ -18544,7 +21988,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": "2024-08-23T00:00:00+09:00"
+    "sale_end": "2024-08-23T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971776135355",
@@ -18591,7 +22038,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": "2024-08-23T00:00:00+09:00"
+    "sale_end": "2024-08-23T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971759161531",
@@ -18687,7 +22137,31 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": "2024-08-23T00:00:00+09:00"
+    "sale_end": "2024-08-23T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971770433723",
@@ -18783,7 +22257,31 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-16T19:00:00+09:00",
-    "sale_end": "2024-08-23T00:00:00+09:00"
+    "sale_end": "2024-08-23T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971975364795",
@@ -18830,7 +22328,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-23T19:00:00+09:00",
-    "sale_end": "2024-08-31T00:00:00+09:00"
+    "sale_end": "2024-08-31T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971975233723",
@@ -18877,7 +22378,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-23T19:00:00+09:00",
-    "sale_end": "2024-08-31T00:00:00+09:00"
+    "sale_end": "2024-08-31T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971975102651",
@@ -18924,7 +22428,10 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-23T19:00:00+09:00",
-    "sale_end": "2024-08-31T00:00:00+09:00"
+    "sale_end": "2024-08-31T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7971794911419",
@@ -19020,7 +22527,31 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-23T19:00:00+09:00",
-    "sale_end": "2024-08-31T00:00:00+09:00"
+    "sale_end": "2024-08-31T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971970351291",
@@ -19116,7 +22647,31 @@
       "VSPO! サマービーチ2024"
     ],
     "sale_start": "2024-08-23T19:00:00+09:00",
-    "sale_end": "2024-08-31T00:00:00+09:00"
+    "sale_end": "2024-08-31T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971735077051",
@@ -19165,7 +22720,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-08-30T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7971509272763",
@@ -19205,7 +22770,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-08-14T21:30:00+09:00",
-    "sale_end": "2024-08-29T00:00:00+09:00"
+    "sale_end": "2024-08-29T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7969709719739",
@@ -19295,7 +22868,29 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7969709818043",
@@ -19385,7 +22980,29 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7969712734395",
@@ -19460,7 +23077,15 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7969668268219",
@@ -19531,7 +23156,10 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": "2024-08-16T00:00:00+09:00"
+    "sale_end": "2024-08-16T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7969663221947",
@@ -19621,7 +23249,29 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": "2024-08-16T00:00:00+09:00"
+    "sale_end": "2024-08-16T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7969666498747",
@@ -19711,7 +23361,29 @@
       "VSPO! 「私たちは、ゲームで世界を作る」"
     ],
     "sale_start": "2024-08-02T18:00:00+09:00",
-    "sale_end": "2024-08-16T00:00:00+09:00"
+    "sale_end": "2024-08-16T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7966586929339",
@@ -19755,7 +23427,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-07-19T21:30:00+09:00",
-    "sale_end": "2024-08-03T00:00:00+09:00"
+    "sale_end": "2024-08-03T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7958117155003",
@@ -19802,7 +23483,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-07-10T00:00:00+09:00",
-    "sale_end": "2024-07-11T00:00:00+09:00"
+    "sale_end": "2024-07-11T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7954280874171",
@@ -19846,7 +23536,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-07-06T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7954219335867",
@@ -19890,7 +23587,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-07-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7951644688571",
@@ -19932,7 +23637,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-06-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7951347843259",
@@ -20003,7 +23717,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-05-31T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7950834172091",
@@ -20046,7 +23763,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-06-14T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7948581011643",
@@ -20089,7 +23814,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-06-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7944226439355",
@@ -20131,7 +23865,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-05-20T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7943264862395",
@@ -20191,7 +23933,18 @@
       "RAGE VALORANT 2024 feat.VSPO!"
     ],
     "sale_start": "2024-04-30T18:00:00+09:00",
-    "sale_end": "2024-05-15T00:00:00+09:00"
+    "sale_end": "2024-05-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7943049806011",
@@ -20259,7 +24012,21 @@
       "RAGE VALORANT 2024 feat.VSPO!"
     ],
     "sale_start": "2024-04-30T18:00:00+09:00",
-    "sale_end": "2024-05-15T00:00:00+09:00"
+    "sale_end": "2024-05-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7939101098171",
@@ -20302,7 +24069,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-05-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7937169719483",
@@ -20345,7 +24120,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-05-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7937724776635",
@@ -20392,7 +24175,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-05-01T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7935299485883",
@@ -20429,7 +24220,10 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2024-04-26T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7933062676667",
@@ -20473,7 +24267,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7933068345531",
@@ -20516,7 +24318,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-04-17T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7930334216379",
@@ -20563,7 +24372,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-04-05T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7925309669563",
@@ -20605,7 +24423,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-03-18T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7922726666427",
@@ -20649,7 +24475,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-03-08T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7919522480315",
@@ -20693,7 +24527,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-02-28T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7917975077051",
@@ -20764,7 +24607,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-02-05T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7916787892411",
@@ -20809,7 +24659,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-02-15T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7915522883771",
@@ -20871,7 +24729,19 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2024-01-26T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7912822440123",
@@ -20915,7 +24785,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-02-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7909081710779",
@@ -20959,7 +24836,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-01-24T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7907459563707",
@@ -21053,7 +24937,29 @@
       "VSPO! 謹賀新年2024"
     ],
     "sale_start": "2023-12-31T11:00:00+09:00",
-    "sale_end": "2024-01-15T00:00:00+09:00"
+    "sale_end": "2024-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7907459858619",
@@ -21147,7 +25053,29 @@
       "VSPO! 謹賀新年2024"
     ],
     "sale_start": "2023-12-31T11:00:00+09:00",
-    "sale_end": "2024-01-15T00:00:00+09:00"
+    "sale_end": "2024-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7907459530939",
@@ -21243,7 +25171,29 @@
       "VSPO! 謹賀新年2024"
     ],
     "sale_start": "2023-12-31T11:00:00+09:00",
-    "sale_end": "2024-01-15T00:00:00+09:00"
+    "sale_end": "2024-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7907459727547",
@@ -21337,7 +25287,29 @@
       "VSPO! 謹賀新年2024"
     ],
     "sale_start": "2023-12-31T11:00:00+09:00",
-    "sale_end": "2024-01-15T00:00:00+09:00"
+    "sale_end": "2024-01-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7907061498043",
@@ -21382,7 +25354,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2024-01-07T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7905621344443",
@@ -21474,7 +25454,29 @@
       "VSPO! クリスマス2023 ボイス＆グッズ"
     ],
     "sale_start": "2024-01-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7905632977083",
@@ -21547,7 +25549,14 @@
       "VSPO! クリスマス2023 ボイス＆グッズ"
     ],
     "sale_start": "2024-01-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7905641660603",
@@ -21620,7 +25629,14 @@
       "VSPO! クリスマス2023 ボイス＆グッズ"
     ],
     "sale_start": "2024-01-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7905649688763",
@@ -21653,7 +25669,10 @@
       "VSPO! クリスマス2023 ボイス＆グッズ"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7905699856571",
@@ -21718,7 +25737,10 @@
       "VSPO! クリスマス2023 ボイス＆グッズ"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7904884719803",
@@ -21786,7 +25808,13 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-12-15T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7903442075835",
@@ -21828,7 +25856,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-12-10T20:30:00+09:00",
-    "sale_end": "2023-12-25T00:00:00+09:00"
+    "sale_end": "2023-12-25T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7900796190907",
@@ -21874,7 +25909,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-12-12T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7897745817787",
@@ -21936,7 +25979,19 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": "2023-11-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7889709957307",
@@ -21970,7 +26025,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-11-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7897743589563",
@@ -22001,7 +26064,12 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-11-17T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7897000050875",
@@ -22043,7 +26111,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-11-11T22:30:00+09:00",
-    "sale_end": "2023-11-26T00:00:00+09:00"
+    "sale_end": "2023-11-26T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890092720315",
@@ -22135,7 +26210,29 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890144362683",
@@ -22227,7 +26324,29 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890147868859",
@@ -22312,7 +26431,17 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890080694459",
@@ -22404,7 +26533,29 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890147311803",
@@ -22496,7 +26647,29 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7890070372539",
@@ -22588,7 +26761,29 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7889785946299",
@@ -22675,7 +26870,21 @@
       "VSPO! 文化体育祭"
     ],
     "sale_start": "2023-10-31T10:00:00+09:00",
-    "sale_end": "2023-11-15T00:00:00+09:00"
+    "sale_end": "2023-11-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7891729383611",
@@ -22744,7 +26953,10 @@
       "VSPO! ハロウィン2023 ボイス＆グッズ"
     ],
     "sale_start": "2023-10-26T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7890354012347",
@@ -22783,7 +26995,10 @@
       "VSPO! ハロウィン2023 ボイス＆グッズ"
     ],
     "sale_start": "2023-10-26T20:00:00+09:00",
-    "sale_end": "2023-11-10T00:00:00+09:00"
+    "sale_end": "2023-11-10T00:00:00+09:00",
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7890344968379",
@@ -22824,7 +27039,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-11-04T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7889396138171",
@@ -22865,7 +27087,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-10-19T20:30:00+09:00",
-    "sale_end": "2023-11-03T00:00:00+09:00"
+    "sale_end": "2023-11-03T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7889662935227",
@@ -22910,7 +27139,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-11-02T00:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7886670561467",
@@ -22950,7 +27186,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-10-10T22:00:00+09:00",
-    "sale_end": "2023-10-25T00:00:00+09:00"
+    "sale_end": "2023-10-25T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7884416876731",
@@ -22998,7 +27241,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-09-30T21:00:00+09:00",
-    "sale_end": "2023-10-15T00:00:00+09:00"
+    "sale_end": "2023-10-15T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7881354444987",
@@ -23039,7 +27291,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-09-26T22:00:00+09:00",
-    "sale_end": "2023-10-11T00:00:00+09:00"
+    "sale_end": "2023-10-11T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7882977312955",
@@ -23083,7 +27342,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-09-25T21:00:00+09:00",
-    "sale_end": "2023-10-10T00:00:00+09:00"
+    "sale_end": "2023-10-10T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879972159675",
@@ -23166,7 +27432,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879971995835",
@@ -23249,7 +27534,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879970455739",
@@ -23339,7 +27643,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7881070313659",
@@ -23422,7 +27745,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7881069396155",
@@ -23505,7 +27847,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7881068544187",
@@ -23588,7 +27949,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879976550587",
@@ -23671,7 +28051,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879973961915",
@@ -23754,7 +28153,26 @@
       "在庫再販売 2022年夏イベント販売グッズ"
     ],
     "sale_start": "2023-09-23T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879339933883",
@@ -23794,7 +28212,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-09-18T20:45:00+09:00",
-    "sale_end": "2023-10-03T00:00:00+09:00"
+    "sale_end": "2023-10-03T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7879670595771",
@@ -23840,7 +28266,15 @@
       "VSPO! esports style 2023"
     ],
     "sale_start": "2023-09-16T12:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7879669448891",
@@ -23929,7 +28363,29 @@
       "VSPO! esports style 2023"
     ],
     "sale_start": "2023-09-16T12:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7879664664763",
@@ -24010,7 +28466,14 @@
       "VSPO! esports style 2023"
     ],
     "sale_start": "2023-09-16T12:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7871252398267",
@@ -24053,7 +28516,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-08-25T20:00:00+09:00",
-    "sale_end": "2023-09-09T00:00:00+09:00"
+    "sale_end": "2023-09-09T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7870364942523",
@@ -24092,7 +28563,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-08-15T20:00:00+09:00",
-    "sale_end": "2023-08-30T00:00:00+09:00"
+    "sale_end": "2023-08-30T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7868517777595",
@@ -24135,7 +28613,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-08-14T21:30:00+09:00",
-    "sale_end": "2023-08-29T00:00:00+09:00"
+    "sale_end": "2023-08-29T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7867223769275",
@@ -24209,7 +28695,11 @@
       "VSPO! 夏コミ2023"
     ],
     "sale_start": "2023-08-12T12:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7867223113915",
@@ -24301,7 +28791,29 @@
       "VSPO! 夏コミ2023"
     ],
     "sale_start": "2023-08-12T12:00:00+09:00",
-    "sale_end": "2023-08-27T00:00:00+09:00"
+    "sale_end": "2023-08-27T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7867222687931",
@@ -24393,7 +28905,29 @@
       "VSPO! 夏コミ2023"
     ],
     "sale_start": "2023-08-12T12:00:00+09:00",
-    "sale_end": "2023-08-27T00:00:00+09:00"
+    "sale_end": "2023-08-27T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7867219607739",
@@ -24478,7 +29012,16 @@
       "VSPO! 夏コミ2023"
     ],
     "sale_start": "2023-08-12T12:00:00+09:00",
-    "sale_end": "2023-08-27T00:00:00+09:00"
+    "sale_end": "2023-08-27T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7866043990203",
@@ -24582,7 +29125,35 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-08-01T20:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7861908144315",
@@ -24622,7 +29193,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-07-19T20:00:00+09:00",
-    "sale_end": "2023-08-03T00:00:00+09:00"
+    "sale_end": "2023-08-03T00:00:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7859846545595",
@@ -24705,7 +29283,28 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-07-17T20:00:00+09:00",
-    "sale_end": "2023-08-01T00:00:00+09:00"
+    "sale_end": "2023-08-01T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7859654262971",
@@ -24740,7 +29339,10 @@
       "VSPO! メンバーデザインシリーズ"
     ],
     "sale_start": "2023-10-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/png"
+    ]
   },
   {
     "product_id": "7855943418043",
@@ -24785,7 +29387,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-07-04T19:00:00+09:00",
-    "sale_end": "2023-07-18T23:59:00+09:00"
+    "sale_end": "2023-07-18T23:59:00+09:00",
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "7854394671291",
@@ -24821,7 +29431,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-10-16T19:00:00+09:00",
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7849772384443",
@@ -24863,7 +29483,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-06-24T20:00:00+09:00",
-    "sale_end": "2023-07-09T00:00:00+09:00"
+    "sale_end": "2023-07-09T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7842008432827",
@@ -24906,7 +29534,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-06-03T19:00:00+09:00",
-    "sale_end": "2023-06-18T00:00:00+09:00"
+    "sale_end": "2023-06-18T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7841211220155",
@@ -25009,7 +29644,33 @@
       "VSPO! スタンダードグッズ"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7841035321531",
@@ -25050,7 +29711,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-05-30T19:00:00+09:00",
-    "sale_end": "2023-06-14T00:00:00+09:00"
+    "sale_end": "2023-06-14T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7805303226555",
@@ -25115,7 +29783,10 @@
       "「SAISON CARD Digital」×「VSPO!」"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7805321445563",
@@ -25196,7 +29867,26 @@
       "「SAISON CARD Digital」×「VSPO!」"
     ],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7837926883515",
@@ -25240,7 +29930,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-05-18T22:00:00+09:00",
-    "sale_end": "2023-06-02T00:00:00+09:00"
+    "sale_end": "2023-06-02T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7832501911739",
@@ -25283,7 +29980,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-05-05T19:00:00+09:00",
-    "sale_end": "2023-05-20T00:00:00+09:00"
+    "sale_end": "2023-05-20T00:00:00+09:00",
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/jpg"
+    ]
   },
   {
     "product_id": "7825563189435",
@@ -25324,7 +30029,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-04-19T20:00:00+09:00",
-    "sale_end": "2023-05-04T00:00:00+09:00"
+    "sale_end": "2023-05-04T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "files/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7824263643323",
@@ -25368,7 +30080,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-04-17T19:00:00+09:00",
-    "sale_end": "2023-05-02T00:00:00+09:00"
+    "sale_end": "2023-05-02T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7822932181179",
@@ -25413,7 +30132,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-04-16T19:00:00+09:00",
-    "sale_end": "2023-05-01T00:00:00+09:00"
+    "sale_end": "2023-05-01T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7787685576891",
@@ -25468,7 +30195,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7787681022139",
@@ -25505,7 +30235,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787662278843",
@@ -25542,7 +30275,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787636850875",
@@ -25579,7 +30315,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7788860997819",
@@ -25616,7 +30355,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787698520251",
@@ -25649,7 +30391,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787672043707",
@@ -25686,7 +30431,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787647729851",
@@ -25721,7 +30469,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7788589285563",
@@ -25758,7 +30509,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7788509003963",
@@ -25795,7 +30549,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7788497731771",
@@ -25832,7 +30589,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787721031867",
@@ -25869,7 +30629,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787714871483",
@@ -25902,7 +30665,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7787712086203",
@@ -25935,7 +30701,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7787705729211",
@@ -25968,7 +30737,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7814842515643",
@@ -26014,7 +30786,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-04-02T22:00:00+09:00",
-    "sale_end": "2023-04-17T00:00:00+09:00"
+    "sale_end": "2023-04-17T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7814839795899",
@@ -26057,7 +30837,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-04-02T19:00:00+09:00",
-    "sale_end": "2023-04-17T00:00:00+09:00"
+    "sale_end": "2023-04-17T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7809517453499",
@@ -26099,7 +30886,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-03-21T20:00:00+09:00",
-    "sale_end": "2023-04-05T00:00:00+09:00"
+    "sale_end": "2023-04-05T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/png",
+      "products/jpg",
+      "products/png",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7802989314235",
@@ -26142,7 +30936,15 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-03-03T20:00:00+09:00",
-    "sale_end": "2023-03-18T00:00:00+09:00"
+    "sale_end": "2023-03-18T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/png",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7799183671483",
@@ -26181,7 +30983,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-02-22T20:00:00+09:00",
-    "sale_end": "2023-03-09T00:00:00+09:00"
+    "sale_end": "2023-03-09T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7794955485371",
@@ -26263,7 +31072,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7794435948731",
@@ -26322,7 +31141,10 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   },
   {
     "product_id": "7793668948155",
@@ -26361,7 +31183,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-02-13T20:00:00+09:00",
-    "sale_end": "2023-02-28T00:00:00+09:00"
+    "sale_end": "2023-02-28T00:00:00+09:00",
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7788762562747",
@@ -26406,7 +31235,16 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-02-07T19:00:00+09:00",
-    "sale_end": "2023-02-22T00:00:00+09:00"
+    "sale_end": "2023-02-22T00:00:00+09:00",
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7783529545915",
@@ -26449,7 +31287,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-01-31T21:00:00+09:00",
-    "sale_end": "2023-02-15T00:00:00+09:00"
+    "sale_end": "2023-02-15T00:00:00+09:00",
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7780838834363",
@@ -26531,7 +31376,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7777610891451",
@@ -26578,7 +31433,14 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2023-01-18T18:00:00+09:00",
-    "sale_end": "2023-02-02T00:00:00+09:00"
+    "sale_end": "2023-02-02T00:00:00+09:00",
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7768242946235",
@@ -26668,7 +31530,34 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2022-12-30T12:00:00+09:00",
-    "sale_end": "2023-01-21T00:00:00+09:00"
+    "sale_end": "2023-01-21T00:00:00+09:00",
+    "shop_files": [
+      "products/jpg",
+      "products/png",
+      "products/png",
+      "products/jpg",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7767853400251",
@@ -26749,7 +31638,26 @@
     "delisted_at": null,
     "series": [],
     "sale_start": "2022-12-30T12:00:00+09:00",
-    "sale_end": "2023-01-21T00:00:00+09:00"
+    "sale_end": "2023-01-21T00:00:00+09:00",
+    "shop_files": [
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png",
+      "products/png"
+    ]
   },
   {
     "product_id": "7767590469819",
@@ -26831,7 +31739,17 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg",
+      "products/jpg"
+    ]
   },
   {
     "product_id": "7766929768635",
@@ -26890,6 +31808,9 @@
     "delisted_at": null,
     "series": [],
     "sale_start": null,
-    "sale_end": null
+    "sale_end": null,
+    "shop_files": [
+      "products/png"
+    ]
   }
 ]
