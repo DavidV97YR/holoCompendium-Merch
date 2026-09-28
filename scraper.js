@@ -165,6 +165,26 @@ async function storeFetch(url, timeoutMs = 20_000) {
   return res;
 }
 
+// A product page, in English. A product sold only in Japan ("Restricted
+// products", e.g. hololivepanic_merch) answers 404 to a visitor the store
+// places outside Japan, and it places anyone who sends the session's
+// localization cookie or any Accept-Language (fetch sends "*" by default).
+// The same address asked with neither is served as the English page, gallery
+// and all, so a 404 is asked once more that way.
+async function productPage(handle, timeoutMs = 20_000) {
+  const url = `${BASE_EN}/products/${handle}`;
+  const res = await storeFetch(url, timeoutMs);
+  if (!res || res.status !== 404) return res;
+  return fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+      'Accept-Language': '',   // empty, so fetch sends none of its own
+    },
+    redirect: 'manual',        // a redirect means the store still said no
+    signal: AbortSignal.timeout(timeoutMs),
+  }).catch(() => null);
+}
+
 async function initStoreSession() {
   const res = await storeFetch(BASE_EN, 30_000);
   const ok  = storeCookies.has('_shopify_essential');
@@ -333,7 +353,7 @@ async function enNamePair(handle) {
   if (enPairCache.has(handle)) return enPairCache.get(handle);
 
   let out = null;
-  const r = await storeFetch(`${BASE_EN}/products/${handle}`);
+  const r = await productPage(handle);
   if (r && r.ok) {
     const html = await r.text().catch(() => '');
     const en = (html.match(/productImgEn:\s*"([^"]+)"/) || [])[1];
@@ -517,7 +537,7 @@ function enMediaMap(handle) {
     // empty map means the page answered and this product simply has no
     // translated gallery. Conflating the two would let a network blip archive
     // Japanese artwork and mark the product finished.
-    const res = await storeFetch(`${BASE_EN}/products/${handle}`);
+    const res = await productPage(handle);
     if (!res || !res.ok) return null;
     const html = await res.text().catch(() => '');
     if (!html) return null;
