@@ -1,5 +1,214 @@
 [
   {
+    "product_id": "8524026773691",
+    "handle": "xrossstars-exstarterdeck1",
+    "title_jp": "Xross Stars EXスタートデッキ『ぶいすぽっ！』",
+    "title_en": "Xross Stars EXスタートデッキ『ぶいすぽっ！』",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "八雲べに",
+      "空澄セナ",
+      "終了日指定あり",
+      "花芽すみれ",
+      "藍沢エマ"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "八雲べに",
+      "空澄セナ",
+      "終了日指定あり",
+      "花芽すみれ",
+      "藍沢エマ"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [],
+    "series": [
+      "Xross Stars"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/xrossstars-exstarterdeck1/EC__ST03.webp"
+    ],
+    "min_price": 1485,
+    "max_price": 1485,
+    "published_at": "2026-09-28T19:00:13+09:00",
+    "is_available": false,
+    "delisted_at": null
+  },
+  {
+    "product_id": "8524025692347",
+    "handle": "xross-stars-officialgoods261030-03",
+    "title_jp": "Xross Stars オフィシャルスリーブ vol.18『胡桃のあ』",
+    "title_en": "Xross Stars オフィシャルスリーブ vol.18『胡桃のあ』",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "終了日指定あり",
+      "胡桃のあ"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "終了日指定あり",
+      "胡桃のあ"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [],
+    "series": [
+      "Xross Stars"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/xross-stars-officialgoods261030-03/EC__BP05___1A.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 1320,
+    "published_at": "2026-09-28T19:00:12+09:00",
+    "is_available": false,
+    "delisted_at": null
+  },
+  {
+    "product_id": "8524024643771",
+    "handle": "xross-stars-officialgoods261030-02",
+    "title_jp": "Xross Stars オフィシャルスリーブ vol.15『蝶屋はなび』",
+    "title_en": "Xross Stars オフィシャルスリーブ vol.15『蝶屋はなび』",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "終了日指定あり",
+      "蝶屋はなび"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "終了日指定あり",
+      "蝶屋はなび"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [],
+    "series": [
+      "Xross Stars"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/xross-stars-officialgoods261030-02/EC__BP02___1B.webp"
+    ],
+    "min_price": 990,
+    "max_price": 990,
+    "published_at": "2026-09-28T19:00:10+09:00",
+    "is_available": false,
+    "delisted_at": null
+  },
+  {
+    "product_id": "8524022972603",
+    "handle": "xross-stars-officialgoods261030-01",
+    "title_jp": "Xross Stars オフィシャルスリーブ vol.14『如月れん』",
+    "title_en": "Xross Stars オフィシャルスリーブ vol.14『如月れん』",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "如月れん",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "如月れん",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [],
+    "series": [
+      "Xross Stars"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/xross-stars-officialgoods261030-01/EC__BP02___1A.webp"
+    ],
+    "min_price": 990,
+    "max_price": 990,
+    "published_at": "2026-09-28T19:00:08+09:00",
+    "is_available": false,
+    "delisted_at": null
+  },
+  {
+    "product_id": "8524021891259",
+    "handle": "xrossstars-ignitionvortex-box",
+    "title_jp": "Xross Stars ブースターパック第5弾『Ignition Vortex』(BOX)",
+    "title_en": "Xross Stars ブースターパック第5弾『Ignition Vortex』(BOX)",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "VSPO! EN",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "神成きゅぴ",
+      "終了日指定あり",
+      "胡桃のあ",
+      "花芽すみれ",
+      "黒刃アリヤ"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "VSPO! EN",
+      "Xross Stars",
+      "コンビニ決済終了日:2026-10-06",
+      "神成きゅぴ",
+      "終了日指定あり",
+      "胡桃のあ",
+      "花芽すみれ",
+      "黒刃アリヤ"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [],
+    "series": [
+      "Xross Stars"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/xrossstars-ignitionvortex-box/EC__BP05.webp"
+    ],
+    "min_price": 5700,
+    "max_price": 5700,
+    "published_at": "2026-09-28T19:00:03+09:00",
+    "is_available": false,
+    "delisted_at": null
+  },
+  {
     "product_id": "8523986698427",
     "handle": "shinomiyaruna-ani5th",
     "title_jp": "紫宮るな 5周年記念2026",
