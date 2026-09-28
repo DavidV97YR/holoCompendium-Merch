@@ -397,6 +397,12 @@ async function main() {
   // pages (tagged "Excluded Product", ¥0, so the site shows no price).
   const live = await fetchAllProducts();
   log(`Shop lists ${live.length} products`);
+  // A shop in maintenance, or a cut-short answer, would otherwise mark most of
+  // the archive delisted. Stop and fail the run instead; the next one retries.
+  const listedBefore = existing.filter(p => !p.delisted_at).length;
+  if (listedBefore > 20 && live.length < listedBefore / 2) {
+    throw new Error(`Shop listed only ${live.length} of ${listedBefore} products; not syncing this run`);
+  }
   const liveIds = new Set(live.map(p => String(p.id)));
 
   // Talents' Japanese names, as the shop tags products with them: every tag
@@ -469,7 +475,9 @@ async function main() {
       if (record.images.length >= images.length) continue;     // complete
     }
 
-    if (outOfTime()) { stopped = true; break; }
+    // Past the budget, only the archiving stops: the products after this one
+    // still get their availability synced above.
+    if (outOfTime()) { stopped = true; continue; }
 
     const entry = record || {
       product_id:       id,

@@ -950,6 +950,12 @@ async function main() {
   // 2. Fetch live Shopify catalog
   const shopifyProducts = await fetchAllShopifyProducts();
   log(`Fetched ${shopifyProducts.length} products from Shopify`);
+  // A shop in maintenance, or a cut-short answer, would otherwise mark most of
+  // the archive delisted. Stop and fail the run instead; the next one retries.
+  const listedBefore = existing.filter(p => !p.delisted_at).length;
+  if (listedBefore > 20 && shopifyProducts.length < listedBefore / 2) {
+    throw new Error(`Shop listed only ${shopifyProducts.length} of ${listedBefore} products; not syncing this run`);
+  }
 
   // 3. Fetch Langify EN image map once — covers all products
   await initStoreSession();
