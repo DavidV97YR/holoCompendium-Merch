@@ -205,9 +205,14 @@ async function salesPeriod(handle) {
     const res  = await fetchWithRetry(`${BASE}/en-us/products/${encodeURIComponent(handle)}`);
     const html = await res.text();
     const box  = /class="Product_SalesPeriod_Wrapper"[^>]*>([\s\S]*?)<\/div>/.exec(html);
-    const at   = [...((box && box[1]) || '').matchAll(/(\d{4}-\d{2}-\d{2})\s+(\d{1,2}):(\d{2})/g)]
-                   .map(m => `${m[1]}T${m[2].padStart(2, '0')}:${m[3]}:00+09:00`);
-    return { start: at[0] || null, end: at[1] || null };
+    // Either side can be blank ("Sales period: (JST) 〜 2026-10-11 0:00 (JST)"
+    // is on sale now, until the 11th), so each side is read on its own.
+    const [from, to] = ((box && box[1]) || '').split(/[〜～~]/);
+    const at = side => {
+      const m = /(\d{4}-\d{2}-\d{2})\s+(\d{1,2}):(\d{2})/.exec(side || '');
+      return m ? `${m[1]}T${m[2].padStart(2, '0')}:${m[3]}:00+09:00` : null;
+    };
+    return { start: at(from), end: at(to) };
   } catch (e) {
     log(`  ⚠ no sales period for ${handle}: ${e.message}`);
     return null;
