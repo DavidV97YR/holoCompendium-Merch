@@ -454,11 +454,18 @@ async function main() {
       // Read once (the archive's older products on the first run after this was
       // added), and again while a sale is still to start, in case it moves.
       const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now();
-      if ((record.sale_start === undefined || pending) && !outOfTime()) {
+      // Once more for a period with a start and no end that the first parser
+      // read: it took an end-only period ("〜 2026-10-11 0:00") as the start,
+      // and the two look the same once stored (Runa's, Beni's and Ema's
+      // anniversary sets on sale, dated as opening when they close).
+      // sale_v marks a period this parser has read.
+      const reread = record.sale_start && !record.sale_end && !record.sale_v;
+      if ((record.sale_start === undefined || pending || reread) && !outOfTime()) {
         const sp = await salesPeriod(p.handle);
         if (sp && (sp.start !== record.sale_start || sp.end !== record.sale_end)) {
           record.sale_start = sp.start; record.sale_end = sp.end; synced++;
         }
+        if (sp && !record.sale_v) { record.sale_v = 2; synced++; }
       }
       // Worked out again every run, so a rule added here, or a collection the
       // shop adds, reaches the whole archive, not only products archived after.
@@ -501,7 +508,7 @@ async function main() {
     if (!entry.title_en) entry.title_en = (await englishTitle(p.handle)) || entry.title_jp;
     if (entry.sale_start === undefined) {
       const sp = await salesPeriod(p.handle);
-      if (sp) { entry.sale_start = sp.start; entry.sale_end = sp.end; }
+      if (sp) { entry.sale_start = sp.start; entry.sale_end = sp.end; entry.sale_v = 2; }
     }
 
     // Only the images not archived yet: an entry keeps the ones it has.
