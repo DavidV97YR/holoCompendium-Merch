@@ -178,7 +178,7 @@ function cardHtml(p, opts) {
       <a href="${shop.product}/${esc(p.handle)}"
          style="display:inline-block;margin-top:16px;background:${C.accent};color:#1a1626;
                 font-family:${FONT};font-size:14px;font-weight:700;text-decoration:none;padding:11px 20px;border-radius:8px;">
-        View on shop</a>
+        View on Shop</a>
     </td></tr>
   </table>`;
 }
@@ -206,8 +206,8 @@ function buildHtml(products, opts) {
   const shown  = products.slice(0, MAX_CARDS);
   const extra  = products.length - shown.length;
   const heading = products.length === 1
-    ? `1 new item in the ${shop.name} shop`
-    : `${products.length} new items in the ${shop.name} shop`;
+    ? `1 New Item in the ${shop.name} Shop`
+    : `${products.length} New Items in the ${shop.name} Shop`;
 
   return `<!doctype html>
 <html><head><meta charset="utf-8">
@@ -234,7 +234,7 @@ function buildHtml(products, opts) {
 
     <tr><td align="center" style="padding:14px 0 0 0;border-top:1px solid ${C.border};">
       <a href="${shop.site}" style="color:${C.accent};font-family:${FONT};font-size:14px;font-weight:600;text-decoration:none;">
-        Browse the full archive →</a>
+        Browse the Full Archive →</a>
       ${list ? `<div style="margin-top:14px;">
         <a href="${UNSUB}"
            style="display:inline-block;color:${C.muted};font-family:${FONT};font-size:12px;font-weight:600;
@@ -255,13 +255,13 @@ function buildText(products, opts) {
   const lines = products.slice(0, MAX_CARDS).map(p =>
     `• ${titleOf(p)}\n  ${priceLabel(p)} — ${statusOf(p)}\n  ${shop.product}/${p.handle}`);
   if (products.length > MAX_CARDS) lines.push(`+ ${products.length - MAX_CARDS} more not shown`);
-  return `${products.length} new item${products.length === 1 ? '' : 's'} in the ${shop.name} shop\n\n${lines.join('\n\n')}\n\n${shop.site}\n`;
+  return `${products.length} New Item${products.length === 1 ? '' : 's'} in the ${shop.name} Shop\n\n${lines.join('\n\n')}\n\n${shop.site}\n`;
 }
 
-// "New: <title>" for one product, "<n> new <shop> products" for several.
+// "New: <title>" for one product, "<n> New <shop> Products" for several.
 const subjectFor = (products, opts) => products.length === 1
   ? `New: ${titleOf(products[0])}`
-  : `${products.length} new ${shopOf(opts).name} products`;
+  : `${products.length} New ${shopOf(opts).name} Products`;
 
 export async function sendNewProductEmail(products, log = console.log, opts = {}) {
   if (!products?.length) return;
