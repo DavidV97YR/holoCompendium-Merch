@@ -310,6 +310,22 @@ async function fetchOfficialFilter(field, value) {
 
 // ─── R2 ──────────────────────────────────────────────────────────────────────
 
+// Where the shop keeps each archived picture, for the site's full-screen
+// viewer: "files/png" for <shop CDN>/files/<name>.png, null for a picture the
+// shop no longer lists. The viewer asks the shop's CDN for a copy sized to the
+// screen (the originals run to 4500×4500, which a phone struggled to slide
+// between); the archive keeps the originals for when the product is gone.
+// Stored this short, not as addresses, because it goes to every visitor in
+// the archive file. Matched by name, as r2KeyFor names the archived copy.
+function shopFiles(archived, shopSrcs) {
+  const byName = new Map();
+  for (const src of shopSrcs || []) {
+    const m = /\/(files|products)\/([^/?]+)\.([a-z0-9]+)(?:\?|$)/i.exec(src);
+    if (m) byName.set(m[2], m[1] + '/' + m[3]);
+  }
+  return (archived || []).map(u => byName.get(String(u).split('/').pop().replace(/\.webp$/, '')) || null);
+}
+
 function r2KeyFor(handle, imgUrl) {
   const base = imgUrl.split('?')[0].split('/').pop() || 'image';
   return `${IMAGES_DIR}/${handle}/${base.replace(/\.[^.]+$/, '')}.webp`;
@@ -426,6 +442,7 @@ async function main() {
         record.is_available = available; record.delisted_at = null; synced++;
       }
       record.tags_jp = tags; record.tags_en = tags;
+      record.shop_files = shopFiles(record.images, images);
       // Read once (the archive's older products on the first run after this was
       // added), and again while a sale is still to start, in case it moves.
       const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now();
@@ -484,6 +501,7 @@ async function main() {
       archiveImage(p.handle, src).catch(e => { log(`  ⚠ image ${src}: ${e.message}`); return null; }));
     entry.images.push(...done.filter(Boolean));
 
+    entry.shop_files = shopFiles(entry.images, images);
     if (record) toppedUp++; else { byId.set(id, entry); fresh.push(entry); added++; log(`New: ${entry.title_en}`); }
     if ((added + toppedUp) % 25 === 0) write([...byId.values()]);   // progress survives a kill
   }
