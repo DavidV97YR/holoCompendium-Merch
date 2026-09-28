@@ -724,7 +724,7 @@ const TAXONOMIES = [
       '事務所グッズ',
       'ホロ活',
       'ホロmini',
-      'Nendoroid',
+      'ねんどろいど',   // the shop's own spelling; 'Nendoroid' matched nothing
       'OTHERS',
     ],
   },
