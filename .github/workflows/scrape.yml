@@ -1,4 +1,4 @@
-name: Scrape Hololive Merch
+name: Scrape Merch
 
 on:
   # Triggered by cron-job.org via POST to the repository_dispatch webhook.
