@@ -814,11 +814,13 @@ function loadExistingMerch() {
     log('No existing merch.json — starting fresh');
     return [];
   }
+  // A file that is there but unreadable stops the run. Starting fresh would
+  // save over it, and every delisted product (no longer in the shop to be
+  // found again) would be gone from the archive for good.
   try {
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  } catch {
-    log('Could not parse merch.json — starting fresh');
-    return [];
+  } catch (err) {
+    throw new Error(`merch.json could not be read (${err.message}); fix or restore it before the next run`);
   }
 }
 
@@ -1138,6 +1140,13 @@ async function main() {
   // Awaited: commitChanges also uploads merch.json to R2, and without the await
   // a failure there surfaced as an unhandled rejection instead of a caught error.
   await commitChanges(newCount, updatedCount);
+
+  // Never from an empty archive, as in vspo-scraper.js: a first run finds the
+  // whole shop "new", and would mail every product to the subscriber list.
+  if (existing.length === newCount) {
+    log(`Archive started from empty — no email for ${newCount} products`);
+    return;
+  }
 
   // After the commit, so an email never announces something that failed to
   // persist. Wrapped because a mail outage must not fail an otherwise good run —

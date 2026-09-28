@@ -358,7 +358,9 @@ function loadExisting() {
   const fp = path.join(process.cwd(), MERCH_FILE);
   if (!fs.existsSync(fp)) { log(`No ${MERCH_FILE} yet — starting fresh`); return []; }
   try { return JSON.parse(fs.readFileSync(fp, 'utf8')); }
-  catch { log(`Could not parse ${MERCH_FILE} — starting fresh`); return []; }
+  // Unreadable stops the run, as in scraper.js: starting fresh would save
+  // over it and lose every delisted product for good.
+  catch (e) { throw new Error(`${MERCH_FILE} could not be read (${e.message}); fix or restore it before the next run`); }
 }
 
 function write(products) {
