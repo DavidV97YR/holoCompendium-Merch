@@ -42,6 +42,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import sharp from 'sharp';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { sendNewProductEmail, sendBroadcast } from './email.js';
 
 const BASE        = 'https://store.vspo.jp';
 const MERCH_FILE  = 'vspo-merch.json';
@@ -230,12 +231,15 @@ async function fetchCollections(talentTags) {
   }
   const byProduct = new Map();
   const seenSets  = new Set();   // two collections with the same products are one series
+  // The talent pages' names: the new-merch email shows these as chips.
+  byProduct.talents = new Set();
   for (const c of list) {
     if (!c.products_count) continue;
     const name       = String(c.title).replace(/[\s　]+/g, '');
     const talentPage = talentTags.has(name) && name.length <= 7
                        && !/[0-9０-９!！?？「」【】『』()（）・&＆]|ぶいすぽ/.test(name);
     const isSeries   = !NOT_SERIES.has(c.handle) && !talentPage;
+    if (talentPage) byProduct.talents.add(name);
     if (!isSeries && !WANTED.has(c.handle)) continue;
     const ids = [];
     for (let page = 1; ; page++) {
@@ -322,18 +326,20 @@ function write(products) {
                    JSON.stringify([...products].sort(BY_NEWEST), null, 2));
 }
 
+// True once the archive is in the repo (or already was).
 function commit(msg) {
   execSync('git config user.name "holoVault Scraper"');
   execSync('git config user.email "scraper@holovault"');
   execSync(`git add ${MERCH_FILE}`);
-  try { execSync('git diff --cached --quiet'); log('Nothing to commit'); return; } catch { /* staged changes */ }
+  try { execSync('git diff --cached --quiet'); log('Nothing to commit'); return true; } catch { /* staged changes */ }
   // Non-fatal, as in scraper.js: the R2 upload after this still runs, so the
   // site gets this run's archive even when the push fails.
   try {
     execSync(`git commit -m ${JSON.stringify(msg)}`);
     execSync('git push');
     log(`Committed: ${msg}`);
-  } catch (e) { log(`⚠ Git commit/push failed: ${e.message}`); }
+    return true;
+  } catch (e) { log(`⚠ Git commit/push failed: ${e.message}`); return false; }
 }
 
 // ─── Main ────────────────────────────────────────────────────────────────────
@@ -378,6 +384,7 @@ async function main() {
   const isCommemorative = handle => !!(commemorative && commemorative.has(handle));
 
   let added = 0, toppedUp = 0, synced = 0, delisted = 0, stopped = false;
+  const fresh = [];   // products new to the archive this run, for the email
 
   for (const p of live) {
     const id       = String(p.id);
@@ -440,7 +447,7 @@ async function main() {
       archiveImage(p.handle, src).catch(e => { log(`  ⚠ image ${src}: ${e.message}`); return null; }));
     entry.images.push(...done.filter(Boolean));
 
-    if (record) toppedUp++; else { byId.set(id, entry); added++; log(`New: ${entry.title_en}`); }
+    if (record) toppedUp++; else { byId.set(id, entry); fresh.push(entry); added++; log(`New: ${entry.title_en}`); }
     if ((added + toppedUp) % 25 === 0) write([...byId.values()]);   // progress survives a kill
   }
 
@@ -462,9 +469,23 @@ async function main() {
                toppedUp && `${toppedUp} topped up`,
                (synced || delisted) && `${synced + delisted} status update${synced + delisted !== 1 ? 's' : ''}`]
               .filter(Boolean).join(', ') || 'VSPO!: refresh';
-  commit(msg);
+  const committed = commit(msg);
   try { await uploadJson(); }
   catch (e) { log(`⚠ upload of ${R2_JSON_KEY} failed (committed; the next run re-uploads): ${e.message}`); }
+
+  // New products go to the same signup list as hololive's (one list for both
+  // shops), and to the owner's own address. Never from an empty archive: a
+  // first run finds the whole shop "new". Nor when the commit failed: the next
+  // run starts without these products, finds them again and sends then, so
+  // sending now as well would mail them twice.
+  if (!fresh.length) return;
+  if (!existing.length) { log(`Archive started from empty — no email for ${fresh.length} products`); return; }
+  if (!committed) { log('Not committed — the email waits for the run that commits these products'); return; }
+  const opts = { shop: 'vspo', talents: (collections && collections.talents) || new Set() };
+  try { await sendNewProductEmail(fresh, log, opts); }
+  catch (e) { log(`⚠ New-product email failed (data is safe): ${e.message}`); }
+  try { await sendBroadcast(fresh, log, opts); }
+  catch (e) { log(`⚠ Subscriber broadcast failed (data is safe): ${e.message}`); }
 }
 
 function summarize(all) {

@@ -19,8 +19,19 @@ const RESEND_ENDPOINT = 'https://api.resend.com/emails';
 // this is summarised as a count.
 const MAX_CARDS = 12;
 
-const SHOP = 'https://shop.hololivepro.com/en/products';
-const SITE = 'https://holocompendium.cc/merch';
+// One signup list covers both shops (the form is on both Merch pages), so each
+// scraper sends its own shop's new products to it. `shop` in the options below
+// picks these; hololive is the default. The archive link names the agency, as
+// the site otherwise opens whichever one the reader last looked at.
+const SHOPS = {
+  hololive: { name: 'hololive', product: 'https://shop.hololivepro.com/en/products',
+              site: 'https://holocompendium.cc/merch?org=hololive' },
+  vspo:     { name: 'VSPO!',    product: 'https://store.vspo.jp/en-us/products',
+              site: 'https://holocompendium.cc/merch?org=vspo' },
+};
+const shopOf = opts => SHOPS[opts && opts.shop] || SHOPS.hololive;
+// VSPO!'s archive can hold a product whose English title is not out yet.
+const titleOf = p => p.title_en || p.title_jp || '';
 
 // Mail clients default to Times when no family is set, so this has to be
 // declared on every text-bearing element — several of them (Outlook especially)
@@ -56,10 +67,16 @@ function priceLabel(p) {
 // "Talent_一条莉々華" → "一条莉々華", "Generation_ReGLOSS" → "ReGLOSS".
 // Both tag arrays carry Japanese talent names; the EN display names live in the
 // site repo, not here, so the Japanese ones are what we can show accurately.
-function chips(p) {
+// VSPO!'s shop tags a talent by their plain name, among other plain tags
+// (抽選販売, フレグランス), so its chips come from the talent names the scraper
+// read off the shop's talent pages (opts.talents), and its series.
+function chips(p, opts) {
   const tags    = p.tags_en?.length ? p.tags_en : (p.tags_jp || []);
-  const talents = tags.filter(t => t.startsWith('Talent_')).map(t => t.slice(7));
-  const gen     = tags.find(t => t.startsWith('Generation_'))?.slice(11)
+  const vspo    = opts && opts.shop === 'vspo';
+  const talents = vspo ? tags.filter(t => opts.talents && opts.talents.has(t))
+                       : tags.filter(t => t.startsWith('Talent_')).map(t => t.slice(7));
+  const gen     = vspo ? (p.series || [])[0]
+               : tags.find(t => t.startsWith('Generation_'))?.slice(11)
                || tags.find(t => t.startsWith('Group_'))?.slice(6);
 
   const out = [];
@@ -88,7 +105,7 @@ const LAYOUT = (process.env.EMAIL_LAYOUT || 'gallery').toLowerCase();
 // percentage widths on images.
 const THUMB_COLS = 4;
 
-function thumbStrip(p) {
+function thumbStrip(p, shop) {
   const rest = (p.images || []).slice(1, 1 + THUMB_COLS);
   if (!rest.length) return '';
 
@@ -103,7 +120,7 @@ function thumbStrip(p) {
     const pad  = `padding:0 ${last ? 0 : 6}px 0 0;`;
     cells.push(rest[i]
       ? `<td width="25%" style="${pad}">
-            <a href="${SHOP}/${esc(p.handle)}" style="display:block;">
+            <a href="${shop.product}/${esc(p.handle)}" style="display:block;">
               <img src="${esc(rest[i])}" alt="" width="142"
                    style="display:block;width:100%;height:auto;border:0;border-radius:8px;">
             </a>
@@ -119,7 +136,8 @@ function thumbStrip(p) {
     </td></tr>`;
 }
 
-function cardHtml(p) {
+function cardHtml(p, opts) {
+  const shop  = shopOf(opts);
   // R2 WebP. Gmail, Apple Mail and Outlook.com all render it; Outlook desktop
   // for Windows does not, and falls back to the alt text.
   const img   = (p.images || [])[0];
@@ -131,23 +149,23 @@ function cardHtml(p) {
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
          style="background:${C.card};border:1px solid ${C.border};border-radius:14px;margin:0 0 16px 0;">
     ${img ? `<tr><td style="padding:0;">
-      <a href="${SHOP}/${esc(p.handle)}" style="display:block;">
-        <img src="${esc(img)}" width="598" alt="${esc(p.title_en)}"
+      <a href="${shop.product}/${esc(p.handle)}" style="display:block;">
+        <img src="${esc(img)}" width="598" alt="${esc(titleOf(p))}"
              style="display:block;width:100%;height:auto;border:0;border-radius:13px 13px 0 0;">
       </a></td></tr>` : ''}
-    ${LAYOUT === 'gallery' ? thumbStrip(p) : ''}
+    ${LAYOUT === 'gallery' ? thumbStrip(p, shop) : ''}
     <tr><td style="padding:18px 20px 20px 20px;">
-      <a href="${SHOP}/${esc(p.handle)}"
+      <a href="${shop.product}/${esc(p.handle)}"
          style="color:${C.text};font-family:${FONT};font-size:17px;font-weight:700;line-height:1.35;text-decoration:none;">
-        ${esc(p.title_en)}</a>
-      <div style="margin:12px 0 0 0;">${chips(p).map(chipHtml).join('')}</div>
+        ${esc(titleOf(p))}</a>
+      <div style="margin:12px 0 0 0;">${chips(p, opts).map(chipHtml).join('')}</div>
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:14px;">
         <tr>
           <td align="left" style="color:${C.accent};font-family:${FONT};font-size:19px;font-weight:700;">${esc(priceLabel(p))}</td>
           <td align="right">${badge}</td>
         </tr>
       </table>
-      <a href="${SHOP}/${esc(p.handle)}"
+      <a href="${shop.product}/${esc(p.handle)}"
          style="display:inline-block;margin-top:16px;background:${C.accent};color:#1a1626;
                 font-family:${FONT};font-size:14px;font-weight:700;text-decoration:none;padding:11px 20px;border-radius:8px;">
         View on shop</a>
@@ -174,11 +192,12 @@ function broadcastName(subject) {
 
 function buildHtml(products, opts) {
   const list   = opts && opts.list;
+  const shop   = shopOf(opts);
   const shown  = products.slice(0, MAX_CARDS);
   const extra  = products.length - shown.length;
   const heading = products.length === 1
-    ? '1 new item in the shop'
-    : `${products.length} new items in the shop`;
+    ? `1 new item in the ${shop.name} shop`
+    : `${products.length} new items in the ${shop.name} shop`;
 
   return `<!doctype html>
 <html><head><meta charset="utf-8">
@@ -198,13 +217,13 @@ function buildHtml(products, opts) {
         ${esc(heading)}</div>
     </td></tr>
 
-    <tr><td>${shown.map(cardHtml).join('')}</td></tr>
+    <tr><td>${shown.map(p => cardHtml(p, opts)).join('')}</td></tr>
 
     ${extra > 0 ? `<tr><td align="center" style="color:${C.muted};font-family:${FONT};font-size:14px;padding:4px 0 18px 0;">
       + ${extra} more not shown</td></tr>` : ''}
 
     <tr><td align="center" style="padding:14px 0 0 0;border-top:1px solid ${C.border};">
-      <a href="${SITE}" style="color:${C.accent};font-family:${FONT};font-size:14px;font-weight:600;text-decoration:none;">
+      <a href="${shop.site}" style="color:${C.accent};font-family:${FONT};font-size:14px;font-weight:600;text-decoration:none;">
         Browse the full archive →</a>
       ${list ? `<div style="margin-top:14px;">
         <a href="${UNSUB}"
@@ -221,14 +240,20 @@ function buildHtml(products, opts) {
 
 // Plain-text alternative — improves deliverability and is what a text-only
 // client shows instead of a blank message.
-function buildText(products) {
+function buildText(products, opts) {
+  const shop  = shopOf(opts);
   const lines = products.slice(0, MAX_CARDS).map(p =>
-    `• ${p.title_en}\n  ${priceLabel(p)} — ${p.is_available ? 'Available' : 'Sold Out'}\n  ${SHOP}/${p.handle}`);
+    `• ${titleOf(p)}\n  ${priceLabel(p)} — ${p.is_available ? 'Available' : 'Sold Out'}\n  ${shop.product}/${p.handle}`);
   if (products.length > MAX_CARDS) lines.push(`+ ${products.length - MAX_CARDS} more not shown`);
-  return `${products.length} new item${products.length === 1 ? '' : 's'} in the shop\n\n${lines.join('\n\n')}\n\n${SITE}\n`;
+  return `${products.length} new item${products.length === 1 ? '' : 's'} in the ${shop.name} shop\n\n${lines.join('\n\n')}\n\n${shop.site}\n`;
 }
 
-export async function sendNewProductEmail(products, log = console.log) {
+// "New: <title>" for one product, "<n> new <shop> products" for several.
+const subjectFor = (products, opts) => products.length === 1
+  ? `New: ${titleOf(products[0])}`
+  : `${products.length} new ${shopOf(opts).name} products`;
+
+export async function sendNewProductEmail(products, log = console.log, opts = {}) {
   if (!products?.length) return;
 
   const key  = process.env.RESEND_API_KEY;
@@ -239,9 +264,7 @@ export async function sendNewProductEmail(products, log = console.log) {
     return;
   }
 
-  const subject = products.length === 1
-    ? `New: ${products[0].title_en}`
-    : `${products.length} new hololive products`;
+  const subject = subjectFor(products, opts);
 
   const res = await fetch(RESEND_ENDPOINT, {
     method: 'POST',
@@ -250,8 +273,8 @@ export async function sendNewProductEmail(products, log = console.log) {
       from,
       to: to.split(',').map(s => s.trim()).filter(Boolean),
       subject,
-      html: buildHtml(products),
-      text: buildText(products),
+      html: buildHtml(products, opts),
+      text: buildText(products, opts),
     }),
     signal: AbortSignal.timeout(20_000),
   });
@@ -273,9 +296,7 @@ export async function sendBroadcast(products, log = console.log, opts = {}) {
   const from    = process.env.MAIL_FROM;
   if (!key || !segment || !from) return;   // list not set up — stay quiet
 
-  const subject = products.length === 1
-    ? `New: ${products[0].title_en}`
-    : `${products.length} new hololive products`;
+  const subject = subjectFor(products, opts);
 
   const create = await fetch('https://api.resend.com/broadcasts', {
     method: 'POST',
@@ -292,8 +313,8 @@ export async function sendBroadcast(products, log = console.log, opts = {}) {
       // titles run long. The date is kept and the title is what gets trimmed.
       name: broadcastName(subject),
       from, subject,
-      html: buildHtml(products, { list: true }),
-      text: buildText(products) + '\nUnsubscribe: ' + UNSUB + '\n',
+      html: buildHtml(products, { ...opts, list: true }),
+      text: buildText(products, opts) + '\nUnsubscribe: ' + UNSUB + '\n',
     }),
     signal: AbortSignal.timeout(20_000),
   });
