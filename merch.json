@@ -1,5 +1,58 @@
 [
   {
+    "product_id": "9624077893852",
+    "handle": "hololive_audiostory_autumnsbounties",
+    "title_jp": "ホロライブ「秋のご褒美を、キミと。」ボイス",
+    "title_en": "hololive Audio Story: Autumn's Bounties",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "Talent_シオリ・ノヴェラ",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_小鳥遊キアラ",
+      "Talent_森カリオペ",
+      "Unit_ホロライブ-Advent-",
+      "Unit_ホロライブ-Justice-",
+      "Unit_ホロライブ-Myth-",
+      "Unit_ホロライブ-Promise-",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "Talent_シオリ・ノヴェラ",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_小鳥遊キアラ",
+      "Talent_森カリオペ",
+      "Unit_ホロライブ-Advent-",
+      "Unit_ホロライブ-Justice-",
+      "Unit_ホロライブ-Myth-",
+      "Unit_ホロライブ-Promise-",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_audiostory_autumnsbounties/20260918_Autumn_sBounties_EN_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_audiostory_autumnsbounties/20260918_Autumn_sBounties_EN_3.webp"
+    ],
+    "min_price": 500,
+    "max_price": 9000,
+    "published_at": "2026-09-28T12:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9628377809116",
     "handle": "fuwamoco_anniversary_3rd",
     "title_jp": "FUWAMOCO 活動3周年記念",
@@ -30408,7 +30461,9 @@
     "categories": [
       "フィギュア"
     ],
-    "merch_categories": []
+    "merch_categories": [
+      "ねんどろいど"
+    ]
   },
   {
     "product_id": "9113599967452",
