@@ -51,6 +51,8 @@ const C = {
   okText:  '#34d399',
   outBg:   '#2a1618',
   outText: '#f87171',
+  soonBg:  '#2a2410',
+  soonText:'#ffe082',
 };
 
 const esc = s => String(s ?? '')
@@ -136,14 +138,22 @@ function thumbStrip(p, shop) {
     </td></tr>`;
 }
 
+// VSPO!'s shop lists a product before its sales period opens, unavailable
+// until then; vspo-scraper.js records the period, and such a product is
+// Coming Soon rather than Sold Out (the site says the same).
+function statusOf(p) {
+  if (p.is_available) return 'Available';
+  return Date.parse(p.sale_start) > Date.now() ? 'Coming Soon' : 'Sold Out';
+}
+
 function cardHtml(p, opts) {
   const shop  = shopOf(opts);
   // R2 WebP. Gmail, Apple Mail and Outlook.com all render it; Outlook desktop
   // for Windows does not, and falls back to the alt text.
   const img   = (p.images || [])[0];
-  const badge = p.is_available
-    ? `<span style="background:${C.okBg};color:${C.okText};font-family:${FONT};font-size:12px;font-weight:600;padding:5px 10px;border-radius:6px;">Available</span>`
-    : `<span style="background:${C.outBg};color:${C.outText};font-family:${FONT};font-size:12px;font-weight:600;padding:5px 10px;border-radius:6px;">Sold Out</span>`;
+  const status = statusOf(p);
+  const [bg, fg] = status === 'Available' ? [C.okBg, C.okText] : status === 'Coming Soon' ? [C.soonBg, C.soonText] : [C.outBg, C.outText];
+  const badge = `<span style="background:${bg};color:${fg};font-family:${FONT};font-size:12px;font-weight:600;padding:5px 10px;border-radius:6px;">${status}</span>`;
 
   return `
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
@@ -243,7 +253,7 @@ function buildHtml(products, opts) {
 function buildText(products, opts) {
   const shop  = shopOf(opts);
   const lines = products.slice(0, MAX_CARDS).map(p =>
-    `• ${titleOf(p)}\n  ${priceLabel(p)} — ${p.is_available ? 'Available' : 'Sold Out'}\n  ${shop.product}/${p.handle}`);
+    `• ${titleOf(p)}\n  ${priceLabel(p)} — ${statusOf(p)}\n  ${shop.product}/${p.handle}`);
   if (products.length > MAX_CARDS) lines.push(`+ ${products.length - MAX_CARDS} more not shown`);
   return `${products.length} new item${products.length === 1 ? '' : 's'} in the ${shop.name} shop\n\n${lines.join('\n\n')}\n\n${shop.site}\n`;
 }

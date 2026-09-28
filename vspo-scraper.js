@@ -195,6 +195,25 @@ async function englishTitle(handle) {
   }
 }
 
+// The product's sales period, which the shop shows only on the product page
+// ("Sales period:2026-09-30 19:00 (JST) 〜 2026-10-14 0:00 (JST)"); its JSON
+// just calls a product not on sale yet unavailable, the same as a sold-out one.
+// { start, end } as ISO times, null where the page gives none; null for the
+// whole when the page could not be read, so the next run asks again.
+async function salesPeriod(handle) {
+  try {
+    const res  = await fetchWithRetry(`${BASE}/en-us/products/${encodeURIComponent(handle)}`);
+    const html = await res.text();
+    const box  = /class="Product_SalesPeriod_Wrapper"[^>]*>([\s\S]*?)<\/div>/.exec(html);
+    const at   = [...((box && box[1]) || '').matchAll(/(\d{4}-\d{2}-\d{2})\s+(\d{1,2}):(\d{2})/g)]
+                   .map(m => `${m[1]}T${m[2].padStart(2, '0')}:${m[3]}:00+09:00`);
+    return { start: at[0] || null, end: at[1] || null };
+  } catch (e) {
+    log(`  ⚠ no sales period for ${handle}: ${e.message}`);
+    return null;
+  }
+}
+
 // The shop's collections, as product id → { handles, series }. `handles` is
 // every collection the product is in (the card game and starter set pages are
 // read from it); `series` names the ones that are a series.
@@ -402,6 +421,15 @@ async function main() {
         record.is_available = available; record.delisted_at = null; synced++;
       }
       record.tags_jp = tags; record.tags_en = tags;
+      // Read once (the archive's older products on the first run after this was
+      // added), and again while a sale is still to start, in case it moves.
+      const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now();
+      if ((record.sale_start === undefined || pending) && !outOfTime()) {
+        const sp = await salesPeriod(p.handle);
+        if (sp && (sp.start !== record.sale_start || sp.end !== record.sale_end)) {
+          record.sale_start = sp.start; record.sale_end = sp.end; synced++;
+        }
+      }
       // Worked out again every run, so a rule added here, or a collection the
       // shop adds, reaches the whole archive, not only products archived after.
       if (shopRead) {
@@ -439,6 +467,10 @@ async function main() {
       delisted_at:      null,
     };
     if (!entry.title_en) entry.title_en = (await englishTitle(p.handle)) || entry.title_jp;
+    if (entry.sale_start === undefined) {
+      const sp = await salesPeriod(p.handle);
+      if (sp) { entry.sale_start = sp.start; entry.sale_end = sp.end; }
+    }
 
     // Only the images not archived yet: an entry keeps the ones it has.
     const have = new Set(entry.images.map(u => u.split('/').pop()));
