@@ -42,7 +42,9 @@
     "max_price": 1485,
     "published_at": "2026-09-28T19:00:13+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "sale_start": "2026-09-30T19:00:00+09:00",
+    "sale_end": "2026-10-14T00:00:00+09:00"
   },
   {
     "product_id": "8524025692347",
@@ -81,7 +83,9 @@
     "max_price": 1320,
     "published_at": "2026-09-28T19:00:12+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "sale_start": "2026-09-30T19:00:00+09:00",
+    "sale_end": "2026-10-14T00:00:00+09:00"
   },
   {
     "product_id": "8524024643771",
@@ -120,7 +124,9 @@
     "max_price": 990,
     "published_at": "2026-09-28T19:00:10+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "sale_start": "2026-09-30T19:00:00+09:00",
+    "sale_end": "2026-10-14T00:00:00+09:00"
   },
   {
     "product_id": "8524022972603",
@@ -159,7 +165,9 @@
     "max_price": 990,
     "published_at": "2026-09-28T19:00:08+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "sale_start": "2026-09-30T19:00:00+09:00",
+    "sale_end": "2026-10-14T00:00:00+09:00"
   },
   {
     "product_id": "8524021891259",
@@ -206,7 +214,9 @@
     "max_price": 5700,
     "published_at": "2026-09-28T19:00:03+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": null,
+    "sale_start": "2026-09-30T19:00:00+09:00",
+    "sale_end": "2026-10-14T00:00:00+09:00"
   },
   {
     "product_id": "8523986698427",
@@ -256,7 +266,9 @@
     "published_at": "2026-09-26T18:58:16+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-10-11T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523985289403",
@@ -293,7 +305,9 @@
     "published_at": "2026-09-26T00:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8523983454395",
@@ -339,7 +353,9 @@
     "published_at": "2026-09-25T20:31:20+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-10-10T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523981815995",
@@ -376,7 +392,9 @@
     "published_at": "2026-09-25T00:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8524031262907",
@@ -443,7 +461,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-10-02T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8524029722811",
@@ -501,7 +521,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-10-02T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523980374203",
@@ -556,7 +578,9 @@
     "published_at": "2026-09-23T07:30:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-09-23T07:30:00+09:00",
+    "sale_end": "2026-10-06T15:59:00+09:00"
   },
   {
     "product_id": "8523978834107",
@@ -602,7 +626,9 @@
     "published_at": "2026-09-18T20:33:24+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-10-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523972673723",
@@ -639,7 +665,9 @@
     "published_at": "2026-09-18T00:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8487746699451",
@@ -673,7 +701,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-09-15T14:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523968610491",
@@ -724,7 +754,9 @@
     "published_at": "2026-09-12T20:39:27+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-09-27T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8523964711099",
@@ -761,7 +793,9 @@
     "published_at": "2026-09-12T00:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860488891",
@@ -863,7 +897,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-04-13T19:00:00+09:00",
+    "sale_end": "2026-05-10T23:59:00+09:00"
   },
   {
     "product_id": "8358860030139",
@@ -907,7 +943,9 @@
     "published_at": "2026-09-01T13:08:13+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8487752073403",
@@ -961,7 +999,9 @@
     "published_at": "2026-08-25T21:30:02+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-09-08T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8487751254203",
@@ -1006,7 +1046,9 @@
     "published_at": "2026-08-25T20:18:14+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-09-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8487751778491",
@@ -1043,7 +1085,9 @@
     "published_at": "2026-08-25T00:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8487747813563",
@@ -1099,7 +1143,9 @@
     "published_at": "2026-08-15T19:32:47+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-30T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8487749058747",
@@ -1136,7 +1182,9 @@
     "published_at": "2026-08-15T00:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8487752007867",
@@ -1200,7 +1248,9 @@
     "published_at": "2026-08-14T17:03:22+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-17T19:00:00+09:00",
+    "sale_end": "2026-09-01T00:00:00+09:00"
   },
   {
     "product_id": "8487746011323",
@@ -1267,7 +1317,9 @@
     "published_at": "2026-08-12T18:59:14+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8396995363003",
@@ -1332,7 +1384,9 @@
     "published_at": "2026-08-12T18:42:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-05-29T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8487745519803",
@@ -1383,7 +1437,9 @@
     "published_at": "2026-08-10T22:30:03+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-24T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461991248059",
@@ -1433,7 +1489,9 @@
     "published_at": "2026-07-30T18:33:42+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-14T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461990756539",
@@ -1470,7 +1528,9 @@
     "published_at": "2026-07-30T00:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8487745421499",
@@ -1507,7 +1567,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2026-08-04T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461988659387",
@@ -1553,7 +1615,9 @@
     "published_at": "2026-07-19T21:13:07+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-08-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461988135099",
@@ -1590,7 +1654,9 @@
     "published_at": "2026-07-19T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8461989445819",
@@ -1648,7 +1714,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-07-24T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461990035643",
@@ -1713,7 +1781,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-07-24T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8480166281403",
@@ -1755,7 +1825,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2026-07-24T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419556524219",
@@ -1786,7 +1858,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8419557114043",
@@ -1817,7 +1891,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8419555901627",
@@ -1860,7 +1936,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8461987086523",
@@ -1892,7 +1970,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-07-15T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8198710952123",
@@ -1998,7 +2078,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-07-15T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8198754402491",
@@ -2100,7 +2182,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-07-15T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860292283",
@@ -2143,7 +2227,9 @@
     "published_at": "2026-07-15T18:53:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8342019899579",
@@ -2258,7 +2344,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8461989118139",
@@ -2303,7 +2391,9 @@
     "published_at": "2026-07-14T19:05:09+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-21T19:00:00+09:00",
+    "sale_end": "2026-07-31T23:59:00+09:00"
   },
   {
     "product_id": "8461986005179",
@@ -2354,7 +2444,9 @@
     "published_at": "2026-07-12T15:30:04+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-25T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461848215739",
@@ -2399,7 +2491,9 @@
     "published_at": "2026-07-04T20:24:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-19T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8461847167163",
@@ -2436,7 +2530,9 @@
     "published_at": "2026-07-04T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8419560390843",
@@ -2488,7 +2584,9 @@
     "published_at": "2026-07-02T07:30:05+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-15T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419560292539",
@@ -2538,7 +2636,9 @@
     "published_at": "2026-06-30T23:30:12+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-14T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419560587451",
@@ -2591,7 +2691,9 @@
     "published_at": "2026-06-30T12:30:06+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-13T15:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419560259771",
@@ -2638,7 +2740,9 @@
     "published_at": "2026-06-24T18:40:29+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419559801019",
@@ -2675,7 +2779,9 @@
     "published_at": "2026-06-24T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8419557638331",
@@ -2724,7 +2830,9 @@
     "published_at": "2026-06-22T21:08:56+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-07T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419553018043",
@@ -2773,7 +2881,9 @@
     "published_at": "2026-06-16T20:20:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-07-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419552985275",
@@ -2810,7 +2920,9 @@
     "published_at": "2026-06-16T00:00:06+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8419553116347",
@@ -2913,7 +3025,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! カードサプライ"
-    ]
+    ],
+    "sale_start": "2026-06-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419554295995",
@@ -3016,7 +3130,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! カードサプライ"
-    ]
+    ],
+    "sale_start": "2026-06-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419553411259",
@@ -3119,7 +3235,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! カードサプライ"
-    ]
+    ],
+    "sale_start": "2026-06-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8419554951355",
@@ -3221,7 +3339,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! カードサプライ"
-    ]
+    ],
+    "sale_start": "2026-06-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8395307352251",
@@ -3275,7 +3395,9 @@
     "published_at": "2026-05-21T14:35:40+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-05-20T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8396995035323",
@@ -3319,7 +3441,9 @@
     "published_at": "2026-05-18T21:01:59+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-06-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8396994969787",
@@ -3356,7 +3480,9 @@
     "published_at": "2026-05-18T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8395307319483",
@@ -3393,7 +3519,9 @@
     "published_at": "2026-05-05T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860751035",
@@ -3449,7 +3577,9 @@
     "published_at": "2026-04-19T19:21:27+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-05-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860685499",
@@ -3497,7 +3627,9 @@
     "published_at": "2026-04-17T19:56:50+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-05-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860652731",
@@ -3534,7 +3666,9 @@
     "published_at": "2026-04-17T00:00:07+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860587195",
@@ -3581,7 +3715,9 @@
     "published_at": "2026-04-16T21:44:43+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-05-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860521659",
@@ -3618,7 +3754,9 @@
     "published_at": "2026-04-16T00:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860390587",
@@ -3674,7 +3812,9 @@
     "published_at": "2026-04-09T19:45:07+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-04-24T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8372596080827",
@@ -3729,7 +3869,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Starter Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372658831547",
@@ -3784,7 +3926,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Starter Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372659191995",
@@ -3839,7 +3983,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Starter Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372659388603",
@@ -3877,7 +4023,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Team Jacket Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372659978427",
@@ -3926,7 +4074,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Team Jacket Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372660109499",
@@ -3973,7 +4123,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Team Jacket Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8372660207803",
@@ -4015,7 +4167,9 @@
     "series": [
       "VSPO! EN Standard Goods",
       "VSPO! EN Team Jacket Series"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860357819",
@@ -4052,7 +4206,9 @@
     "published_at": "2026-04-09T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860456123",
@@ -4107,7 +4263,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-04-10T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860423355",
@@ -4158,7 +4316,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2026-04-10T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8358860128443",
@@ -4195,7 +4355,9 @@
     "published_at": "2026-04-02T00:00:09+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8358860325051",
@@ -4297,7 +4459,9 @@
     "delisted_at": null,
     "series": [
       "ぬいすぽっ！"
-    ]
+    ],
+    "sale_start": "2026-04-07T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8346767851707",
@@ -4332,7 +4496,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2026-03-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8346769326267",
@@ -4369,7 +4535,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2026-03-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8346767884475",
@@ -4406,7 +4574,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2026-03-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8342018097339",
@@ -4443,7 +4613,9 @@
     "published_at": "2026-03-24T00:00:06+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8342018687163",
@@ -4488,7 +4660,9 @@
     "published_at": "2026-03-23T19:31:14+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-04-07T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8345807421627",
@@ -4589,7 +4763,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8345802080443",
@@ -4686,7 +4862,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8345799491771",
@@ -4779,7 +4957,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8345794511035",
@@ -4894,7 +5074,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8345792512187",
@@ -5009,7 +5191,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8342019965115",
@@ -5102,7 +5286,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! SHOWDOWN2026"
-    ]
+    ],
+    "sale_start": "2026-03-21T11:00:00+09:00",
+    "sale_end": "2026-04-05T00:00:00+09:00"
   },
   {
     "product_id": "8342017638587",
@@ -5146,7 +5332,9 @@
     "published_at": "2026-03-19T17:41:00+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-04-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8342017507515",
@@ -5183,7 +5371,9 @@
     "published_at": "2026-03-19T00:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8342017409211",
@@ -5268,7 +5458,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2026-03-18T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8323528818875",
@@ -5319,7 +5511,9 @@
     "published_at": "2026-03-03T00:17:55+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-03-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8323528196283",
@@ -5356,7 +5550,9 @@
     "published_at": "2026-03-03T00:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8314897006779",
@@ -5401,7 +5597,9 @@
     "published_at": "2026-02-26T20:24:52+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-03-13T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8314896941243",
@@ -5438,7 +5636,9 @@
     "published_at": "2026-02-25T20:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8314896875707",
@@ -5483,7 +5683,9 @@
     "published_at": "2026-02-22T18:17:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-03-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8314896842939",
@@ -5520,7 +5722,9 @@
     "published_at": "2026-02-22T00:54:32+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8316759867579",
@@ -5555,7 +5759,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2026-02-19T19:00:00+09:00",
+    "sale_end": "2026-03-06T00:00:00+09:00"
   },
   {
     "product_id": "8308231569595",
@@ -5600,7 +5806,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2026-02-19T19:00:00+09:00",
+    "sale_end": "2026-03-06T00:00:00+09:00"
   },
   {
     "product_id": "8306792726715",
@@ -5675,7 +5883,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306788532411",
@@ -5727,7 +5937,9 @@
     "published_at": "2026-02-13T20:49:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-02-28T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306788171963",
@@ -5764,7 +5976,9 @@
     "published_at": "2026-02-12T19:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8308231143611",
@@ -5810,7 +6024,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8308231012539",
@@ -5860,7 +6076,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8308230652091",
@@ -5910,7 +6128,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8308230553787",
@@ -5960,7 +6180,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8308230389947",
@@ -6010,7 +6232,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306793251003",
@@ -6060,7 +6284,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2026-02-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306792104123",
@@ -6127,7 +6353,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306791547067",
@@ -6191,7 +6419,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306791055547",
@@ -6291,7 +6521,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306790662331",
@@ -6391,7 +6623,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8306789548219",
@@ -6491,7 +6725,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! バレンタイン2026"
-    ]
+    ],
+    "sale_start": "2026-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8290760458427",
@@ -6540,7 +6776,9 @@
     "published_at": "2026-01-31T20:30:17+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-02-15T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8293911101627",
@@ -6600,7 +6838,9 @@
     "delisted_at": null,
     "series": [
       "SFL: Pro-JP 2025"
-    ]
+    ],
+    "sale_start": "2026-02-01T19:00:00+09:00",
+    "sale_end": "2026-02-16T00:00:00+09:00"
   },
   {
     "product_id": "8293911036091",
@@ -6662,7 +6902,9 @@
     "delisted_at": null,
     "series": [
       "SFL: Pro-JP 2025"
-    ]
+    ],
+    "sale_start": "2026-02-01T19:00:00+09:00",
+    "sale_end": "2026-02-16T00:00:00+09:00"
   },
   {
     "product_id": "8288561856699",
@@ -6741,7 +6983,9 @@
     "published_at": "2026-01-23T19:00:04+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-01-23T19:00:00+09:00",
+    "sale_end": "2026-02-07T00:00:00+09:00"
   },
   {
     "product_id": "8285294231739",
@@ -6790,7 +7034,9 @@
     "published_at": "2026-01-18T22:00:54+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-02-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8285294198971",
@@ -6827,7 +7073,9 @@
     "published_at": "2026-01-17T18:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8284901408955",
@@ -6896,7 +7144,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2026-01-15T19:00:00+09:00",
+    "sale_end": "2026-01-30T00:00:00+09:00"
   },
   {
     "product_id": "8277474574523",
@@ -6940,7 +7190,9 @@
     "published_at": "2026-01-09T22:29:26+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-01-24T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8277474476219",
@@ -6977,7 +7229,9 @@
     "published_at": "2026-01-08T20:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8284361818299",
@@ -7019,7 +7273,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2026-01-15T18:30:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269431242939",
@@ -7120,7 +7376,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269430194363",
@@ -7221,7 +7479,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269429309627",
@@ -7322,7 +7582,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269428457659",
@@ -7423,7 +7685,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269427703995",
@@ -7524,7 +7788,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269426917563",
@@ -7627,7 +7893,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2026"
-    ]
+    ],
+    "sale_start": "2026-01-01T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8269423149243",
@@ -7688,7 +7956,9 @@
     "published_at": "2025-12-26T19:00:06+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-12-26T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253662593211",
@@ -7736,7 +8006,9 @@
     "published_at": "2025-12-23T20:29:56+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2026-01-07T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253661348027",
@@ -7843,7 +8115,9 @@
     "series": [
       "VSPO! スタンダードグッズ",
       "メンバーシンボル"
-    ]
+    ],
+    "sale_start": "2025-12-15T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253660790971",
@@ -7950,7 +8224,9 @@
     "series": [
       "VSPO! スタンダードグッズ",
       "メンバーシンボル"
-    ]
+    ],
+    "sale_start": "2025-12-15T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253658333371",
@@ -8000,7 +8276,9 @@
     "published_at": "2025-12-10T20:28:36+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-12-25T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253660233915",
@@ -8064,7 +8342,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2025-12-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8253659807931",
@@ -8115,7 +8395,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK SEASON"
-    ]
+    ],
+    "sale_start": "2025-12-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8243249971387",
@@ -8162,7 +8444,9 @@
     "published_at": "2025-12-03T20:45:35+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-12-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8243249873083",
@@ -8205,7 +8489,9 @@
     "published_at": "2025-12-01T20:26:51+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-12-16T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8243249709243",
@@ -8257,7 +8543,9 @@
     "published_at": "2025-11-27T21:13:08+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-12-12T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8243249676475",
@@ -8358,7 +8646,9 @@
     "series": [
       "VSPO! アクリルキーホルダー",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-26T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8243249774779",
@@ -8400,7 +8690,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2025-11-28T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8242453807291",
@@ -8541,7 +8833,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453774523",
@@ -8682,7 +8976,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453741755",
@@ -8790,7 +9086,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453708987",
@@ -8909,7 +9207,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453610683",
@@ -9050,7 +9350,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453577915",
@@ -9141,7 +9443,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453840059",
@@ -9261,7 +9565,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453479611",
@@ -9369,7 +9675,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242454003899",
@@ -9510,7 +9818,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242453938363",
@@ -9618,7 +9928,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8242454560955",
@@ -9732,7 +10044,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フェス2025"
-    ]
+    ],
+    "sale_start": "2025-11-22T09:00:00+09:00",
+    "sale_end": "2025-12-07T00:00:00+09:00"
   },
   {
     "product_id": "8238381891771",
@@ -9773,7 +10087,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2025-11-19T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8233056665787",
@@ -9880,7 +10196,9 @@
     "series": [
       "VSPO! First Pick",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8233056010427",
@@ -9989,7 +10307,9 @@
     "series": [
       "VSPO! First Pick",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8233091072187",
@@ -10096,7 +10416,9 @@
     "series": [
       "VSPO! First Pick",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8233188524219",
@@ -10203,7 +10525,9 @@
     "series": [
       "VSPO! First Pick",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8233037594811",
@@ -10309,7 +10633,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-11-12T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8229778620603",
@@ -10360,7 +10686,9 @@
     "published_at": "2025-11-11T20:45:54+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-26T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8102997393595",
@@ -10462,7 +10790,9 @@
     "delisted_at": null,
     "series": [
       "ぬいすぽっ！"
-    ]
+    ],
+    "sale_start": "2025-07-11T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8223737839803",
@@ -10512,7 +10842,9 @@
     "published_at": "2025-11-02T19:39:58+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8221183508667",
@@ -10559,7 +10891,9 @@
     "published_at": "2025-11-02T00:31:25+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8223627870395",
@@ -10624,7 +10958,9 @@
     "published_at": "2025-10-31T18:00:08+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-31T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8216647860411",
@@ -10666,7 +11002,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2025-10-31T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8220272853179",
@@ -10715,7 +11053,9 @@
     "published_at": "2025-10-26T20:37:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-10T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8216641831099",
@@ -10762,7 +11102,9 @@
     "published_at": "2025-10-21T20:31:17+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-05T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8215501930683",
@@ -10807,7 +11149,9 @@
     "published_at": "2025-10-20T21:55:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8214002139323",
@@ -10854,7 +11198,9 @@
     "published_at": "2025-10-20T19:46:51+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8214002106555",
@@ -10897,7 +11243,9 @@
     "published_at": "2025-10-18T18:19:51+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-11-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8207155757243",
@@ -10945,7 +11293,9 @@
     "published_at": "2025-10-10T21:03:52+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-25T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8208127983803",
@@ -11028,7 +11378,9 @@
     "published_at": "2025-10-09T19:00:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-09T19:00:00+09:00",
+    "sale_end": "2025-10-24T00:00:00+09:00"
   },
   {
     "product_id": "8202110927035",
@@ -11071,7 +11423,9 @@
     "published_at": "2025-10-02T19:31:19+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8202066100411",
@@ -11124,7 +11478,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-10-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8202034643131",
@@ -11173,7 +11529,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-10-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8201991749819",
@@ -11220,7 +11578,9 @@
     "published_at": "2025-09-30T21:04:21+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-15T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8198702137531",
@@ -11269,7 +11629,9 @@
     "published_at": "2025-09-26T20:32:22+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-11T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8190738530491",
@@ -11315,7 +11677,9 @@
     "published_at": "2025-09-25T20:56:50+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-10T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8190407409851",
@@ -11364,7 +11728,9 @@
     "published_at": "2025-09-18T20:41:16+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-10-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8181274476731",
@@ -11406,7 +11772,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2025-09-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8135393247419",
@@ -11446,7 +11814,9 @@
     "series": [
       "VSPO!LOOK",
       "VSPO!LOOK CLIP"
-    ]
+    ],
+    "sale_start": "2025-08-08T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8177738711227",
@@ -11489,7 +11859,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-09-10T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8177529651387",
@@ -11535,7 +11907,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-09-10T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8167402438843",
@@ -11635,7 +12009,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏祭り2025"
-    ]
+    ],
+    "sale_start": "2025-08-29T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8167398473915",
@@ -11735,7 +12111,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏祭り2025"
-    ]
+    ],
+    "sale_start": "2025-08-29T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8167393296571",
@@ -11818,7 +12196,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏祭り2025"
-    ]
+    ],
+    "sale_start": "2025-08-29T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8169685713083",
@@ -11855,7 +12235,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2025-08-29T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8162727854267",
@@ -11898,7 +12280,9 @@
     "published_at": "2025-08-25T19:47:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-09-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8146675925179",
@@ -11944,7 +12328,9 @@
     "published_at": "2025-08-14T21:14:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-08-29T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8146776522939",
@@ -11999,7 +12385,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2025-08-07T19:00:00+09:00",
+    "sale_end": "2025-08-21T00:00:00+09:00"
   },
   {
     "product_id": "8127437144251",
@@ -12040,7 +12428,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2025-07-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8127425446075",
@@ -12079,7 +12469,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2025-07-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8127404212411",
@@ -12130,7 +12522,9 @@
     "delisted_at": null,
     "series": [
       "Xross Stars"
-    ]
+    ],
+    "sale_start": "2025-07-30T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8125835772091",
@@ -12197,7 +12591,9 @@
     "published_at": "2025-07-25T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-25T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8115730219195",
@@ -12243,7 +12639,9 @@
     "published_at": "2025-07-19T19:17:38+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-08-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8106923688123",
@@ -12334,7 +12732,9 @@
     "published_at": "2025-07-17T19:00:13+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8106923098299",
@@ -12438,7 +12838,9 @@
     "published_at": "2025-07-17T19:00:13+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105933635771",
@@ -12542,7 +12944,9 @@
     "published_at": "2025-07-17T19:00:12+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105917874363",
@@ -12646,7 +13050,9 @@
     "published_at": "2025-07-17T19:00:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105869050043",
@@ -12730,7 +13136,9 @@
     "published_at": "2025-07-17T19:00:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105812623547",
@@ -12814,7 +13222,9 @@
     "published_at": "2025-07-17T19:00:10+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105801154747",
@@ -12918,7 +13328,9 @@
     "published_at": "2025-07-17T19:00:10+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8105770746043",
@@ -13002,7 +13414,9 @@
     "published_at": "2025-07-17T19:00:09+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8104977039547",
@@ -13086,7 +13500,9 @@
     "published_at": "2025-07-17T19:00:08+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8104968585403",
@@ -13190,7 +13606,9 @@
     "published_at": "2025-07-17T19:00:07+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-17T19:00:00+09:00",
+    "sale_end": "2025-08-01T00:00:00+09:00"
   },
   {
     "product_id": "8100236853435",
@@ -13269,7 +13687,9 @@
     "published_at": "2025-07-05T19:40:09+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "8100235706555",
@@ -13317,7 +13737,9 @@
     "published_at": "2025-07-04T20:38:10+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-19T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8094664949947",
@@ -13363,7 +13785,9 @@
     "published_at": "2025-06-24T22:21:26+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8093663428795",
@@ -13408,7 +13832,9 @@
     "published_at": "2025-06-21T22:04:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-06T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8090130841787",
@@ -13456,7 +13882,9 @@
     "published_at": "2025-06-16T18:46:58+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-07-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8083753500859",
@@ -13506,7 +13934,9 @@
     "published_at": "2025-05-30T20:11:49+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-06-14T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8076564857019",
@@ -13552,7 +13982,9 @@
     "published_at": "2025-05-18T14:18:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-06-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7996166176955",
@@ -13648,7 +14080,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2025-05-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7928382193851",
@@ -13741,7 +14175,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2025-05-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8068311089339",
@@ -13782,7 +14218,9 @@
     "published_at": "2025-05-05T18:30:14+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-05-20T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8069272764603",
@@ -13826,7 +14264,9 @@
     "published_at": "2025-05-02T18:59:26+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-05-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8066336358587",
@@ -13899,7 +14339,9 @@
     "published_at": "2025-04-25T18:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-25T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8058815709371",
@@ -13940,7 +14382,9 @@
     "published_at": "2025-04-19T20:29:05+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-05-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8058155925691",
@@ -13981,7 +14425,9 @@
     "published_at": "2025-04-17T19:52:54+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-05-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8054640050363",
@@ -14024,7 +14470,9 @@
     "published_at": "2025-04-16T20:51:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-05-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8053683880123",
@@ -14068,7 +14516,9 @@
     "published_at": "2025-04-09T19:46:19+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-24T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8048475930811",
@@ -14109,7 +14559,9 @@
     "published_at": "2025-04-02T22:23:48+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8049822728379",
@@ -14153,7 +14605,9 @@
     "published_at": "2025-04-02T19:57:58+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8041453158587",
@@ -14201,7 +14655,9 @@
     "published_at": "2025-03-24T20:58:46+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-08T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8041440673979",
@@ -14287,7 +14743,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8041429336251",
@@ -14391,7 +14849,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8041386049723",
@@ -14482,7 +14942,9 @@
     "series": [
       "VSPO!SHOWDOWN2024",
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8041307472059",
@@ -14586,7 +15048,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8040919171259",
@@ -14690,7 +15154,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8040915861691",
@@ -14741,7 +15207,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8040912683195",
@@ -14792,7 +15260,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8040908652731",
@@ -14841,7 +15311,9 @@
     "delisted_at": null,
     "series": [
       "VSPO!SHOWDOWN2024"
-    ]
+    ],
+    "sale_start": "2025-03-24T19:00:00+09:00",
+    "sale_end": "2025-04-08T00:00:00+09:00"
   },
   {
     "product_id": "8038659883195",
@@ -14882,7 +15354,9 @@
     "published_at": "2025-03-19T17:56:30+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-04-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8029693214907",
@@ -14924,7 +15398,9 @@
     "published_at": "2025-03-03T20:42:00+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-03-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8032207470779",
@@ -15025,7 +15501,9 @@
     "published_at": "2025-02-28T18:30:06+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-02-28T18:30:00+09:00",
+    "sale_end": "2025-03-15T00:00:00+09:00"
   },
   {
     "product_id": "8029612736699",
@@ -15068,7 +15546,9 @@
     "published_at": "2025-02-26T20:34:55+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-03-13T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8027399422139",
@@ -15108,7 +15588,9 @@
     "published_at": "2025-02-22T21:18:35+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-03-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8027410825403",
@@ -15143,7 +15625,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-02-28T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8027408269499",
@@ -15178,7 +15662,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-02-28T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8021292744891",
@@ -15274,7 +15760,9 @@
     "published_at": "2025-02-14T11:03:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-02-14T11:00:00+09:00",
+    "sale_end": "2025-03-01T00:00:00+09:00"
   },
   {
     "product_id": "8023077650619",
@@ -15319,7 +15807,9 @@
     "published_at": "2025-02-13T19:48:56+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-02-28T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8019338199227",
@@ -15362,7 +15852,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8019308052667",
@@ -15408,7 +15900,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! フレグランス"
-    ]
+    ],
+    "sale_start": "2025-02-14T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8017497063611",
@@ -15449,7 +15943,9 @@
     "published_at": "2025-01-31T20:35:00+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-02-15T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8016184508603",
@@ -15556,7 +16052,9 @@
     "series": [
       "VSPO! アクリルキーホルダー",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2025-01-31T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8014834041019",
@@ -15605,7 +16103,9 @@
     "published_at": "2025-01-18T20:17:20+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-02-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8011087577275",
@@ -15645,7 +16145,9 @@
     "published_at": "2025-01-09T20:46:49+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-01-24T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8009614000315",
@@ -15694,7 +16196,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009576677563",
@@ -15798,7 +16302,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009614491835",
@@ -15889,7 +16395,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009614295227",
@@ -15940,7 +16448,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009614885051",
@@ -16046,7 +16556,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009613902011",
@@ -16097,7 +16609,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009613770939",
@@ -16148,7 +16662,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009613082811",
@@ -16197,7 +16713,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009597223099",
@@ -16301,7 +16819,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009614393531",
@@ -16352,7 +16872,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 年末カウントダウン2024"
-    ]
+    ],
+    "sale_start": "2024-12-31T11:00:00+09:00",
+    "sale_end": "2025-01-15T00:00:00+09:00"
   },
   {
     "product_id": "8009537290427",
@@ -16452,7 +16974,9 @@
     "published_at": "2024-12-28T16:59:19+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-28T17:00:00+09:00",
+    "sale_end": "2025-01-12T00:00:00+09:00"
   },
   {
     "product_id": "8006055690427",
@@ -16496,7 +17020,9 @@
     "published_at": "2024-12-23T20:41:15+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2025-01-07T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8008747974843",
@@ -16559,7 +17085,9 @@
     "published_at": "2024-12-20T19:00:44+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-20T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8008787493051",
@@ -16659,7 +17187,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
-    ]
+    ],
+    "sale_start": "2024-12-20T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8006042747067",
@@ -16700,7 +17230,9 @@
     "published_at": "2024-12-10T17:38:20+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-25T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8004553834683",
@@ -16741,7 +17273,9 @@
     "published_at": "2024-12-03T19:42:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8003186884795",
@@ -16785,7 +17319,9 @@
     "published_at": "2024-11-27T20:46:56+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-12T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8002355790011",
@@ -16825,7 +17361,9 @@
     "published_at": "2024-11-24T20:45:48+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-12-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8001777598651",
@@ -16860,7 +17398,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2024-11-20T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8001777467579",
@@ -16895,7 +17435,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2024-11-20T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "8000049873083",
@@ -16930,7 +17472,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2024-11-20T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7999098028219",
@@ -16969,7 +17513,9 @@
     "published_at": "2024-11-11T20:38:20+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-26T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7961799098555",
@@ -17008,7 +17554,9 @@
     "published_at": "2024-11-11T14:36:08+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-07-20T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7989473476795",
@@ -17085,7 +17633,9 @@
     "published_at": "2024-11-05T19:00:04+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-05T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7995737899195",
@@ -17130,7 +17680,9 @@
     "published_at": "2024-10-26T20:49:19+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-10T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7993680724155",
@@ -17175,7 +17727,9 @@
     "published_at": "2024-10-21T20:34:57+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-05T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7993385648315",
@@ -17215,7 +17769,9 @@
     "published_at": "2024-10-20T22:18:39+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-03T23:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7993382994107",
@@ -17256,7 +17812,9 @@
     "published_at": "2024-10-20T19:45:39+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-03T23:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7993376702651",
@@ -17295,7 +17853,9 @@
     "published_at": "2024-10-18T20:21:36+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-11-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7989444640955",
@@ -17334,7 +17894,9 @@
     "published_at": "2024-10-10T21:30:09+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-10-24T23:59:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7985503731899",
@@ -17378,7 +17940,9 @@
     "published_at": "2024-09-30T19:48:22+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-10-15T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7985508516027",
@@ -17437,7 +18001,9 @@
     "published_at": "2024-09-27T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-09-27T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7983261155515",
@@ -17477,7 +18043,9 @@
     "published_at": "2024-09-26T19:46:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-10-11T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7983229403323",
@@ -17515,7 +18083,9 @@
     "published_at": "2024-09-25T20:31:32+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-10-10T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7982283456699",
@@ -17555,7 +18125,9 @@
     "published_at": "2024-09-18T20:31:40+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-10-03T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7972336566459",
@@ -17596,7 +18168,9 @@
     "published_at": "2024-08-25T20:32:51+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-09-09T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7923983974587",
@@ -17661,7 +18235,9 @@
     "published_at": "2024-08-16T15:02:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-08-16T15:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971508388027",
@@ -17767,7 +18343,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971980214459",
@@ -17800,7 +18378,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971979296955",
@@ -17833,7 +18413,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971960979643",
@@ -17866,7 +18448,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971791012027",
@@ -17911,7 +18495,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": "2024-08-23T00:00:00+09:00"
   },
   {
     "product_id": "7971787767995",
@@ -17956,7 +18542,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": "2024-08-23T00:00:00+09:00"
   },
   {
     "product_id": "7971776135355",
@@ -18001,7 +18589,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": "2024-08-23T00:00:00+09:00"
   },
   {
     "product_id": "7971759161531",
@@ -18095,7 +18685,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": "2024-08-23T00:00:00+09:00"
   },
   {
     "product_id": "7971770433723",
@@ -18189,7 +18781,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-16T19:00:00+09:00",
+    "sale_end": "2024-08-23T00:00:00+09:00"
   },
   {
     "product_id": "7971975364795",
@@ -18234,7 +18828,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-23T19:00:00+09:00",
+    "sale_end": "2024-08-31T00:00:00+09:00"
   },
   {
     "product_id": "7971975233723",
@@ -18279,7 +18875,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-23T19:00:00+09:00",
+    "sale_end": "2024-08-31T00:00:00+09:00"
   },
   {
     "product_id": "7971975102651",
@@ -18324,7 +18922,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-23T19:00:00+09:00",
+    "sale_end": "2024-08-31T00:00:00+09:00"
   },
   {
     "product_id": "7971794911419",
@@ -18418,7 +19018,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-23T19:00:00+09:00",
+    "sale_end": "2024-08-31T00:00:00+09:00"
   },
   {
     "product_id": "7971970351291",
@@ -18512,7 +19114,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! サマービーチ2024"
-    ]
+    ],
+    "sale_start": "2024-08-23T19:00:00+09:00",
+    "sale_end": "2024-08-31T00:00:00+09:00"
   },
   {
     "product_id": "7971735077051",
@@ -18559,7 +19163,9 @@
     "published_at": "2024-08-15T18:35:53+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-08-30T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7971509272763",
@@ -18597,7 +19203,9 @@
     "published_at": "2024-08-14T21:40:25+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-08-14T21:30:00+09:00",
+    "sale_end": "2024-08-29T00:00:00+09:00"
   },
   {
     "product_id": "7969709719739",
@@ -18685,7 +19293,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7969709818043",
@@ -18773,7 +19383,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7969712734395",
@@ -18846,7 +19458,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7969668268219",
@@ -18915,7 +19529,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": "2024-08-16T00:00:00+09:00"
   },
   {
     "product_id": "7969663221947",
@@ -19003,7 +19619,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": "2024-08-16T00:00:00+09:00"
   },
   {
     "product_id": "7969666498747",
@@ -19091,7 +19709,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 「私たちは、ゲームで世界を作る」"
-    ]
+    ],
+    "sale_start": "2024-08-02T18:00:00+09:00",
+    "sale_end": "2024-08-16T00:00:00+09:00"
   },
   {
     "product_id": "7966586929339",
@@ -19133,7 +19753,9 @@
     "published_at": "2024-07-19T21:30:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-07-19T21:30:00+09:00",
+    "sale_end": "2024-08-03T00:00:00+09:00"
   },
   {
     "product_id": "7958117155003",
@@ -19178,7 +19800,9 @@
     "published_at": "2024-06-24T21:45:36+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-07-10T00:00:00+09:00",
+    "sale_end": "2024-07-11T00:00:00+09:00"
   },
   {
     "product_id": "7954280874171",
@@ -19220,7 +19844,9 @@
     "published_at": "2024-06-21T19:32:38+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-07-06T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7954219335867",
@@ -19262,7 +19888,9 @@
     "published_at": "2024-06-16T20:25:55+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-07-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7951644688571",
@@ -19302,7 +19930,9 @@
     "published_at": "2024-06-03T18:47:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-06-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7951347843259",
@@ -19371,7 +20001,9 @@
     "published_at": "2024-05-31T20:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-05-31T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7950834172091",
@@ -19412,7 +20044,9 @@
     "published_at": "2024-05-30T20:35:48+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-06-14T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7948581011643",
@@ -19453,7 +20087,9 @@
     "published_at": "2024-05-18T21:21:51+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-06-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7944226439355",
@@ -19493,7 +20129,9 @@
     "published_at": "2024-05-05T19:46:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-05-20T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7943264862395",
@@ -19551,7 +20189,9 @@
     "delisted_at": null,
     "series": [
       "RAGE VALORANT 2024 feat.VSPO!"
-    ]
+    ],
+    "sale_start": "2024-04-30T18:00:00+09:00",
+    "sale_end": "2024-05-15T00:00:00+09:00"
   },
   {
     "product_id": "7943049806011",
@@ -19617,7 +20257,9 @@
     "delisted_at": null,
     "series": [
       "RAGE VALORANT 2024 feat.VSPO!"
-    ]
+    ],
+    "sale_start": "2024-04-30T18:00:00+09:00",
+    "sale_end": "2024-05-15T00:00:00+09:00"
   },
   {
     "product_id": "7939101098171",
@@ -19658,7 +20300,9 @@
     "published_at": "2024-04-19T19:34:47+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-05-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7937169719483",
@@ -19699,7 +20343,9 @@
     "published_at": "2024-04-17T19:38:52+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-05-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7937724776635",
@@ -19744,7 +20390,9 @@
     "published_at": "2024-04-16T20:31:32+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-05-01T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7935299485883",
@@ -19779,7 +20427,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2024-04-26T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7933062676667",
@@ -19821,7 +20471,9 @@
     "published_at": "2024-04-02T21:42:21+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7933068345531",
@@ -19862,7 +20514,9 @@
     "published_at": "2024-04-02T19:37:26+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-04-17T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7930334216379",
@@ -19907,7 +20561,9 @@
     "published_at": "2024-03-21T21:24:35+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-04-05T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7925309669563",
@@ -19947,7 +20603,9 @@
     "published_at": "2024-03-03T20:37:05+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-03-18T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7922726666427",
@@ -19989,7 +20647,9 @@
     "published_at": "2024-02-22T21:29:48+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-03-08T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7919522480315",
@@ -20031,7 +20691,9 @@
     "published_at": "2024-02-13T21:54:46+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-02-28T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7917975077051",
@@ -20100,7 +20762,9 @@
     "published_at": "2024-02-05T20:00:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-02-05T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7916787892411",
@@ -20143,7 +20807,9 @@
     "published_at": "2024-01-31T21:27:39+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-02-15T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7915522883771",
@@ -20203,7 +20869,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2024-01-26T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7912822440123",
@@ -20245,7 +20913,9 @@
     "published_at": "2024-01-18T21:25:35+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-02-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7909081710779",
@@ -20287,7 +20957,9 @@
     "published_at": "2024-01-09T21:22:52+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-01-24T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7907459563707",
@@ -20379,7 +21051,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2024"
-    ]
+    ],
+    "sale_start": "2023-12-31T11:00:00+09:00",
+    "sale_end": "2024-01-15T00:00:00+09:00"
   },
   {
     "product_id": "7907459858619",
@@ -20471,7 +21145,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2024"
-    ]
+    ],
+    "sale_start": "2023-12-31T11:00:00+09:00",
+    "sale_end": "2024-01-15T00:00:00+09:00"
   },
   {
     "product_id": "7907459530939",
@@ -20565,7 +21241,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2024"
-    ]
+    ],
+    "sale_start": "2023-12-31T11:00:00+09:00",
+    "sale_end": "2024-01-15T00:00:00+09:00"
   },
   {
     "product_id": "7907459727547",
@@ -20657,7 +21335,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 謹賀新年2024"
-    ]
+    ],
+    "sale_start": "2023-12-31T11:00:00+09:00",
+    "sale_end": "2024-01-15T00:00:00+09:00"
   },
   {
     "product_id": "7907061498043",
@@ -20700,7 +21380,9 @@
     "published_at": "2023-12-23T21:37:14+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2024-01-07T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7905621344443",
@@ -20790,7 +21472,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! クリスマス2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": "2024-01-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7905632977083",
@@ -20861,7 +21545,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! クリスマス2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": "2024-01-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7905641660603",
@@ -20932,7 +21618,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! クリスマス2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": "2024-01-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7905649688763",
@@ -20963,7 +21651,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! クリスマス2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7905699856571",
@@ -21026,7 +21716,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! クリスマス2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7904884719803",
@@ -21092,7 +21784,9 @@
     "published_at": "2023-12-15T20:00:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-12-15T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7903442075835",
@@ -21132,7 +21826,9 @@
     "published_at": "2023-12-10T19:47:46+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-12-10T20:30:00+09:00",
+    "sale_end": "2023-12-25T00:00:00+09:00"
   },
   {
     "product_id": "7900796190907",
@@ -21176,7 +21872,9 @@
     "published_at": "2023-11-27T21:29:16+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-12-12T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7897745817787",
@@ -21236,7 +21934,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": "2023-11-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7889709957307",
@@ -21268,7 +21968,9 @@
     "published_at": "2023-11-16T18:58:57+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-11-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7897743589563",
@@ -21297,7 +21999,9 @@
     "published_at": "2023-11-16T18:58:27+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-11-17T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7897000050875",
@@ -21337,7 +22041,9 @@
     "published_at": "2023-11-11T22:30:04+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-11-11T22:30:00+09:00",
+    "sale_end": "2023-11-26T00:00:00+09:00"
   },
   {
     "product_id": "7890092720315",
@@ -21427,7 +22133,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7890144362683",
@@ -21517,7 +22225,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7890147868859",
@@ -21600,7 +22310,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7890080694459",
@@ -21690,7 +22402,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7890147311803",
@@ -21780,7 +22494,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7890070372539",
@@ -21870,7 +22586,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7889785946299",
@@ -21955,7 +22673,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 文化体育祭"
-    ]
+    ],
+    "sale_start": "2023-10-31T10:00:00+09:00",
+    "sale_end": "2023-11-15T00:00:00+09:00"
   },
   {
     "product_id": "7891729383611",
@@ -22022,7 +22742,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! ハロウィン2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": "2023-10-26T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7890354012347",
@@ -22059,7 +22781,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! ハロウィン2023 ボイス＆グッズ"
-    ]
+    ],
+    "sale_start": "2023-10-26T20:00:00+09:00",
+    "sale_end": "2023-11-10T00:00:00+09:00"
   },
   {
     "product_id": "7890344968379",
@@ -22098,7 +22822,9 @@
     "published_at": "2023-10-20T21:18:41+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-11-04T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7889396138171",
@@ -22137,7 +22863,9 @@
     "published_at": "2023-10-19T20:59:25+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-10-19T20:30:00+09:00",
+    "sale_end": "2023-11-03T00:00:00+09:00"
   },
   {
     "product_id": "7889662935227",
@@ -22180,7 +22908,9 @@
     "published_at": "2023-10-18T19:21:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-11-02T00:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7886670561467",
@@ -22218,7 +22948,9 @@
     "published_at": "2023-10-10T21:58:23+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-10-10T22:00:00+09:00",
+    "sale_end": "2023-10-25T00:00:00+09:00"
   },
   {
     "product_id": "7884416876731",
@@ -22264,7 +22996,9 @@
     "published_at": "2023-09-30T21:25:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-09-30T21:00:00+09:00",
+    "sale_end": "2023-10-15T00:00:00+09:00"
   },
   {
     "product_id": "7881354444987",
@@ -22303,7 +23037,9 @@
     "published_at": "2023-09-26T21:57:35+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-09-26T22:00:00+09:00",
+    "sale_end": "2023-10-11T00:00:00+09:00"
   },
   {
     "product_id": "7882977312955",
@@ -22345,7 +23081,9 @@
     "published_at": "2023-09-25T21:39:52+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-09-25T21:00:00+09:00",
+    "sale_end": "2023-10-10T00:00:00+09:00"
   },
   {
     "product_id": "7879972159675",
@@ -22426,7 +23164,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879971995835",
@@ -22507,7 +23247,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879970455739",
@@ -22595,7 +23337,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7881070313659",
@@ -22676,7 +23420,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7881069396155",
@@ -22757,7 +23503,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7881068544187",
@@ -22838,7 +23586,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879976550587",
@@ -22919,7 +23669,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879973961915",
@@ -23000,7 +23752,9 @@
     "delisted_at": null,
     "series": [
       "在庫再販売 2022年夏イベント販売グッズ"
-    ]
+    ],
+    "sale_start": "2023-09-23T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879339933883",
@@ -23038,7 +23792,9 @@
     "published_at": "2023-09-18T20:43:46+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-09-18T20:45:00+09:00",
+    "sale_end": "2023-10-03T00:00:00+09:00"
   },
   {
     "product_id": "7879670595771",
@@ -23082,7 +23838,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! esports style 2023"
-    ]
+    ],
+    "sale_start": "2023-09-16T12:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879669448891",
@@ -23169,7 +23927,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! esports style 2023"
-    ]
+    ],
+    "sale_start": "2023-09-16T12:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7879664664763",
@@ -23248,7 +24008,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! esports style 2023"
-    ]
+    ],
+    "sale_start": "2023-09-16T12:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7871252398267",
@@ -23289,7 +24051,9 @@
     "published_at": "2023-08-25T20:37:11+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-08-25T20:00:00+09:00",
+    "sale_end": "2023-09-09T00:00:00+09:00"
   },
   {
     "product_id": "7870364942523",
@@ -23326,7 +24090,9 @@
     "published_at": "2023-08-15T21:07:49+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-08-15T20:00:00+09:00",
+    "sale_end": "2023-08-30T00:00:00+09:00"
   },
   {
     "product_id": "7868517777595",
@@ -23367,7 +24133,9 @@
     "published_at": "2023-08-14T21:29:06+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-08-14T21:30:00+09:00",
+    "sale_end": "2023-08-29T00:00:00+09:00"
   },
   {
     "product_id": "7867223769275",
@@ -23439,7 +24207,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏コミ2023"
-    ]
+    ],
+    "sale_start": "2023-08-12T12:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7867223113915",
@@ -23529,7 +24299,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏コミ2023"
-    ]
+    ],
+    "sale_start": "2023-08-12T12:00:00+09:00",
+    "sale_end": "2023-08-27T00:00:00+09:00"
   },
   {
     "product_id": "7867222687931",
@@ -23619,7 +24391,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏コミ2023"
-    ]
+    ],
+    "sale_start": "2023-08-12T12:00:00+09:00",
+    "sale_end": "2023-08-27T00:00:00+09:00"
   },
   {
     "product_id": "7867219607739",
@@ -23702,7 +24476,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! 夏コミ2023"
-    ]
+    ],
+    "sale_start": "2023-08-12T12:00:00+09:00",
+    "sale_end": "2023-08-27T00:00:00+09:00"
   },
   {
     "product_id": "7866043990203",
@@ -23804,7 +24580,9 @@
     "published_at": "2023-08-01T20:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-08-01T20:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7861908144315",
@@ -23842,7 +24620,9 @@
     "published_at": "2023-07-19T21:34:19+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-07-19T20:00:00+09:00",
+    "sale_end": "2023-08-03T00:00:00+09:00"
   },
   {
     "product_id": "7859846545595",
@@ -23923,7 +24703,9 @@
     "published_at": "2023-07-17T20:00:01+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-07-17T20:00:00+09:00",
+    "sale_end": "2023-08-01T00:00:00+09:00"
   },
   {
     "product_id": "7859654262971",
@@ -23956,7 +24738,9 @@
     "delisted_at": null,
     "series": [
       "VSPO! メンバーデザインシリーズ"
-    ]
+    ],
+    "sale_start": "2023-10-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7855943418043",
@@ -23999,7 +24783,9 @@
     "published_at": "2023-07-04T19:00:00+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-07-04T19:00:00+09:00",
+    "sale_end": "2023-07-18T23:59:00+09:00"
   },
   {
     "product_id": "7854394671291",
@@ -24033,7 +24819,9 @@
     "published_at": "2023-06-30T19:00:07+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-10-16T19:00:00+09:00",
+    "sale_end": null
   },
   {
     "product_id": "7849772384443",
@@ -24073,7 +24861,9 @@
     "published_at": "2023-06-24T20:39:36+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-06-24T20:00:00+09:00",
+    "sale_end": "2023-07-09T00:00:00+09:00"
   },
   {
     "product_id": "7842008432827",
@@ -24114,7 +24904,9 @@
     "published_at": "2023-06-03T19:40:39+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-06-03T19:00:00+09:00",
+    "sale_end": "2023-06-18T00:00:00+09:00"
   },
   {
     "product_id": "7841211220155",
@@ -24215,7 +25007,9 @@
     "series": [
       "VSPO! アクリルキーホルダー",
       "VSPO! スタンダードグッズ"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7841035321531",
@@ -24254,7 +25048,9 @@
     "published_at": "2023-05-30T19:13:44+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-05-30T19:00:00+09:00",
+    "sale_end": "2023-06-14T00:00:00+09:00"
   },
   {
     "product_id": "7805303226555",
@@ -24317,7 +25113,9 @@
     "delisted_at": null,
     "series": [
       "「SAISON CARD Digital」×「VSPO!」"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7805321445563",
@@ -24396,7 +25194,9 @@
     "delisted_at": null,
     "series": [
       "「SAISON CARD Digital」×「VSPO!」"
-    ]
+    ],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7837926883515",
@@ -24438,7 +25238,9 @@
     "published_at": "2023-05-18T22:22:06+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-05-18T22:00:00+09:00",
+    "sale_end": "2023-06-02T00:00:00+09:00"
   },
   {
     "product_id": "7832501911739",
@@ -24479,7 +25281,9 @@
     "published_at": "2023-05-05T19:17:53+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-05-05T19:00:00+09:00",
+    "sale_end": "2023-05-20T00:00:00+09:00"
   },
   {
     "product_id": "7825563189435",
@@ -24518,7 +25322,9 @@
     "published_at": "2023-04-19T20:18:59+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-04-19T20:00:00+09:00",
+    "sale_end": "2023-05-04T00:00:00+09:00"
   },
   {
     "product_id": "7824263643323",
@@ -24560,7 +25366,9 @@
     "published_at": "2023-04-17T20:55:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-04-17T19:00:00+09:00",
+    "sale_end": "2023-05-02T00:00:00+09:00"
   },
   {
     "product_id": "7822932181179",
@@ -24603,7 +25411,9 @@
     "published_at": "2023-04-16T19:40:24+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-04-16T19:00:00+09:00",
+    "sale_end": "2023-05-01T00:00:00+09:00"
   },
   {
     "product_id": "7787685576891",
@@ -24656,7 +25466,9 @@
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787681022139",
@@ -24691,7 +25503,9 @@
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787662278843",
@@ -24726,7 +25540,9 @@
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787636850875",
@@ -24761,7 +25577,9 @@
     "published_at": "2023-04-03T19:00:04+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7788860997819",
@@ -24796,7 +25614,9 @@
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787698520251",
@@ -24827,7 +25647,9 @@
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787672043707",
@@ -24862,7 +25684,9 @@
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787647729851",
@@ -24895,7 +25719,9 @@
     "published_at": "2023-04-03T19:00:03+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7788589285563",
@@ -24930,7 +25756,9 @@
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7788509003963",
@@ -24965,7 +25793,9 @@
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7788497731771",
@@ -25000,7 +25830,9 @@
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787721031867",
@@ -25035,7 +25867,9 @@
     "published_at": "2023-04-03T19:00:02+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787714871483",
@@ -25066,7 +25900,9 @@
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787712086203",
@@ -25097,7 +25933,9 @@
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7787705729211",
@@ -25128,7 +25966,9 @@
     "published_at": "2023-04-03T19:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7814842515643",
@@ -25172,7 +26012,9 @@
     "published_at": "2023-04-02T23:09:09+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-04-02T22:00:00+09:00",
+    "sale_end": "2023-04-17T00:00:00+09:00"
   },
   {
     "product_id": "7814839795899",
@@ -25213,7 +26055,9 @@
     "published_at": "2023-04-02T19:28:05+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-04-02T19:00:00+09:00",
+    "sale_end": "2023-04-17T00:00:00+09:00"
   },
   {
     "product_id": "7809517453499",
@@ -25253,7 +26097,9 @@
     "published_at": "2023-03-21T20:24:27+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-03-21T20:00:00+09:00",
+    "sale_end": "2023-04-05T00:00:00+09:00"
   },
   {
     "product_id": "7802989314235",
@@ -25294,7 +26140,9 @@
     "published_at": "2023-03-03T20:23:37+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-03-03T20:00:00+09:00",
+    "sale_end": "2023-03-18T00:00:00+09:00"
   },
   {
     "product_id": "7799183671483",
@@ -25331,7 +26179,9 @@
     "published_at": "2023-02-22T20:23:48+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-02-22T20:00:00+09:00",
+    "sale_end": "2023-03-09T00:00:00+09:00"
   },
   {
     "product_id": "7794955485371",
@@ -25411,7 +26261,9 @@
     "published_at": "2023-02-15T16:12:23+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7794435948731",
@@ -25468,7 +26320,9 @@
     "published_at": "2023-02-14T19:00:00+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7793668948155",
@@ -25505,7 +26359,9 @@
     "published_at": "2023-02-13T20:59:39+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-02-13T20:00:00+09:00",
+    "sale_end": "2023-02-28T00:00:00+09:00"
   },
   {
     "product_id": "7788762562747",
@@ -25548,7 +26404,9 @@
     "published_at": "2023-02-07T19:00:06+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-02-07T19:00:00+09:00",
+    "sale_end": "2023-02-22T00:00:00+09:00"
   },
   {
     "product_id": "7783529545915",
@@ -25589,7 +26447,9 @@
     "published_at": "2023-01-31T21:39:59+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-01-31T21:00:00+09:00",
+    "sale_end": "2023-02-15T00:00:00+09:00"
   },
   {
     "product_id": "7780838834363",
@@ -25669,7 +26529,9 @@
     "published_at": "2023-01-24T18:53:31+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7777610891451",
@@ -25714,7 +26576,9 @@
     "published_at": "2023-01-18T18:34:14+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2023-01-18T18:00:00+09:00",
+    "sale_end": "2023-02-02T00:00:00+09:00"
   },
   {
     "product_id": "7768242946235",
@@ -25802,7 +26666,9 @@
     "published_at": "2022-12-29T20:56:40+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2022-12-30T12:00:00+09:00",
+    "sale_end": "2023-01-21T00:00:00+09:00"
   },
   {
     "product_id": "7767853400251",
@@ -25881,7 +26747,9 @@
     "published_at": "2022-12-28T16:03:18+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": "2022-12-30T12:00:00+09:00",
+    "sale_end": "2023-01-21T00:00:00+09:00"
   },
   {
     "product_id": "7767590469819",
@@ -25961,7 +26829,9 @@
     "published_at": "2022-12-27T20:13:10+09:00",
     "is_available": false,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   },
   {
     "product_id": "7766929768635",
@@ -26018,6 +26888,8 @@
     "published_at": "2022-12-26T18:44:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "series": []
+    "series": [],
+    "sale_start": null,
+    "sale_end": null
   }
 ]
