@@ -114,3 +114,10 @@ jobs:
           R2_BUCKET:     ${{ secrets.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
           BUDGET_MIN:    '50'
+          # New VSPO! products go to the same signup list and owner address as
+          # hololive's: one list for both shops.
+          RESEND_API_KEY:    ${{ secrets.RESEND_API_KEY }}
+          MAIL_TO:           ${{ secrets.MAIL_TO }}
+          MAIL_FROM:         ${{ secrets.MAIL_FROM }}
+          RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
+          EMAIL_LAYOUT:      ${{ vars.EMAIL_LAYOUT }}
