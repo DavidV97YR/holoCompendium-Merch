@@ -70,11 +70,11 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // Same policy as scraper.js: a 4xx other than 408/429 is an answer, not a
 // hiccup, so it is not retried.
-async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
+async function fetchWithRetry(url, retries = 3, delayMs = 1000, headers = {}) {
   for (let i = 0; i < retries; i++) {
     let res;
     try {
-      res = await fetch(url, { signal: AbortSignal.timeout(30_000), headers: { 'User-Agent': 'Mozilla/5.0' } });
+      res = await fetch(url, { signal: AbortSignal.timeout(30_000), headers: { 'User-Agent': 'Mozilla/5.0', ...headers } });
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return res;
     } catch (err) {
@@ -215,6 +215,35 @@ async function salesPeriod(handle) {
     return { start: at(from), end: at(to) };
   } catch (e) {
     log(`  ⚠ no sales period for ${handle}: ${e.message}`);
+    return null;
+  }
+}
+
+// When a product's sale really opened, for one the shop re-listed after it
+// closed. Re-listing (to show it as ended) resets published_at, so Kisaragi
+// Ren's birthday set, on sale May 5–19, reads as listed on May 21. The sales
+// period bar leaves the start blank ("販売期間： 〜 2026年05月20日 0時00分"),
+// but the Japanese description gives it: "【受注期間】 5月5日（火）～5月19日
+// （火）23:59まで", or on VSPO! EN's "日本標準時 (JST)：8月25日（火）21:30～".
+// No year there: the one that puts the start on or before the end.
+//
+// Only used when it is more than a day before published_at, so a product
+// listed as its sale opened keeps its exact listing time. An ISO time, or null
+// (no such line, or the page could not be read).
+async function orderStart(handle, endIso, listedIso) {
+  try {
+    // The Japanese page: the English one's description is machine translated.
+    const res  = await fetchWithRetry(`${BASE}/products/${encodeURIComponent(handle)}`, 3, 1000, { 'Accept-Language': 'ja' });
+    const text = (await res.text()).replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ');
+    const m = /【[^】]{0,8}期間】\s*(?:日本標準時\s*\(JST\)[：:]\s*)?(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2}):(\d{2}))?/.exec(text);
+    if (!m) return null;
+    const ref = new Date(Date.parse(endIso || listedIso) + 9 * 36e5);   // its date in JST
+    const at  = y => `${y}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}T${(m[4] || '0').padStart(2, '0')}:${m[5] || '00'}:00+09:00`;
+    let iso = at(m[1] || ref.getUTCFullYear());
+    if (!m[1] && Date.parse(iso) > ref.getTime() - 9 * 36e5) iso = at(ref.getUTCFullYear() - 1);
+    return Date.parse(iso) < Date.parse(listedIso) - 864e5 ? iso : null;
+  } catch (e) {
+    log(`  ⚠ no order period for ${handle}: ${e.message}`);
     return null;
   }
 }
@@ -467,6 +496,14 @@ async function main() {
         }
         if (sp && !record.sale_v) { record.sale_v = 2; synced++; }
       }
+      // A product off sale with no start: read once whether it was re-listed
+      // after its sale (orderStart). sale_v 3 marks that as done.
+      if (record.sale_v === 2 && !record.sale_start && !available && !outOfTime()) {
+        const start = await orderStart(p.handle, record.sale_end, record.published_at);
+        if (start) { record.sale_start = start; log(`  ${p.handle}: re-listed, on sale from ${start}`); }
+        record.sale_v = 3; synced++;
+        await sleep(500);
+      }
       // Worked out again every run, so a rule added here, or a collection the
       // shop adds, reaches the whole archive, not only products archived after.
       if (shopRead) {
@@ -509,6 +546,11 @@ async function main() {
     if (entry.sale_start === undefined) {
       const sp = await salesPeriod(p.handle);
       if (sp) { entry.sale_start = sp.start; entry.sale_end = sp.end; entry.sale_v = 2; }
+      if (sp && !sp.start && !entry.is_available) {
+        const start = await orderStart(p.handle, sp.end, entry.published_at);
+        if (start) entry.sale_start = start;
+        entry.sale_v = 3;
+      }
     }
 
     // Only the images not archived yet: an entry keeps the ones it has.
