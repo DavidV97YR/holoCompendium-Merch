@@ -43,14 +43,14 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # blob:none  — partial clone; fetches commits + trees but never downloads
           #              file blob contents from history. Working tree is fully
           #              visible; blobs are fetched lazily only when actually read.
           # fetch-depth: 1 — shallow clone; only the latest commit, not full history.
           # Together these give the fastest possible checkout: no old blobs, no
-          # history traversal. They don't conflict — actions/checkout@v4 passes
+          # history traversal. They don't conflict — actions/checkout@v5 passes
           # both flags correctly to git.
           filter: blob:none
           fetch-depth: 1
@@ -61,7 +61,7 @@ jobs:
           ref: main
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
