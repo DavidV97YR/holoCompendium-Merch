@@ -860,16 +860,20 @@ async function fetchAllShopifyProducts() {
   while (true) {
     log(`Fetching page ${page}…`);
 
-    const [resJp, resEn] = await Promise.all([
-      fetchWithRetry(`${BASE_JP}/products.json?limit=250&page=${page}&currency=JPY`),
-      fetchWithRetry(`${BASE_EN}/products.json?limit=250&page=${page}`),
+    // Each read as it arrives. Reading both after both had come back failed
+    // the run: the English page was rate-limited (Retry-After 80s), and by
+    // then the Japanese one's 30s timeout, which covers reading its body too,
+    // had aborted it (run #5872, "DOMException [AbortError]").
+    const json = url => fetchWithRetry(url).then(r => r.json());
+    const [dataJp, dataEn] = await Promise.all([
+      json(`${BASE_JP}/products.json?limit=250&page=${page}&currency=JPY`),
+      json(`${BASE_EN}/products.json?limit=250&page=${page}`),
     ]);
 
-    const dataJp = await resJp.json();
     if (!dataJp.products?.length) break;
 
     const enByHandle = {};
-    for (const p of ((await resEn.json()).products || [])) {
+    for (const p of (dataEn.products || [])) {
       enByHandle[p.handle] = {
         title: p.title,
         tags:  p.tags || [],
