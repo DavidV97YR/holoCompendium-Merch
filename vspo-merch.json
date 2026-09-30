@@ -1,5 +1,65 @@
 [
   {
+    "product_id": "8523990270139",
+    "handle": "kurumiday2026",
+    "title_jp": "胡桃のあ 胡桃の日記念2026",
+    "title_en": "Kurumi Noah Kurumi Day 2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-07",
+      "終了日指定あり",
+      "胡桃のあ"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-07",
+      "終了日指定あり",
+      "胡桃のあ"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/03_thumbnail_4b70d637-ef94-472c-a7ca-dbedbe0aa059.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/06_167cf31a-6f09-4e90-a08e-c8bd1cc90f5d.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/07___2_0a0d786b-95dc-46b5-a9c4-c7a7a95187ba.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/08_56778e0b-48d0-4b09-a397-6a6546775cf4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/09_ec32aee4-a0fd-4107-a735-06530ae9e0e4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kurumiday2026/10_235f61bc-e4fd-499f-9677-186ea12c8829.webp"
+    ],
+    "min_price": 1500,
+    "max_price": 13000,
+    "published_at": "2026-09-30T20:42:42+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-10-15T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "8523987910843",
     "handle": "kurumiday2026-postcard",
     "title_jp": "胡桃のあ 胡桃の日記念2026 直筆サイン入りポストカード抽選応募ページ",
