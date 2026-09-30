@@ -494,10 +494,7 @@ async function main() {
       record.shop_files = shopFiles(record.images, images);
       // Read once (the archive's older products on the first run after this was
       // added), and again while a sale is still to start, in case it moves.
-      // Not a start read from the description (sale_from, see orderStart): the
-      // bar has none, and reading it again would blank the start.
-      const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now()
-                   && record.sale_from !== 'text';
+      const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now();
       // Once more for a period with a start and no end that the first parser
       // read: it took an end-only period ("〜 2026-10-11 0:00") as the start,
       // and the two look the same once stored (Runa's, Beni's and Ema's
@@ -506,6 +503,10 @@ async function main() {
       const reread = record.sale_start && !record.sale_end && !record.sale_v;
       if ((record.sale_start === undefined || pending || reread) && !outOfTime()) {
         const sp = await salesPeriod(p.handle);
+        // A start read from the description (sale_from, see orderStart) stays
+        // while the bar still gives none; one the bar gives replaces it.
+        if (sp && !sp.start && record.sale_from === 'text') sp.start = record.sale_start;
+        else if (sp && sp.start) delete record.sale_from;
         if (sp && (sp.start !== record.sale_start || sp.end !== record.sale_end)) {
           record.sale_start = sp.start; record.sale_end = sp.end; synced++;
         }
