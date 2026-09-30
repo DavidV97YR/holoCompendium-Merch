@@ -512,8 +512,11 @@ async function main() {
         if (sp && !record.sale_v) { record.sale_v = 2; synced++; }
       }
       // No start on the bar: read once what the description gives
-      // (orderStart). sale_v 3 marks that as done.
-      if (record.sale_v === 2 && !record.sale_start && !outOfTime()) {
+      // (orderStart). sale_v 3 marks that as done. The bar has been read when
+      // sale_start is set at all (null: read, no start). Not only sale_v 2:
+      // a product with no bar whatsoever, read before sale_v existed, has no
+      // sale_v (61 of them, the postcard lotteries among them).
+      if (record.sale_start === null && (record.sale_v || 0) < 3 && !outOfTime()) {
         const start = await orderStart(p.handle, record.sale_end, record.published_at);
         if (start) {
           record.sale_start = start; record.sale_from = 'text';
