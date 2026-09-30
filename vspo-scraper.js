@@ -219,29 +219,41 @@ async function salesPeriod(handle) {
   }
 }
 
-// When a product's sale really opened, for one the shop re-listed after it
-// closed. Re-listing (to show it as ended) resets published_at, so Kisaragi
-// Ren's birthday set, on sale May 5–19, reads as listed on May 21. The sales
-// period bar leaves the start blank ("販売期間： 〜 2026年05月20日 0時00分"),
-// but the Japanese description gives it: "【受注期間】 5月5日（火）～5月19日
-// （火）23:59まで", or on VSPO! EN's "日本標準時 (JST)：8月25日（火）21:30～".
-// No year there: the one that puts the start on or before the end.
+// When a product's sale or application period really opened, for one whose
+// sales period bar leaves the start blank ("販売期間： 〜 2026年05月20日
+// 0時00分"). The Japanese description gives it:
+//   【受注期間】 5月5日（火）～5月19日（火）23:59まで
+//   日本標準時 (JST)：8月25日（火）21:30～…          (VSPO! EN's, after the label)
+//   ▼抽選応募期間 2026年2月26日（木）00:00～23:59   (postcard lotteries)
+// It differs from published_at in two ways. A product the shop re-listed after
+// its sale (to show it as ended) has the re-listing: Kisaragi Ren's birthday
+// set, on sale May 5–19, reads as listed on May 21. And a lottery page can go
+// up hours before applications open: Amayui Moka's at 20:00 on Feb 25, for
+// 00:00 on the 26th.
 //
-// Only used when it is more than a day before published_at, so a product
-// listed as its sale opened keeps its exact listing time. An ISO time, or null
-// (no such line, or the page could not be read).
+// Used only when it falls on another day than the listing. On the same day
+// the listing is the better time: the description's is approximate ("20:00頃
+// ～", announced before the stream), and a product went up at 20:31 for one
+// said to open around 20:00. Of the 186 products without a start on the bar,
+// that picked out exactly the 8 above that were wrong (Ren's, Sumire's,
+// Nazuna's, Mimi's 4th anniversary, and 4 lotteries). With no year given, the
+// year nearest the listing that does not put the start after the end. An ISO
+// time, or null (no such line, the same day, or the page could not be read).
 async function orderStart(handle, endIso, listedIso) {
   try {
     // The Japanese page: the English one's description is machine translated.
     const res  = await fetchWithRetry(`${BASE}/products/${encodeURIComponent(handle)}`, 3, 1000, { 'Accept-Language': 'ja' });
     const text = (await res.text()).replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ');
-    const m = /【[^】]{0,8}期間】\s*(?:日本標準時\s*\(JST\)[：:]\s*)?(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2}):(\d{2}))?/.exec(text);
+    const m = /(?:【[^】]{0,8}期間】|▼[^\s▼]{0,8}期間)\s*(?:日本標準時\s*\(JST\)[：:]\s*)?(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2}):(\d{2}))?/.exec(text);
     if (!m) return null;
-    const ref = new Date(Date.parse(endIso || listedIso) + 9 * 36e5);   // its date in JST
-    const at  = y => `${y}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}T${(m[4] || '0').padStart(2, '0')}:${m[5] || '00'}:00+09:00`;
-    let iso = at(m[1] || ref.getUTCFullYear());
-    if (!m[1] && Date.parse(iso) > ref.getTime() - 9 * 36e5) iso = at(ref.getUTCFullYear() - 1);
-    return Date.parse(iso) < Date.parse(listedIso) - 864e5 ? iso : null;
+    const listed = Date.parse(listedIso), end = Date.parse(endIso) || Infinity;
+    const at = y => `${y}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}T${(m[4] || '0').padStart(2, '0')}:${m[5] || '00'}:00+09:00`;
+    const year = new Date(listed + 9 * 36e5).getUTCFullYear();
+    const iso = m[1] ? at(m[1]) : [year - 1, year, year + 1].map(at)
+      .filter(s => Date.parse(s) <= end)
+      .sort((a, b) => Math.abs(Date.parse(a) - listed) - Math.abs(Date.parse(b) - listed))[0];
+    if (!iso) return null;
+    return iso.slice(0, 10) === new Date(listed + 9 * 36e5).toISOString().slice(0, 10) ? null : iso;
   } catch (e) {
     log(`  ⚠ no order period for ${handle}: ${e.message}`);
     return null;
@@ -482,7 +494,10 @@ async function main() {
       record.shop_files = shopFiles(record.images, images);
       // Read once (the archive's older products on the first run after this was
       // added), and again while a sale is still to start, in case it moves.
-      const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now();
+      // Not a start read from the description (sale_from, see orderStart): the
+      // bar has none, and reading it again would blank the start.
+      const pending = record.sale_start && !available && Date.parse(record.sale_start) > Date.now()
+                   && record.sale_from !== 'text';
       // Once more for a period with a start and no end that the first parser
       // read: it took an end-only period ("〜 2026-10-11 0:00") as the start,
       // and the two look the same once stored (Runa's, Beni's and Ema's
@@ -496,11 +511,14 @@ async function main() {
         }
         if (sp && !record.sale_v) { record.sale_v = 2; synced++; }
       }
-      // A product off sale with no start: read once whether it was re-listed
-      // after its sale (orderStart). sale_v 3 marks that as done.
-      if (record.sale_v === 2 && !record.sale_start && !available && !outOfTime()) {
+      // No start on the bar: read once what the description gives
+      // (orderStart). sale_v 3 marks that as done.
+      if (record.sale_v === 2 && !record.sale_start && !outOfTime()) {
         const start = await orderStart(p.handle, record.sale_end, record.published_at);
-        if (start) { record.sale_start = start; log(`  ${p.handle}: re-listed, on sale from ${start}`); }
+        if (start) {
+          record.sale_start = start; record.sale_from = 'text';
+          log(`  ${p.handle}: listed ${record.published_at}, opens ${start} by its description`);
+        }
         record.sale_v = 3; synced++;
         await sleep(500);
       }
@@ -546,9 +564,9 @@ async function main() {
     if (entry.sale_start === undefined) {
       const sp = await salesPeriod(p.handle);
       if (sp) { entry.sale_start = sp.start; entry.sale_end = sp.end; entry.sale_v = 2; }
-      if (sp && !sp.start && !entry.is_available) {
+      if (sp && !sp.start) {
         const start = await orderStart(p.handle, sp.end, entry.published_at);
-        if (start) entry.sale_start = start;
+        if (start) { entry.sale_start = start; entry.sale_from = 'text'; }
         entry.sale_v = 3;
       }
     }
