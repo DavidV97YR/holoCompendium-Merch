@@ -244,7 +244,9 @@ async function orderStart(handle, endIso, listedIso) {
     // The Japanese page: the English one's description is machine translated.
     const res  = await fetchWithRetry(`${BASE}/products/${encodeURIComponent(handle)}`, 3, 1000, { 'Accept-Language': 'ja' });
     const text = (await res.text()).replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ');
-    const m = /(?:【[^】]{0,8}期間】|▼[^\s▼]{0,8}期間)\s*(?:日本標準時\s*\(JST\)[：:]\s*)?(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2}):(\d{2}))?/.exec(text);
+    // Sale and application periods only (受注・販売・予約・応募・受付), not
+    // another period a description may give first, such as 【配信期間】.
+    const m = /(?:【[^】]{0,10}(?:受注|販売|予約|応募|受付)期間】|▼[^\s▼]{0,10}(?:受注|販売|予約|応募|受付)期間)\s*(?:日本標準時\s*\(JST\)[：:]\s*)?(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2}):(\d{2}))?/.exec(text);
     if (!m) return null;
     const listed = Date.parse(listedIso), end = Date.parse(endIso) || Infinity;
     const at = y => `${y}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}T${(m[4] || '0').padStart(2, '0')}:${m[5] || '00'}:00+09:00`;
