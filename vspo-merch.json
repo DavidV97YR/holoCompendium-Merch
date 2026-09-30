@@ -37,7 +37,7 @@
     "delisted_at": null,
     "sale_start": null,
     "sale_end": null,
-    "sale_v": 2,
+    "sale_v": 3,
     "shop_files": [
       "files/png",
       "files/png"
@@ -342,7 +342,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8523985289403",
@@ -443,7 +443,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8523981815995",
@@ -788,7 +788,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8523972673723",
@@ -941,7 +941,7 @@
       "files/jpg",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8523964711099",
@@ -1159,7 +1159,7 @@
     "is_available": false,
     "delisted_at": null,
     "series": [],
-    "sale_start": null,
+    "sale_start": "2026-04-02T00:00:00+09:00",
     "sale_end": "2026-04-17T00:00:00+09:00",
     "shop_files": [
       "files/png",
@@ -1169,7 +1169,8 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3,
+    "sale_from": "text"
   },
   {
     "product_id": "8487752073403",
@@ -1237,7 +1238,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8487751254203",
@@ -1294,7 +1295,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8487751778491",
@@ -1413,7 +1414,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8487749058747",
@@ -1754,7 +1755,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8461991248059",
@@ -1822,7 +1823,7 @@
       "files/png",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8461990756539",
@@ -1967,7 +1968,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8461988135099",
@@ -2705,7 +2706,7 @@
     "is_available": false,
     "delisted_at": null,
     "series": [],
-    "sale_start": null,
+    "sale_start": "2026-04-02T00:00:00+09:00",
     "sale_end": "2026-04-17T00:00:00+09:00",
     "shop_files": [
       "files/png",
@@ -2716,7 +2717,8 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3,
+    "sale_from": "text"
   },
   {
     "product_id": "8342019899579",
@@ -2979,7 +2981,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8461848215739",
@@ -3037,7 +3039,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8461847167163",
@@ -3145,7 +3147,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419560292539",
@@ -3209,7 +3211,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419560587451",
@@ -3277,7 +3279,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419560259771",
@@ -3336,7 +3338,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419559801019",
@@ -3439,7 +3441,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419553018043",
@@ -3500,7 +3502,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8419552985275",
@@ -4133,7 +4135,7 @@
     "is_available": false,
     "delisted_at": null,
     "series": [],
-    "sale_start": null,
+    "sale_start": "2026-05-05T00:00:00+09:00",
     "sale_end": "2026-05-20T00:00:00+09:00",
     "shop_files": [
       "files/png",
@@ -4151,7 +4153,8 @@
       "files/png",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3,
+    "sale_from": "text"
   },
   {
     "product_id": "8396995035323",
@@ -4206,7 +4209,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8396994969787",
@@ -4369,7 +4372,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8358860685499",
@@ -4430,7 +4433,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8358860652731",
@@ -4534,7 +4537,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8358860521659",
@@ -4652,7 +4655,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8372596080827",
@@ -5659,7 +5662,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8345807421627",
@@ -6442,7 +6445,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8342017507515",
@@ -6641,7 +6644,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8323528196283",
@@ -6741,7 +6744,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8314896941243",
@@ -6840,7 +6843,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8314896842939",
@@ -7119,7 +7122,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8306788171963",
@@ -8173,7 +8176,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8293911101627",
@@ -8475,7 +8478,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8285294198971",
@@ -8659,7 +8662,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8277474476219",
@@ -9668,7 +9671,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8253661348027",
@@ -10007,7 +10010,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8253660233915",
@@ -10230,7 +10233,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8243249873083",
@@ -10285,7 +10288,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8243249709243",
@@ -10353,7 +10356,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8243249676475",
@@ -12957,7 +12960,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8102997393595",
@@ -13151,7 +13154,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8221183508667",
@@ -13210,7 +13213,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8223627870395",
@@ -13395,7 +13398,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8216641831099",
@@ -13454,7 +13457,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8215501930683",
@@ -13510,7 +13513,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8214002139323",
@@ -13568,7 +13571,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8214002106555",
@@ -13622,7 +13625,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8207155757243",
@@ -13682,7 +13685,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8208127983803",
@@ -13828,7 +13831,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8202066100411",
@@ -14015,7 +14018,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8198702137531",
@@ -14075,7 +14078,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8190738530491",
@@ -14133,7 +14136,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8190407409851",
@@ -14195,7 +14198,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8181274476731",
@@ -14857,7 +14860,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8146675925179",
@@ -14915,7 +14918,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8146776522939",
@@ -15259,7 +15262,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8106923688123",
@@ -16534,7 +16537,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8094664949947",
@@ -16592,7 +16595,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8093663428795",
@@ -16649,7 +16652,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8090130841787",
@@ -16708,7 +16711,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8083753500859",
@@ -16770,7 +16773,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8076564857019",
@@ -16828,7 +16831,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7996166176955",
@@ -17125,7 +17128,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8069272764603",
@@ -17181,7 +17184,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8066336358587",
@@ -17313,7 +17316,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8058155925691",
@@ -17365,7 +17368,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8054640050363",
@@ -17420,7 +17423,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8053683880123",
@@ -17475,7 +17478,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8048475930811",
@@ -17528,7 +17531,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8049822728379",
@@ -17583,7 +17586,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8041453158587",
@@ -17644,7 +17647,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8041440673979",
@@ -18455,7 +18458,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8029693214907",
@@ -18509,7 +18512,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8032207470779",
@@ -18696,7 +18699,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8027399422139",
@@ -18747,7 +18750,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8027410825403",
@@ -19011,7 +19014,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8019338199227",
@@ -19174,7 +19177,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8016184508603",
@@ -19373,7 +19376,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8011087577275",
@@ -19424,7 +19427,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8009614000315",
@@ -20442,7 +20445,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8008747974843",
@@ -20693,7 +20696,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8004553834683",
@@ -20745,7 +20748,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8003186884795",
@@ -20800,7 +20803,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8002355790011",
@@ -20850,7 +20853,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "8001777598651",
@@ -21025,7 +21028,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7961799098555",
@@ -21065,7 +21068,7 @@
     "is_available": false,
     "delisted_at": null,
     "series": [],
-    "sale_start": null,
+    "sale_start": "2024-07-05T21:30:00+09:00",
     "sale_end": "2024-07-20T00:00:00+09:00",
     "shop_files": [
       "files/jpg",
@@ -21075,7 +21078,8 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3,
+    "sale_from": "text"
   },
   {
     "product_id": "7989473476795",
@@ -21220,7 +21224,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7993680724155",
@@ -21278,7 +21282,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7993385648315",
@@ -21329,7 +21333,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7993382994107",
@@ -21381,7 +21385,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7993376702651",
@@ -21431,7 +21435,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7989444640955",
@@ -21480,7 +21484,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7985503731899",
@@ -21536,7 +21540,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7985508516027",
@@ -21652,7 +21656,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7983229403323",
@@ -21700,7 +21704,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7982283456699",
@@ -21751,7 +21755,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7972336566459",
@@ -21803,7 +21807,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7923983974587",
@@ -22970,7 +22974,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7971509272763",
@@ -23787,7 +23791,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7954219335867",
@@ -23840,7 +23844,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7951644688571",
@@ -23892,7 +23896,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7951347843259",
@@ -24019,7 +24023,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7948581011643",
@@ -24072,7 +24076,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7944226439355",
@@ -24123,7 +24127,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7943264862395",
@@ -24328,7 +24332,7 @@
       "files/png",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7937169719483",
@@ -24380,7 +24384,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7937724776635",
@@ -24436,7 +24440,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7935299485883",
@@ -24530,7 +24534,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7933068345531",
@@ -24581,7 +24585,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7930334216379",
@@ -24638,7 +24642,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7925309669563",
@@ -24689,7 +24693,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7922726666427",
@@ -24742,7 +24746,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7919522480315",
@@ -24796,7 +24800,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7917975077051",
@@ -24929,7 +24933,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7915522883771",
@@ -25056,7 +25060,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7909081710779",
@@ -25108,7 +25112,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7907459563707",
@@ -25628,7 +25632,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7905621344443",
@@ -25743,7 +25747,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7905632977083",
@@ -25824,7 +25828,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7905641660603",
@@ -25905,7 +25909,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7905649688763",
@@ -26188,7 +26192,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7897745817787",
@@ -27322,7 +27326,7 @@
       "files/jpg",
       "files/jpg"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7889396138171",
@@ -27423,7 +27427,7 @@
       "files/png",
       "files/png"
     ],
-    "sale_v": 2
+    "sale_v": 3
   },
   {
     "product_id": "7886670561467",
