@@ -1,5 +1,53 @@
 [
   {
+    "product_id": "9628405694684",
+    "handle": "hololive_asmr_imusttendtoyou",
+    "title_jp": "ホロライブ「キミを独り占め看病」ASMRボイス",
+    "title_en": "hololive ASMR: I Must Tend to You",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_尾丸ポルカ",
+      "Talent_水宮枢",
+      "Unit_FLOWGLOW",
+      "Unit_ホロライブ5期生",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_尾丸ポルカ",
+      "Talent_水宮枢",
+      "Unit_FLOWGLOW",
+      "Unit_ホロライブ5期生",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_imusttendtoyou/20260930__I_Must_Tend_to_You_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_imusttendtoyou/20260930__I_Must_Tend_to_You_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_imusttendtoyou/20260930__I_Must_Tend_to_You_EN_04.webp"
+    ],
+    "min_price": 2000,
+    "max_price": 8000,
+    "published_at": "2026-09-30T18:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9628287729884",
     "handle": "hakosbaelz_1stconcert_regalia_madetoorder",
     "title_jp": "【受注生産】Hakos Baelz 1st Concert “REGALIA”ライブグッズ",
@@ -141,8 +189,13 @@
       "Talent_角巻わため",
       "受注生産商品"
     ],
-    "categories": [],
-    "merch_categories": [],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivepanic_merch/holo_holopanic_banner_JP_260914_ol_01.webp",
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololivepanic_merch/holoPANIC_panel_banner_JP_260928_1.webp",
@@ -2083,7 +2136,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_tooclingy_octobercalendar/ly_20260911_clingy_calendar_photo_card_en_02_1788225617.webp"
     ],
@@ -4786,7 +4841,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_worriedaboutyou_septembercalendar/ly_20260818_worried_about_you_calendar_photo_card_en_02_1785747582.webp"
     ],
@@ -5773,7 +5830,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_makingyourheartracevoice_photoprint/ly_20260806_makingyourheartracepp_2_en_1785731922.webp"
     ],
@@ -6981,7 +7040,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_coworkingwithyou_augustcalendar/ly_20260723_coworking_with_you_calendar_photo_card_en_02_1784695980.webp"
     ],
@@ -8360,7 +8421,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_goodworktoday_julycalendar/ly_20260626_good_work_today_calendar_photo_card_en_02_1781600254.webp"
     ],
@@ -8511,8 +8574,12 @@
       "Talent_儒烏風亭らでん",
       "受注生産商品"
     ],
-    "categories": [],
-    "merch_categories": [],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_260624_juufuuteiraden_picross_en_02_1781671716.webp",
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/juufuuteiraden_picross_hakonetravelogue/ly_20260624_pixelmuseum_1_en_1782116640.webp",
@@ -8790,7 +8857,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026_concertphoto/ly_ecsaito_fan_mai_yongbana_en_v2_1781155607.webp"
     ],
@@ -8870,7 +8939,9 @@
       "デジタルコンテンツ"
     ],
     "categories": [],
-    "merch_categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
     "images": [
       "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kazamairoha_birthday_2026_concertphoto/ly_ecsaito_fan_mai_yongbana_en_v2_1781155607.webp"
     ],
@@ -10308,7 +10379,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ]
   },
   {
     "product_id": "9361415635164",
@@ -12212,8 +12285,12 @@
     "published_at": "2026-04-17T18:00:03+09:00",
     "is_available": false,
     "delisted_at": null,
-    "categories": [],
-    "merch_categories": []
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ]
   },
   {
     "product_id": "9175868080348",
@@ -20653,7 +20730,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "9228505514204",
@@ -20691,7 +20770,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "9228505546972",
@@ -20729,7 +20810,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "9228505579740",
@@ -20769,7 +20852,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "9220235559132",
@@ -25712,7 +25797,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ]
   },
   {
     "product_id": "9191089176796",
@@ -54511,7 +54598,9 @@
     "published_at": "2025-03-04T17:00:06+09:00",
     "is_available": true,
     "delisted_at": null,
-    "categories": [],
+    "categories": [
+      "フィギュア"
+    ],
     "merch_categories": []
   },
   {
@@ -54545,7 +54634,9 @@
     "published_at": "2025-03-04T17:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "categories": [],
+    "categories": [
+      "フィギュア"
+    ],
     "merch_categories": []
   },
   {
@@ -54579,7 +54670,9 @@
     "published_at": "2025-03-04T17:00:05+09:00",
     "is_available": true,
     "delisted_at": null,
-    "categories": [],
+    "categories": [
+      "フィギュア"
+    ],
     "merch_categories": []
   },
   {
@@ -57325,7 +57418,9 @@
     "is_available": false,
     "delisted_at": null,
     "categories": [],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "8857166708956",
@@ -61696,7 +61791,9 @@
     "published_at": "2024-12-12T18:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "categories": [],
+    "categories": [
+      "フィギュア"
+    ],
     "merch_categories": []
   },
   {
@@ -61732,7 +61829,9 @@
     "published_at": "2024-12-12T18:00:01+09:00",
     "is_available": true,
     "delisted_at": null,
-    "categories": [],
+    "categories": [
+      "フィギュア"
+    ],
     "merch_categories": []
   },
   {
