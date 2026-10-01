@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15401414492380",
+    "handle": "inugamikorone_birthday_2026",
+    "title_jp": "戌神ころね 誕生日記念2026",
+    "title_en": "Inugami Korone Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_戌神ころね",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "フィギュア",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/inugamikorone_birthday_2026/holo_BC_banner_Inugami_Korone_EN_260930_8.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 21450,
+    "published_at": "2026-10-01T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9628405694684",
     "handle": "hololive_asmr_imusttendtoyou",
     "title_jp": "ホロライブ「キミを独り占め看病」ASMRボイス",
