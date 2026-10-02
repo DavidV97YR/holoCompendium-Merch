@@ -2326,7 +2326,7 @@
     "min_price": 990,
     "max_price": 990,
     "published_at": "2026-07-17T17:00:13+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "series": [
       "Xross Stars"
