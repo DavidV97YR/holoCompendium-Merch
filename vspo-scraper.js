@@ -47,6 +47,7 @@ import { sendNewProductEmail, sendBroadcast } from './email.js';
 const BASE        = 'https://store.vspo.jp';
 const MERCH_FILE  = 'vspo-merch.json';
 const R2_JSON_KEY = 'vspo/merch.json';
+const R2_LATEST_KEY = 'vspo/latest.json';   // Home's newest 40 (see latestJson)
 const IMAGES_DIR  = 'VSPO';
 const DRY_RUN     = process.env.DRY_RUN === '1';
 const BUDGET_MIN  = Number(process.env.BUDGET_MIN || 50);
@@ -384,13 +385,41 @@ async function archiveImage(handle, src) {
   return `${R2_PUBLIC_URL}/${key}`;
 }
 
+// The site's Home page shows the 40 newest products and how many are still
+// listed, and downloaded the whole archive for it. latest.json is just that,
+// uploaded beside the archive each run: { total, products: [the 40 newest
+// still listed, as stored] }. Newest by the site's own rule (listedTs in its
+// js/merch-core.js): the sale's opening where the shop gives one, else the
+// listing. A failed upload only warns: Home falls back to the full archive.
+function latestJson(archive) {
+  const ts = p => Date.parse(p.sale_start) || Date.parse(p.published_at) || 0;
+  const listed = archive.filter(p => !p.delisted_at);
+  return JSON.stringify({ total: listed.length, products: [...listed].sort((a, b) => ts(b) - ts(a)).slice(0, 40) });
+}
+
+async function uploadLatest(content) {
+  try {
+    await r2.send(new PutObjectCommand({
+      Bucket:      R2_BUCKET,
+      Key:         R2_LATEST_KEY,
+      Body:        latestJson(JSON.parse(content)),
+      ContentType: 'application/json',
+    }));
+    log(`Uploaded ${R2_LATEST_KEY} → ${R2_PUBLIC_URL}/${R2_LATEST_KEY}`);
+  } catch (e) {
+    log(`⚠ upload of ${R2_LATEST_KEY} failed (Home falls back to the full archive): ${e.message}`);
+  }
+}
+
 async function uploadJson() {
+  const content = fs.readFileSync(path.join(process.cwd(), MERCH_FILE));
   await r2.send(new PutObjectCommand({
     Bucket: R2_BUCKET, Key: R2_JSON_KEY,
-    Body: fs.readFileSync(path.join(process.cwd(), MERCH_FILE)),
+    Body: content,
     ContentType: 'application/json',
   }));
   log(`Uploaded ${MERCH_FILE} → ${R2_PUBLIC_URL}/${R2_JSON_KEY}`);
+  await uploadLatest(content);
 }
 
 // ─── Archive I/O ─────────────────────────────────────────────────────────────

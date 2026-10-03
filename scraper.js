@@ -27,6 +27,7 @@ import { sendNewProductEmail, sendBroadcast } from './email.js';
 const BASE_JP    = 'https://shop.hololivepro.com';
 const BASE_EN    = 'https://shop.hololivepro.com/en';
 const MERCH_FILE = 'merch.json';
+const LATEST_FILE = 'latest.json';   // Home's newest 40 (see latestJson)
 const IMAGES_DIR = 'Products';
 
 // Langify publishes a product's EN artwork hours — sometimes days — after the
@@ -920,6 +921,32 @@ async function fetchAllShopifyProducts() {
 // to R2 so the site can fetch it publicly without the repo needing to be public.
 // R2 key: merch.json (publicly accessible at R2_PUBLIC_URL/merch.json)
 
+// The site's Home page shows the 40 newest products and how many are still
+// listed, and downloaded the whole archive for it. latest.json is just that,
+// uploaded beside the archive each run: { total, products: [the 40 newest
+// still listed, as stored] }. Newest by the site's own rule (listedTs in its
+// js/merch-core.js): the sale's opening where the shop gives one, else the
+// listing. A failed upload only warns: Home falls back to the full archive.
+function latestJson(archive) {
+  const ts = p => Date.parse(p.sale_start) || Date.parse(p.published_at) || 0;
+  const listed = archive.filter(p => !p.delisted_at);
+  return JSON.stringify({ total: listed.length, products: [...listed].sort((a, b) => ts(b) - ts(a)).slice(0, 40) });
+}
+
+async function uploadLatest(content) {
+  try {
+    await r2.send(new PutObjectCommand({
+      Bucket:      R2_BUCKET,
+      Key:         LATEST_FILE,
+      Body:        latestJson(JSON.parse(content)),
+      ContentType: 'application/json',
+    }));
+    log(`Uploaded latest.json → ${R2_PUBLIC_URL}/${LATEST_FILE}`);
+  } catch (e) {
+    log(`⚠ upload of latest.json failed (Home falls back to the full archive): ${e.message}`);
+  }
+}
+
 async function uploadMerchToR2() {
   const content = fs.readFileSync(path.join(process.cwd(), MERCH_FILE));
   await r2.send(new PutObjectCommand({
@@ -929,6 +956,7 @@ async function uploadMerchToR2() {
     ContentType: 'application/json',
   }));
   log(`Uploaded merch.json to R2 → ${R2_PUBLIC_URL}/${MERCH_FILE}`);
+  await uploadLatest(content);
 }
 
 async function commitChanges(newCount, updatedCount) {
