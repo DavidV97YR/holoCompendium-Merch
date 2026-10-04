@@ -1,5 +1,94 @@
 [
   {
+    "product_id": "15404490129628",
+    "handle": "takanelui_1stlive_rebellion_madetoorder",
+    "title_jp": "【受注生産】鷹嶺ルイ1stライブ \"REBELLION\" ライブグッズ",
+    "title_en": "【Made-to-order】Takane Lui 1st Live \"REBELLION\" Concert Merch",
+    "tags_jp": [
+      "1stlive_rebellion",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "1stlive_rebellion",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "タペストリー"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_madetoorder/261004_Takane_Lui_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_madetoorder/261004_Takane_Lui_EN_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_madetoorder/261004_Takane_Lui_EN_14.webp"
+    ],
+    "min_price": 3300,
+    "max_price": 3520,
+    "published_at": "2026-10-04T21:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15404465717468",
+    "handle": "takanelui_1stlive_rebellion_advancedshipping",
+    "title_jp": "【先行発送】鷹嶺ルイ1stライブ \"REBELLION\" ライブグッズ",
+    "title_en": "【Advanced shipping】Takane Lui 1st Live \"REBELLION\" Concert Merch",
+    "tags_jp": [
+      "1stlive_rebellion",
+      "_ng_with_normal_group:TakaneLui_Live1004",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "1stlive_rebellion",
+      "_ng_with_normal_group:TakaneLui_Live1004",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_鷹嶺ルイ",
+      "予約販売"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_06.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_07.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_08.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_09.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_advancedshipping/261004_Takane_Lui_EN_12.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10300,
+    "published_at": "2026-10-04T21:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15397152063708",
     "handle": "hololive_halloween2026_sevensweetsins",
     "title_jp": "ホロライブ ハロウィンボイス2026 〜7つの甘罪〜",
