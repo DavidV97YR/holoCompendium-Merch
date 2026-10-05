@@ -1,5 +1,51 @@
 [
   {
+    "product_id": "15401431990492",
+    "handle": "shirakamifubuki_birthday_2026",
+    "title_jp": "白上フブキ 誕生日記念2026",
+    "title_en": "Shirakami Fubuki Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_白上フブキ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shirakamifubuki_birthday_2026/holo_Shirakami_Fubuki_BC_banner_EN_260918_ol_8.webp"
+    ],
+    "min_price": 660,
+    "max_price": 21560,
+    "published_at": "2026-10-05T22:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15404778553564",
     "handle": "ceciliaimmergreen_hololivecloset_spoiledvillainessoutfit",
     "title_jp": "hololive closet セシリア・イマーグリーン  生意気な悪役令嬢衣装",
