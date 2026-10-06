@@ -1,5 +1,78 @@
 [
   {
+    "product_id": "8487752040635",
+    "handle": "narinmikure-ani2nd",
+    "title_jp": "美暮ナリン 2周年記念2026",
+    "title_en": "Narin Mikure 2nd Anniversary 2026",
+    "tags_jp": [
+      "disable-restock-notification",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小物",
+      "VSPO! EN",
+      "コンビニ決済不可",
+      "コンビニ決済終了日:2026-08-31",
+      "終了日指定あり",
+      "美暮ナリン"
+    ],
+    "tags_en": [
+      "disable-restock-notification",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小物",
+      "VSPO! EN",
+      "コンビニ決済不可",
+      "コンビニ決済終了日:2026-08-31",
+      "終了日指定あり",
+      "美暮ナリン"
+    ],
+    "categories": [
+      "タペストリー",
+      "ボイス",
+      "バッジ・ピンバッジ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ",
+      "デジタルコンテンツ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/01_ECThumbnail_885d95ff-9ca8-44d5-a1fd-8b31843248a8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/03_SpecialAnniversaryBundle.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/03_AnniversaryBundle.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_Japanese-StyleTapestry.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_ClearMulti-Case.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_Wood-StyleStandee.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_UchiwaKeychain.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_SquareBadge.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/narinmikure-ani2nd/02_Voice_Pack_f72fcc8e-693c-4fef-8095-b18a2f8dc29f.webp"
+    ],
+    "min_price": 650,
+    "max_price": 10650,
+    "published_at": "2026-10-06T14:19:05+09:00",
+    "is_available": false,
+    "delisted_at": null,
+    "sale_start": "2026-08-25T12:30:00+09:00",
+    "sale_end": "2026-09-07T15:59:00+09:00",
+    "sale_v": 2,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "8523990270139",
     "handle": "kurumiday2026",
     "title_jp": "胡桃のあ 胡桃の日記念2026",
