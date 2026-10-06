@@ -1,5 +1,57 @@
 [
   {
+    "product_id": "10317467943099",
+    "handle": "vspo-look-clip-kaigidesu-tee",
+    "title_jp": "VSPO! LOOK CLIP 会議です！TEE",
+    "title_en": "VSPO! LOOK CLIP Meeting! TEE",
+    "tags_jp": [
+      "NEW",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "一ノ瀬うるは",
+      "千燈ゆうひ",
+      "橘ひなの",
+      "紡木こかげ",
+      "紫宮るな"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "一ノ瀬うるは",
+      "千燈ゆうひ",
+      "橘ひなの",
+      "紡木こかげ",
+      "紫宮るな"
+    ],
+    "categories": [
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [],
+    "series": [
+      "VSPO!LOOK",
+      "VSPO!LOOK CLIP"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/vspo-look-clip-kaigidesu-tee/1_kai.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/vspo-look-clip-kaigidesu-tee/2-kai.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/vspo-look-clip-kaigidesu-tee/3-kai.webp"
+    ],
+    "min_price": 5000,
+    "max_price": 5000,
+    "published_at": "2026-10-06T19:01:14+09:00",
+    "is_available": false,
+    "delisted_at": null,
+    "sale_start": "2026-10-13T19:00:00+09:00",
+    "sale_end": null,
+    "sale_v": 2,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317465125051",
     "handle": "desk-calendar2027",
     "title_jp": "ぶいすぽっ！卓上カレンダー2027",
