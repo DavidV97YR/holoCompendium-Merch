@@ -1,5 +1,58 @@
 [
   {
+    "product_id": "15407693299932",
+    "handle": "irys_1stconcert_hopebeyondthestars_secondaryorder",
+    "title_jp": "【2次販売】IRyS 1st Concert “HOPE ||: Beyond the Stars”ライブグッズ",
+    "title_en": "【Secondary order】IRyS 1st Concert “HOPE ll: Beyond the Stars” Concert Merch",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_IRyS",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "タペストリー",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/260924_IRyS_2____en_ol.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-09.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-01.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-06.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-07.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/irys_1stconcert_hopebeyondthestars_secondaryorder/261001_IRyS_2____en_ol-08.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10200,
+    "published_at": "2026-10-06T21:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15401431990492",
     "handle": "shirakamifubuki_birthday_2026",
     "title_jp": "白上フブキ 誕生日記念2026",
