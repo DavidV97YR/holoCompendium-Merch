@@ -1,5 +1,93 @@
 [
   {
+    "product_id": "15411378782428",
+    "handle": "hololive3rdgen_live_operationheartfulcuties_resale",
+    "title_jp": "【再販売】hololive 3rd Generation Live #きゅるるん大作戦 〜最強アイドル、推すしかないでしょ〜 ライブグッズ",
+    "title_en": "[Resale] hololive 3rd Generation Live #OperationHeartfulCuties You've Got No Choice but to Love the Strongest Idols Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3genlive_merch_thumbnail_square___en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3gen_ECbanner_EN_fix1017_banner-1_banner-7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3gen_ECbanner_EN_fix1024_banner-6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3gen_ECbanner_EN_fix1017_banner-1_banner-5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3gen_ECbanner_EN_fix1017_banner-9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_resale/3gen_ECbanner_EN_fix1024_banner-10.webp"
+    ],
+    "min_price": 2400,
+    "max_price": 5500,
+    "published_at": "2026-10-07T21:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15408346562780",
+    "handle": "hololive3rdgen_live_operationheartfulcuties_bluray",
+    "title_jp": "hololive 3rd Generation Live #きゅるるん大作戦 〜最強アイドル、推すしかないでしょ〜 Blu-ray",
+    "title_en": "hololive 3rd Generation Live #OperationHeartfulCuties ~You've Got No Choice but to Love the Strongest Idols~ Blu-ray",
+    "tags_jp": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ3期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_不知火フレア",
+      "Talent_兎田ぺこら",
+      "Talent_宝鐘マリン",
+      "Talent_白銀ノエル",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_bluray/261007_hl3_EN2_1500X1500_1001.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_bluray/261007_hl3_EN3_1500X1500_1001.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_bluray/261007_hl3_EN4_1500X1500_1001.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive3rdgen_live_operationheartfulcuties_bluray/261007_hl3_EN5_1500X1500_1001.webp"
+    ],
+    "min_price": 12100,
+    "max_price": 12100,
+    "published_at": "2026-10-07T21:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15408441426140",
     "handle": "hakosbaelz_1stconcert_regalia_digitalmessageboard",
     "title_jp": "Hakos Baelz 1st Concert “REGALIA”  デジタルメッセージボード",
