@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15408441426140",
+    "handle": "hakosbaelz_1stconcert_regalia_digitalmessageboard",
+    "title_jp": "Hakos Baelz 1st Concert “REGALIA”  デジタルメッセージボード",
+    "title_en": "Hakos Baelz 1st Concert “REGALIA”  Digital Message Board",
+    "tags_jp": [
+      "_ng_with_normal_group:HakosBaelz_DMB1007",
+      "DigitalContents",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_ハコス・ベールズ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:HakosBaelz_DMB1007",
+      "DigitalContents",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_ハコス・ベールズ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_digitalmessageboard/Baelz1st_messageboard_ec_thumbnail_1500x1500_01_en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_digitalmessageboard/Baelz1st_messageboard_ec_thumbnail_1500x1500_02_en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_digitalmessageboard/Baelz1st_messageboard_ec_thumbnail_1500x1500_03_en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_digitalmessageboard/Baelz1st_messageboard_ec_thumbnail_1500x1500_04_en.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakosbaelz_1stconcert_regalia_digitalmessageboard/Baelz1st_messageboard_ec_thumbnail_1500x1500_05_en.webp"
+    ],
+    "min_price": 3000,
+    "max_price": 7500,
+    "published_at": "2026-10-07T16:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "10321204904156",
     "handle": "holoplus_holocagrandstage2026_osakadreamdatecampaign",
     "title_jp": "【ホロプラス】ホロカグランドステージ 2026大阪「妄想デート企画 夏だ！ホロカだ！海デートだ？！」",
