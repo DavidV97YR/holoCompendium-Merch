@@ -1,5 +1,85 @@
 [
   {
+    "product_id": "10321204904156",
+    "handle": "holoplus_holocagrandstage2026_osakadreamdatecampaign",
+    "title_jp": "【ホロプラス】ホロカグランドステージ 2026大阪「妄想デート企画 夏だ！ホロカだ！海デートだ？！」",
+    "title_en": "【holoplus】hololive OFFICIAL CARD GAME Grand Stage 2026 Osaka: Dream Date Campaign—“Summer! holoca! A Beach Date?!” Bonus Smartphone Wallpaper",
+    "tags_jp": [
+      "Recommended_デジタルコンテンツ",
+      "Talent_ときのそら",
+      "Talent_博衣こより",
+      "Talent_宝鐘マリン",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Recommended_デジタルコンテンツ",
+      "Talent_ときのそら",
+      "Talent_博衣こより",
+      "Talent_宝鐘マリン",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoplus_holocagrandstage2026_osakadreamdatecampaign/Osaka_holoca_EC_01_EN_73717300-7131-482b-a0c7-9459436ce480.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoplus_holocagrandstage2026_osakadreamdatecampaign/Osaka_holoca_EC_02_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoplus_holocagrandstage2026_osakadreamdatecampaign/Osaka_holoca_EC_03_EN_27fd32a2-5715-470f-b4f4-974d38c007dc.webp"
+    ],
+    "min_price": 0,
+    "max_price": 0,
+    "published_at": "2026-10-07T12:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15407076835548",
+    "handle": "holoplus_nepolabo_6thanniversary",
+    "title_jp": "【ホロプラス】ねぽらぼ6周年記念「Grimoire 4♥Ever」配信の感想を大募集 感想コメント壁紙（PC用）",
+    "title_en": "【holoplus】Share Your Thoughts on NePoLaBo’s 6th Anniversary Stream, “Grimoire 4♥Ever”! Fan Comment Wallpaper (Desktop)",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_獅白ぼたん",
+      "Talent_雪花ラミィ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_獅白ぼたん",
+      "Talent_雪花ラミィ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoplus_nepolabo_6thanniversary/NepolaboWeeeek_Fan_Comment_EC_EN.webp"
+    ],
+    "min_price": 0,
+    "max_price": 0,
+    "published_at": "2026-10-07T12:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15407693299932",
     "handle": "irys_1stconcert_hopebeyondthestars_secondaryorder",
     "title_jp": "【2次販売】IRyS 1st Concert “HOPE ||: Beyond the Stars”ライブグッズ",
