@@ -1,5 +1,46 @@
 [
   {
+    "product_id": "15411483836636",
+    "handle": "tokoyamitowa_towadaycommemorativemerch",
+    "title_jp": "常闇トワ トワの日記念グッズ",
+    "title_en": "Tokoyami Towa Towa Day Commemorative Merch",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_常闇トワ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_3_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_5_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/tokoyamitowa_towadaycommemorativemerch/holo_TokoyamiTowa_Towanohi_banner_EN_1005_ol_7.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 13750,
+    "published_at": "2026-10-08T20:00:11+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15411378782428",
     "handle": "hololive3rdgen_live_operationheartfulcuties_resale",
     "title_jp": "【再販売】hololive 3rd Generation Live #きゅるるん大作戦 〜最強アイドル、推すしかないでしょ〜 ライブグッズ",
