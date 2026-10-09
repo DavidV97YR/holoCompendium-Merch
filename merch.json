@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15417944309980",
+    "handle": "promise_3rdanniversaryaudiostory",
+    "title_jp": "ホロライブ -Promise- 3周年記念ボイス「三人とキミのアニバーサリートリップ」",
+    "title_en": "hololive -Promise- 3rd Anniversary Audio Story: A Promising Trip for Three",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_IRyS",
+      "Talent_オーロ・クロニー",
+      "Talent_ハコス・ベールズ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_IRyS",
+      "Talent_オーロ・クロニー",
+      "Talent_ハコス・ベールズ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/promise_3rdanniversaryaudiostory/hololive_-Promise-_3rd_Anniversary_Audio_Story__A_Promising_Trip_for_Three_-_Thumbnail_English_FIX.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/promise_3rdanniversaryaudiostory/hololive_-Promise-_3rd_Anniversary_Audio_Story__A_Promising_Trip_for_Three_-_Set_1_English_FIX.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/promise_3rdanniversaryaudiostory/hololive_-Promise-_3rd_Anniversary_Audio_Story__A_Promising_Trip_for_Three_-_Set_2_English_FIX.webp"
+    ],
+    "min_price": 2500,
+    "max_price": 5000,
+    "published_at": "2026-10-09T12:45:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15417913671900",
     "handle": "hololiveofficialcardgame_hsd19e",
     "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Oozora Subaru",
