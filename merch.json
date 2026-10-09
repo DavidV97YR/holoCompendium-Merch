@@ -1,5 +1,185 @@
 [
   {
+    "product_id": "15417913671900",
+    "handle": "hololiveofficialcardgame_hsd19e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Oozora Subaru",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Oozora Subaru",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd19e/holo_OCG_SD14-19EC_banner_EN_260903_6.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15417898795228",
+    "handle": "hololiveofficialcardgame_hsd18e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Mori Calliope",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Mori Calliope",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd18e/holo_OCG_SD14-19EC_banner_EN_260903_5.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15417883361500",
+    "handle": "hololiveofficialcardgame_hsd17e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Hoshimachi Suisei",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Hoshimachi Suisei",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd17e/holo_OCG_SD14-19EC_banner_EN_260903_4.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15417107218652",
+    "handle": "hololiveofficialcardgame_hsd16e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Sakura Miko",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Sakura Miko",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd16e/holo_OCG_SD14-19EC_banner_EN_260903_3.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15417058230492",
+    "handle": "hololiveofficialcardgame_hsd15e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Juufuutei Raden",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Juufuutei Raden",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd15e/holo_OCG_SD14-19EC_banner_EN_260903_2.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15416978931932",
+    "handle": "hololiveofficialcardgame_hsd14e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Shirakami Fubuki",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Live Start Deck Shirakami Fubuki",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd14e/holo_OCG_SD14-19EC_banner_EN_260903_1.webp"
+    ],
+    "min_price": 1422,
+    "max_price": 1422,
+    "published_at": "2026-10-09T10:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15411483836636",
     "handle": "tokoyamitowa_towadaycommemorativemerch",
     "title_jp": "常闇トワ トワの日記念グッズ",
