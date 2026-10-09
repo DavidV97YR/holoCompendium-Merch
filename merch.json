@@ -1,5 +1,135 @@
 [
   {
+    "product_id": "15405088407772",
+    "handle": "hololive_secretspace_novembercalendar",
+    "title_jp": "ホロライブ 日常ささやき「密室」ボイス 11月カレンダーブロマイド",
+    "title_en": "hololive Slice-of-Life Whispering ASMR: Secret Space November Calendar Photo Card",
+    "tags_jp": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ0期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "sliceoflifewhispering_photocard",
+      "Talent_ロボ子さん",
+      "Talent_水宮枢",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "_codegen",
+      "DigitalContents",
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ0期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "sliceoflifewhispering_photocard",
+      "Talent_ロボ子さん",
+      "Talent_水宮枢",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_secretspace_novembercalendar/20261009_secret_calendar_photo_card_EN_02.webp"
+    ],
+    "min_price": 300,
+    "max_price": 300,
+    "published_at": "2026-10-09T18:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15404689817820",
+    "handle": "hololive_asmr_secretspace",
+    "title_jp": "ホロライブ 日常ささやき「密室」ボイス",
+    "title_en": "hololive Slice-of-Life Whispering ASMR: Secret Space",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Generation_ReGLOSS",
+      "Generation_アソビまわり隊",
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブ2期生",
+      "Generation_ホロライブ3期生",
+      "Generation_ホロライブ5期生",
+      "Generation_秘密結社holoX",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_ロボ子さん",
+      "Talent_一条莉々華",
+      "Talent_博衣こより",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_水宮枢",
+      "Talent_熱千めら",
+      "Talent_癒月ちょこ",
+      "Talent_白銀ノエル",
+      "Talent_百鬼あやめ",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_赤井はあと",
+      "Talent_輪堂千速",
+      "Talent_雪花ラミィ",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Generation_ReGLOSS",
+      "Generation_アソビまわり隊",
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ1期生",
+      "Generation_ホロライブ2期生",
+      "Generation_ホロライブ3期生",
+      "Generation_ホロライブ5期生",
+      "Generation_秘密結社holoX",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_ロボ子さん",
+      "Talent_一条莉々華",
+      "Talent_博衣こより",
+      "Talent_尾丸ポルカ",
+      "Talent_桃鈴ねね",
+      "Talent_水宮枢",
+      "Talent_熱千めら",
+      "Talent_癒月ちょこ",
+      "Talent_白銀ノエル",
+      "Talent_百鬼あやめ",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_赤井はあと",
+      "Talent_輪堂千速",
+      "Talent_雪花ラミィ",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_secretspace/20261009_secret_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_secretspace/20261009_secret_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_asmr_secretspace/20261009_secret_EN_04.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 15000,
+    "published_at": "2026-10-09T18:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15417944309980",
     "handle": "promise_3rdanniversaryaudiostory",
     "title_jp": "ホロライブ -Promise- 3周年記念ボイス「三人とキミのアニバーサリートリップ」",
@@ -46185,7 +46315,9 @@
       "バッジ・ピンバッジ",
       "アパレル・アパレル小物"
     ],
-    "merch_categories": []
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ]
   },
   {
     "product_id": "8966587121884",
