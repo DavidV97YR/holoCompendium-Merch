@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15420490580188",
+    "handle": "himemoriluna_birthday_2026",
+    "title_jp": "姫森ルーナ 誕生日記念2026",
+    "title_en": "Himemori Luna Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_姫森ルーナ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ4期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_姫森ルーナ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/himemoriluna_birthday_2026/holo_HimemoriLuna_BC_banner_EN_261007_ol_8.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 22000,
+    "published_at": "2026-10-10T21:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15405088407772",
     "handle": "hololive_secretspace_novembercalendar",
     "title_jp": "ホロライブ 日常ささやき「密室」ボイス 11月カレンダーブロマイド",
