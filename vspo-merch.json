@@ -1,5 +1,64 @@
 [
   {
+    "product_id": "10317467156667",
+    "handle": "kogaratoto-birthday2026",
+    "title_jp": "小雀とと 誕生日記念2026",
+    "title_en": "Kogara Toto Birthday Merch2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-17",
+      "小雀とと",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-17",
+      "小雀とと",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "ボイス",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/Header_1_1_7e9fc456-1656-4061-b2db-bdf7c5aaa5e5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/49cb7803453ce48debfeb8c79b3df901_94519b1f-c4ec-4046-946e-1ec5055f1da8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/6a40810a06405aa5f4f873f88895fddb.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/a26fe6d6f76aabf6685d1038246007aa.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/c6e8c5bc4d3d1e5ec98b0634af444d81.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/f5020752f6cf96dcd23167050b8cfb0a.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kogaratoto-birthday2026/27188afed903b0c9f826abd15008cb97_8a09b9bb-c1be-4651-8b0e-8ae31c7840a1.webp"
+    ],
+    "min_price": 500,
+    "max_price": 15000,
+    "published_at": "2026-10-10T19:49:52+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-10-25T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317465223355",
     "handle": "kogaratoto-birthday2026-postcard",
     "title_jp": "小雀とと 誕生日記念2026 直筆サイン入りポストカード抽選応募ページ",
