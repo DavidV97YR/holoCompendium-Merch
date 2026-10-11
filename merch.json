@@ -1,5 +1,89 @@
 [
   {
+    "product_id": "15420098805980",
+    "handle": "hakuikoyori_1stlive_dreamspark_madetoorder",
+    "title_jp": "【受注生産】Hakui Koyori 1st Live “Dream Spark”ライブグッズ",
+    "title_en": "【Made-to-order】Hakui Koyori 1st Live “Dream Spark” Concert Merch",
+    "tags_jp": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "タペストリー"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_madetoorder/261011_HakuiKoyori_1st_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_madetoorder/261011_HakuiKoyori_1st_EN_12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_madetoorder/261011_HakuiKoyori_1st_EN_13.webp"
+    ],
+    "min_price": 3300,
+    "max_price": 3630,
+    "published_at": "2026-10-11T21:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15419945353436",
+    "handle": "hakuikoyori_1stlive_dreamspark_advancedshipping",
+    "title_jp": "【先行発送】Hakui Koyori 1st Live “Dream Spark”ライブグッズ",
+    "title_en": "【Advanced shipping】Hakui Koyori 1st Live “Dream Spark” Concert Merch",
+    "tags_jp": [
+      "_ng_with_normal_group:HakuiKoyori_Live1011",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:HakuiKoyori_Live1011",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "予約販売"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_06.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_07.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_08.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_09.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_1stlive_dreamspark_advancedshipping/261011_Hakui_Koyori_1st_EN_11.webp"
+    ],
+    "min_price": 600,
+    "max_price": 13800,
+    "published_at": "2026-10-11T21:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15420490580188",
     "handle": "himemoriluna_birthday_2026",
     "title_jp": "姫森ルーナ 誕生日記念2026",
