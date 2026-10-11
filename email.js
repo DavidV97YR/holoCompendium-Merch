@@ -21,13 +21,13 @@ const MAX_CARDS = 12;
 
 // One signup list covers both shops (the form is on both Merch pages), so each
 // scraper sends its own shop's new products to it. `shop` in the options below
-// picks these; hololive is the default. The archive link names the agency, as
-// the site otherwise opens whichever one the reader last looked at.
+// picks these; hololive is the default. The archive link is the shop's own
+// address on the site: /merch is hololive's, /vspo/merch VSPO!'s.
 const SHOPS = {
   hololive: { name: 'hololive', product: 'https://shop.hololivepro.com/en/products',
-              site: 'https://holocompendium.cc/merch?org=hololive' },
+              site: 'https://holocompendium.cc/merch' },
   vspo:     { name: 'VSPO!',    product: 'https://store.vspo.jp/en-us/products',
-              site: 'https://holocompendium.cc/merch?org=vspo' },
+              site: 'https://holocompendium.cc/vspo/merch' },
 };
 const shopOf = opts => SHOPS[opts && opts.shop] || SHOPS.hololive;
 // VSPO!'s archive can hold a product whose English title is not out yet.
