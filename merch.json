@@ -1,5 +1,47 @@
 [
   {
+    "product_id": "15422548312284",
+    "handle": "otonosekanade_athomeconcert",
+    "title_jp": "音乃瀬奏 おうちでライブグッズ",
+    "title_en": "Otonose Kanade \"At-Home Concert\" Merchandise",
+    "tags_jp": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_音乃瀬奏",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ReGLOSS",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_音乃瀬奏",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/otonosekanade_athomeconcert/holo_OtonoseKande_ouchiLIVE_banner_EN_261009_ol_8.webp"
+    ],
+    "min_price": 3520,
+    "max_price": 21120,
+    "published_at": "2026-10-12T20:10:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15420098805980",
     "handle": "hakuikoyori_1stlive_dreamspark_madetoorder",
     "title_jp": "【受注生産】Hakui Koyori 1st Live “Dream Spark”ライブグッズ",
