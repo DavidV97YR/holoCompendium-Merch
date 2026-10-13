@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "15420258517212",
+    "handle": "hoshimachisuisei_live_supernovareboot_bluray",
+    "title_jp": "Hoshimachi Suisei Live “SuperNova: REBOOT” Blu-ray",
+    "title_en": "Hoshimachi Suisei Live “SuperNova: REBOOT” Blu-ray",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_星街すいせい",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_星街すいせい",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hoshimachisuisei_live_supernovareboot_bluray/202600_SuperNovaREBOOT_banner_en_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hoshimachisuisei_live_supernovareboot_bluray/202600_SuperNovaREBOOT_banner_en_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hoshimachisuisei_live_supernovareboot_bluray/202600_SuperNovaREBOOT_banner_en_3.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-10-13T20:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15422548312284",
     "handle": "otonosekanade_athomeconcert",
     "title_jp": "音乃瀬奏 おうちでライブグッズ",
