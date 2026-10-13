@@ -1,5 +1,53 @@
 [
   {
+    "product_id": "15419881816284",
+    "handle": "kureijiollie_birthday_2026",
+    "title_jp": "クレイジー・オリー 誕生日記念2026",
+    "title_en": "Kureiji Ollie Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア2期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_クレイジー・オリー",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア2期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_クレイジー・オリー",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ボイス",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/kureijiollie_birthday_2026/holo_Kureiji_Ollie_BC_banner_EN_1005_9.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 14300,
+    "published_at": "2026-10-13T22:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15420258517212",
     "handle": "hoshimachisuisei_live_supernovareboot_bluray",
     "title_jp": "Hoshimachi Suisei Live “SuperNova: REBOOT” Blu-ray",
