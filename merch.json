@@ -1,5 +1,69 @@
 [
   {
+    "product_id": "15422702911708",
+    "handle": "hololiveofficialcardgame_hsd21",
+    "title_jp": "hololive OFFICIAL CARD GAME スタートデッキ アソビ★まわり隊！ 推し 熱千めら",
+    "title_en": "hololive OFFICIAL CARD GAME Start Deck ASOBI★MAWARI-TAI! Oshi Achichi Mela",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd21/holo_OCG_SD20-21_banner_EN_261007_ol_4.webp"
+    ],
+    "min_price": 1980,
+    "max_price": 1980,
+    "published_at": "2026-10-14T18:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15422589305052",
+    "handle": "hololiveofficialcardgame_hsd20",
+    "title_jp": "hololive OFFICIAL CARD GAME スタートデッキ アソビ★まわり隊！ 推し 百灯キョーコ",
+    "title_en": "hololive OFFICIAL CARD GAME Start Deck ASOBI★MAWARI-TAI! Oshi Hyakuto Kyoko",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hsd20/holo_OCG_SD20-21_banner_EN_261007_ol_3.webp"
+    ],
+    "min_price": 1980,
+    "max_price": 1980,
+    "published_at": "2026-10-14T18:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15419881816284",
     "handle": "kureijiollie_birthday_2026",
     "title_jp": "クレイジー・オリー 誕生日記念2026",
