@@ -1,5 +1,45 @@
 [
   {
+    "product_id": "15425766883548",
+    "handle": "takanelui_1stlive_rebellion_digitalmessageboard",
+    "title_jp": "鷹嶺ルイ1stライブ \"REBELLION\" デジタルメッセージボード",
+    "title_en": "Takane Lui 1st Live \"REBELLION\" Digital Message Board",
+    "tags_jp": [
+      "_ng_with_normal_group:TakaneLui_DMB1015",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_鷹嶺ルイ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:TakaneLui_DMB1015",
+      "DigitalContents",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_鷹嶺ルイ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_digitalmessageboard/Takane_Lui_1st_Live_REBELLION_Digital_Message_Board_EN1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_digitalmessageboard/Takane_Lui_1st_Live_REBELLION_Digital_Message_Board_EN2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_digitalmessageboard/Takane_Lui_1st_Live_REBELLION_Digital_Message_Board_EN3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_digitalmessageboard/Takane_Lui_1st_Live_REBELLION_Digital_Message_Board_EN4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanelui_1stlive_rebellion_digitalmessageboard/Takane_Lui_1st_Live_REBELLION_Digital_Message_Board_EN5.webp"
+    ],
+    "min_price": 3000,
+    "max_price": 6000,
+    "published_at": "2026-10-15T16:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15422702911708",
     "handle": "hololiveofficialcardgame_hsd21",
     "title_jp": "hololive OFFICIAL CARD GAME スタートデッキ アソビ★まわり隊！ 推し 熱千めら",
