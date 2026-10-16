@@ -1,5 +1,44 @@
 [
   {
+    "product_id": "9581165084892",
+    "handle": "holoan_regularoutfit_acrylicstand",
+    "title_jp": "Regular Outfit holoAN アクリルスタンド",
+    "title_en": "Regular Outfit holoAN Acrylic Stand",
+    "tags_jp": [
+      "Generation_holoAN",
+      "Group_holoAN",
+      "Recommended_MERCH",
+      "RegularOutfit",
+      "Talent_井月みちる",
+      "Talent_花園さやか",
+      "Talent_風白ゆき"
+    ],
+    "tags_en": [
+      "Generation_holoAN",
+      "Group_holoAN",
+      "Recommended_MERCH",
+      "RegularOutfit",
+      "Talent_井月みちる",
+      "Talent_花園さやか",
+      "Talent_風白ゆき"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoan_regularoutfit_acrylicstand/ly_holo_an_ro_as_banner_en_260814_2_1787300254.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoan_regularoutfit_acrylicstand/ly_holo_an_ro_as_banner_en_260814_3_1787300265.webp"
+    ],
+    "min_price": 1760,
+    "max_price": 1760,
+    "published_at": "2026-10-16T18:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15425766883548",
     "handle": "takanelui_1stlive_rebellion_digitalmessageboard",
     "title_jp": "鷹嶺ルイ1stライブ \"REBELLION\" デジタルメッセージボード",
