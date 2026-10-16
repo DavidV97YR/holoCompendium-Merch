@@ -544,11 +544,16 @@ function enMediaMap(handle) {
     if (!html) return null;
 
     // Each slide repeats at several widths; the first hit per id is enough.
+    // A slide's picture is looked for only up to the next slide, and in both
+    // folders: older products keep some pictures under products/, and a
+    // search for files/ alone ran on into the next slide and gave this slot
+    // that one's English file (the Kikimanzai members picture became the
+    // first combo's, which then found nothing of its own).
     const out = new Map();
-    const re = /data-media-id="(\d+)"[\s\S]{0,400}?cdn\/shop\/files\/([A-Za-z0-9_%.\-]+\.(?:png|jpe?g|webp))/gi;
+    const re = /data-media-id="(\d+)"(?:(?!data-media-id=)[\s\S]){0,400}?cdn\/shop\/(files|products)\/([A-Za-z0-9_%.\-]+\.(?:png|jpe?g|webp))/gi;
     let m;
     while ((m = re.exec(html)) !== null) {
-      if (!out.has(m[1])) out.set(m[1], `${BASE_JP}/cdn/shop/files/${m[2]}`);
+      if (!out.has(m[1])) out.set(m[1], `${BASE_JP}/cdn/shop/${m[2].toLowerCase()}/${m[3]}`);
     }
     return out;
   })();
@@ -683,14 +688,21 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived, opts = {}
   // holodori_diorama_Takanashi_Kiara.png (a photo of the stand) found
   // …Kiara_en.png, the English twin of the same product's …Kiara_jp.png card:
   // both 1500×1500, so the size check passed, and the gallery showed the card
-  // twice and never the photo. The slot whose JP name carries the language
-  // token keeps the English file; the others keep their own picture.
+  // twice and never the photo. The slot whose JP name shares the most words
+  // with the English file keeps it (ManzaiVoices_member_1500_jp and …combi01…
+  // both found ly_manzaivoices_combi01_1500_en_…); on a tie, the one whose
+  // name carries the language token. The others keep their own picture.
   const LANG_TOKEN = /(^|[_-])(jp|ja)([_.-]|$)/i;
+  // Words of a file name, a language tag dropped wherever it sits: b2en → b2.
+  const words = u => new Set(nameOf(u).replace(/\.[^.]+$/, '').toLowerCase().split(/[_\-\s]+/)
+    .map(w => w.replace(/(en|jp|ja)$/, '')).filter(Boolean));
+  const shared = (a, b) => { const B = words(b); return [...words(a)].filter(w => B.has(w)).length; };
   const slotsByUrl = new Map();
   results.forEach((u, i) => { if (u) slotsByUrl.set(u, [...(slotsByUrl.get(u) || []), i]); });
   for (const [url, slots] of slotsByUrl) {
     if (slots.length < 2) continue;
-    const keeper = slots.find(i => LANG_TOKEN.test(nameOf(jpImages[i]))) ?? slots[0];
+    const score  = i => shared(jpImages[i], url) * 2 + (LANG_TOKEN.test(nameOf(jpImages[i])) ? 1 : 0);
+    const keeper = slots.reduce((best, i) => score(i) > score(best) ? i : best);
     for (const i of slots) {
       if (i === keeper) continue;
       // The shop listing the very same file twice is left as the shop has it.
