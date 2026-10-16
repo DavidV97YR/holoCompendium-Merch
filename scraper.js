@@ -637,6 +637,21 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived, opts = {}
 
   const { sizes = null, mediaIds = null, strict = true, concurrency = PROBE_CONCURRENCY_RUN } = opts;
 
+  // Puts one source picture in R2; its public URL, or null if it won't fetch.
+  const archiveOne = async (src, i) => {
+    const key       = r2KeyFor(handle, src);
+    const publicUrl = `${R2_PUBLIC_URL}/${key}`;
+    if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
+    try {
+      await uploadToR2(src, key);
+      log(`  [${handle}] ↑ ${key}`);
+      return publicUrl;
+    } catch (err) {
+      log(`  [${handle}] image ${i}: ${nameOf(src)} unavailable, trying next source`);
+      return null;
+    }
+  };
+
   const results = await inChunks(
     jpImages.map((jpUrl, i) => ({ jpUrl, i })),
     concurrency,
@@ -654,23 +669,36 @@ async function archiveImages(handle, jpImages, enMap, alreadyArchived, opts = {}
 
       // Best source first, falling through on anything that won't fetch.
       for (const cand of cands) {
-        const key       = r2KeyFor(handle, cand);
-        const publicUrl = `${R2_PUBLIC_URL}/${key}`;
-        if (hset.has(publicUrl)) return publicUrl;  // already in R2 — no re-upload
-
-        try {
-          await uploadToR2(cand, key);
-          log(`  [${handle}] ↑ ${key}`);
-          return publicUrl;
-        } catch (err) {
-          log(`  [${handle}] image ${i}: ${cand.split('/').pop().split('?')[0]} unavailable, trying next source`);
-        }
+        const publicUrl = await archiveOne(cand, i);
+        if (publicUrl) return publicUrl;
       }
 
       log(`  [${handle}] ⚠ image ${i}: no usable source — skipping`);
       return null;
     }
   );
+
+  // One English file for two pictures means a guess landed on the wrong one.
+  // A JP name with no language token gets "_en" appended as a guess, and
+  // holodori_diorama_Takanashi_Kiara.png (a photo of the stand) found
+  // …Kiara_en.png, the English twin of the same product's …Kiara_jp.png card:
+  // both 1500×1500, so the size check passed, and the gallery showed the card
+  // twice and never the photo. The slot whose JP name carries the language
+  // token keeps the English file; the others keep their own picture.
+  const LANG_TOKEN = /(^|[_-])(jp|ja)([_.-]|$)/i;
+  const slotsByUrl = new Map();
+  results.forEach((u, i) => { if (u) slotsByUrl.set(u, [...(slotsByUrl.get(u) || []), i]); });
+  for (const [url, slots] of slotsByUrl) {
+    if (slots.length < 2) continue;
+    const keeper = slots.find(i => LANG_TOKEN.test(nameOf(jpImages[i]))) ?? slots[0];
+    for (const i of slots) {
+      if (i === keeper) continue;
+      // The shop listing the very same file twice is left as the shop has it.
+      if (`${R2_PUBLIC_URL}/${r2KeyFor(handle, jpImages[i])}` === url) continue;
+      log(`  [${handle}] image ${i}: ${nameOf(url)} belongs to image ${keeper} — keeping its own picture`);
+      results[i] = await archiveOne(jpImages[i], i);
+    }
+  }
 
   let images = results.filter(Boolean);
 
@@ -1288,7 +1316,10 @@ async function backfillEnImages() {
     // rechecks inside IMAGE_RETRY_DAYS, leaving nothing able to reach it.
     // Anything still sitting on its own artwork gets another look.
     const imgs = product.images || [];
-    const complete = imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL));
+    // A picture listed twice is a wrong guess (see archiveImages) unless the
+    // shop itself lists one file twice, which this then rechecks harmlessly.
+    const complete = imgs.length >= jpImages.length && imgs.every(u => u.startsWith(R2_PUBLIC_URL))
+                  && new Set(imgs).size === imgs.length;
     if (complete && !usesOwnArtwork(product, { handle: product.handle, jp_images: jpImages })) continue;
 
     const before        = imgs.length;
