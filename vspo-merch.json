@@ -1,5 +1,62 @@
 [
   {
+    "product_id": "10317468369083",
+    "handle": "kisaragiren-ani6th",
+    "title_jp": "如月れん 6周年記念2026",
+    "title_en": "Kisaragi Ren 6th Anniversary 2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-25",
+      "如月れん",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-25",
+      "如月れん",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/Header_1_1_1e1fef6b-e7af-443a-8919-0d2ee80191ad.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/49cb7803453ce48debfeb8c79b3df901_3ab2263c-3c9b-4556-9222-314c2720fef4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/e2a8d0e4292bd835fa003a47c81be0e4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/2c4476debeeb2f435236f4518a0b24b6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/2affca69799e2d07ffd8c017856c2536.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kisaragiren-ani6th/f7239d3c2eca3b6fd2f44dbe986b6ee1.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 11000,
+    "published_at": "2026-10-18T20:14:28+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-02T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317469679803",
     "handle": "sfl-japan-2026-other1",
     "title_jp": "SFL JAPAN 2026 コラボグッズ",
