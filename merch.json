@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "15435128733916",
+    "handle": "gigimurin_birthday_2026",
+    "title_jp": "ジジ・ムリン 誕生日記念2026",
+    "title_en": "Gigi Murin Birthday 2026",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ジジ・ムリン",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_ジジ・ムリン",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/gigimurin_birthday_2026/holo_GigiMurin_BC_banner_EN_261009_8.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 16500,
+    "published_at": "2026-10-19T11:05:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15425369866460",
     "handle": "regloss_arlive_xrechord",
     "title_jp": "ReGLOSS AR LIVE \"X-ReCHORD\"",
