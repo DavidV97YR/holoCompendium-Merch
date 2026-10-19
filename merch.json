@@ -210,7 +210,7 @@
     "max_price": 1980,
     "published_at": "2026-10-14T18:00:05+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": "2026-10-19T09:30:51.643Z"
   },
   {
     "product_id": "15422589305052",
@@ -242,7 +242,7 @@
     "max_price": 1980,
     "published_at": "2026-10-14T18:00:04+09:00",
     "is_available": false,
-    "delisted_at": null
+    "delisted_at": "2026-10-19T09:30:51.643Z"
   },
   {
     "product_id": "15419881816284",
@@ -2334,7 +2334,7 @@
     "min_price": 1100,
     "max_price": 22000,
     "published_at": "2026-09-19T20:00:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -2473,7 +2473,7 @@
     "min_price": 1100,
     "max_price": 8910,
     "published_at": "2026-09-17T18:00:05+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -3480,7 +3480,7 @@
     "min_price": 1320,
     "max_price": 16170,
     "published_at": "2026-09-14T11:00:02+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -6489,7 +6489,7 @@
     "min_price": 300,
     "max_price": 300,
     "published_at": "2026-08-18T18:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
