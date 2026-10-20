@@ -1,5 +1,66 @@
 [
   {
+    "product_id": "10317468565691",
+    "handle": "kagasumire-ani8th",
+    "title_jp": "花芽すみれ 8周年記念2026",
+    "title_en": "花芽すみれ 8周年記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-27",
+      "終了日指定あり",
+      "花芽すみれ"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-27",
+      "終了日指定あり",
+      "花芽すみれ"
+    ],
+    "categories": [
+      "タペストリー",
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/thumbnail_75540ed8-f61e-4f8a-9071-4fd1fef9574b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/49cb7803453ce48debfeb8c79b3df901_a30b6a4d-ae2e-4692-aaac-f54222dcff76.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/91c4a715993504dec529190740337e8d.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/27188afed903b0c9f826abd15008cb97_9e41f2f6-b914-4a8a-b457-0dd1ffae7672.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/ecbc5f03b16f5b98127a3eda2cf4c8ff.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/b6f4c1a099102b972edef750d66ae757_2ffb1dbe-4fd3-41fa-bb0b-dbf7642aa857.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kagasumire-ani8th/e88052bcad7d31aad173f8203463ec23_4d192f6d-94f9-41ed-8dba-20876c2c191e.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10500,
+    "published_at": "2026-10-20T20:32:01+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-04T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317468598459",
     "handle": "kaganazuna-ani8th-postcard",
     "title_jp": "花芽なずな 8周年記念2026 直筆サイン入りポストカード抽選応募ページ",
