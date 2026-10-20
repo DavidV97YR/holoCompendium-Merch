@@ -209,8 +209,8 @@
     "min_price": 1980,
     "max_price": 1980,
     "published_at": "2026-10-14T18:00:05+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-19T09:30:51.643Z"
+    "is_available": true,
+    "delisted_at": null
   },
   {
     "product_id": "15422589305052",
@@ -241,8 +241,8 @@
     "min_price": 1980,
     "max_price": 1980,
     "published_at": "2026-10-14T18:00:04+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-19T09:30:51.643Z"
+    "is_available": true,
+    "delisted_at": null
   },
   {
     "product_id": "15419881816284",
