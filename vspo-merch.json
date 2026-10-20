@@ -1,5 +1,64 @@
 [
   {
+    "product_id": "10317468762299",
+    "handle": "kaganazuna-ani8th",
+    "title_jp": "花芽なずな 8周年記念2026",
+    "title_en": "Kaga Nazuna 8th Anniversary 2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-27",
+      "終了日指定あり",
+      "花芽なずな"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-27",
+      "終了日指定あり",
+      "花芽なずな"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/03_thumbnail_928a0174-9450-4828-b20e-f92269def0d8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/06_5697f46a-cc07-48a1-a46f-d3d54705cea9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/07_3ea369ec-67eb-4bd0-b2b3-193ef3a4bfe6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/07_a45a7da6-adb8-43e5-8487-5caff0a071a9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/07_c3835f2a-31cb-401a-8ccc-ae0a9f664a09.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/07_3a0f4cc9-e473-454b-b457-a7d114675366.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/kaganazuna-ani8th/07_53aefc89-55cd-4ac3-9101-c5078765f9ab.webp"
+    ],
+    "min_price": 500,
+    "max_price": 15500,
+    "published_at": "2026-10-20T22:53:12+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-04T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317468565691",
     "handle": "kagasumire-ani8th",
     "title_jp": "花芽すみれ 8周年記念2026",
