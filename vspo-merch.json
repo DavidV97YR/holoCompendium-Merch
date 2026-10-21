@@ -1,5 +1,69 @@
 [
   {
+    "product_id": "10317469057211",
+    "handle": "yumenoakari-akariday2026",
+    "title_jp": "夢野あかり あかりの日記念2026",
+    "title_en": "夢野あかり あかりの日記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-28",
+      "夢野あかり",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-10-28",
+      "夢野あかり",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "タペストリー",
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "ボイス",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/03_thumbnail_b87bac89-e40c-42c3-a139-ea37c2c9914e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/49cb7803453ce48debfeb8c79b3df901_c3320e51-d26f-4c77-9663-13eeaa503b2b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/1d1f2d749dc400e08d467c21d480d4e1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/14c90c407c8831fc0a3c4d033107cd1e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/5d9e632747e83214914ce892417eb261.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/49bb6c6c1fa8d7c6315e2c9d6b9e58d7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yumenoakari-akariday2026/5ccac7fcc9a9e86dc6da905422df8218.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 11000,
+    "published_at": "2026-10-21T21:45:16+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-05T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317468958907",
     "handle": "yumenoakari-akariday2026-postcard",
     "title_jp": "夢野あかり あかりの日記念2026 直筆サイン入りポストカード抽選応募ページ",
