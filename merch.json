@@ -1,5 +1,38 @@
 [
   {
+    "product_id": "15446208774364",
+    "handle": "hololiveofficialcardgame_christmasspecialset2026",
+    "title_jp": "hololive OFFICIAL CARD GAME クリスマススペシャルセット2026",
+    "title_en": "hololive OFFICIAL CARD GAME Christmas Special Set 2026",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_christmasspecialset2026/hololiveOFFICIALCARDGAME_Christmas_EN_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_christmasspecialset2026/hololiveOFFICIALCARDGAME_Christmas_EN_2.webp"
+    ],
+    "min_price": 8800,
+    "max_price": 8800,
+    "published_at": "2026-10-22T18:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15435128733916",
     "handle": "gigimurin_birthday_2026",
     "title_jp": "ジジ・ムリン 誕生日記念2026",
