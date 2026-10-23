@@ -1,5 +1,70 @@
 [
   {
+    "product_id": "9281670054108",
+    "handle": "hololiveseasonaldays_autumnstreet",
+    "title_jp": "hololive Seasonal Days オータムストリート",
+    "title_en": "hololive Seasonal Days Autumn Street",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Generation_ReGLOSS",
+      "Generation_ホロライブ2期生",
+      "Generation_ホロライブ5期生",
+      "Generation_秘密結社holoX",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "hololive_seasonaldays",
+      "Recommended_MERCH",
+      "Talent_大空スバル",
+      "Talent_尾丸ポルカ",
+      "Talent_水宮枢",
+      "Talent_轟はじめ",
+      "Talent_鷹嶺ルイ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Generation_ReGLOSS",
+      "Generation_ホロライブ2期生",
+      "Generation_ホロライブ5期生",
+      "Generation_秘密結社holoX",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "hololive_seasonaldays",
+      "Recommended_MERCH",
+      "Talent_大空スバル",
+      "Talent_尾丸ポルカ",
+      "Talent_水宮枢",
+      "Talent_轟はじめ",
+      "Talent_鷹嶺ルイ"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "シーズナル企画グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveseasonaldays_autumnstreet/holo_autumnstreet_banner_EN_261005_14.webp"
+    ],
+    "min_price": 400,
+    "max_price": 8800,
+    "published_at": "2026-10-23T18:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15446208774364",
     "handle": "hololiveofficialcardgame_christmasspecialset2026",
     "title_jp": "hololive OFFICIAL CARD GAME クリスマススペシャルセット2026",
