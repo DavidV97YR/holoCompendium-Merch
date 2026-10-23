@@ -1,5 +1,123 @@
 [
   {
+    "product_id": "15446131310812",
+    "handle": "hololive_audiodrama_traveltoindonesia",
+    "title_jp": "ホロライブ Travel to Indonesia ボイスドラマ",
+    "title_en": "hololive Audio Drama: Travel to Indonesia",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア1期生",
+      "Generation_ホロライブインドネシア2期生",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_デジタルコンテンツ",
+      "Talent_こぼ・かなえる",
+      "Talent_アイラニ・イオフィフティーン",
+      "Talent_アユンダ・リス",
+      "Talent_アーニャ・メルフィッサ",
+      "Talent_カエラ・コヴァルスキア",
+      "Talent_クレイジー・オリー",
+      "Talent_パヴォリア・レイネ",
+      "Talent_ベスティア・ゼータ",
+      "Talent_ムーナ・ホシノヴァ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア1期生",
+      "Generation_ホロライブインドネシア2期生",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_デジタルコンテンツ",
+      "Talent_こぼ・かなえる",
+      "Talent_アイラニ・イオフィフティーン",
+      "Talent_アユンダ・リス",
+      "Talent_アーニャ・メルフィッサ",
+      "Talent_カエラ・コヴァルスキア",
+      "Talent_クレイジー・オリー",
+      "Talent_パヴォリア・レイネ",
+      "Talent_ベスティア・ゼータ",
+      "Talent_ムーナ・ホシノヴァ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_audiodrama_traveltoindonesia/261023_Travel_to_Indonesia_EN_02.webp"
+    ],
+    "min_price": 1500,
+    "max_price": 4500,
+    "published_at": "2026-10-23T20:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15441002660060",
+    "handle": "compasshorizon",
+    "title_jp": "Compass Horizon",
+    "title_en": "Compass Horizon",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア1期生",
+      "Generation_ホロライブインドネシア2期生",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_こぼ・かなえる",
+      "Talent_アイラニ・イオフィフティーン",
+      "Talent_アユンダ・リス",
+      "Talent_アーニャ・メルフィッサ",
+      "Talent_カエラ・コヴァルスキア",
+      "Talent_クレイジー・オリー",
+      "Talent_パヴォリア・レイネ",
+      "Talent_ベスティア・ゼータ",
+      "Talent_ムーナ・ホシノヴァ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア1期生",
+      "Generation_ホロライブインドネシア2期生",
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_こぼ・かなえる",
+      "Talent_アイラニ・イオフィフティーン",
+      "Talent_アユンダ・リス",
+      "Talent_アーニャ・メルフィッサ",
+      "Talent_カエラ・コヴァルスキア",
+      "Talent_クレイジー・オリー",
+      "Talent_パヴォリア・レイネ",
+      "Talent_ベスティア・ゼータ",
+      "Talent_ムーナ・ホシノヴァ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/compasshorizon/holo_Compass_Horizon_banner_EN_261019_7.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 4950,
+    "published_at": "2026-10-23T20:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "9281670054108",
     "handle": "hololiveseasonaldays_autumnstreet",
     "title_jp": "hololive Seasonal Days オータムストリート",
