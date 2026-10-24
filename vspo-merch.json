@@ -700,7 +700,7 @@
     "min_price": 500,
     "max_price": 15000,
     "published_at": "2026-10-10T19:49:52+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "sale_start": null,
     "sale_end": "2026-10-25T00:00:00+09:00",
