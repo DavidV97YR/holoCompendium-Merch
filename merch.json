@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15417138479324",
+    "handle": "azki_memberexclusive_2026",
+    "title_jp": "AZKi メンバー限定グッズ2026",
+    "title_en": "AZKi Member-Exclusive Merch 2026",
+    "tags_jp": [
+      "__yt_checkout",
+      "_ng_with_normal_group:AZKiMS1024",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "__yt_checkout",
+      "_ng_with_normal_group:AZKiMS1024",
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ステーショナリー",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_memberexclusive_2026/holo_AZKi_members_only_banner_EN_261020_ol_7.webp"
+    ],
+    "min_price": 1540,
+    "max_price": 4290,
+    "published_at": "2026-10-24T20:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15446131310812",
     "handle": "hololive_audiodrama_traveltoindonesia",
     "title_jp": "ホロライブ Travel to Indonesia ボイスドラマ",
