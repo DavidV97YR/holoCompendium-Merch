@@ -1,5 +1,64 @@
 [
   {
+    "product_id": "10317469614267",
+    "handle": "tsumugikokage-birthday2026",
+    "title_jp": "紡木こかげ 誕生日記念2026",
+    "title_en": "Tsumugi Kokage Birthday Merch2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-02",
+      "紡木こかげ",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-02",
+      "紡木こかげ",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/Header_1_1_d4ab824f-d974-451e-b95b-1d2e2f55a24d.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/49cb7803453ce48debfeb8c79b3df901_bb76d55d-f63e-4f09-b851-9b7cbcfedc7e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/bebd86e3facefe70822a12f29e651319_b4a03f30-b58f-473f-8ee2-b9919b9efd58.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/952b42b931f20b6bb99bfd79fc3e4d73_1ade779b-804b-4d3c-a216-a779c6a127cd.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/ec4e741176c4af63a3c030e49cc05bf7_f015b6ad-2331-442e-a4db-122318632a48.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/27188afed903b0c9f826abd15008cb97_84e914a6-e005-4f66-ac8d-8fdbcf7b761e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tsumugikokage-birthday2026/2_b7fe6cf4-e673-471d-819f-c53492c9bf29.webp"
+    ],
+    "min_price": 500,
+    "max_price": 11500,
+    "published_at": "2026-10-26T18:36:54+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-10T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317469057211",
     "handle": "yumenoakari-akariday2026",
     "title_jp": "夢野あかり あかりの日記念2026",
