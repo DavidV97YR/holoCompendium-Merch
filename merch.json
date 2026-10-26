@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "15451531837660",
+    "handle": "omarupolka_anniversary_6th_circusdaycommemoration",
+    "title_jp": "尾丸ポルカ 活動6周年＆サーカスの日記念",
+    "title_en": "Omaru Polka 6th Anniversary & Circus Day Commemoration",
+    "tags_jp": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_尾丸ポルカ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_尾丸ポルカ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/omarupolka_anniversary_6th_circusdaycommemoration/holo_banner_Omaru_Polka_6th_EN_261019_8.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 21450,
+    "published_at": "2026-10-26T22:54:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15435470405852",
     "handle": "hololounge_vol1",
     "title_jp": "holoLounge vol.1 ガラスマウスパッド / 折りたたみコンテナ",
