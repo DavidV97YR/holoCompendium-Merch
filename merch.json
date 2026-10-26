@@ -1,5 +1,196 @@
 [
   {
+    "product_id": "15435470405852",
+    "handle": "hololounge_vol1",
+    "title_jp": "holoLounge vol.1 ガラスマウスパッド / 折りたたみコンテナ",
+    "title_en": "holoLounge vol.1 Glass Mousepad / Foldable Container",
+    "tags_jp": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "categories": [
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1/holo_holoLounge_vol.1_banner_EN_261014_ol_2_0557943e-ea40-49d1-b77e-80440240923c.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1/holo_holoLounge_vol.1_banner_EN_261022_ol_6.webp"
+    ],
+    "min_price": 5500,
+    "max_price": 22000,
+    "published_at": "2026-10-26T18:45:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15437428850908",
+    "handle": "hololounge_vol1_gamingchair_kazamairoha",
+    "title_jp": "holoLounge vol.1 ゲーミングチェア 風真いろは",
+    "title_en": "holoLounge vol.1 Gaming Chair Kazama Iroha",
+    "tags_jp": [
+      "_ng_with_normal_group:KazamaIroha_GC1026",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:KazamaIroha_GC1026",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "受注生産商品"
+    ],
+    "categories": [
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1_gamingchair_kazamairoha/holo_holoLounge_vol.1_banner_EN_261022_ol_4.webp"
+    ],
+    "min_price": 72600,
+    "max_price": 72600,
+    "published_at": "2026-10-26T18:45:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15437473644764",
+    "handle": "hololounge_vol1_chairmat_kazamairoha",
+    "title_jp": "holoLounge vol.1 チェアマット 風真いろは",
+    "title_en": "holoLounge vol.1 Chair Mat Kazama Iroha",
+    "tags_jp": [
+      "_ng_with_normal_group:KazamaIrohaCM1026",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:KazamaIrohaCM1026",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_風真いろは",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "categories": [
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1_chairmat_kazamairoha/holo_holoLounge_vol.1_banner_EN_261014_ol_5.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-10-26T18:45:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15437353812188",
+    "handle": "hololounge_vol1_gamingchair_la-darknesss",
+    "title_jp": "holoLounge vol.1 ゲーミングチェア ラプラス・ダークネス",
+    "title_en": "holoLounge vol.1 Gaming Chair La+ Darknesss",
+    "tags_jp": [
+      "_ng_with_normal_group:LaplusDarknesss_GC1026",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:LaplusDarknesss_GC1026",
+      "Generation_秘密結社holoX",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "受注生産商品"
+    ],
+    "categories": [
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1_gamingchair_la-darknesss/holo_holoLounge_vol.1_banner_EN_261022_ol_3.webp"
+    ],
+    "min_price": 72600,
+    "max_price": 72600,
+    "published_at": "2026-10-26T18:45:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15437460340956",
+    "handle": "hololounge_vol1_chairmat_la-darknesss",
+    "title_jp": "holoLounge vol.1 チェアマット ラプラス・ダークネス",
+    "title_en": "holoLounge vol.1 Chair Mat La+ Darknesss",
+    "tags_jp": [
+      "_ng_with_normal_group:LaplusDarknesss_CM1026",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:LaplusDarknesss_CM1026",
+      "Group_ホロライブ",
+      "holoLounge",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "categories": [
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololounge_vol1_chairmat_la-darknesss/holo_holoLounge_vol.1_banner_EN_261014_ol_5.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-10-26T18:45:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15440347103452",
     "handle": "hololive_lovelyokaburimascot_vol5",
     "title_jp": "Lovely Okaburi Mascot Series vol.5",
