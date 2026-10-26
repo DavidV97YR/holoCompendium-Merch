@@ -1,5 +1,68 @@
 [
   {
+    "product_id": "15440347103452",
+    "handle": "hololive_lovelyokaburimascot_vol5",
+    "title_jp": "Lovely Okaburi Mascot Series vol.5",
+    "title_en": "Lovely Okaburi Mascot Series vol.5",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ4期生",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "LovelyOkaburi",
+      "Recommended_MERCH",
+      "Talent_星街すいせい",
+      "Talent_桃鈴ねね",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ4期生",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "LovelyOkaburi",
+      "Recommended_MERCH",
+      "Talent_星街すいせい",
+      "Talent_桃鈴ねね",
+      "Talent_角巻わため",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_14.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_15.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_16.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_lovelyokaburimascot_vol5/holo_OkaburiMascot_vol5_banner_EN_261006_ol_17.webp"
+    ],
+    "min_price": 550,
+    "max_price": 9900,
+    "published_at": "2026-10-26T18:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15417138479324",
     "handle": "azki_memberexclusive_2026",
     "title_jp": "AZKi メンバー限定グッズ2026",
@@ -1282,7 +1345,7 @@
     "min_price": 3000,
     "max_price": 7500,
     "published_at": "2026-10-07T16:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -1984,7 +2047,7 @@
     "min_price": 2310,
     "max_price": 3300,
     "published_at": "2026-09-28T21:00:02+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -2034,7 +2097,7 @@
     "min_price": 500,
     "max_price": 10200,
     "published_at": "2026-09-28T21:00:01+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
