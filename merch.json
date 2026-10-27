@@ -1,5 +1,75 @@
 [
   {
+    "product_id": "15456237813980",
+    "handle": "hololive_holokatsu_forbusiness_vol2",
+    "title_jp": "ホロ活 for Business vol.2",
+    "title_en": "holoKatsu for Business vol.2",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "holokatsu",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "Talent_輪堂千速",
+      "Talent_雪花ラミィ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Generation_ホロライブ0期生",
+      "Generation_ホロライブ5期生",
+      "Group_hololiveDEV_IS",
+      "Group_ホロライブ",
+      "holokatsu",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "Talent_輪堂千速",
+      "Talent_雪花ラミィ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "ホロ活"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_12.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_14.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_15.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_16.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_17.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_18.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_19.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_20.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_21.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_22.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_23.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololive_holokatsu_forbusiness_vol2/holo_holo_Business_banner_EC_261027_24.webp"
+    ],
+    "min_price": 1980,
+    "max_price": 18480,
+    "published_at": "2026-10-27T18:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15451531837660",
     "handle": "omarupolka_anniversary_6th_circusdaycommemoration",
     "title_jp": "尾丸ポルカ 活動6周年＆サーカスの日記念",
