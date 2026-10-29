@@ -899,10 +899,17 @@ function loadExistingMerch() {
 // stopped there), so only an empty page ends the list. The two languages'
 // pages fall short differently, so a product's English listing can be on
 // another page number: every page of both is read before they are joined.
+//
+// The Japanese list (JPY) has left out overseas-only products since then (the
+// English Edition card game, the US Edition); the English one, read without
+// currency=JPY, still has them, priced in dollars. Those are added from it,
+// at the yen-per-dollar the shop's own prices show: the median over every
+// product in both lists.
 async function fetchAllShopifyProducts() {
   const products = [];
   const jpAll = [];
   const enByHandle = {};
+  const enAll = [];
 
   for (let page = 1; page <= 60; page++) {
     log(`Fetching page ${page}…`);
@@ -919,9 +926,11 @@ async function fetchAllShopifyProducts() {
 
     for (const p of (dataEn.products || [])) {
       enByHandle[p.handle] = {
-        title: p.title,
-        tags:  p.tags || [],
+        title:  p.title,
+        tags:   p.tags || [],
+        prices: (p.variants || []).map(v => parseFloat(v.price)).filter(n => n > 0),
       };
+      enAll.push(p);
     }
     jpAll.push(...(dataJp.products || []));
     log(`  → ${jpAll.length} products fetched so far`);
@@ -930,9 +939,22 @@ async function fetchAllShopifyProducts() {
     await sleep(300);
   }
 
+  const jpHandles = new Set(jpAll.map(p => p.handle));
+  const rates = [];
   for (const p of jpAll) {
+    const usd = enByHandle[p.handle]?.prices[0], jpy = parseFloat(p.variants?.[0]?.price);
+    if (usd > 0 && jpy > 0) rates.push(jpy / usd);
+  }
+  rates.sort((a, b) => a - b);
+  const yenPerDollar = rates.length ? rates[rates.length >> 1] : 150;
+  const overseas = enAll.filter((p, i, a) => !jpHandles.has(p.handle) && a.findIndex(q => q.handle === p.handle) === i);
+  if (overseas.length) log(`  + ${overseas.length} overseas-only from the English list (¥${yenPerDollar.toFixed(1)} per $)`);
+
+  for (const p of [...jpAll, ...overseas]) {
+    const isOverseas = !jpHandles.has(p.handle);
     const en     = enByHandle[p.handle] || {};
-    const prices = (p.variants || []).map(v => parseFloat(v.price)).filter(n => n > 0);
+    const prices = (p.variants || []).map(v => parseFloat(v.price)).filter(n => n > 0)
+                     .map(n => isOverseas ? Math.round(n * yenPerDollar) : n);
 
     products.push({
       product_id:   String(p.id),
@@ -1285,11 +1307,19 @@ async function main() {
     return;
   }
 
+  // A product the shop listed over 30 days ago and the archive only now finds
+  // (an overseas-only one the Japanese list hid, say) is archived but not
+  // announced as new. A real new product's listing is minutes old when found.
+  const announce = freshProducts.filter(p => !(Date.parse(p.published_at) < Date.now() - 30 * 864e5));
+  if (announce.length < freshProducts.length) {
+    log(`Not emailed, listed over 30 days ago: ${freshProducts.filter(p => !announce.includes(p)).map(p => p.title_en).join(', ')}`);
+  }
+
   // After the commit, so an email never announces something that failed to
   // persist. Wrapped because a mail outage must not fail an otherwise good run —
   // the data is already saved by this point.
   try {
-    await sendNewProductEmail(freshProducts, log);
+    await sendNewProductEmail(announce, log);
   } catch (err) {
     log(`⚠ New-product email failed (data is safe): ${err.message}`);
   }
@@ -1297,7 +1327,7 @@ async function main() {
   // The public signup list, if one is configured. Caught separately so a
   // broadcast failure never costs you the direct email above.
   try {
-    await sendBroadcast(freshProducts, log);
+    await sendBroadcast(announce, log);
   } catch (err) {
     log(`⚠ Subscriber broadcast failed (data is safe): ${err.message}`);
   }
