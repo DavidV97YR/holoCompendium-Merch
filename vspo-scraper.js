@@ -171,15 +171,16 @@ const tidy = s => String(s || '').replace(/[\s　]+/g, ' ').trim();
 
 // ─── Shop ────────────────────────────────────────────────────────────────────
 
+// A page can come back short of 250 with more after it (hololive's shop, also
+// Shopify, began doing so on 2026-10-29), so only an empty page ends a list.
 async function fetchAllProducts() {
   const out = [];
-  for (let page = 1; ; page++) {
+  for (let page = 1; page <= 60; page++) {
     const res  = await fetchWithRetry(`${BASE}/products.json?limit=250&page=${page}`);
     const list = (await res.json()).products || [];
     if (!list.length) break;
     out.push(...list);
     log(`  page ${page}: ${list.length} products (${out.length} so far)`);
-    if (list.length < 250) break;
     await sleep(500);
   }
   return out;
@@ -291,11 +292,11 @@ function seriesName(title) {
 
 async function fetchCollections(talentTags) {
   const list = [];
-  for (let page = 1; ; page++) {
+  for (let page = 1; page <= 20; page++) {
     const res  = await fetchWithRetry(`${BASE}/collections.json?limit=250&page=${page}`);
     const cols = (await res.json()).collections || [];
+    if (!cols.length) break;
     list.push(...cols);
-    if (cols.length < 250) break;
   }
   const byProduct = new Map();
   const seenSets  = new Set();   // two collections with the same products are one series
@@ -310,11 +311,12 @@ async function fetchCollections(talentTags) {
     if (talentPage) byProduct.talents.add(name);
     if (!isSeries && !WANTED.has(c.handle)) continue;
     const ids = [];
-    for (let page = 1; ; page++) {
+    // Done at an empty page, or once it has as many as the collection counts.
+    for (let page = 1; page <= 60; page++) {
       const res   = await fetchWithRetry(`${BASE}/collections/${encodeURIComponent(c.handle)}/products.json?limit=250&page=${page}`);
       const prods = (await res.json()).products || [];
       ids.push(...prods.map(p => String(p.id)));
-      if (prods.length < 250) break;
+      if (!prods.length || ids.length >= c.products_count) break;
     }
     await sleep(300);
     const key    = ids.slice().sort().join(',');

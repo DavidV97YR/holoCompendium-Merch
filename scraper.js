@@ -894,11 +894,17 @@ function loadExistingMerch() {
 // JP endpoint: JPY prices + JP titles/tags + JP image URLs (used as Langify keys)
 // EN endpoint: EN titles/tags only (EN images come from Langify, not Shopify)
 
+// A page can come back short of 250 with more pages after it (since
+// 2026-10-29 the first has held 241 of a 2,500-product shop, and every run
+// stopped there), so only an empty page ends the list. The two languages'
+// pages fall short differently, so a product's English listing can be on
+// another page number: every page of both is read before they are joined.
 async function fetchAllShopifyProducts() {
   const products = [];
-  let page = 1;
+  const jpAll = [];
+  const enByHandle = {};
 
-  while (true) {
+  for (let page = 1; page <= 60; page++) {
     log(`Fetching page ${page}…`);
 
     // Each read as it arrives. Reading both after both had come back failed
@@ -911,49 +917,72 @@ async function fetchAllShopifyProducts() {
       json(`${BASE_EN}/products.json?limit=250&page=${page}`),
     ]);
 
-    if (!dataJp.products?.length) break;
-
-    const enByHandle = {};
     for (const p of (dataEn.products || [])) {
       enByHandle[p.handle] = {
         title: p.title,
         tags:  p.tags || [],
       };
     }
+    jpAll.push(...(dataJp.products || []));
+    log(`  → ${jpAll.length} products fetched so far`);
 
-    for (const p of dataJp.products) {
-      const en     = enByHandle[p.handle] || {};
-      const prices = (p.variants || []).map(v => parseFloat(v.price)).filter(n => n > 0);
-
-      products.push({
-        product_id:   String(p.id),
-        handle:       p.handle,
-        title_jp:     p.title,
-        title_en:     en.title || p.title,
-        tags_jp:      p.tags   || [],
-        tags_en:      en.tags  || [],
-        // jp_images: used as Langify lookup keys only — not persisted to merch.json
-        jp_images:    (p.images || []).map(i => i.src),
-        // src → [width, height], used to confirm a guessed EN file is the same
-        // artwork and not just a name that happens to exist.
-        jp_sizes:     Object.fromEntries((p.images || []).map(i => [i.src, [i.width, i.height]])),
-        // src → Shopify media id. The EN product page tags each gallery slide
-        // with the same id, which is what makes the mapping exact.
-        jp_media_ids: Object.fromEntries((p.images || []).map(i => [i.src, String(i.id)])),
-        min_price:    prices.length ? Math.min(...prices) : 0,
-        max_price:    prices.length ? Math.max(...prices) : 0,
-        published_at: p.published_at || '',
-        available:    (p.variants || []).some(v => v.available),
-      });
-    }
-
-    log(`  → ${products.length} products fetched so far`);
-    if (dataJp.products.length < 250) break;
-    page++;
+    if (!dataJp.products?.length && !dataEn.products?.length) break;
     await sleep(300);
   }
 
+  for (const p of jpAll) {
+    const en     = enByHandle[p.handle] || {};
+    const prices = (p.variants || []).map(v => parseFloat(v.price)).filter(n => n > 0);
+
+    products.push({
+      product_id:   String(p.id),
+      handle:       p.handle,
+      title_jp:     p.title,
+      title_en:     en.title || p.title,
+      tags_jp:      p.tags   || [],
+      tags_en:      en.tags  || [],
+      // jp_images: used as Langify lookup keys only — not persisted to merch.json
+      jp_images:    (p.images || []).map(i => i.src),
+      // src → [width, height], used to confirm a guessed EN file is the same
+      // artwork and not just a name that happens to exist.
+      jp_sizes:     Object.fromEntries((p.images || []).map(i => [i.src, [i.width, i.height]])),
+      // src → Shopify media id. The EN product page tags each gallery slide
+      // with the same id, which is what makes the mapping exact.
+      jp_media_ids: Object.fromEntries((p.images || []).map(i => [i.src, String(i.id)])),
+      min_price:    prices.length ? Math.min(...prices) : 0,
+      max_price:    prices.length ? Math.max(...prices) : 0,
+      published_at: p.published_at || '',
+      available:    (p.variants || []).some(v => v.available),
+    });
+  }
+
   return products;
+}
+
+// Listed products the shop's list leaves out, checked one by one on their own
+// page. Since 2026-10-29 the overseas-only ones (the English Edition card
+// game, the US Edition) are missing from the Japanese list, and leave its
+// pages short, yet are still on sale from their pages: they stay listed, with
+// the page's stock. A page that is gone (404, or another product's now)
+// leaves the product to be delisted as before; one that can't be read this
+// run leaves it as it was. Returns product_id → available, or null if unread.
+async function checkUnlistedProducts(archived) {
+  const found = new Map();
+  if (archived.length) log(`Checking ${archived.length} listed products missing from the shop's list…`);
+  for (const a of archived) {
+    let data = null;
+    try {
+      data = await fetchWithRetry(`${BASE_JP}/products/${encodeURIComponent(a.handle)}.js`).then(r => r.json());
+    } catch (err) {
+      if (/^HTTP 404 /.test(err.message)) continue;
+      found.set(a.product_id, null);
+      continue;
+    }
+    if (String(data.id) === a.product_id) found.set(a.product_id, !!data.available);
+    await sleep(300);
+  }
+  if (archived.length) log(`  → ${found.size} still on their own page`);
+  return found;
 }
 
 // ─── Git commit + R2 upload for merch.json ───────────────────────────────────
@@ -1069,6 +1098,8 @@ async function main() {
 
   const currentIds = new Set(shopifyProducts.map(p => p.product_id));
   const shopifyMap = new Map(shopifyProducts.map(p => [p.product_id, p]));
+  const unlisted   = await checkUnlistedProducts(
+    existing.filter(a => !a.delisted_at && !currentIds.has(a.product_id)));
 
   let newCount     = 0;
   let updatedCount = 0;
@@ -1168,6 +1199,15 @@ async function main() {
   // 5. Sync availability for existing products (always runs)
   for (const archived of existing) {
     if (!currentIds.has(archived.product_id)) {
+      if (unlisted.has(archived.product_id)) {
+        const available = unlisted.get(archived.product_id);
+        if (available !== null && archived.is_available !== available) {
+          archived.is_available = available;
+          log(`Availability: ${archived.title_en} → ${available ? 'Available' : 'Sold Out'}`);
+          updatedCount++;
+        }
+        continue;
+      }
       if (!archived.delisted_at) {
         archived.delisted_at  = new Date().toISOString();
         archived.is_available = false;
