@@ -1181,7 +1181,7 @@
     "max_price": 1485,
     "published_at": "2026-09-28T19:00:13+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-10-29T05:00:59.102Z",
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1224,7 +1224,7 @@
     "max_price": 1320,
     "published_at": "2026-09-28T19:00:12+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-10-29T05:00:59.102Z",
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1267,7 +1267,7 @@
     "max_price": 990,
     "published_at": "2026-09-28T19:00:10+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-10-29T05:00:59.102Z",
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1310,7 +1310,7 @@
     "max_price": 990,
     "published_at": "2026-09-28T19:00:08+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-10-29T05:00:59.102Z",
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1361,7 +1361,7 @@
     "max_price": 5700,
     "published_at": "2026-09-28T19:00:03+09:00",
     "is_available": false,
-    "delisted_at": null,
+    "delisted_at": "2026-10-29T05:00:59.102Z",
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
