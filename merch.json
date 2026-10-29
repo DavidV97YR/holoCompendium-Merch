@@ -1,5 +1,135 @@
 [
   {
+    "product_id": "15463401881820",
+    "handle": "sakuramiko_2ndlive_bloomingparade_secondaryorder",
+    "title_jp": "【2次販売】さくらみこ 2nd Live “Blooming Parade!!”ライブグッズ",
+    "title_en": "[Secondary order] Sakura Miko 2nd Live “Blooming Parade!!” Concert Merch",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "タペストリー",
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_secondary_top_01_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_bag_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_nobori_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_01_EN_260731.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_02_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_03_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_04_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_05_EN_260731.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_06_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_07_EN_260731.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_08_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_09_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_10_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_tp_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_2ndlive_bloomingparade_secondaryorder/261029_miko2nd_EC_banner_as_EN.webp"
+    ],
+    "min_price": 500,
+    "max_price": 12000,
+    "published_at": "2026-10-29T21:25:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15458557264092",
+    "handle": "sakuramiko_lp_flowerrhapsody",
+    "title_jp": "さくらみこ LP『flower rhapsody』",
+    "title_en": "Sakura Miko LP \"flower rhapsody\"",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_lp_flowerrhapsody/20261029_Sakuramiko_1st_LP_SQ01_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_lp_flowerrhapsody/20261029_Sakuramiko_1st_LP_SQ02_EN.webp"
+    ],
+    "min_price": 7700,
+    "max_price": 7700,
+    "published_at": "2026-10-29T21:25:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15458422948060",
+    "handle": "sakuramiko_anniversary_8th",
+    "title_jp": "さくらみこ 活動8周年記念",
+    "title_en": "Sakura Miko 8th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_さくらみこ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "フィギュア",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/sakuramiko_anniversary_8th/holo_Sakura_Miko_8th_banner_EN_1022_8.webp"
+    ],
+    "min_price": 2750,
+    "max_price": 14630,
+    "published_at": "2026-10-29T21:25:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15456237813980",
     "handle": "hololive_holokatsu_forbusiness_vol2",
     "title_jp": "ホロ活 for Business vol.2",
