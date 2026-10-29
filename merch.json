@@ -22114,7 +22114,7 @@
     "min_price": 11000,
     "max_price": 11000,
     "published_at": "2026-02-16T18:30:06+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "アパレル・アパレル小物"
