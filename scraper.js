@@ -28,6 +28,7 @@ const BASE_JP    = 'https://shop.hololivepro.com';
 const BASE_EN    = 'https://shop.hololivepro.com/en';
 const MERCH_FILE = 'merch.json';
 const LATEST_FILE = 'latest.json';   // Home's newest 40 (see latestJson)
+const TAGS_FILE   = 'tags.json';     // talent pages' merch counts (see tagsJson)
 const IMAGES_DIR = 'Products';
 
 // Langify publishes a product's EN artwork hours — sometimes days — after the
@@ -1038,6 +1039,34 @@ async function uploadLatest(content) {
   }
 }
 
+// A talent page's Merch tab shows how many of the talent's products are still
+// listed before the tab is opened, and downloaded the whole archive (6 MB to
+// read) for that number alone. tags.json is what the site counts by: each
+// listed product's tags, Japanese and English together, as its matchTalents
+// reads them ({ tags: [[...], ...] }, ~25 KB compressed). The site still
+// downloads the archive once the tab is opened. A failed upload only warns:
+// the page falls back to the archive.
+function tagsJson(archive) {
+  return JSON.stringify({
+    tags: archive.filter(p => !p.delisted_at)
+      .map(p => [...new Set([...(p.tags_jp || []), ...(p.tags_en || [])])]),
+  });
+}
+
+async function uploadTags(content) {
+  try {
+    await r2.send(new PutObjectCommand({
+      Bucket:      R2_BUCKET,
+      Key:         TAGS_FILE,
+      Body:        tagsJson(JSON.parse(content)),
+      ContentType: 'application/json',
+    }));
+    log(`Uploaded tags.json → ${R2_PUBLIC_URL}/${TAGS_FILE}`);
+  } catch (e) {
+    log(`⚠ upload of tags.json failed (talent pages fall back to the full archive): ${e.message}`);
+  }
+}
+
 async function uploadMerchToR2() {
   const content = fs.readFileSync(path.join(process.cwd(), MERCH_FILE));
   await r2.send(new PutObjectCommand({
@@ -1048,6 +1077,7 @@ async function uploadMerchToR2() {
   }));
   log(`Uploaded merch.json to R2 → ${R2_PUBLIC_URL}/${MERCH_FILE}`);
   await uploadLatest(content);
+  await uploadTags(content);
 }
 
 async function commitChanges(newCount, updatedCount) {
