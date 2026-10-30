@@ -1,5 +1,50 @@
 [
   {
+    "product_id": "15463446085852",
+    "handle": "asobimawari-tai_gurugroove_01",
+    "title_jp": "アソビ★まわり隊！のGURU★GROOVE 01",
+    "title_en": "ASOBI★MAWARI-TAI!'s GURU★GROOVE 01",
+    "tags_jp": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "tags_en": [
+      "asobimawari-tai",
+      "Generation_アソビまわり隊",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_01/holo_GURU_GROOVE_01_banner_EN_261021_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_01/holo_GURU_GROOVE_01_banner_EN_261021_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_01/holo_GURU_GROOVE_01_banner_EN_261021_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_01/holo_GURU_GROOVE_01_banner_EN_261021_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_01/holo_GURU_GROOVE_01_banner_EN_261021_ol_6.webp"
+    ],
+    "min_price": 660,
+    "max_price": 1760,
+    "published_at": "2026-10-30T19:30:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15466327965916",
     "handle": "yuzukichoco_artselection",
     "title_jp": "-Art Selection- 癒月ちょこ",
