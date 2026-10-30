@@ -1139,10 +1139,8 @@
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
       "八雲べに",
       "空澄セナ",
-      "終了日指定あり",
       "花芽すみれ",
       "藍沢エマ"
     ],
@@ -1150,10 +1148,8 @@
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
       "八雲べに",
       "空澄セナ",
-      "終了日指定あり",
       "花芽すみれ",
       "藍沢エマ"
     ],
@@ -1170,8 +1166,8 @@
     "min_price": 1485,
     "max_price": 1485,
     "published_at": "2026-09-28T19:00:13+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-29T05:00:59.102Z",
+    "is_available": true,
+    "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1188,16 +1184,12 @@
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "終了日指定あり",
       "胡桃のあ"
     ],
     "tags_en": [
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "終了日指定あり",
       "胡桃のあ"
     ],
     "categories": [
@@ -1213,8 +1205,8 @@
     "min_price": 1320,
     "max_price": 1320,
     "published_at": "2026-09-28T19:00:12+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-29T05:00:59.102Z",
+    "is_available": true,
+    "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1231,16 +1223,12 @@
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "終了日指定あり",
       "蝶屋はなび"
     ],
     "tags_en": [
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "終了日指定あり",
       "蝶屋はなび"
     ],
     "categories": [
@@ -1256,8 +1244,8 @@
     "min_price": 990,
     "max_price": 990,
     "published_at": "2026-09-28T19:00:10+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-29T05:00:59.102Z",
+    "is_available": true,
+    "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1274,17 +1262,13 @@
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "如月れん",
-      "終了日指定あり"
+      "如月れん"
     ],
     "tags_en": [
       "TYPE_その他",
       "TYPE_グッズ",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
-      "如月れん",
-      "終了日指定あり"
+      "如月れん"
     ],
     "categories": [
       "カードゲーム・サプライ"
@@ -1299,8 +1283,8 @@
     "min_price": 990,
     "max_price": 990,
     "published_at": "2026-09-28T19:00:08+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-29T05:00:59.102Z",
+    "is_available": true,
+    "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
@@ -1318,9 +1302,7 @@
       "TYPE_グッズ",
       "VSPO! EN",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
       "神成きゅぴ",
-      "終了日指定あり",
       "胡桃のあ",
       "花芽すみれ",
       "黒刃アリヤ"
@@ -1330,9 +1312,7 @@
       "TYPE_グッズ",
       "VSPO! EN",
       "Xross Stars",
-      "コンビニ決済終了日:2026-10-06",
       "神成きゅぴ",
-      "終了日指定あり",
       "胡桃のあ",
       "花芽すみれ",
       "黒刃アリヤ"
@@ -1350,8 +1330,8 @@
     "min_price": 5700,
     "max_price": 5700,
     "published_at": "2026-09-28T19:00:03+09:00",
-    "is_available": false,
-    "delisted_at": "2026-10-29T05:00:59.102Z",
+    "is_available": true,
+    "delisted_at": null,
     "sale_start": "2026-09-30T19:00:00+09:00",
     "sale_end": "2026-10-14T00:00:00+09:00",
     "shop_files": [
