@@ -1,5 +1,45 @@
 [
   {
+    "product_id": "15466327965916",
+    "handle": "yuzukichoco_artselection",
+    "title_jp": "-Art Selection- 癒月ちょこ",
+    "title_en": "-Art Selection- Yuzuki Choco",
+    "tags_jp": [
+      "artselection",
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_癒月ちょこ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "artselection",
+      "Generation_ホロライブ2期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_癒月ちょこ",
+      "予約販売"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yuzukichoco_artselection/holo_Artselection_banner_YuzukiChoco_EN_261019_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yuzukichoco_artselection/holo_Artselection_banner_YuzukiChoco_EN_261019_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yuzukichoco_artselection/holo_Artselection_banner_YuzukiChoco_EN_261019_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/yuzukichoco_artselection/holo_Artselection_banner_YuzukiChoco_EN_261019_ol_5.webp"
+    ],
+    "min_price": 550,
+    "max_price": 5500,
+    "published_at": "2026-10-30T18:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15463401881820",
     "handle": "sakuramiko_2ndlive_bloomingparade_secondaryorder",
     "title_jp": "【2次販売】さくらみこ 2nd Live “Blooming Parade!!”ライブグッズ",
