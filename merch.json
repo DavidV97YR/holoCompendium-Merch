@@ -1,5 +1,55 @@
 [
   {
+    "product_id": "15470948778204",
+    "handle": "airaniiofifteen_holoctober_2026",
+    "title_jp": "アイラニ・イオフィフティーン Holoctober 2026 グッズ",
+    "title_en": "Airani Iofifteen Holoctober 2026 Merch",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア1期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アイラニ・イオフィフティーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア1期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_アイラニ・イオフィフティーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "ボイス",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/airaniiofifteen_holoctober_2026/holo_BC_banner_Airani_Iofifteen_EN_261029_9.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 17600,
+    "published_at": "2026-10-31T23:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15457935425756",
     "handle": "holokitchen_cookingproject",
     "title_jp": "holoKitchen COOKING PROJECT",
