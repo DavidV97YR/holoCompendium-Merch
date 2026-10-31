@@ -1,5 +1,65 @@
 [
   {
+    "product_id": "15457935425756",
+    "handle": "holokitchen_cookingproject",
+    "title_jp": "holoKitchen COOKING PROJECT",
+    "title_en": "holoKitchen COOKING PROJECT",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Justice-",
+      "Generation_hololiveEnglish-Myth-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_オーロ・クロニー",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ネリッサ・レイヴンクロフト",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_森カリオペ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Justice-",
+      "Generation_hololiveEnglish-Myth-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Talent_オーロ・クロニー",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ネリッサ・レイヴンクロフト",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_森カリオペ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject/holo_banner_holoKitchen_COOKING_PROJECT_5th_EN_261022_8.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 4180,
+    "published_at": "2026-10-31T13:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15466263707868",
     "handle": "robocosan_1stalbum_jewelmemory_ponalbum",
     "title_jp": "ロボ子さん 1st Album『Jewel Memory』Ponあるばむ",
