@@ -1,5 +1,93 @@
 [
   {
+    "product_id": "15433356673211",
+    "handle": "amayuimoka-ani2nd-postcard",
+    "title_jp": "甘結もか 2周年記念2026 直筆サイン入りポストカード抽選応募ページ",
+    "title_en": "甘結もか 2周年記念2026 直筆サイン入りポストカード抽選応募ページ",
+    "tags_jp": [
+      "__yt_checkout",
+      "Excluded Product",
+      "UC8vKBjGY2HVfbW9GAmgikWw",
+      "抽選販売",
+      "直筆ポスカ抽選応募ページ"
+    ],
+    "tags_en": [
+      "__yt_checkout",
+      "Excluded Product",
+      "UC8vKBjGY2HVfbW9GAmgikWw",
+      "抽選販売",
+      "直筆ポスカ抽選応募ページ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "記念グッズ",
+      "抽選応募"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd-postcard/Header_1_1_b68b3aaa-8deb-4be3-999d-c8fa2b50264c.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd-postcard/SAMPLE_1ef0d863-03b1-4be9-95a6-4bef458823c9.webp"
+    ],
+    "min_price": 0,
+    "max_price": 0,
+    "published_at": "2026-11-02T00:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": null,
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
+    "product_id": "15433357230267",
+    "handle": "choyahanabi-ani2nd-postcard",
+    "title_jp": "蝶屋はなび 2周年記念2026 直筆サイン入りポストカード抽選応募ページ",
+    "title_en": "蝶屋はなび 2周年記念2026 直筆サイン入りポストカード抽選応募ページ",
+    "tags_jp": [
+      "__yt_checkout",
+      "Excluded Product",
+      "UCL9hJsdk9eQa0IlWbFB2oRg",
+      "抽選販売",
+      "直筆ポスカ抽選応募ページ"
+    ],
+    "tags_en": [
+      "__yt_checkout",
+      "Excluded Product",
+      "UCL9hJsdk9eQa0IlWbFB2oRg",
+      "抽選販売",
+      "直筆ポスカ抽選応募ページ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "記念グッズ",
+      "抽選応募"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd-postcard/Header_1_1_ff047752-8530-44b6-b3e2-e7724c0d47c7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd-postcard/SAMPLE_55548147-eb1e-460a-b08f-63e807043479.webp"
+    ],
+    "min_price": 0,
+    "max_price": 0,
+    "published_at": "2026-11-02T00:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": null,
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "10317469614267",
     "handle": "tsumugikokage-birthday2026",
     "title_jp": "紡木こかげ 誕生日記念2026",
