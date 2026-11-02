@@ -1,5 +1,67 @@
 [
   {
+    "product_id": "15471012184284",
+    "handle": "holostarsenglish_firstconcert_firstlight",
+    "title_jp": "HOLOSTARS English First Concert “First Light” ライブグッズ",
+    "title_en": "HOLOSTARS English First Concert “First Light” Concert Merch",
+    "tags_jp": [
+      "Generation_ARMIS",
+      "Generation_TEMPUS",
+      "Group_ホロスターズEnglish",
+      "Recommended_MERCH",
+      "Talent_アクセル・シリオス",
+      "Talent_オクタビオ",
+      "Talent_ガビス・ベッテル",
+      "Talent_クリムゾン・ルーズ",
+      "Talent_ゴールドブレット",
+      "Talent_ジュラルド・ティー・レクスフォード",
+      "Talent_マキナ・X・フレオン",
+      "Talent_リージス・アルテア",
+      "Talent_万象院ハッカ",
+      "Talent_定水寺シンリ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ARMIS",
+      "Generation_TEMPUS",
+      "Group_ホロスターズEnglish",
+      "Recommended_MERCH",
+      "Talent_アクセル・シリオス",
+      "Talent_オクタビオ",
+      "Talent_ガビス・ベッテル",
+      "Talent_クリムゾン・ルーズ",
+      "Talent_ゴールドブレット",
+      "Talent_ジュラルド・ティー・レクスフォード",
+      "Talent_マキナ・X・フレオン",
+      "Talent_リージス・アルテア",
+      "Talent_万象院ハッカ",
+      "Talent_定水寺シンリ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "アパレル・アパレル小物",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_1_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_2_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_3_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_4_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_5_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holostarsenglish_firstconcert_firstlight/261102_HOLOSTARS_English_1stConcert_Square_6_EN.webp"
+    ],
+    "min_price": 550,
+    "max_price": 2500,
+    "published_at": "2026-11-02T12:30:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15471053242588",
     "handle": "hololiveofficialcardgame_hbp07e",
     "title_jp": "hololive OFFICIAL CARD GAME English Edition Booster Pack \"Diva Fever\"",
