@@ -1,5 +1,72 @@
 [
   {
+    "product_id": "15433357590715",
+    "handle": "choyahanabi-ani2nd",
+    "title_jp": "蝶屋はなび 2周年記念2026",
+    "title_en": "蝶屋はなび 2周年記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-09",
+      "終了日指定あり",
+      "蝶屋はなび"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-09",
+      "終了日指定あり",
+      "蝶屋はなび"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "タペストリー",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/Header_1_1_5c43a3cf-2d29-4f77-8b70-3ba7ab619d69.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/49cb7803453ce48debfeb8c79b3df901_a3b9193c-3522-479e-9c5b-e4a8cd39f811.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/27188afed903b0c9f826abd15008cb97_257d8697-1cba-4b63-bce7-e83e8984e271.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/c14d3d8cbac66e0868e10a9c5b565f37.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/59d6172ac0553fe6be57fa2cb79b9dbe.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/68dfc901cc6e97a43d477d8fed5e78b7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/83e76e009d57edf5b73affdf53d85598.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/choyahanabi-ani2nd/T_de5aad50-ecaf-49cf-a039-d8b558be5aa2.webp"
+    ],
+    "min_price": 500,
+    "max_price": 12300,
+    "published_at": "2026-11-02T20:11:14+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-17T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433356673211",
     "handle": "amayuimoka-ani2nd-postcard",
     "title_jp": "甘結もか 2周年記念2026 直筆サイン入りポストカード抽選応募ページ",
