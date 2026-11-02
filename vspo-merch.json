@@ -1,5 +1,78 @@
 [
   {
+    "product_id": "15433356869819",
+    "handle": "amayuimoka-ani2nd",
+    "title_jp": "甘結もか 2周年記念2026",
+    "title_en": "甘結もか 2周年記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-09",
+      "甘結もか",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-09",
+      "甘結もか",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "タペストリー",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/Header_1_1_dd01a0c1-9713-4246-8832-d20be17f0745.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/49cb7803453ce48debfeb8c79b3df901_650d2e72-cce4-4c15-bb91-ba4a03b8a84e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/d0bc6557b8dd9230883aa072ca6548ab.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/3398f61431c92977a779bef57bff490a.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/e88052bcad7d31aad173f8203463ec23_07e90155-7445-4d36-93b2-c6a56b34cea9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/035de48d87b89ebef103e26bf1871337_74022406-6821-4252-9d7f-b9edc269818d.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/FIGHT.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/6329ec33f4a228acca3e76a10b95435f.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/b5383a04323bdc8b6056a506d664b87f.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/4755bbdab38ec291c9ecb9d8e13d92ab_30c50580-55f2-47cc-a4e6-02f34436b587.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/27188afed903b0c9f826abd15008cb97_4daf59d4-1877-4ec2-82a4-466869de09b7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/amayuimoka-ani2nd/ca793f46bda2803ac0ae3d998c1701d2_7b33d13a-9640-4765-8b54-e882568b9b1e.webp"
+    ],
+    "min_price": 500,
+    "max_price": 10000,
+    "published_at": "2026-11-02T22:05:50+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-17T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433357590715",
     "handle": "choyahanabi-ani2nd",
     "title_jp": "蝶屋はなび 2周年記念2026",
