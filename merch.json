@@ -2521,7 +2521,7 @@
     "min_price": 3300,
     "max_price": 3520,
     "published_at": "2026-10-04T21:00:04+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -2571,7 +2571,7 @@
     "min_price": 500,
     "max_price": 10300,
     "published_at": "2026-10-04T21:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
@@ -2756,7 +2756,7 @@
     "min_price": 3850,
     "max_price": 21450,
     "published_at": "2026-10-01T21:00:02+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null
   },
   {
