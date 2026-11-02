@@ -1,5 +1,33 @@
 [
   {
+    "product_id": "15471053242588",
+    "handle": "hololiveofficialcardgame_hbp07e",
+    "title_jp": "hololive OFFICIAL CARD GAME English Edition Booster Pack \"Diva Fever\"",
+    "title_en": "hololive OFFICIAL CARD GAME English Edition Booster Pack \"Diva Fever\"",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "hololiveofficialcardgame_Englishedition",
+      "Recommended_MERCH"
+    ],
+    "categories": [],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hbp07e/holo_OCG_BP07EC_banner_EN_261029.webp"
+    ],
+    "min_price": 7333,
+    "max_price": 7333,
+    "published_at": "2026-11-02T10:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15471136932060",
     "handle": "natsuiromatsuri_birthday_2026",
     "title_jp": "夏色まつり 誕生日記念2026",
