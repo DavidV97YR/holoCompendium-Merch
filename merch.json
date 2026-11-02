@@ -1,5 +1,56 @@
 [
   {
+    "product_id": "15470919418076",
+    "handle": "nekomataokayu_anniversary_7th",
+    "title_jp": "猫又おかゆ 活動7周年記念",
+    "title_en": "Nekomata Okayu 7th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_猫又おかゆ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブゲーマーズ",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_猫又おかゆ",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "ボイス",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/nekomataokayu_anniversary_7th/holo_NekomataOkayu_BC_banner_EN_1027_ol_9.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 15180,
+    "published_at": "2026-11-02T21:00:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15471012184284",
     "handle": "holostarsenglish_firstconcert_firstlight",
     "title_jp": "HOLOSTARS English First Concert “First Light” ライブグッズ",
