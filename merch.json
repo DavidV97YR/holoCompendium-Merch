@@ -1,5 +1,334 @@
 [
   {
+    "product_id": "15482632995036",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_doubleholocacase",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルダブルホロカケース",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official Double holoca Case",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_doubleholocacase/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_doubleholocacase/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_4.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 2200,
+    "published_at": "2026-11-04T19:00:11+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15482570244316",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_storagebox",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカストレージボックス",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Storage Box",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_storagebox/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_5.webp"
+    ],
+    "min_price": 880,
+    "max_price": 880,
+    "published_at": "2026-11-04T19:00:11+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15482503725276",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_t-shirt",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final Tシャツ",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final T-Shirt",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_t-shirt/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_7.webp"
+    ],
+    "min_price": 4000,
+    "max_price": 4000,
+    "published_at": "2026-11-04T19:00:10+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15482443038940",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_towel",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final タオル",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Towel",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_towel/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_8.webp"
+    ],
+    "min_price": 3300,
+    "max_price": 3300,
+    "published_at": "2026-11-04T19:00:09+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15482407485660",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_pinbadgeset",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final ピンバッジセット",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Pin Badge Set",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_pinbadgeset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_9.webp"
+    ],
+    "min_price": 14300,
+    "max_price": 14300,
+    "published_at": "2026-11-04T19:00:08+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15475080724700",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_rubbermat",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカラバーマット",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Rubber Mat",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_rubbermat/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_6.webp"
+    ],
+    "min_price": 3850,
+    "max_price": 3850,
+    "published_at": "2026-11-04T19:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15475056247004",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_holocacollection",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカコレクション",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Collection",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_holocacollection/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_holocacollection/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_holocacollection/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_12.webp"
+    ],
+    "min_price": 4500,
+    "max_price": 4500,
+    "published_at": "2026-11-04T19:00:07+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15474960531676",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_diceandsposhiskillmarkerset",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカサイコロ・SP推しスキルマーカーセット",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Dice & SP Oshi Skill Marker Set",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_diceandsposhiskillmarkerset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_20.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_diceandsposhiskillmarkerset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_21.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 1320,
+    "published_at": "2026-11-04T19:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15474864455900",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_sleeveset",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカスリーブセット",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Sleeve Set",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_sleeveset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_sleeveset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_14.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_sleeveset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_15.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_sleeveset/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_16.webp"
+    ],
+    "min_price": 1500,
+    "max_price": 1500,
+    "published_at": "2026-11-04T19:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15474648776924",
+    "handle": "hololiveofficialcardgame_exstreamercup25-26_acryliccardstand",
+    "title_jp": "hololive OFFICIAL CARD GAME エクストリーマーカップ25-26 Final オフィシャルホロカアクリルカードスタンド",
+    "title_en": "hololive OFFICIAL CARD GAME EXSTREAMER CUP25-26 Final Official holoca Acrylic Card Stand",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "exstreamercup25-26",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_acryliccardstand/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_17.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_acryliccardstand/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_18.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_exstreamercup25-26_acryliccardstand/holo_EXSTREAMER_post_sales_banner_EN_260930_ol_19.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 2200,
+    "published_at": "2026-11-04T19:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15474534547676",
     "handle": "hakuikoyori_1stlive_dreamspark_digitalmessageboard",
     "title_jp": "Hakui Koyori 1st Live “Dream Spark” デジタルメッセージボード",
