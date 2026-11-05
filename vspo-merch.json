@@ -10,6 +10,7 @@
       "TYPE_グッズ",
       "TYPE_ボイス",
       "TYPE_雑貨・小物",
+      "VSPO! EN",
       "コンビニ決済終了日:2026-11-11",
       "地崎ジラ",
       "終了日指定あり"
@@ -20,6 +21,7 @@
       "TYPE_グッズ",
       "TYPE_ボイス",
       "TYPE_雑貨・小物",
+      "VSPO! EN",
       "コンビニ決済終了日:2026-11-11",
       "地崎ジラ",
       "終了日指定あり"
@@ -59,8 +61,8 @@
     "sale_v": 2,
     "shop_files": [
       "files/png",
-      "files/png",
-      "files/png",
+      null,
+      null,
       "files/png",
       "files/png",
       "files/png",
