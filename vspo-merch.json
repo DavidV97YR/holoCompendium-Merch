@@ -1,5 +1,76 @@
 [
   {
+    "product_id": "15433357951163",
+    "handle": "jirajisaki-birthday2026",
+    "title_jp": "地崎ジラ 誕生日記念2026",
+    "title_en": "Jira Jisaki Birthday Merch 2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-11",
+      "地崎ジラ",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-11",
+      "地崎ジラ",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "ボイス",
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "記念グッズ",
+      "デジタルコンテンツ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/01_ECThumbnail_c616b757-db9a-475d-9353-86f6086af319.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/03_LimitedBundle.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/03_Bundle_bc1accbb-1034-4dcb-886e-b8050e4f1356.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_AcrylicPanel.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_FaceCushion.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_AcrylicStandee_0421feb0-752e-4247-935f-b94c84bb6da0.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_3Cheki-likeCardSet.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_MiniAcrylicMascot_2d094c2e-5d5f-46b5-8640-52ca70665406.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_badge_4c4813f0-21aa-4048-8a3f-3bd61c6aae87.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/jirajisaki-birthday2026/02_Voice_ebfe1392-09b4-4b57-b963-3cdec955258f.webp"
+    ],
+    "min_price": 500,
+    "max_price": 12950,
+    "published_at": "2026-11-05T10:30:04+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": "2026-11-05T10:30:00+09:00",
+    "sale_end": "2026-11-18T16:59:00+09:00",
+    "sale_v": 2,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433356869819",
     "handle": "amayuimoka-ani2nd",
     "title_jp": "甘結もか 2周年記念2026",
