@@ -33022,7 +33022,7 @@
     "min_price": 660,
     "max_price": 3300,
     "published_at": "2025-11-09T21:30:05+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
@@ -51474,7 +51474,7 @@
     "min_price": 1500,
     "max_price": 1600,
     "published_at": "2025-04-15T17:00:19+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "ぬいぐるみ"
@@ -67320,7 +67320,7 @@
     "min_price": 1760,
     "max_price": 1760,
     "published_at": "2024-11-18T19:00:09+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
@@ -109327,7 +109327,7 @@
     "min_price": 1650,
     "max_price": 1760,
     "published_at": "2023-08-31T20:00:04+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
@@ -109782,7 +109782,7 @@
     "min_price": 1650,
     "max_price": 1760,
     "published_at": "2023-08-31T20:00:00+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
