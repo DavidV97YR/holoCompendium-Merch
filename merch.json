@@ -1,5 +1,45 @@
 [
   {
+    "product_id": "15482372194524",
+    "handle": "shishirobotan_xmas_tounight_3",
+    "title_jp": "獅白ぼたんとクリスマス闘nightIII",
+    "title_en": "獅白ぼたんとクリスマス闘nightIII",
+    "tags_jp": [
+      "__yt_checkout",
+      "_ng_with_normal_group:ShishiroBotanXmasTounight3",
+      "event-ticket",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_獅白ぼたん",
+      "UCUKD-uaobj9jiqB-VXt71mA",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "__yt_checkout",
+      "_ng_with_normal_group:ShishiroBotanXmasTounight3",
+      "event-ticket",
+      "Generation_ホロライブ5期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_獅白ぼたん",
+      "UCUKD-uaobj9jiqB-VXt71mA",
+      "デジタルコンテンツ"
+    ],
+    "categories": [],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/shishirobotan_xmas_tounight_3/night3__1-1_JP.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 1000,
+    "published_at": "2026-11-07T20:15:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15492606951644",
     "handle": "hololive_audiostory_whenwefirstmet",
     "title_jp": "ホロライブ ユーミートガールボイス",
