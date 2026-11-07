@@ -1,5 +1,81 @@
 [
   {
+    "product_id": "15499142758620",
+    "handle": "vestiazeta_1step_vz",
+    "title_jp": "ベスティア・ゼータ 1st EP 『V/Z』",
+    "title_en": "Vestia Zeta 1st EP \"V/Z\"",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_ベスティア・ゼータ",
+      "予約販売"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_ベスティア・ゼータ",
+      "予約販売"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_1step_vz/Zeta_1stEP_ENBanner02_261016.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_1step_vz/Zeta_1stEP_ENBanner03_261013.webp"
+    ],
+    "min_price": 9900,
+    "max_price": 9900,
+    "published_at": "2026-11-07T23:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15499051696348",
+    "handle": "vestiazeta_birthday_2026",
+    "title_jp": "ベスティア・ゼータ 誕生日記念2026",
+    "title_en": "Vestia Zeta Birthday 2026",
+    "tags_jp": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_ベスティア・ゼータ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブインドネシア3期生",
+      "Group_ホロライブインドネシア",
+      "Recommended_MERCH",
+      "Talent_ベスティア・ゼータ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "キーホルダー・ストラップ",
+      "ぬいぐるみ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/vestiazeta_birthday_2026/holo_VestiaZeta_BC_banner_EN_261005_8.webp"
+    ],
+    "min_price": 1320,
+    "max_price": 14520,
+    "published_at": "2026-11-07T23:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15482372194524",
     "handle": "shishirobotan_xmas_tounight_3",
     "title_jp": "獅白ぼたんとクリスマス闘nightIII",
