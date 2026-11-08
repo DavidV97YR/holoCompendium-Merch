@@ -46043,8 +46043,8 @@
     "min_price": 550,
     "max_price": 4400,
     "published_at": "2025-07-04T10:00:04+09:00",
-    "is_available": false,
-    "delisted_at": "2026-11-08T15:00:52.060Z",
+    "is_available": true,
+    "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
