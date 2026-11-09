@@ -1,5 +1,62 @@
 [
   {
+    "product_id": "15500549357788",
+    "handle": "holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong",
+    "title_jp": "ホロキッチン「どたばたクッキング！」ボイス",
+    "title_en": "holoKitchen Cooking Project Audio Story: What Could Possibly Go Wrong?",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Justice-",
+      "Generation_hololiveEnglish-Myth-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ネリッサ・レイヴンクロフト",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_森カリオペ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Advent-",
+      "Generation_hololiveEnglish-Council-",
+      "Generation_hololiveEnglish-Justice-",
+      "Generation_hololiveEnglish-Myth-",
+      "Generation_hololiveEnglish-Promise-",
+      "Group_ホロライブEnglish",
+      "Recommended_デジタルコンテンツ",
+      "Talent_オーロ・クロニー",
+      "Talent_セシリア・イマーグリーン",
+      "Talent_ネリッサ・レイヴンクロフト",
+      "Talent_ハコス・ベールズ",
+      "Talent_ラオーラ・パンテーラ",
+      "Talent_森カリオペ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong/20261109_WhatCouldPossiblyGoWrong_EN_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong/20261109_WhatCouldPossiblyGoWrong_EN_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong/20261109_WhatCouldPossiblyGoWrong_EN_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong/20261109_WhatCouldPossiblyGoWrong_EN_5.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 6000,
+    "published_at": "2026-11-09T12:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15499142758620",
     "handle": "vestiazeta_1step_vz",
     "title_jp": "ベスティア・ゼータ 1st EP 『V/Z』",
