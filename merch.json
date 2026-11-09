@@ -1,5 +1,55 @@
 [
   {
+    "product_id": "15508081475804",
+    "handle": "flowglow_anniversary_2nd",
+    "title_jp": "FLOW GLOW 2周年記念",
+    "title_en": "FLOW GLOW 2nd Anniversary",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_水宮枢",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_虎金妃笑虎",
+      "Talent_輪堂千速",
+      "Talent_響咲リオナ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_MERCH",
+      "Talent_水宮枢",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_虎金妃笑虎",
+      "Talent_輪堂千速",
+      "Talent_響咲リオナ"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "ユニット記念グッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd/holo_FLOWGLOW_2nd_banner_EN_260930_9.webp"
+    ],
+    "min_price": 440,
+    "max_price": 6600,
+    "published_at": "2026-11-09T21:20:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15500283183324",
     "handle": "flowglow_anniversary_2nd_audiostory",
     "title_jp": "FLOW GLOW 2周年記念ボイス",
