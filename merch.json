@@ -1,5 +1,51 @@
 [
   {
+    "product_id": "15500283183324",
+    "handle": "flowglow_anniversary_2nd_audiostory",
+    "title_jp": "FLOW GLOW 2周年記念ボイス",
+    "title_en": "FLOW GLOW 2nd Anniversary Audio Story",
+    "tags_jp": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_デジタルコンテンツ",
+      "Talent_水宮枢",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_虎金妃笑虎",
+      "Talent_輪堂千速",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_FLOWGLOW",
+      "Group_hololiveDEV_IS",
+      "Recommended_デジタルコンテンツ",
+      "Talent_水宮枢",
+      "Talent_綺々羅々ヴィヴィ",
+      "Talent_虎金妃笑虎",
+      "Talent_輪堂千速",
+      "Talent_響咲リオナ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "ボイス"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd_audiostory/20261109_FLOW_GLOW_2nd_Anniversary_Audio_Story_EN_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd_audiostory/20261109_FLOW_GLOW_2nd_Anniversary_Audio_Story_EN_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/flowglow_anniversary_2nd_audiostory/20261109_FLOW_GLOW_2nd_Anniversary_Audio_Story_EN_04.webp"
+    ],
+    "min_price": 1000,
+    "max_price": 6500,
+    "published_at": "2026-11-09T18:00:01+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15500549357788",
     "handle": "holokitchen_cookingproject_audiostory_whatcouldpossiblygowrong",
     "title_jp": "ホロキッチン「どたばたクッキング！」ボイス",
