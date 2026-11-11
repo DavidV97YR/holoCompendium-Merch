@@ -1,5 +1,62 @@
 [
   {
+    "product_id": "15433358246075",
+    "handle": "tachibanahinano-birthday2026",
+    "title_jp": "橘ひなの 誕生日記念2026",
+    "title_en": "橘ひなの 誕生日記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-18",
+      "橘ひなの",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-11-18",
+      "橘ひなの",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "タペストリー",
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/Header_1_1_97d7640f-3f91-44dc-ae60-265bb67bc527.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/2_62a8e064-3785-4406-8f7e-113d8a794bb4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/f625ef47cc850ba0cf75fbf43b71c7d5_6e2f2531-b693-4cfd-bf14-9bababf69e28.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/8c360e59420165c0b878f02158e649cf.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/ad2ea5d67f31cace4010946d125624b8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/tachibanahinano-birthday2026/7d43ce14b0057a96d3ec075eaa16dbe2.webp"
+    ],
+    "min_price": 1500,
+    "max_price": 9500,
+    "published_at": "2026-11-11T19:42:31+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-11-26T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433358082235",
     "handle": "tachibanahinano-birthday2026-postcard",
     "title_jp": "橘ひなの 誕生日記念2026 直筆サイン入りポストカード抽選応募ページ",
