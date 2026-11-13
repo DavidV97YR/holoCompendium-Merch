@@ -1,5 +1,41 @@
 [
   {
+    "product_id": "15520010731740",
+    "handle": "holoplus_sakuramiko_2ndlive_bloomingparade",
+    "title_jp": "【ホロプラス】Sakura Miko 2nd Live “Blooming Parade!!”さくらみこってこんな子PC壁紙",
+    "title_en": "[holoplus] Sakura Miko 2nd Live “Blooming Parade!!” “This is Sakura Miko!” PC Wallpaper",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_さくらみこ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_デジタルコンテンツ",
+      "Talent_さくらみこ",
+      "デジタルのみ",
+      "デジタルコンテンツ"
+    ],
+    "categories": [
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/holoplus_sakuramiko_2ndlive_bloomingparade/SakuraMiko_Live_commentBG_EC_EN.webp"
+    ],
+    "min_price": 0,
+    "max_price": 0,
+    "published_at": "2026-11-13T12:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15508081475804",
     "handle": "flowglow_anniversary_2nd",
     "title_jp": "FLOW GLOW 2周年記念",
