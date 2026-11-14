@@ -1,5 +1,55 @@
 [
   {
+    "product_id": "15519617515740",
+    "handle": "ceciliaimmergreen_birthday_2026",
+    "title_jp": "セシリア・イマーグリーン 誕生日記念2026",
+    "title_en": "Cecilia Immergreen Birthday 2026",
+    "tags_jp": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_セシリア・イマーグリーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_hololiveEnglish-Justice-",
+      "Group_ホロライブEnglish",
+      "Recommended_MERCH",
+      "Recommended_デジタルコンテンツ",
+      "Talent_セシリア・イマーグリーン",
+      "デジタルコンテンツ",
+      "受注生産商品"
+    ],
+    "categories": [
+      "ぬいぐるみ",
+      "ステーショナリー",
+      "ボイス",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ",
+      "デジタルコンテンツ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/ceciliaimmergreen_birthday_2026/holo_CeciliaImmergreen_BC_banner_EN_261030_ol_9.webp"
+    ],
+    "min_price": 1100,
+    "max_price": 12980,
+    "published_at": "2026-11-14T22:55:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15519584649436",
     "handle": "ayafubumi_1stlive_hyakkaryoranayafubumi_advancedshipping",
     "title_jp": "【先行発送】AyaFubuMi 1st Live「百花繚乱あやふぶみ」ライブグッズ",
