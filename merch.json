@@ -1,5 +1,46 @@
 [
   {
+    "product_id": "15519684985052",
+    "handle": "azki_anniversary_8th",
+    "title_jp": "AZKi 活動8周年記念",
+    "title_en": "AZKi 8th Anniversary",
+    "tags_jp": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Generation_ホロライブ0期生",
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_AZKi",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/azki_anniversary_8th/holo_AZKi_8th_banner_EN_1110_7.webp"
+    ],
+    "min_price": 2200,
+    "max_price": 22000,
+    "published_at": "2026-11-15T20:15:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15519617515740",
     "handle": "ceciliaimmergreen_birthday_2026",
     "title_jp": "セシリア・イマーグリーン 誕生日記念2026",
