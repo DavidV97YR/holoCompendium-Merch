@@ -3861,7 +3861,7 @@
     "min_price": 1300,
     "max_price": 1300,
     "published_at": "2026-07-15T19:00:12+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "series": [
       "VSPO! GEAR"
