@@ -1,5 +1,79 @@
 [
   {
+    "product_id": "15433358344379",
+    "handle": "erissuzukami-ani2026",
+    "title_jp": "涼上エリス 1周年記念2026",
+    "title_en": "Eris Suzukami 1st Anniversary",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小",
+      "TYPE_雑貨・小物",
+      "VSPO! EN",
+      "コンビニ決済不可",
+      "コンビニ決済終了日:2026-11-22",
+      "涼上エリス",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_ボイス",
+      "TYPE_雑貨・小",
+      "TYPE_雑貨・小物",
+      "VSPO! EN",
+      "コンビニ決済不可",
+      "コンビニ決済終了日:2026-11-22",
+      "涼上エリス",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "ボイス",
+      "雑貨・小",
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "ステーショナリー"
+    ],
+    "merch_categories": [
+      "記念グッズ",
+      "デジタルコンテンツ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/01_ECThumbnail_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/03_SpecialBundle_9e37696d-ac68-4f59-aa72-f8c1d77e6dea.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/03_Bundle_b0d35e9c-dc79-4709-bbba-f0cad4f92fb4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_AcrylicPanel_98914f14-28d3-4397-a142-be7d413d18b0.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_AngelErisStandee.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_StickerSheet.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_Cheki-likeCardSet_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_Badge_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/erissuzukami-ani2026/02_VoicePack.webp"
+    ],
+    "min_price": 650,
+    "max_price": 10850,
+    "published_at": "2026-11-16T15:30:02+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": "2026-11-16T15:30:00+09:00",
+    "sale_end": "2026-11-29T16:59:00+09:00",
+    "sale_v": 2,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433358246075",
     "handle": "tachibanahinano-birthday2026",
     "title_jp": "橘ひなの 誕生日記念2026",
