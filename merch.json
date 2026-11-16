@@ -15487,7 +15487,7 @@
     "min_price": 990,
     "max_price": 990,
     "published_at": "2026-05-01T19:00:14+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [
       "カードゲーム・サプライ"
@@ -46641,8 +46641,8 @@
     "min_price": 550,
     "max_price": 4400,
     "published_at": "2025-07-04T10:00:04+09:00",
-    "is_available": true,
-    "delisted_at": null,
+    "is_available": false,
+    "delisted_at": "2026-11-16T14:30:50.361Z",
     "categories": [
       "アクリルスタンド・アクリルパネル",
       "キーホルダー・ストラップ",
