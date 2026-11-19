@@ -1,5 +1,83 @@
 [
   {
+    "product_id": "15532664914140",
+    "handle": "takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale",
+    "title_jp": "【再販売】Takanashi Kiara / Ninomae Ina’nis 1st Concert \"Drawn to Dawn\"ライブグッズ",
+    "title_en": "[Resale] Takanashi Kiara / Ninomae Ina’nis 1st Concert \"Drawn to Dawn\" Concert Merch",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Unit_ホロライブ-Myth-"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Unit_ホロライブ-Myth-"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale/Kiara_Ina_merch_KV_1080x1080_tsuika_EN.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale/Kiara_Ina_merch_1080_1080_05_en_251219.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale/Kiara_Ina_merch_1080_1080_06_en_251219.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale/Kiara_Ina_merch_1080_1080_07_en_251219.webp"
+    ],
+    "min_price": 1500,
+    "max_price": 4000,
+    "published_at": "2026-11-19T09:00:06+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15532056248540",
+    "handle": "takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray",
+    "title_jp": "Takanashi Kiara / Ninomae Ina’nis 1st Concert \"Drawn to Dawn\" Blu-ray",
+    "title_en": "Takanashi Kiara / Ninomae Ina’nis 1st Concert \"Drawn to Dawn\" Blu-ray",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Unit_ホロライブ-Myth-",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_一伊那尓栖",
+      "Talent_小鳥遊キアラ",
+      "Unit_ホロライブ-Myth-",
+      "受注生産商品"
+    ],
+    "categories": [
+      "CD・LP・BD"
+    ],
+    "merch_categories": [
+      "イベント・ライブグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray/Drawn_to_Dawn_Banner_EN_3_1111.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray/Drawn_to_Dawn_Banner_EN_4_1106.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray/Drawn_to_Dawn_Banner_EN_5_1106.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray/Drawn_to_Dawn_Banner_EN_6_1110.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/takanashikiara_ninomaeinanis_1stconcert_drawntodawn_bluray/Drawn_to_Dawn_Banner_JP_7_1109.webp"
+    ],
+    "min_price": 12100,
+    "max_price": 12100,
+    "published_at": "2026-11-19T09:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15522974138588",
     "handle": "hololive_wachawachahighschoolfestival",
     "title_jp": "【事後通販】ホロライブわちゃわちゃ学園祭 イベントグッズ",
