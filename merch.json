@@ -1,5 +1,112 @@
 [
   {
+    "product_id": "15544532992220",
+    "handle": "hololiveofficialcardgame_cardcase_vol40-44",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカケース vol.40〜vol.44",
+    "title_en": "hololive OFFICIAL CARD GAME Official holoca Case vol.40 - vol.44",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_13.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_14.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_15.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_16.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardcase_vol40-44/holo_OCG_12gatsu-item_banner_EN_261030_ol_17.webp"
+    ],
+    "min_price": 880,
+    "max_price": 880,
+    "published_at": "2026-11-19T18:00:05+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15544444420316",
+    "handle": "hololiveofficialcardgame_cardsleeve_vol57-61",
+    "title_jp": "hololive OFFICIAL CARD GAME オフィシャルホロカスリーブ vol.57〜vol.61",
+    "title_en": "hololive OFFICIAL CARD GAME Official holoca Sleeve vol.57 - vol.61",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_9.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_10.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_11.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_cardsleeve_vol57-61/holo_OCG_12gatsu-item_banner_EN_261030_ol_12.webp"
+    ],
+    "min_price": 990,
+    "max_price": 990,
+    "published_at": "2026-11-19T18:00:04+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15544366792924",
+    "handle": "hololiveofficialcardgame_hbp10",
+    "title_jp": "hololive OFFICIAL CARD GAME ブースターパック「グローリー・エコー」",
+    "title_en": "hololive OFFICIAL CARD GAME Booster Pack「Glory ECHO」",
+    "tags_jp": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "tags_en": [
+      "_ng_with_normal_group:hcg2409",
+      "hololiveofficialcardgame",
+      "Recommended_MERCH",
+      "予約販売"
+    ],
+    "categories": [
+      "カードゲーム・サプライ"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hbp10/holo_OCG_12gatsu-item_banner_EN_261030_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hololiveofficialcardgame_hbp10/holo_OCG_12gatsu-item_banner_EN_261030_ol_7.webp"
+    ],
+    "min_price": 5280,
+    "max_price": 5280,
+    "published_at": "2026-11-19T18:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15532664914140",
     "handle": "takanashikiara_ninomaeinanis_1stconcert_drawntodawn_resale",
     "title_jp": "【再販売】Takanashi Kiara / Ninomae Ina’nis 1st Concert \"Drawn to Dawn\"ライブグッズ",
