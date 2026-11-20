@@ -25851,7 +25851,7 @@
     "min_price": 550,
     "max_price": 5500,
     "published_at": "2026-02-09T18:00:05+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
@@ -73215,7 +73215,7 @@
     "min_price": 880,
     "max_price": 6160,
     "published_at": "2024-10-11T20:00:09+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "キーホルダー・ストラップ",
@@ -111554,7 +111554,7 @@
     "min_price": 1650,
     "max_price": 1760,
     "published_at": "2023-08-31T20:00:04+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
