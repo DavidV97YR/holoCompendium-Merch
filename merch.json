@@ -69547,7 +69547,7 @@
     "min_price": 1760,
     "max_price": 1760,
     "published_at": "2024-11-18T19:00:09+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
@@ -69658,7 +69658,7 @@
     "min_price": 1760,
     "max_price": 1760,
     "published_at": "2024-11-18T19:00:07+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
@@ -92123,7 +92123,7 @@
     "min_price": 1100,
     "max_price": 1100,
     "published_at": "2024-03-26T12:00:04+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "バッジ・ピンバッジ"
@@ -97530,7 +97530,7 @@
     "min_price": 550,
     "max_price": 2750,
     "published_at": "2024-02-13T18:38:31+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
@@ -105210,7 +105210,7 @@
     "min_price": 495,
     "max_price": 4950,
     "published_at": "2023-12-01T12:00:00+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル",
@@ -105806,7 +105806,7 @@
     "min_price": 1650,
     "max_price": 1760,
     "published_at": "2023-11-29T13:05:58+09:00",
-    "is_available": false,
+    "is_available": true,
     "delisted_at": null,
     "categories": [
       "アクリルスタンド・アクリルパネル"
