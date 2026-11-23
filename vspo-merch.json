@@ -26,7 +26,10 @@
       "抽選応募"
     ],
     "series": [],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd-postcard/Header_1_1_386034b0-920e-4bac-b1db-1c3156de491e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd-postcard/SAMPLE_a2e60d06-9b29-48e6-a3b7-ce22aa874916.webp"
+    ],
     "min_price": 0,
     "max_price": 0,
     "published_at": "2026-11-24T00:00:01+09:00",
@@ -35,7 +38,10 @@
     "sale_start": null,
     "sale_end": null,
     "sale_v": 3,
-    "shop_files": []
+    "shop_files": [
+      "files/png",
+      "files/png"
+    ]
   },
   {
     "product_id": "15433358344379",
