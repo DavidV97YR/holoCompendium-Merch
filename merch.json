@@ -84679,7 +84679,7 @@
     "min_price": 2200,
     "max_price": 2200,
     "published_at": "2024-07-11T18:00:03+09:00",
-    "is_available": true,
+    "is_available": false,
     "delisted_at": null,
     "categories": [],
     "merch_categories": []
