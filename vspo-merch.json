@@ -1,5 +1,60 @@
 [
   {
+    "product_id": "15433358803131",
+    "handle": "yanokuromu-ani3rd",
+    "title_jp": "夜乃くろむ 3周年記念2026",
+    "title_en": "夜乃くろむ 3周年記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-12-01",
+      "夜乃くろむ",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_グッズ",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-12-01",
+      "夜乃くろむ",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/Header_1_1_386034b0-920e-4bac-b1db-1c3156de491e.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/49cb7803453ce48debfeb8c79b3df901_d719820c-d7e1-4780-aa82-3e3b6ecf6830.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/136c0478635b93aa561774763e2834ed.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/BOX.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/2fa23bd546776538af3310f4fd37c7e4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/yanokuromu-ani3rd/27188afed903b0c9f826abd15008cb97_0d38a24c-eb6d-4ebb-b416-b946bb071e45.webp"
+    ],
+    "min_price": 500,
+    "max_price": 11300,
+    "published_at": "2026-11-24T21:09:54+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-12-09T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433358475451",
     "handle": "yanokuromu-ani3rd-postcard",
     "title_jp": "夜乃くろむ 3周年記念2026 直筆サイン入りポストカード抽選応募ページ",
