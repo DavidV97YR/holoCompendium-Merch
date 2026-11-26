@@ -26,7 +26,10 @@
       "抽選応募"
     ],
     "series": [],
-    "images": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026-postcard/Header_1_1.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026-postcard/SAMPLE_c3884e20-fc1a-40d7-ae09-47007f34962d.webp"
+    ],
     "min_price": 0,
     "max_price": 0,
     "published_at": "2026-11-27T00:00:01+09:00",
@@ -35,7 +38,10 @@
     "sale_start": null,
     "sale_end": null,
     "sale_v": 3,
-    "shop_files": []
+    "shop_files": [
+      "files/jpg",
+      "files/png"
+    ]
   },
   {
     "product_id": "15433358803131",
