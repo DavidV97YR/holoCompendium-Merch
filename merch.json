@@ -1,5 +1,47 @@
 [
   {
+    "product_id": "15562607460572",
+    "handle": "la-darknesss_anniversary_5th",
+    "title_jp": "ラプラス・ダークネス 活動5周年記念",
+    "title_en": "La+ Darknesss 5th Anniversary",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_ラプラス・ダークネス",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/la-darknesss_anniversary_5th/holo_BC_banner_La_Darknesss_EN_261120_8.webp"
+    ],
+    "min_price": 1650,
+    "max_price": 13200,
+    "published_at": "2026-11-26T20:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15548001419484",
     "handle": "isakiriona_subscribers_500k",
     "title_jp": "響咲リオナ 50万人記念",
