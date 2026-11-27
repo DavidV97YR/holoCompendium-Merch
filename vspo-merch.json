@@ -1,5 +1,87 @@
 [
   {
+    "product_id": "15433359229115",
+    "handle": "nekotatsuna-birthday2026",
+    "title_jp": "猫汰つな 誕生日記念2026",
+    "title_en": "猫汰つな 誕生日記念2026",
+    "tags_jp": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-12-04",
+      "猫汰つな",
+      "終了日指定あり"
+    ],
+    "tags_en": [
+      "NEW",
+      "TYPE_その他",
+      "TYPE_アパレル",
+      "TYPE_グッズ",
+      "TYPE_タペストリー・ポスター",
+      "TYPE_雑貨・小物",
+      "コンビニ決済終了日:2026-12-04",
+      "猫汰つな",
+      "終了日指定あり"
+    ],
+    "categories": [
+      "アパレル・アパレル小物",
+      "タペストリー",
+      "アクリルスタンド・アクリルパネル",
+      "キーホルダー・ストラップ",
+      "バッジ・ピンバッジ",
+      "生活雑貨"
+    ],
+    "merch_categories": [
+      "記念グッズ"
+    ],
+    "series": [],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/Header_1_1_cc589b1a-da1c-4c63-9df5-344feeff1a0f.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/a9f0b3e0af07fb2318f233bf1f7c991b.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/c431ab208f8d5d9b8ac88ee3e15c3131.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/1_e6ef575d-9c42-4fcc-b41f-a36b4d1c66f0.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/2_cfb67253-6ca5-46a6-9aa3-6ea5d11f0750.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/c0e6576ea1c1df32d8dd1a4ec3c95cf2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/dd509a8d872cc08c522cd1acb9e21575.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/c3a0dead4ab68a44cd1314738157a86f.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/5624a9bf72fc79ae4e9427459d16da42.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/2af16d090caae7030eda3cf7d45f21bd_5144c8c9-9c57-4261-b60e-174b2bb656b4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/54cce5a36f5ab21207871c35be5fb1e8.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/8ee0c4c44077ad73076747a04c47f8d0.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/1_bdf7d150-2a0e-4b74-bbf0-5f266adf789c.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/4c4db6ccc7707ff6e99b2301f3d2f2bf.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/VSPO/nekotatsuna-birthday2026/cb9ac0cd4cf1fc67a5bc38ece0d909de.webp"
+    ],
+    "min_price": 800,
+    "max_price": 12800,
+    "published_at": "2026-11-27T19:42:16+09:00",
+    "is_available": true,
+    "delisted_at": null,
+    "sale_start": null,
+    "sale_end": "2026-12-12T00:00:00+09:00",
+    "sale_v": 3,
+    "shop_files": [
+      "files/jpg",
+      "files/jpg",
+      "files/jpg",
+      "files/png",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png",
+      "files/jpg",
+      "files/png"
+    ]
+  },
+  {
     "product_id": "15433359032507",
     "handle": "nekotatsuna-birthday2026-postcard",
     "title_jp": "猫汰つな 誕生日記念2026 直筆サイン入りポストカード抽選応募ページ",
