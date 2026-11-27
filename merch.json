@@ -1,5 +1,85 @@
 [
   {
+    "product_id": "15580060352732",
+    "handle": "mococoabyssgard_popupparade",
+    "title_jp": "POP UP PARADE モココ・アビスガード",
+    "title_en": "POP UP PARADE Mococo Abyssgard",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_モココ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_モココ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/IMG_4768.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_01.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/mococoabyssgard_popupparade/POP_20UP_20PARADE_20Mococo_20Abyssgard_06.webp"
+    ],
+    "min_price": 7500,
+    "max_price": 7500,
+    "published_at": "2026-11-27T12:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
+    "product_id": "15579128561884",
+    "handle": "fuwawaabyssgard_popupparade",
+    "title_jp": "POP UP PARADE フワワ・アビスガード",
+    "title_en": "POP UP PARADE Fuwawa Abyssgard",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_フワワ・アビスガード",
+      "Unit_ホロライブ-Advent-",
+      "受注生産商品"
+    ],
+    "categories": [
+      "フィギュア"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/IMG_4764.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_01.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_02.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_03.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_04.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_05.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/fuwawaabyssgard_popupparade/POP_20UP_20PARADE_20Fuwawa_20Abyssgard_06.webp"
+    ],
+    "min_price": 7500,
+    "max_price": 7500,
+    "published_at": "2026-11-27T12:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15562607460572",
     "handle": "la-darknesss_anniversary_5th",
     "title_jp": "ラプラス・ダークネス 活動5周年記念",
