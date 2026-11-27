@@ -1,5 +1,49 @@
 [
   {
+    "product_id": "15574940745948",
+    "handle": "asobimawari-tai_gurugroove_02",
+    "title_jp": "アソビ★まわり隊！のGURU★GROOVE 02",
+    "title_en": "ASOBI★MAWARI-TAI!'s GURU★GROOVE 02",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり",
+      "Unit_アソビまわり隊"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_宙科そぴあ",
+      "Talent_熱千めら",
+      "Talent_百灯キョーコ",
+      "Talent_鈴鳴つづり",
+      "Unit_アソビまわり隊"
+    ],
+    "categories": [
+      "アクリルスタンド・アクリルパネル",
+      "バッジ・ピンバッジ",
+      "アパレル・アパレル小物"
+    ],
+    "merch_categories": [
+      "OTHERS"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_02/holo_GURU_GROOVE_02_banner_EN_261118_ol_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_02/holo_GURU_GROOVE_02_banner_EN_261118_ol_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_02/holo_GURU_GROOVE_02_banner_EN_261118_ol_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_02/holo_GURU_GROOVE_02_banner_EN_261118_ol_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/asobimawari-tai_gurugroove_02/holo_GURU_GROOVE_02_banner_EN_261118_ol_6.webp"
+    ],
+    "min_price": 660,
+    "max_price": 3850,
+    "published_at": "2026-11-27T19:30:02+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15580060352732",
     "handle": "mococoabyssgard_popupparade",
     "title_jp": "POP UP PARADE モココ・アビスガード",
