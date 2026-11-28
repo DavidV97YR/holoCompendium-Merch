@@ -1,5 +1,48 @@
 [
   {
+    "product_id": "15575317119196",
+    "handle": "hakuikoyori_anniversary_5th",
+    "title_jp": "博衣こより 活動5周年記念",
+    "title_en": "Hakui Koyori 5th Anniversary",
+    "tags_jp": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "tags_en": [
+      "Group_ホロライブ",
+      "Recommended_MERCH",
+      "Talent_博衣こより",
+      "Unit_秘密結社holoX",
+      "受注生産商品"
+    ],
+    "categories": [
+      "バッジ・ピンバッジ",
+      "ぬいぐるみ",
+      "生活雑貨",
+      "OTHERS"
+    ],
+    "merch_categories": [
+      "タレントプレミアムグッズ"
+    ],
+    "images": [
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_2.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_3.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_4.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_5.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_6.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_7.webp",
+      "https://pub-0298b2301e1648378bb71f8c2d22c63b.r2.dev/Products/hakuikoyori_anniversary_5th/holo_banner_HakuiKoyori_5th_EN_261124_8.webp"
+    ],
+    "min_price": 495,
+    "max_price": 16995,
+    "published_at": "2026-11-28T21:00:03+09:00",
+    "is_available": true,
+    "delisted_at": null
+  },
+  {
     "product_id": "15575342743772",
     "handle": "takanelui_anniversary_5th",
     "title_jp": "鷹嶺ルイ 活動5周年記念",
